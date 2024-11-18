@@ -1,0 +1,42 @@
+/* src/assets/css/swiperComponent.css */
+
+/* Zoom effect for images */
+.zoom-effect {
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item.active .zoom-effect {
+  transform: scale(1.05);
+}
+
+/* Fade in effect for the entire carousel */
+.swiper-component .carousel-inner .carousel-item {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Carousel indicators styling */
+.carousel-indicators li {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: #333;
+}
+
+/* Control buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+}
