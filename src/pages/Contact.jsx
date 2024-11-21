@@ -7,8 +7,8 @@ export default function Component() {
         className="contact-section pt-80 pb-50"
         style={{
           boxSizing: "border-box",
-          paddingTop: "80px",
-          paddingBottom: "50px",
+          padding: "130px 10px 50px 10px",
+
         }}
       >
         <div
