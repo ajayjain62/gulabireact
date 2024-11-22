@@ -8,7 +8,7 @@ function SwiperComponent() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-src="https://www.cipla.com/sites/default/files/2024-02/cipla-banner3-deskstop_0.webp" // Use forward slashes
+src="https://i.postimg.cc/k4wxNnz5/Untitled-1349-x-575-px-2.jpg" // Use forward slashes
           alt="First slide"
         />
         {/* <Carousel.Caption>
@@ -20,7 +20,7 @@ src="https://www.cipla.com/sites/default/files/2024-02/cipla-banner3-deskstop_0.
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.cipla.com/sites/default/files/2023-04/care-banner-desktop_1.webp"
+          src="https://i.postimg.cc/wMvD0CYQ/Untitled-1349-x-575-px-1.jpg"
           alt="Second slide"
         />
         {/* <Carousel.Caption>

@@ -1,0 +1,113 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; /* Light background */
+    padding: 0px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo-holder img {
+    max-width: 70px; /* Adjust the logo size */
+}
+
+.navbar {
+    flex-grow: 0; /* Take remaining space */
+    height: 7px;
+    align-items: c;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 12px; /* Space between menu items */
+    background: #ffffff;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item:hover .we-mega-menu-submenu {
+    display: block; /* Show mega menu on hover */
+}
+
+.we-mega-menu-submenu {
+    display: none; /* Hide by default */
+    position: absolute; /* Position relative to the menu item */
+    top: 100%; /* Position below the menu item */
+    left: 0;
+    background-color: #ffffff; /* Background color for the mega menu */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it appears above other content */
+    width: 200px; /* Set a width for the mega menu */
+}
+
+.we-mega-menu-submenu-inner {
+    padding: 10px; /* Padding inside the mega menu */
+}
+
+.subul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.we-mega-menu-li {
+    margin: 5px 0; /* Space between items */
+}
+
+.we-mega-menu-li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+    display: block; /* Make the entire area clickable */
+    padding: 8px 12px; /* Padding for the links */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.we-mega-menu-li a:hover {
+    background-color: black; /* Background color on hover */
+}
+
+.search-input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    height: 30px;
+    box-shadow: none;
+    border: none;
+    background: #035ea6;
+    border-radius: 30px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.search-input::placeholder {
+    color: white;
+}
+
+.search-button {
+    border-radius: 0;
+    height: 30px;
+    background: #005ba500;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-left: -50px; /* Adjust as needed */
+    cursor: pointer; /* Change cursor on hover */
+}
+.currency-converter {
+    display: none;
+}
+.inactive-text {
+    display: none;
+}
+.search-input placeholder{
+    color: white;
+}
