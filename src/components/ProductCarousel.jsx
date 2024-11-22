@@ -1115,9 +1115,7 @@ export default function Component() {
                   marginTop: "1rem",
                   fontFamily: "Lato, sans-serif",
                 }}
-              >{`Torrent Pharma, the flagship Company of Torrent Group, with a turnover of Rs 10,700 crores (FY2024) is one of the leading Pharma companies in the Country. We are the pioneers in initiating the concept of niche marketing in India and today is ranked amongst the leaders in therapeutic segment of cardiovascular (CV), central nervous system (CNS), gastro-intestinal (GI), women healthcare (WHC), Vitamins Minerals Nutritionals (VMN) and Cosmo-Dermatology. The Company also has significant presence in diabetology, pain management, gynaecology, oncology and anti-infective segments.
-
-Torrent Pharma has crossed many geographical boundaries with presence in more than 50 countries. The Company is ranked first amongst Indian Companies for having largest market share in Brazil and Germany.`}</p>
+              >{`Immune Science, a leading force in the global pharmaceutical industry, is pioneering in niche markets with a focus on therapeutic areas such as cardiovascular (CV), central nervous system (CNS), gastro-intestinal (GI), women’s healthcare (WHC), vitamins, minerals, nutritionals (VMN), and cosmo-dermatology. Our expertise also extends to diabetology, pain management, gynaecology, oncology, and anti-infective segments. With a presence in over 50 countries, Immune Science holds a top market position, especially in key regions like Brazil and Germany.`}</p>
             </div>
             <div
               className="relative w-full xl:w-[50%] 2xl:w-[45%] px-4"
@@ -1694,7 +1692,7 @@ Torrent Pharma has crossed many geographical boundaries with presence in more th
                             fontFamily: "Lato, sans-serif",
                           }}
                         >
-                          Countries
+                          Cities
                         </span>
                       </div>
                     </div>
@@ -1982,12 +1980,7 @@ Torrent Pharma has crossed many geographical boundaries with presence in more th
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Torrent Pharma, the flagship company of the Torrent Group,
-                      is one of the leading Pharma companies in India. Conceived
-                      as a small generic company in the early '70s by Late Shri
-                      U N Mehta, Torrent Pharma blazed a new trail in the Indian
-                      pharmaceuticals industry by successfully implementing the
-                      concept of niche marketing.
+                    Immune Science, a flagship company committed to innovation, was founded with a vision to revolutionize the pharmaceutical industry. Starting as a small generic company, we pioneered niche marketing in the '70s, reshaping India's pharmaceutical landscape with a focus on specialized therapies and patient-centric care. Today, we continue to lead in various therapeutic areas, delivering cutting-edge solutions globally.
                     </p>
                   </div>
                   <img
@@ -2114,12 +2107,7 @@ Torrent Pharma has crossed many geographical boundaries with presence in more th
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      With significant presence in more than 50 countries,
-                      Torrent is all poised to spread wings across globe with
-                      strong technical capabilities and international
-                      accreditations. To enable strategic differentiation,
-                      Torrent Pharma’s international business is segregated into
-                      US, UK, Germany, Europe, Brazil and Rest of the World.
+                      Immune Science has a robust presence in over 50 countries, driven by strong technical expertise and international accreditations. Our international business spans across key regions including the US, UK, Germany, Europe, Brazil, and the Rest of the World, allowing us to strategically differentiate and expand globally.
                     </p>
                   </div>
                 </div>
@@ -2407,7 +2395,7 @@ Torrent Pharma has crossed many geographical boundaries with presence in more th
                       height: "auto",
                       position: "absolute",
                       right: "30px",
-                      zIndex: 10,
+                      zIndex: 0,
                       letterSpacing: "0.02em",
                       transition: "0.3s",
                       width: "48%",
@@ -2955,8 +2943,10 @@ Torrent Pharma has crossed many geographical boundaries with presence in more th
                     textAlign: "left",
                     fontFamily: "Lato, sans-serif",
                   }}
-                >{`Torrent Pharmaceuticals follows the tradition of Dedication, Professional Integrity and Robust R&D in the pursuit of excellence.
-With leading brands in various therapeutic segments, our products have proved to be efficient and effective in various therapeutic areas.`}</p>
+                >{`At Immune Science, we uphold a tradition of dedication, professional 
+                integrity, and robust R&D to achieve excellence. With leading brands in key 
+                therapeutic areas, our products are proven to be both efficient and effective
+                 in improving patient outcomes.`}</p>
                 <p
                   className="therapeutic_areas_custom_para text-base font-normal leading-6 md:leading-8 md:text-[18px] text-[#717170] block md:hidden mt-8 2xl:mt-4"
                   style={{
@@ -2974,9 +2964,10 @@ With leading brands in various therapeutic segments, our products have proved to
                     fontFamily: "Lato, sans-serif",
                   }}
                 >
-                  Therapeutic areas encompass specialized medical fields
-                  dedicated to treating specific diseases or conditions for
-                  improved patient health outcomes.
+                At Immune Science, we uphold a tradition of dedication, 
+                professional integrity, and robust R&D to achieve excellence.
+                With leading brands in key therapeutic areas, our products 
+                are proven to be both efficient and effective in improving patient outcomes.
                 </p>
               </div>
               <div
@@ -3898,9 +3889,7 @@ With leading brands in various therapeutic segments, our products have proved to
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    As much as Torrent is helping the people of our society, we
-                    also are very conscious of our environment and our daily
-                    impacts on sustainability.
+                    At Immune Science, we are as dedicated to preserving the environment as we are to improving health. We are mindful of our impact on sustainability, ensuring that our efforts contribute to a healthier planet alongside a healthier society.
                   </p>
                 </div>
                 <div
@@ -3943,17 +3932,7 @@ With leading brands in various therapeutic segments, our products have proved to
                     fontFamily: "Lato, sans-serif",
                   }}
                 >
-                  Torrent Pharma is committed to sustainability and responsible
-                  practices. We have set ambitious targets for reducing our
-                  greenhouse gas emissions and are constantly exploring new ways
-                  to reduce the impact of our operations on the environment.
-                  Towards this, we have been continuously diversifying our
-                  energy mix with cleaner fuels and renewable sources. We will
-                  also be identifying interventions to reduce our dependency on
-                  grid electricity. As a part of the ESG roadmap, we have
-                  invested in Hybrid Solar-Wind project to meet our captive
-                  power requirement and to reduce our carbon footprints
-                  significantly
+                  Immune Science, a leading force in the global pharmaceutical industry, is pioneering in niche markets with a focus on therapeutic areas such as cardiovascular (CV), central nervous system (CNS), gastro-intestinal (GI), women’s healthcare (WHC), vitamins, minerals, nutritionals (VMN), and cosmo-dermatology. Our expertise also extends to diabetology, pain management, gynaecology, oncology, and anti-infective segments. With a presence in over 50 countries, Immune Science holds a top market position, especially in key regions like Brazil and Germany.
                 </p>
               </div>
             </div>

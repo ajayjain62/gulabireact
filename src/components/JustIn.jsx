@@ -50,7 +50,7 @@ export default function Component() {
                   position: "relative",
                 }}
               >
-                LATEST AT CIPLA
+                LATEST AT IMMUNE SCIENCE
               </h3>
             </div>
             <div

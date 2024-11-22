@@ -327,7 +327,7 @@ export default function Component() {
           >
             <img
               alt="Home"
-              src="https://www.cipla.com/themes/cipla/logo.svg"
+              src="https://goanutritions.com/cdn/shop/files/GNL_LOGO_PNG_ew.png?v=1674559167&width=400"
               style={{
                 boxSizing: "border-box",
                 outline: "none",
@@ -335,7 +335,7 @@ export default function Component() {
                 border: "0px",
                 verticalAlign: "middle",
                 height: "auto",
-                maxWidth: "110px",
+                maxWidth: "70px",
               }}
             />
           </a>

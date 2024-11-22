@@ -87,11 +87,10 @@ export default function Component() {
                         color: "rgb(128, 128, 128)",
                       }}
                     >
-                      The Company through the Foundation continues its
-                      passionate journey of social change through
-                      collaborations. We endeavour to empower vulnerable
-                      communities and keep them at the heart of all our CSR
-                      initiatives.
+                    Through our Foundation, Immune Science drives social
+                    change by collaborating with partners. We empower 
+                    vulnerable communities, ensuring they remain at the 
+                    core of all our CSR initiatives.
                     </p>
                   </div>
                   <div

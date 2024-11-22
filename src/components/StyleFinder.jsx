@@ -28,7 +28,7 @@ export default function Component() {
                 fontFamily: "inherit",
                 lineHeight: 1.1,
                 margin: "0px 0px 40px",
-                padding: "0px 0px 10px",
+                padding: "40px 0px 10px",
                 textAlign: "center",
                 fontSize: "38px",
                 fontWeight: 700,
@@ -103,7 +103,7 @@ export default function Component() {
                           width: "100%",
                           zIndex: 3,
                           padding: "0px 0px 10px",
-                          margin: "0px 0px 30px",
+                          margin: "0px 0px 20px",
                           position: "relative",
                           left: "auto",
                           top: "auto",
@@ -132,10 +132,11 @@ export default function Component() {
                             fontWeight: "normal",
                           }}
                         >
-                          With our growing scientific understanding of rare
-                          diseases, we shall continue to introduce ground
-                          breaking therapies to give our patients their new
-                          beginnings!
+                        Immune Science pioneers groundbreaking therapies
+                        across various areas, including respiratory, 
+                        HIV/AIDS, oncology, and more, empowering patients 
+                        with new beginnings through innovative treatments
+                        for rare diseases and general health.
                         </p>
                       </div>
                     </div>

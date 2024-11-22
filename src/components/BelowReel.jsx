@@ -309,9 +309,9 @@ export default function Component() {
                           lineHeight: "24px",
                         }}
                       >
-                        Our humanitarian approach for healthcare in pursuit of
-                        our purpose ‘Caring for Life’ makes us a partner of
-                        choice for global health bodies and stakeholders.
+                        Immune Science is dedicated to empowering healthier
+                        lives by offering premium, science-backed supplements,
+                        ensuring wellness and vitality are accessible to everyone.
                       </p>
                     </div>
                     <a
@@ -426,7 +426,7 @@ export default function Component() {
                       <a
                         id="686"
                         className="cipla-vision-type-filter active"
-                        href="https://www.cipla.com/#"
+                        href=""
                         rel="nofollow"
                         style={{
                           boxSizing: "border-box",
@@ -504,7 +504,7 @@ export default function Component() {
                       <a
                         id="687"
                         className="cipla-vision-type-filter"
-                        href="https://www.cipla.com/#"
+                        href=""
                         rel="nofollow"
                         style={{
                           boxSizing: "border-box",
@@ -580,7 +580,7 @@ export default function Component() {
                       <a
                         id="688"
                         className="cipla-vision-type-filter"
-                        href="https://www.cipla.com/#"
+                        href=""
                         rel="nofollow"
                         style={{
                           boxSizing: "border-box",
@@ -656,7 +656,7 @@ export default function Component() {
                       <a
                         id="689"
                         className="cipla-vision-type-filter"
-                        href="https://www.cipla.com/#"
+                        href=""
                         rel="nofollow"
                         style={{
                           boxSizing: "border-box",
@@ -732,7 +732,7 @@ export default function Component() {
                       <a
                         id="690"
                         className="cipla-vision-type-filter"
-                        href="https://www.cipla.com/#"
+                        href=""
                         rel="nofollow"
                         style={{
                           boxSizing: "border-box",

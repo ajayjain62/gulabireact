@@ -151,8 +151,7 @@ export default function Component() {
                       fontWeight: 600,
                     }}
                   >
-                    Our endeavour is to build a high performance and
-                    meritocratic work culture with care as the cornerstone.
+                  At Immune Science, we strive to foster a high-performance, meritocratic work culture, where care is the cornerstone of everything we do. We believe in empowering our team to excel while nurturing a supportive and compassionate environment.
                   </p>
                 </div>
                 <ul
