@@ -4326,7 +4326,15 @@ html {
   font-size: 100%;
   overflow-x: hidden;
 }
-
+.menu {
+    list-style: none;
+    display: flex
+;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+    background: none; 
+}
 body {
   box-sizing: border-box;
   outline: none;

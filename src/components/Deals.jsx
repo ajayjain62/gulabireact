@@ -177,7 +177,7 @@ export default function Component() {
                     <a
                       className="read-more-arrow"
                       alt="Opening Positions"
-                      href="https://www.cipla.com/careers"
+                      href="#"
                       title="Opening Positions"
                       style={{
                         boxSizing: "border-box",
@@ -210,7 +210,7 @@ export default function Component() {
                     <a
                       className="read-more-arrow"
                       alt="Life At Cipla"
-                      href="https://www.cipla.com/careers/life-cipla"
+                      href="#"
                       title="Life At Cipla"
                       style={{
                         boxSizing: "border-box",
@@ -243,7 +243,7 @@ export default function Component() {
                     <a
                       className="read-more-arrow"
                       alt="Recruitment Fraud"
-                      href="https://www.cipla.com/careers"
+                      href="#"
                       title="Recruitment Fraud"
                       style={{
                         boxSizing: "border-box",

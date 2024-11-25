@@ -14,7 +14,10 @@ import StyleFinder from '../components/StyleFinder';
 import Trending from '../components/Trending';
 import Deals from '../components/Deals';
 import ShopLook from '../components/ShopLook';
+import HeroBanner from '../components/HeroBanner';
 import ProductCarousel from '../components/ProductCarousel';
+import OverviewSection from '../components/OverviewSection';
+import HealthCareBrand from '../components/HealthCareBrands';
 import '../assets/css/ionicons.min.css';
 import '../assets/css/simple-line-icons.css';
 import '../assets/css/plugins/jquery-ui.min.css';
@@ -33,50 +36,12 @@ const Home = () => (
     <Trending />
     <Deals />
     <ShopLook />
-
-    {/* New Arrivals Section */}
-    <section className="product-tab bg-white pt-30 pb-30">
-  <div className="container">
-    {/* <div className="section-title text-center">
-      <h2 
-        className="title pb-3 mb-3"
-        style={{
-          boxSizing: "border-box",
-          margin: "0px",
-          padding: "5px 0px 11px",
-          fontStyle: "normal",
-          fontWeight: 600,
-          fontSize: "24px",
-          lineHeight: "normal",
-          fontFamily: "Trirong, serif",
-          letterSpacing: "1.1px",
-          color: "rgb(0, 0, 0)",
-          textAlign: "center",
-        }}
-      >
-          New Arrivals      </h2>
-      <p 
-        className="text"
-        style={{
-          boxSizing: "border-box",
-          margin: "0px",
-          padding: "5px 0px 11px",
-          fontStyle: "italic",
-          fontWeight: 400,
-          fontSize: "18px",
-          lineHeight: "normal",
-          fontFamily: "Trirong, serif",
-          letterSpacing: "1.1px",
-          color: "rgb(0, 0, 0)",
-          textAlign: "center",
-        }}
-      >
-        Discover Our Range of Premium Home Furnishing Solutions
-      </p>
-    </div> */}
+    <HeroBanner />
     <ProductCarousel />
-  </div>
-</section>
+    <OverviewSection />
+    <HealthCareBrand />
+
+    
 
     {/* Popular Products Section */}
     {/* <section className="product-tab bg-white pt-30 pb-10">

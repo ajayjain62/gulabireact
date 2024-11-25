@@ -8,6 +8,7 @@
     padding: 0px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
+    
 }
 
 .logo-holder img {
@@ -17,7 +18,7 @@
 .navbar {
     flex-grow: 0; /* Take remaining space */
     height: 7px;
-    align-items: c;
+    align-items: center;
 }
 
 .menu {
@@ -26,7 +27,8 @@
     margin: 0;
     padding: 0;
     gap: 12px; /* Space between menu items */
-    background: #ffffff;
+    background: #ffffff !important;
+    color: black;
 }
 
 .menu-item {

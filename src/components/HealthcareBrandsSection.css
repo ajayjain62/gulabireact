@@ -1,0 +1,112 @@
+.tp_healthcare_brands_section {
+    padding-top: 122px;
+    padding-bottom: 122px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.self-stretch {
+    align-self: stretch;
+}
+
+.gap-\[60px\] {
+    gap: 60px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.header-title {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: rgb(54, 54, 120);
+}
+
+.arrow-icon {
+    min-height: 2rem;
+    min-width: 2rem;
+    border-radius: 50%;
+    background-color: rgba(54, 54, 120, 0.14);
+}
+
+.sub-title {
+    margin-top: 0.5rem;
+    color: rgb(113, 113, 112);
+}
+
+.our_brands_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; /* Adjust as needed */
+}
+
+.brand-card {
+    max-width: 400px;
+    min-width: 250px; 
+    max-height: 212.256px; 
+    min-height: 136.8px; 
+    border-radius: 32px; 
+    position: relative; 
+    display: flex; 
+    justify-content: space-between; 
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000), var(--tw-ring-shadow,0 0 #0000), 
+                0px 32px 54.67px rgba(0,0,0,.2); 
+}
+
+.brand-content {
+    padding: 34px; /* Adjust as needed */
+}
+
+.brand-logo {
+    width: 100%;
+}
+
+.arrow-icon-small {
+    height: 42px; /* Adjust as needed */
+}
+
+.product-image {
+   position:absolute; /* Adjust positioning as needed */
+   transition:.3s; /* Add transition for animation */
+}
+
+/* Specific positioning for product images */
+.tedibar_prod_1 {
+   bottom:-16px; 
+   right:-16px; 
+   z-index:-10; /* Adjust z-index as needed */
+}
+
+.tedibar_prod_2 {
+   bottom:-2px; 
+   right:-30px; 
+   z-index:-10; /* Adjust z-index as needed */
+}
