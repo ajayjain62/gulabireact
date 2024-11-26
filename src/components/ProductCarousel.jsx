@@ -1210,7 +1210,7 @@ export default function Component() {
                     <img
                       className="w-[63%] md:w-full"
                       alt="Tedibar"
-                      src="https://www.torrentpharma.com/assets/Tedibar1_a5dc321917.svg"
+                      src="https://i.postimg.cc/J0cCZWMJ/1.png"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
