@@ -87,11 +87,10 @@ export default function Component() {
                 <span style={{ boxSizing: "border-box", outline: "none" }}>
                   <span style={{ boxSizing: "border-box", outline: "none" }}>
                     <span style={{ boxSizing: "border-box", outline: "none" }}>
-                      At Cipla, we constantly work towards ensuring access to
-                      high quality and affordable medicines to support patients
-                      in need. Which is why, we have been trusted by health care
-                      professionals and patients across geographies for the last
-                      8 decades.
+                      Goa Nutritions, a leading nutraceutical manufacturer for
+                      25 years, offers end-to-end solutions, regulatory
+                      compliance, and state-of-the-art facilities to produce
+                      tablets, capsules, liquids, and powders globally.
                     </span>
                   </span>
                 </span>
@@ -100,7 +99,6 @@ export default function Component() {
           </div>
         </div>
       </div>
-     
     </>
   );
 }

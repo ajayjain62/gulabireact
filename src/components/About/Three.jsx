@@ -38,14 +38,17 @@ export default function Component() {
                 color: "rgb(26, 25, 25)",
               }}
             >
-              Cipla, as an organisation has been built brick-by-brick on the
-              foundation of care. Caring For Life has always been and continues
-              to remain, our guiding purpose. Driven by the same purpose, we
-              have extended our presence to 80+ countries providing over 1,500
-              products across various therapeutic categories in 50+ dosage
-              forms. To make healthcare more affordable globally, we are
-              deepening our presence in the key markets of India, South Africa,
-              the U.S. among other economies of the emerging world.
+              Goa Nutritions, a certified nutraceutical manufacturer with 25
+              years of expertise, is a leader in end-to-end solutions, from
+              concept development to product launch. Based in Santej, Gujarat,
+              GNPL operates state-of-the-art WHO-GMP-certified manufacturing
+              units, offering a diverse range of high-quality products like
+              tablets, capsules, syrups, powders, and serums. Backed by advanced
+              in-house testing facilities and a skilled workforce, GNPL ensures
+              compliance with global standards while serving over 100 customers
+              with more than 1,200 brands. The company excels in third-party
+              manufacturing and custom formulations, catering to domestic and
+              international markets with reliability and efficiency.
             </p>
             <p
               style={{
@@ -59,16 +62,13 @@ export default function Component() {
                 color: "rgb(26, 25, 25)",
               }}
             >
-              For over eight decades, making a difference to patients has
-              inspired every aspect of Cipla’s work. Our paradigm-changing offer
-              of a triple anti-retroviral therapy in HIV/AIDS at less than a
-              dollar a day in Africa in 2001 is widely acknowledged as having
-              contributed to bringing inclusiveness, accessibility and
-              affordability to the centre of the HIV movement. A responsible
-              corporate citizen, Cipla’s humanitarian approach to healthcare in
-              pursuit of its purpose of Caring for Life and deep-rooted
-              community links wherever it is present, make it a partner of
-              choice for global health bodies and stakeholders.
+              What sets GNPL apart is its commitment to quality, safety, and
+              innovation. The company focuses on producing vegan, sugar-free,
+              and preservative-free supplements without artificial flavors or
+              gelatin, targeting brain, heart, immune, and bone health. GNPL
+              combines cutting-edge research with sustainable practices to
+              provide tailored nutraceutical solutions, delivering excellence in
+              every product.
             </p>
             <div
               className="embed-responsive embed-responsive-16by9"
@@ -102,7 +102,6 @@ export default function Component() {
           </div>
         </div>
       </div>
-  
     </>
   );
 }
