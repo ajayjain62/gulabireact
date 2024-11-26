@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import './ShopLook.css';
 
 export default function Component() {
-    const [selectedTopic, setSelectedTopic] = useState("Antianemic");
+    const [selectedTopic, setSelectedTopic] = useState("AntiAnemic");
 
     const topicContent = {
-        Antianemic: {
-            heading: "Anti Anemic",
+        AntiAnemic: {
+            heading: "AntiAnemic",
             paragraph: "Our health initiatives focus on improving healthcare access and quality for underserved communities.",
             buttonText: "Read More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/health.html",
@@ -21,7 +21,7 @@ export default function Component() {
             image: "https://www.cipla.com/sites/default/files/2022-11/education-banner.webp",
             icon: "🛡️"
         },
-        Antidiabietic: {
+        AntiDiabietic: {
             heading: "Anti Diabietic",
             paragraph: "Our skilling programs aim to equip individuals with the necessary skills for employment.",
             buttonText: "Explore More",
