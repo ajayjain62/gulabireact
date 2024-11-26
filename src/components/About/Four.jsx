@@ -1,692 +1,150 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import styled from "styled-components";
 
-export default function Component() {
+gsap.registerPlugin(ScrollTrigger);
+
+const WhatWeDo = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const elements = sectionRef.current.querySelectorAll(".what-we-do-animate");
+
+    gsap.fromTo(
+      elements,
+      { opacity: 0, y: 30 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        stagger: 0.2,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top 80%",
+          end: "bottom 20%",
+          toggleActions: "play none none reverse",
+        },
+      }
+    );
+  }, []);
+
   return (
-    <>
-      <div
-        className="row full-width-container"
-        style={{
-          boxSizing: "border-box",
-          outline: "none",
-          marginLeft: "0px",
-          marginRight: "0px",
-        }}
-      >
-        <div style={{ boxSizing: "border-box", outline: "none" }}>
-          <div
-            className="grid_wrap pad-50 quick_facts yellow_gradient"
-            style={{
-              boxSizing: "border-box",
-              outline: "none",
-              position: "relative",
-              padding: "30px 0px",
-            }}
-          >
-            <div
-              className="dropdown-bg aos-init aos-animate"
-              style={{
-                boxSizing: "border-box",
-                outline: "none",
-                transitionProperty: "width",
-                position: "absolute",
-                width: "100%",
-                background:
-                  "linear-gradient(rgb(247, 197, 96) 0%, rgb(241, 168, 72) 100%)",
-                left: "0px",
-                zIndex: -1,
-                height: "220px",
-                transitionTimingFunction: "ease",
-                transitionDuration: "1s",
-                transitionDelay: "0.5s",
-              }}
-            />
-            <div
-              className="container clearfix"
-              style={{
-                boxSizing: "border-box",
-                outline: "none",
-                paddingRight: "15px",
-                paddingLeft: "15px",
-                marginRight: "auto",
-                marginLeft: "auto",
-                width: "1170px",
-              }}
-            >
-              <h2
-                className="text-center aos-init aos-animate"
-                style={{
-                  boxSizing: "border-box",
-                  outline: "none",
-                  lineHeight: "48px",
-                  transitionProperty: "transform, opacity",
-                  position: "relative",
-                  fontSize: "44px",
-                  fontWeight: 500,
-                  fontFamily: "Poppins",
-                  textAlign: "left",
-                  color: "rgba(0, 0, 0, 0.8)",
-                  paddingTop: "20px",
-                  marginTop: "10px",
-                  marginBottom: "20px",
-                  opacity: 1,
-                  transform: "translateY(0px)",
-                  transitionDuration: "1.2s",
-                  transitionTimingFunction:
-                    "cubic-bezier(0.47, 0, 0.745, 0.715)",
-                  transitionDelay: "0.7s",
-                }}
-              >
-                Quick Facts
-              </h2>
-              <div
-                id="grid_section_443"
-                className="row"
-                style={{
-                  boxSizing: "border-box",
-                  outline: "none",
-                  marginRight: "-15px",
-                  marginLeft: "-15px",
-                }}
-              >
-                <div
-                  className="col-sm-4 col-custom"
-                  style={{
-                    boxSizing: "border-box",
-                    outline: "none",
-                    position: "relative",
-                    minHeight: "1px",
-                    paddingRight: "15px",
-                    paddingLeft: "15px",
-                    cssFloat: "left",
-                    width: "33.3333%",
-                  }}
-                >
-                  <div
-                    className="col-custom-inner aos-init aos-animate"
-                    style={{
-                      boxSizing: "border-box",
-                      outline: "none",
-                      transitionProperty: "opacity",
-                      background: "rgb(255, 255, 255)",
-                      marginBottom: "30px",
-                      boxShadow: "rgba(0, 0, 0, 0.75) 2px 3px 20px -7px",
-                      opacity: 1,
-                      padding: "15px",
-                      display: "flex",
-                      alignItems: "center",
-                      minHeight: "130px",
-                      transitionTimingFunction: "ease",
-                      transitionDuration: "0.8s",
-                      transitionDelay: "0.7s",
-                    }}
-                  >
-                    <figure
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        display: "block",
-                        margin: "0px",
-                      }}
-                    >
-                      <img
-                        className="img-responsive"
-                        alt="Incorporated"
-                        src="https://www.cipla.com/sites/default/files/2018-12/1_0.png"
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          borderStyle: "none",
-                          border: "0px",
-                          verticalAlign: "middle",
-                          display: "block",
-                          maxWidth: "100%",
-                          borderRadius: "50%",
-                          width: "85px",
-                          height: "85px",
-                        }}
-                      />
-                    </figure>
-                    <div
-                      className="inner-text"
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        width: "calc(100% - 120px)",
-                        marginLeft: "24px",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          fontFamily: "inherit",
-                          fontWeight: 500,
-                          lineHeight: 1.1,
-                          color: "inherit",
-                          marginTop: "20px",
-                          marginBottom: "10px",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Incorporated
-                      </h3>
-                      <p
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          margin: "0px 0px 10px",
-                          color: "rgb(26, 25, 25)",
-                          fontWeight: 300,
-                          lineHeight: "24px",
-                          fontSize: "20px",
-                          marginTop: "14px",
-                        }}
-                      >
-                        1935
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-sm-4 col-custom"
-                  style={{
-                    boxSizing: "border-box",
-                    outline: "none",
-                    position: "relative",
-                    minHeight: "1px",
-                    paddingRight: "15px",
-                    paddingLeft: "15px",
-                    cssFloat: "left",
-                    width: "33.3333%",
-                  }}
-                >
-                  <div
-                    className="col-custom-inner aos-init aos-animate"
-                    style={{
-                      boxSizing: "border-box",
-                      outline: "none",
-                      transitionProperty: "opacity",
-                      background: "rgb(255, 255, 255)",
-                      marginBottom: "30px",
-                      boxShadow: "rgba(0, 0, 0, 0.75) 2px 3px 20px -7px",
-                      opacity: 1,
-                      padding: "15px",
-                      display: "flex",
-                      alignItems: "center",
-                      minHeight: "130px",
-                      transitionTimingFunction: "ease",
-                      transitionDuration: "0.8s",
-                      transitionDelay: "0.7s",
-                    }}
-                  >
-                    <figure
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        display: "block",
-                        margin: "0px",
-                      }}
-                    >
-                      <img
-                        className="img-responsive"
-                        alt="Employees"
-                        src="https://www.cipla.com/sites/default/files/2018-12/2.png"
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          borderStyle: "none",
-                          border: "0px",
-                          verticalAlign: "middle",
-                          display: "block",
-                          maxWidth: "100%",
-                          borderRadius: "50%",
-                          width: "85px",
-                          height: "85px",
-                        }}
-                      />
-                    </figure>
-                    <div
-                      className="inner-text"
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        width: "calc(100% - 120px)",
-                        marginLeft: "24px",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          fontFamily: "inherit",
-                          fontWeight: 500,
-                          lineHeight: 1.1,
-                          color: "inherit",
-                          marginTop: "20px",
-                          marginBottom: "10px",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Employees
-                      </h3>
-                      <p
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          margin: "0px 0px 10px",
-                          color: "rgb(26, 25, 25)",
-                          fontWeight: 300,
-                          lineHeight: "24px",
-                          fontSize: "20px",
-                          marginTop: "14px",
-                        }}
-                      >
-                        25,000+
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-sm-4 col-custom"
-                  style={{
-                    boxSizing: "border-box",
-                    outline: "none",
-                    position: "relative",
-                    minHeight: "1px",
-                    paddingRight: "15px",
-                    paddingLeft: "15px",
-                    cssFloat: "left",
-                    width: "33.3333%",
-                  }}
-                >
-                  <div
-                    className="col-custom-inner aos-init aos-animate"
-                    style={{
-                      boxSizing: "border-box",
-                      outline: "none",
-                      transitionProperty: "opacity",
-                      background: "rgb(255, 255, 255)",
-                      marginBottom: "30px",
-                      boxShadow: "rgba(0, 0, 0, 0.75) 2px 3px 20px -7px",
-                      opacity: 1,
-                      padding: "15px",
-                      display: "flex",
-                      alignItems: "center",
-                      minHeight: "130px",
-                      transitionTimingFunction: "ease",
-                      transitionDuration: "0.8s",
-                      transitionDelay: "0.7s",
-                    }}
-                  >
-                    <figure
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        display: "block",
-                        margin: "0px",
-                      }}
-                    >
-                      <img
-                        className="img-responsive"
-                        alt="turnover"
-                        src="https://www.cipla.com/sites/default/files/2018-12/3.png"
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          borderStyle: "none",
-                          border: "0px",
-                          verticalAlign: "middle",
-                          display: "block",
-                          maxWidth: "100%",
-                          borderRadius: "50%",
-                          width: "85px",
-                          height: "85px",
-                        }}
-                      />
-                    </figure>
-                    <div
-                      className="inner-text"
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        width: "calc(100% - 120px)",
-                        marginLeft: "24px",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          fontFamily: "inherit",
-                          fontWeight: 500,
-                          lineHeight: 1.1,
-                          color: "inherit",
-                          marginTop: "20px",
-                          marginBottom: "10px",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Turnover
-                      </h3>
-                      <p
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          margin: "0px 0px 10px",
-                          color: "rgb(26, 25, 25)",
-                          fontWeight: 300,
-                          lineHeight: "24px",
-                          fontSize: "20px",
-                          marginTop: "14px",
-                        }}
-                      >
-                        $ 2.8 Billion
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-sm-4 col-custom"
-                  style={{
-                    boxSizing: "border-box",
-                    outline: "none",
-                    position: "relative",
-                    minHeight: "1px",
-                    paddingRight: "15px",
-                    paddingLeft: "15px",
-                    cssFloat: "left",
-                    width: "33.3333%",
-                  }}
-                >
-                  <div
-                    className="col-custom-inner aos-init aos-animate"
-                    style={{
-                      boxSizing: "border-box",
-                      outline: "none",
-                      transitionProperty: "opacity",
-                      background: "rgb(255, 255, 255)",
-                      marginBottom: "30px",
-                      boxShadow: "rgba(0, 0, 0, 0.75) 2px 3px 20px -7px",
-                      opacity: 1,
-                      padding: "15px",
-                      display: "flex",
-                      alignItems: "center",
-                      minHeight: "130px",
-                      transitionTimingFunction: "ease",
-                      transitionDuration: "0.8s",
-                      transitionDelay: "0.7s",
-                    }}
-                  >
-                    <figure
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        display: "block",
-                        margin: "0px",
-                      }}
-                    >
-                      <img
-                        className="img-responsive"
-                        alt="K.A.-Hamied"
-                        src="https://www.cipla.com/sites/default/files/2021-08/Dr.-K.A.-Hamied.webp"
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          borderStyle: "none",
-                          border: "0px",
-                          verticalAlign: "middle",
-                          display: "block",
-                          maxWidth: "100%",
-                          borderRadius: "50%",
-                          width: "85px",
-                          height: "85px",
-                        }}
-                      />
-                    </figure>
-                    <div
-                      className="inner-text"
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        width: "calc(100% - 120px)",
-                        marginLeft: "24px",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          fontFamily: "inherit",
-                          fontWeight: 500,
-                          lineHeight: 1.1,
-                          color: "inherit",
-                          marginTop: "20px",
-                          marginBottom: "10px",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Founder (1898-1972)
-                      </h3>
-                      <p
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          margin: "0px 0px 10px",
-                          color: "rgb(26, 25, 25)",
-                          fontWeight: 300,
-                          lineHeight: "24px",
-                          fontSize: "20px",
-                          marginTop: "14px",
-                        }}
-                      >
-                        Dr. K.A. Hamied
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-sm-4 col-custom"
-                  style={{
-                    boxSizing: "border-box",
-                    outline: "none",
-                    position: "relative",
-                    minHeight: "1px",
-                    paddingRight: "15px",
-                    paddingLeft: "15px",
-                    cssFloat: "left",
-                    width: "33.3333%",
-                  }}
-                >
-                  <div
-                    className="col-custom-inner aos-init aos-animate"
-                    style={{
-                      boxSizing: "border-box",
-                      outline: "none",
-                      transitionProperty: "opacity",
-                      background: "rgb(255, 255, 255)",
-                      marginBottom: "30px",
-                      boxShadow: "rgba(0, 0, 0, 0.75) 2px 3px 20px -7px",
-                      opacity: 1,
-                      padding: "15px",
-                      display: "flex",
-                      alignItems: "center",
-                      minHeight: "130px",
-                      transitionTimingFunction: "ease",
-                      transitionDuration: "0.8s",
-                      transitionDelay: "0.7s",
-                    }}
-                  >
-                    <figure
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        display: "block",
-                        margin: "0px",
-                      }}
-                    >
-                      <img
-                        className="img-responsive"
-                        alt="Y.K. Hamied"
-                        src="https://www.cipla.com/sites/default/files/2021-08/Dr.-Y.K.-Hamied.webp"
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          borderStyle: "none",
-                          border: "0px",
-                          verticalAlign: "middle",
-                          display: "block",
-                          maxWidth: "100%",
-                          borderRadius: "50%",
-                          width: "85px",
-                          height: "85px",
-                        }}
-                      />
-                    </figure>
-                    <div
-                      className="inner-text"
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        width: "calc(100% - 120px)",
-                        marginLeft: "24px",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          fontFamily: "inherit",
-                          fontWeight: 500,
-                          lineHeight: 1.1,
-                          color: "inherit",
-                          marginTop: "20px",
-                          marginBottom: "10px",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Chairman
-                      </h3>
-                      <p
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          margin: "0px 0px 10px",
-                          color: "rgb(26, 25, 25)",
-                          fontWeight: 300,
-                          lineHeight: "24px",
-                          fontSize: "20px",
-                          marginTop: "14px",
-                        }}
-                      >
-                        Dr. Y.K. Hamied
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-sm-4 col-custom"
-                  style={{
-                    boxSizing: "border-box",
-                    outline: "none",
-                    position: "relative",
-                    minHeight: "1px",
-                    paddingRight: "15px",
-                    paddingLeft: "15px",
-                    cssFloat: "left",
-                    width: "33.3333%",
-                  }}
-                >
-                  <div
-                    className="col-custom-inner aos-init aos-animate"
-                    style={{
-                      boxSizing: "border-box",
-                      outline: "none",
-                      transitionProperty: "opacity",
-                      background: "rgb(255, 255, 255)",
-                      marginBottom: "30px",
-                      boxShadow: "rgba(0, 0, 0, 0.75) 2px 3px 20px -7px",
-                      opacity: 1,
-                      padding: "15px",
-                      display: "flex",
-                      alignItems: "center",
-                      minHeight: "130px",
-                      transitionTimingFunction: "ease",
-                      transitionDuration: "0.8s",
-                      transitionDelay: "0.7s",
-                    }}
-                  >
-                    <figure
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        display: "block",
-                        margin: "0px",
-                      }}
-                    >
-                      <img
-                        className="img-responsive"
-                        alt="M.K. Hamied"
-                        src="https://www.cipla.com/sites/default/files/2021-08/Mr.-M.K.-Hamied.webp"
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          borderStyle: "none",
-                          border: "0px",
-                          verticalAlign: "middle",
-                          display: "block",
-                          maxWidth: "100%",
-                          borderRadius: "50%",
-                          width: "85px",
-                          height: "85px",
-                        }}
-                      />
-                    </figure>
-                    <div
-                      className="inner-text"
-                      style={{
-                        boxSizing: "border-box",
-                        outline: "none",
-                        width: "calc(100% - 120px)",
-                        marginLeft: "24px",
-                      }}
-                    >
-                      <h3
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          fontFamily: "inherit",
-                          fontWeight: 500,
-                          lineHeight: 1.1,
-                          color: "inherit",
-                          marginTop: "20px",
-                          marginBottom: "10px",
-                          fontSize: "14px",
-                        }}
-                      >
-                        Vice-Chairman
-                      </h3>
-                      <p
-                        style={{
-                          boxSizing: "border-box",
-                          outline: "none",
-                          margin: "0px 0px 10px",
-                          color: "rgb(26, 25, 25)",
-                          fontWeight: 300,
-                          lineHeight: "24px",
-                          fontSize: "20px",
-                          marginTop: "14px",
-                        }}
-                      >
-                        Mr. M.K. Hamied
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <Section ref={sectionRef}>
+      <div className="gradient-overlay" />
+      <h2 className="what-we-do-title what-we-do-animate">What We Do</h2>
+      <div className="what-we-do-grid">
+        <div className="what-we-do-card what-we-do-animate">
+          <h3 className="what-we-do-card-title">Innovative Formulations</h3>
+          <p className="what-we-do-card-text">
+            Custom-developed nutraceutical solutions designed for therapeutic
+            and prophylactic use.
+          </p>
+        </div>
+        <div className="what-we-do-card what-we-do-animate">
+          <h3 className="what-we-do-card-title">State-of-the-Art Facilities</h3>
+          <p className="what-we-do-card-text">
+            WHO-GMP certified manufacturing facilities equipped with
+            cutting-edge technology.
+          </p>
+        </div>
+        <div className="what-we-do-card what-we-do-animate">
+          <h3 className="what-we-do-card-title">Global Reach</h3>
+          <p className="what-we-do-card-text">
+            Trusted by 100+ clients worldwide, with products in over 1,200
+            brands across the globe.
+          </p>
         </div>
       </div>
-    </>
+    </Section>
   );
-}
+};
+
+const Section = styled.section`
+  background: linear-gradient(135deg, #1c1c54, #6e44ff);
+  color: #ffffff;
+  padding: 80px 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 70%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .what-we-do-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .what-we-do-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: rgb(104, 52, 128);
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+
+  .what-we-do-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    z-index: 2;
+    position: relative;
+  }
+
+  .what-we-do-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .what-we-do-card-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .what-we-do-card-text {
+    font-size: 1rem;
+    color: #dcdcdc;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .what-we-do-title {
+      font-size: 2rem;
+    }
+
+    .what-we-do-card {
+      width: 100%;
+    }
+  }
+`;
+
+export default WhatWeDo;
