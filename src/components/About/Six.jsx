@@ -1,34 +1,7 @@
-import React, { useRef, useState } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Sphere } from "@react-three/drei";
+import React from "react";
 import styled from "styled-components";
 
 const WhatsTheDifference = () => {
-  const [color, setColor] = useState("rgb(104, 52, 128)");
-  const sphereRef = useRef();
-
-  const handleSphereClick = () => {
-    // Change to a random color on click
-    const randomColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(
-      Math.random() * 256
-    )}, ${Math.floor(Math.random() * 256)})`;
-    setColor(randomColor);
-  };
-
-  const handleHover = () => {
-    // Slight scale-up effect on hover
-    if (sphereRef.current) {
-      sphereRef.current.scale.set(1.2, 1.2, 1.2);
-    }
-  };
-
-  const handleHoverOut = () => {
-    // Reset scale
-    if (sphereRef.current) {
-      sphereRef.current.scale.set(1, 1, 1);
-    }
-  };
-
   return (
     <Section>
       <div className="difference-content">
@@ -38,35 +11,20 @@ const WhatsTheDifference = () => {
           groundbreaking, often for conditions that are difficult to treat and
           are free of Sugar, unwanted fillers, preservatives, and gelatin. They
           are vegan and do not contain any artificial flavors. This
-          nutrient-packed powerhouse serves up the essentials you need to
-          thrive daily, supporting your brain, heart, immune system, hair, skin,
-          and bones. Over time, these same innovative medicines transition into
+          nutrient-packed powerhouse serves up the essentials you need to thrive
+          daily, supporting your brain, heart, immune system, hair, skin, and
+          bones. Over time, these same innovative medicines transition into
           turnaround nutritions.
         </p>
       </div>
-      <div className="threejs-container">
-        <Canvas>
-          {/* Lighting */}
-          <ambientLight intensity={0.4} />
-          <pointLight position={[10, 10, 10]} />
-
-          {/* 3D Object */}
-          <Sphere
-            visible
-            args={[1.5, 32, 32]}
-            onClick={handleSphereClick}
-            onPointerOver={handleHover}
-            onPointerOut={handleHoverOut}
-            ref={sphereRef}
-          >
-            <meshStandardMaterial color={color} roughness={0.5} />
-          </Sphere>
-
-          {/* Controls */}
-          <OrbitControls enableZoom={false} />
-        </Canvas>
-        <div className="sphere-status">
-          Current Sphere Color: <span>{color}</span>
+      <div className="banner-container">
+        <div className="banner-content">
+          <h3>Healthy Choices, Healthy You</h3>
+          <p>
+            Packed with nutrients and free from artificial additives, our
+            products support your overall well-being. Choose innovation, choose
+            health!
+          </p>
         </div>
       </div>
     </Section>
@@ -112,21 +70,39 @@ const Section = styled.section`
     color: #555555;
   }
 
-  .threejs-container {
-    width: 300px;
+  .banner-container {
+    width: 100%;
+    max-width: 600px;
     height: 300px;
+    background: url("https://images.unsplash.com/photo-1594641880265-49dc804e8d7f")
+      center/cover no-repeat; /* Replace this URL with an online image URL */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  .banner-content {
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    max-width: 90%;
   }
 
-  .sphere-status {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #555;
-  }
-
-  .sphere-status span {
+  .banner-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
     font-weight: bold;
-    color: rgb(104, 52, 128);
+  }
+
+  .banner-content p {
+    font-size: 1rem;
+    line-height: 1.5;
   }
 
   @media (max-width: 768px) {
@@ -138,8 +114,9 @@ const Section = styled.section`
       margin-bottom: 40px;
     }
 
-    .threejs-container {
+    .banner-container {
       margin: 0 auto;
+      height: 250px;
     }
   }
 `;

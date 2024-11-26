@@ -13,6 +13,7 @@ import Contact from './pages/Contact';
 import Product from './pages/Product';
 import Compare from './pages/Compare';
 import Checkout from './pages/checkout';
+import CSR from './pages/CSR';
 import { Button } from '@material-tailwind/react';
 
 // Import CSS files
@@ -35,7 +36,7 @@ const App = () => (
       <Route path="/blog" element={<Blog />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/product-page" element={<Product />} />
-      <Route path="/compare" element={<Compare />} />
+      <Route path="/csr" element={<CSR />} />
       <Route path="/checkout" element={<Checkout />} />
 
     </Routes>

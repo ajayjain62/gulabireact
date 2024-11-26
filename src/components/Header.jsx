@@ -332,41 +332,7 @@ export default function Component() {
           </div>
         </div>
       </div>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-html {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  text-size-adjust: 100%;
-  border: 0px;
-  font: inherit;
-  vertical-align: initial;
-  padding: 0px;
-  margin: 0px;
-  font-family: "Fira Code", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-
-body {
-  box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: rgb(255, 255, 255);
-  border: 0px;
-  font: inherit;
-  font-weight: inherit;
-  vertical-align: initial;
-  padding: 0px;
-  margin: 0px;
-  font-family: "Fira Code", "Droid Sans", "Helvetica Neue", sans-serif;
-  overflow: hidden auto;
-  font-size: 0.875rem;
-  line-height: 1.43;
-  letter-spacing: 0.01071em;
-  margin-top: 114px;
-}
-`,
-        }}
-      />
+ 
     </>
   );
 }
