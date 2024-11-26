@@ -14,10 +14,11 @@ export default function Component() {
       <One />
       <Two />
       <Three />
-      <Four/>
       <Five/>
+
+      <Four/>
       <Six/>
-      <Seven/>
+      {/* <Seven/> */}
     </>
   );
 }
