@@ -1613,8 +1613,8 @@ export default function Component() {
                       border: "0px solid rgb(229, 231, 235)",
                       boxSizing: "border-box",
                       position: "absolute",
-                      bottom: "5px",
-                      right: "-5px",
+                      bottom: "-10px",
+                      right: "-130px",
                       transitionProperty: "all",
                       transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
                       transitionDuration: "0.3s",
@@ -1624,14 +1624,34 @@ export default function Component() {
                     }}
                   >
                     <img
-                      alt="AhaglowProd"
-                      src="https://www.torrentpharma.com/assets/Product_f0e075220a.svg"
+                      alt="UnienzmesProd"
+                      src="https://i.postimg.cc/xjztTR1v/Untitled-design-20.png"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      maxWidth: "40%",
+                      height: "auto",
+                      position: "absolute",
+                      bottom: "-14px",
+                      right: "100px",
+                      zIndex: 0,
+                      letterSpacing: "0.02em",
+                      transition: "0.3s",
+                      width: "70%",
+                      fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <img
+                      alt="UnienzmesProd"
+                      src="https://i.postimg.cc/D0XX58HH/goa.png  "
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
                         display: "block",
                         verticalAlign: "middle",
-                        maxWidth: "100%",
+                        maxWidth: "47%",
                         height: "auto",
                         letterSpacing: "0.02em",
                         fontFamily: "Lato, sans-serif",

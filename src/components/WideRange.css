@@ -1,11 +1,19 @@
+.background{
+  content: "";
+  background-image: url(https://www.cipla.com/themes/cipla/images/pattern.png);
+  height: 350px;
+  top: 0px;
+  margin: "100px ";
+}
 .overview-section {
-    padding-top: 3rem; /* pt-12 */
-    padding-bottom: 3rem; /* pb-12 */
+    padding-top: rem; /* pt-12 */
+    padding-bottom: rem; /* pb-12 */
     max-width: 1140px;
     margin: auto;
     padding-left: 1rem; /* px-4 */
     padding-right: 1rem;
     letter-spacing: 0.02em;
+    
   }
   
   .overview-container {
@@ -13,6 +21,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     gap: 2rem; /* gap-y-8 */
+    
   }
   
   .overview-left,

@@ -3,6 +3,7 @@ import './WideRange.css';
 
 const OverviewSection = () => {
   return (
+    <div className="background">
     <section className="overview-section">
       <div className="overview-container">
         <div className="overview-left">
@@ -16,18 +17,11 @@ const OverviewSection = () => {
             </a>
           </div>
           <p className="overview-description">
-          Corporate Social Responsibility (CSR) is a company's commitment to support activities and resources to improve the social and economic development. CSR can also refer to a company's environmental, social, and economic performance. 
-Participate in philanthropic causes
-Environmental responsibility
-Ethical/human rights responsibility
-Philanthropic responsibility
-Economic responsibility
-Give back to the community
-Provide positive social value
-Build a positive brand
-Forge a stronger bond between employees and corporations
-Boost morale
-Help employees and employers feel more connected to the world around them
+          Nutritional manufacturer research and development facilities play a critical role in the development of new and improved nutritional products. These facilities are designed to study the effects of various ingredients and formulas on human health, and to ensure that the products produced are safe, effective, and meet all regulatory requirements.
+          Goa Nutritions serves Customized Product Development Service (CPDS) and work as Contract Research Organisation (CRO)
+
+Provides end-to-end formulation development services ranging from early development to clinical supplies of new product development for the Pharmaceutical, Ayurveda & Sports Nutrition industry. oral powder oral liquid topical administration.
+Formulation development effort revolves around developing the best formulation for your compound, focusing on the desired bioavailability and optimal stability of product.
           </p>
         </div>
         <div className="overview-right">
@@ -58,6 +52,7 @@ Help employees and employers feel more connected to the world around them
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
