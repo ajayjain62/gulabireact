@@ -10,6 +10,7 @@ export default function Component() {
           outline: "none",
           display: "block",
           padding: "40px 0px",
+          background: "#f2f2f2",
         }}
       >
         <div
@@ -197,7 +198,7 @@ export default function Component() {
                         outline: "none",
                       }}
                     >
-                      Opening Positions
+                      Health category 
                     </a>
                   </li>
                   <li
@@ -230,7 +231,7 @@ export default function Component() {
                         outline: "none",
                       }}
                     >
-                      Life At Cipla
+                      Private Labeling 
                     </a>
                   </li>
                   <li
@@ -263,7 +264,7 @@ export default function Component() {
                         outline: "none",
                       }}
                     >
-                      Recruitment Fraud
+                      Contact Us 
                     </a>
                   </li>
                 </ul>

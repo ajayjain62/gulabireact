@@ -12,7 +12,7 @@ export default function Component() {
           border: "0px",
           font: "inherit",
           verticalAlign: "initial",
-          backgroundColor: "rgb(0, 0, 0)",
+          backgroundColor: "#683480",
           margin: "0px",
           boxSizing: "border-box",
           flexDirection: "row",
@@ -50,7 +50,7 @@ export default function Component() {
               fontFamily: "proxima-nova",
               width: "100%",
               padding: "0px",
-              backgroundColor: "rgb(0, 0, 0)",
+              backgroundColor: "#683480",
               color: "rgb(255, 255, 255)",
               minHeight: "24px",
             }}
@@ -215,7 +215,7 @@ export default function Component() {
       font: "inherit",
       overflow: "hidden",
       padding: "12px",
-      display: "inline-flex",
+      display: "none",
       width: "58px",
       height: "38px",
       boxSizing: "border-box",
@@ -309,6 +309,7 @@ export default function Component() {
       display: "inline-block",
       backgroundPosition: "92px -21px",
       backgroundSize: "633px",
+      display: "none",
     }}
   />
 

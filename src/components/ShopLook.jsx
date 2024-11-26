@@ -2,48 +2,48 @@ import React, { useState } from "react";
 import './ShopLook.css';
 
 export default function Component() {
-    const [selectedTopic, setSelectedTopic] = useState("Health");
+    const [selectedTopic, setSelectedTopic] = useState("AntiBiotics");
 
     const topicContent = {
-        Health: {
-            heading: "Health Initiatives",
+        AntiBiotics: {
+            heading: "Anti Biotics",
             paragraph: "Our health initiatives focus on improving healthcare access and quality for underserved communities.",
             buttonText: "Read More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/health.html",
             image: "https://www.cipla.com/sites/default/files/2023-07/health-image.webp",
-            icon: "🩺"
+            icon: "🌟"
         },
-        Education: {
-            heading: "Educational Programs",
+        Cardiology: {
+            heading: "Cardiology",
             paragraph: "We provide educational resources and support to empower the next generation.",
             buttonText: "Learn More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/education.html",
             image: "https://www.cipla.com/sites/default/files/2022-11/education-banner.webp",
-            icon: "📚"
+            icon: "🛡️"
         },
-        Skilling: {
-            heading: "Skilling Initiatives",
+        Dendruff: {
+            heading: "Dendruff",
             paragraph: "Our skilling programs aim to equip individuals with the necessary skills for employment.",
             buttonText: "Explore More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/skilling.html",
             image: "https://www.cipla.com/sites/default/files/2022-11/skill-banner.webp",
-            icon: "💼"
+            icon: "💧"
         },
-        EnvironmentalSustainability: {
-            heading: "Environmental Sustainability",
+        EyeHealth: {
+            heading: "Eye Health",
             paragraph: "We are committed to sustainable practices that protect our environment.",
             buttonText: "Discover More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/environmental-sustainability.html",
             image: "https://www.cipla.com/sites/default/files/2023-07/environment-resized.webp",
-            icon: "🌿"
+            icon: "👁️"
         },
-        DisasterManagement: {
-            heading: "Disaster Management",
+        MemoryEnhancers: {
+            heading: "Memory Enhancers",
             paragraph: "Our disaster management initiatives provide relief and support during crises.",
             buttonText: "Find Out More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/disaster-management.html",
             image: "https://www.cipla.com/sites/default/files/2023-07/disaster-relief-resized.webp",
-            icon: "🚨"
+            icon: "🧠"
         },
     };
 

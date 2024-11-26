@@ -28,7 +28,7 @@ const Header = () => {
       ]
     },
     {
-      label: "Our Presence",
+      label: "Franchise",
       link: "https://www.cipla.com/our-presence",
       megaMenu: [
         { label: "Australia", link: "https://www.cipla.com/our-presence/australia" },
@@ -36,7 +36,7 @@ const Header = () => {
       ]
     },
     {
-      label: "Our Offerings",
+      label: "Product",
       link: "https://www.cipla.com/products",
       megaMenu: [
         { label: "Prescription Medicines", link: "https://www.cipla.com/products/prescription" },
@@ -44,7 +44,7 @@ const Header = () => {
       ]
     },
     {
-      label: "investors",
+      label: "Corporate Social Responsibility",
       link: "https://www.cipla.com/contact",
     },
      {
@@ -57,10 +57,6 @@ const Header = () => {
     },
      {
       label: "media centre",
-      link: "https://www.cipla.com/contact",
-    },
-     {
-      label: "corporate social responsibility",
       link: "https://www.cipla.com/contact",
     },
      {

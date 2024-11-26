@@ -11,6 +11,11 @@
     
 }
 
+
+a:hover {
+    color: #DFA8EA;
+}
+
 .logo-holder img {
     max-width: 70px; /* Adjust the logo size */
 }
@@ -84,14 +89,14 @@
     height: 30px;
     box-shadow: none;
     border: none;
-    background: #035ea6;
+    background: rgb(223, 168, 234);
     border-radius: 30px;
     color: #ffffff;
     padding-left: 20px;
 }
 
 .search-input::placeholder {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .search-button {

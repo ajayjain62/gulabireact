@@ -9,15 +9,15 @@ import Hero from '../components/Hero';
 import Category from '../components/Category';
 import AboveFooter from '../components/AboveFooter';
 import BelowReel from '../components/BelowReel';
-import JustIn from '../components/JustIn';
 import StyleFinder from '../components/StyleFinder';
 import Trending from '../components/Trending';
 import Deals from '../components/Deals';
 import ShopLook from '../components/ShopLook';
 import HeroBanner from '../components/HeroBanner';
-import ProductCarousel from '../components/ProductCarousel';
+import WideRange from '../components/WideRange'
 import OverviewSection from '../components/OverviewSection';
-import HealthCareBrand from '../components/HealthCareBrands';
+import ProductCarousel from '../components/ProductCarousel';
+import JustIn from '../components/JustIn';
 import '../assets/css/ionicons.min.css';
 import '../assets/css/simple-line-icons.css';
 import '../assets/css/plugins/jquery-ui.min.css';
@@ -31,15 +31,17 @@ const Home = () => (
     {/* <Category />
     <Reels /> */}
     <BelowReel />
-    <JustIn />
+    
     <StyleFinder />
     <Trending />
     <Deals />
     <ShopLook />
     <HeroBanner />
-    <ProductCarousel />
+    <WideRange />
     <OverviewSection />
-    <HealthCareBrand />
+    <ProductCarousel />
+    <JustIn />
+   
 
     
 

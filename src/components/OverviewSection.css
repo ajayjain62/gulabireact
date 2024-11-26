@@ -4,7 +4,6 @@
     letter-spacing: 0.02em;
     background: linear-gradient(129.27deg, rgb(54, 54, 120) 7.77%, rgb(15, 15, 65) 88.92%);
     font-family: 'Poppins', sans-serif;
-    margin-top: 100px;
 }
 
 .container {
@@ -23,7 +22,7 @@
 .ourreach-left-content {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
 }
 
 .text-content {
@@ -31,7 +30,7 @@
 }
 
 .title {
-    font-size: 52px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
 }

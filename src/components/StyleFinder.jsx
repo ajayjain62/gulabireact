@@ -226,7 +226,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          RESPIRATORY
+                          Environmental responsibility
                         </span>
                       </a>
                     </div>
@@ -315,7 +315,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          API
+                          philanthropic causes
                         </span>
                       </a>
                     </div>
@@ -405,7 +405,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          HIV / AIDS
+                          Ethical/human rights responsibility
                         </span>
                       </a>
                     </div>
@@ -495,7 +495,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          ONCOLOGY
+                          human rights responsibility
                         </span>
                       </a>
                     </div>
@@ -585,7 +585,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          CIPLA GENERICS
+                          Build a positive brand
                         </span>
                       </a>
                     </div>
@@ -675,7 +675,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          OTC - CIPLA HEALTH
+                          Give back to the community
                         </span>
                       </a>
                     </div>
@@ -764,7 +764,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          CIPLA DIAGNOSTICS
+                          Economic responsibility
                         </span>
                       </a>
                     </div>
@@ -853,7 +853,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          OTHER THERAPIES
+                          Boost morale
                         </span>
                       </a>
                     </div>

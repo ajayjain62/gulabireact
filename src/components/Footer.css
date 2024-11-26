@@ -1,0 +1,83 @@
+.footer-main {
+    background: rgb(0, 83, 146);
+    padding-top: 60px;
+    margin-top: 0px;
+  }
+  
+  .container.footer-top {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    padding: 0;
+  }
+  
+  nav1 {
+    margin-bottom: 30px;
+  }
+  
+  .footer-heading h2 {
+   color: white !important;
+   padding-bottom: 12px;
+   display: block;
+   font-size: 17px;
+   font-weight: 500 !important;
+  }
+  
+  .menu1 {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 5px;
+  background: rgb(0, 83, 146);
+  
+}
+
+.menu1 li {
+  display: inline; /* Ensure list items are block-level elements */
+  padding: 0px 0px; /* Add spacing between items */
+  width: 360px;
+}
+
+.menu1 li a {
+  display: block; /* Make anchor tags block-level elements */
+  text-decoration: none;
+  color: lightgray; /* Normal link color */
+  transition: color 0.3s;
+}
+
+.menu1 li a:hover {
+  color: gray; /* Change color on hover */
+}
+
+  
+  .footer-bottom {
+    padding-top: 70px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 10px;
+    line-height: 24px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+
+  
+  /* Additional styles for responsive design, if needed */
+  @media (max-width: 768px) {
+    .footer-bottom {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
