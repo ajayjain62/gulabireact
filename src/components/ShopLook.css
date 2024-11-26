@@ -21,7 +21,7 @@ body {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    color: rgb(0, 92, 166);
+    color: #683480;
     margin-bottom: 20px;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .topic.active {
-    background-color: #0073c2;
+    background-color: #683480;
     color: #fff;
 }
 

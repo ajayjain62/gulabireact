@@ -45,7 +45,7 @@ export default function Component() {
                   fontSize: "38px",
                   fontWeight: 700,
                   textTransform: "uppercase",
-                  color: "rgb(0, 92, 166)",
+                  color: "#683480",
                   marginTop: "0px",
                   marginBottom: "40px",
                   position: "relative",
@@ -96,7 +96,7 @@ export default function Component() {
                 style={{
                   boxSizing: "border-box",
                   outline: "none",
-                  background: "rgb(3, 94, 166)",
+                  background: "#7c1212",
                   borderRadius: "18px",
                   padding: "30px",
                   position: "absolute",

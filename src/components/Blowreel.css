@@ -66,7 +66,7 @@
   .vision-title {
     font-size: 2.4rem;
     font-weight: 700;
-    color: #337ab7;
+    color: #683480;
     margin-bottom: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -87,18 +87,18 @@
     color: #fff;
     font-weight: 500;
     padding: 10px 30px;
-    border: 2px solid #0056b3;
+    border: 2px solid #683480;
     border-radius: 50px;
     display: inline-block;
     font-size: 1rem;
-    background:  #0072ff;
+    background:  #683480;
     transition: all 0.3s ease;
   }
   
   .read-more-arrow:hover {
-    background: #004080;
+    background: #683480;
     color: #fff;
-    border: 2px solid #003d80;
+    border: 2px solid #683480;
     transform: scale(1.1);
   }
   
@@ -109,7 +109,7 @@
   /* Vision Menu */
   .cipla-vision-type-menu {
     margin-top: -30px;
-    background: #337ab7;
+    background: #683480;
     padding: 10px 0;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);

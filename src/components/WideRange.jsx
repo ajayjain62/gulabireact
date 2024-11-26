@@ -16,7 +16,18 @@ const OverviewSection = () => {
             </a>
           </div>
           <p className="overview-description">
-            Immune Science, a leading force in the global pharmaceutical industry, is pioneering in niche markets with a focus on therapeutic areas such as cardiovascular (CV), central nervous system (CNS), gastro-intestinal (GI), women’s healthcare (WHC), vitamins, minerals, nutritionals (VMN), and cosmo-dermatology. Our expertise also extends to diabetology, pain management, gynaecology, oncology, and anti-infective segments. With a presence in over 50 countries, Immune Science holds a top market position, especially in key regions like Brazil and Germany.
+          Corporate Social Responsibility (CSR) is a company's commitment to support activities and resources to improve the social and economic development. CSR can also refer to a company's environmental, social, and economic performance. 
+Participate in philanthropic causes
+Environmental responsibility
+Ethical/human rights responsibility
+Philanthropic responsibility
+Economic responsibility
+Give back to the community
+Provide positive social value
+Build a positive brand
+Forge a stronger bond between employees and corporations
+Boost morale
+Help employees and employers feel more connected to the world around them
           </p>
         </div>
         <div className="overview-right">

@@ -1243,7 +1243,7 @@ export default function Component() {
                   <img
                     className="absolute right-0 bottom-[-16px] z-0 tedibar_prod_1"
                     alt="CLIENT_TEDIBAR_SPOO Shampoo_MERGED (1).svg"
-                    src="https://goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=493"
+                    src="https://i.postimg.cc/XN9cKLXT/goa-nutrition.png"
                     style={{
                       border: "0px solid rgb(229, 231, 235)",
                       boxSizing: "border-box",
@@ -1264,21 +1264,21 @@ export default function Component() {
                   <img
                     className="absolute right-[30px] bottom-[-2.6px] tedibar_prod_2 z-10"
                     alt="Bathing bar.svg"
-                    src="https://www.torrentpharma.com/assets/Bathing_bar_8730b46f63.svg"
+                    src="https://i.postimg.cc/ydpqLKf8/goa-nutu-rition-berry.png"
                     style={{
                       border: "0px solid rgb(229, 231, 235)",
                       boxSizing: "border-box",
                       display: "block",
                       verticalAlign: "middle",
-                      maxWidth: "100%",
+                      maxWidth: "78%",
                       height: "auto",
                       position: "absolute",
-                      right: "30px",
+                      right: "74px",
                       zIndex: 0,
                       letterSpacing: "0.02em",
                       transition: "0.3s",
-                      width: "48%",
-                      bottom: "-2px",
+                      width: "32%",
+                      bottom: "-44px",
                       fontFamily: "Lato, sans-serif",
                     }}
                   />
@@ -1304,7 +1304,7 @@ export default function Component() {
                     minWidth: "400px",
                     maxWidth: "400px",
                     backgroundImage:
-                      "linear-gradient(225deg, rgb(48, 72, 191), rgb(7, 15, 70))",
+                      "linear-gradient(225deg, rgb(56 191 48), rgb(12 74 8))",
                     fontFamily: "Lato, sans-serif",
                   }}
                 >
@@ -1359,39 +1359,20 @@ export default function Component() {
                       }}
                     />
                   </div>
-                  <img
-                    className="absolute z-10 shalcal_prod_1 right-[-36px] top-[-68px]"
-                    alt="shelcalImg5.png"
-                    src="https://www.torrentpharma.com/assets/shelcal_Img5_3a9cac6bb0.png"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "block",
-                      verticalAlign: "middle",
-                      maxWidth: "100%",
-                      height: "auto",
-                      position: "absolute",
-                      right: "-36px",
-                      top: "-68px",
-                      zIndex: 10,
-                      letterSpacing: "0.02em",
-                      transition: "0.3s",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  />
+                  
                   <img
                     className="absolute z-10 shalcal_prod_2 bottom-[13px] right-[13px]"
                     alt="shelcalImg2.png"
-                    src="https://www.torrentpharma.com/assets/shelcal_Img2_5dc2240db7.png"
+                    src="https://i.postimg.cc/25ssLGX0/Untitled-design-18.png"
                     style={{
                       border: "0px solid rgb(229, 231, 235)",
                       boxSizing: "border-box",
                       display: "block",
                       verticalAlign: "middle",
-                      maxWidth: "100%",
+                      maxWidth: "34%",
                       height: "auto",
                       position: "absolute",
-                      bottom: "13px",
+                      bottom: "-14px",
                       right: "13px",
                       zIndex: 10,
                       letterSpacing: "0.02em",
@@ -1399,59 +1380,21 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   />
-                  <img
-                    className="absolute shalcal_prod_4 top-0 right-[22px] z-0"
-                    alt="shelcalImg4.png"
-                    src="https://www.torrentpharma.com/assets/shelcal_Img4_795ac58a03.png"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "block",
-                      verticalAlign: "middle",
-                      maxWidth: "100%",
-                      height: "auto",
-                      position: "absolute",
-                      right: "22px",
-                      top: "0px",
-                      zIndex: 0,
-                      letterSpacing: "0.02em",
-                      transition: "0.3s",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  />
-                  <img
-                    className="absolute shalcal_prod_3 top-[2px] right-[53px] z-0"
-                    alt="shelcalImg3.png"
-                    src="https://www.torrentpharma.com/assets/shelcal_Img3_af3267c35e.png"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "block",
-                      verticalAlign: "middle",
-                      maxWidth: "100%",
-                      height: "auto",
-                      position: "absolute",
-                      right: "53px",
-                      top: "2px",
-                      zIndex: 0,
-                      letterSpacing: "0.02em",
-                      transition: "0.3s",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  />
+                  
+                  
                   <img
                     className="absolute shalcal_prod_5 bottom-[10px] right-[82px] z-10"
                     alt="shelcalImg1.png"
-                    src="https://www.torrentpharma.com/assets/shelcal_Img1_cfa363f404.png"
+                    src="https://i.postimg.cc/bNnq6G1D/goa-nutrition.png"
                     style={{
                       border: "0px solid rgb(229, 231, 235)",
                       boxSizing: "border-box",
                       display: "block",
                       verticalAlign: "middle",
-                      maxWidth: "100%",
+                      maxWidth: "25%",
                       height: "auto",
                       position: "absolute",
-                      bottom: "10px",
+                      bottom: "-14px",
                       right: "82px",
                       zIndex: 10,
                       letterSpacing: "0.02em",
@@ -1547,25 +1490,47 @@ export default function Component() {
                       transitionDuration: "0.3s",
                       letterSpacing: "0.02em",
                       height: "auto",
-                      right: "-40px",
+                      right: "-130px",
                       bottom: "-5px",
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
+                    
                     <img
                       alt="UnienzmesProd"
-                      src="https://www.torrentpharma.com/assets/prod3_df3af111d7.svg"
+                      src=" https://i.postimg.cc/C5zQx6jP/Untitled-design-19.png"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      maxWidth: "40%",
+                      height: "auto",
+                      position: "absolute",
+                      bottom: "-14px",
+                      right: "100px",
+                      zIndex: 0,
+                      letterSpacing: "0.02em",
+                      transition: "0.3s",
+                      width: "70%",
+                      fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <img
+                      alt="UnienzmesProd"
+                      src="https://i.postimg.cc/d3PyhhCb/goa-nutrition-3.png"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
                         display: "block",
                         verticalAlign: "middle",
-                        maxWidth: "100%",
+                        maxWidth: "54%",
                         height: "auto",
                         letterSpacing: "0.02em",
                         fontFamily: "Lato, sans-serif",
                       }}
                     />
+                    
                   </div>
                 </a>
                 <a
@@ -2751,7 +2716,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Environment & Sustainability
+                      Eco-Friendly Practices & Sustainability
                     </p>
                   </div>
                   <p

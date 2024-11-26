@@ -4,8 +4,8 @@ import styles from "./HeroBanner.module.css"; // Importing CSS module
 const HeroBanner = () => {
   const slides = [
     {
-      image: "https://www.torrentpharma.com/assets/2_6_002fe627e6.jpg",
-      text: "Explore Our Consumer Healthcare Range",
+      image: "https://i.postimg.cc/1tXvtQJw/goa-nutritionbanner.jpg",
+      text: "",
     },
     {
       image: "https://www.torrentpharma.com/assets/R_and_D_banner4_desktop_38b7c31173.jpg",

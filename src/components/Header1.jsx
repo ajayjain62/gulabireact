@@ -48,19 +48,19 @@ const Header = () => {
       link: "https://www.cipla.com/contact",
     },
      {
-      label: "sustainability",
+      label: "Sustainability",
       link: "https://www.cipla.com/contact",
     },
      {
-      label: "careers",
+      label: "Careers",
       link: "https://www.cipla.com/contact",
     },
      {
-      label: "media centre",
+      label: "Media centre",
       link: "https://www.cipla.com/contact",
     },
      {
-      label: "contact us",
+      label: "Contact us",
       link: "https://www.cipla.com/contact",
     }
   ];
@@ -94,18 +94,34 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <div className="search-holder">
-        <form onSubmit={handleSearchSubmit} className="search-form">
-          <input
-            type="text"
-            value={searchTerm}
-            onChange={handleSearchChange}
-            placeholder="Search..."
-            className="search-input"
+      <div className="search-container">
+  <form onSubmit={handleSearchSubmit} className="search-box">
+    <div className="search-input-wrapper">
+      <input 
+        type="text" 
+        value={searchTerm}
+        onChange={handleSearchChange}
+        placeholder="Type to search..." 
+        className="search-input"
+      />
+      <button type="submit" className="search-icon-button">
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          fill="white" 
+          viewBox="0 0 24 24" 
+          width="22" 
+          height="22"
+          aria-hidden="true"
+        >
+          <path 
+            d="M10 2a8 8 0 1 1-5.657 13.657l-4.292 4.293a1 1 0 0 1-1.414-1.414l4.293-4.292A8 8 0 0 1 10 2zm0 2a6 6 0 1 0 0 12A6 6 0 0 0 10 4z"
           />
-          <button type="submit" className="search-button">🔍</button>
-        </form>
-      </div>
+        </svg>
+      </button>
+    </div>
+  </form>
+</div>
+
     </header>
   );
 };

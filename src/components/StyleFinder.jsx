@@ -33,7 +33,7 @@ export default function Component() {
                 fontSize: "38px",
                 fontWeight: 700,
                 textTransform: "uppercase",
-                color: "rgb(0, 92, 166)",
+                color: "#683480",
                 marginTop: "0px",
                 marginBottom: "40px",
                 position: "relative",
