@@ -1329,13 +1329,13 @@ export default function Component() {
                     <img
                       className="w-[65%] md:w-full"
                       alt="Shelcal"
-                      src="https://www.torrentpharma.com/assets/Shelcal1_7f666d8dc1.svg"
+                      src="https://i.postimg.cc/T2V36zgn/Untitled-192-x-40-px.png"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
                         display: "block",
                         verticalAlign: "middle",
-                        maxWidth: "100%",
+                        maxWidth: "73%",
                         height: "auto",
                         letterSpacing: "0.02em",
                         width: "100%",

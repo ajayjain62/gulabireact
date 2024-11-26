@@ -6,7 +6,7 @@ import './Blowreel.css';
 const CiplaVision = () => {
   const [selectedVision, setSelectedVision] = useState({
     id: "686",
-    title: "Our Purpose",
+    title: "Our Purpose ‘Caring for Life’",
     content:
       "Our humanitarian approach for healthcare in pursuit of our purpose ‘Caring for Life’ makes us a partner of choice for global health bodies and stakeholders.",
     image: "https://www.cipla.com/sites/default/files/2022-11/purpose_1.webp",

@@ -78,7 +78,7 @@ export default function Component() {
           className="social-media-icon-link"
           style={{
             color: "white",
-            fontSize: "24px",
+            fontSize: "15px",
             transition: "transform 0.3s ease, color 0.3s ease",
             margin: "0 10px",
             textDecoration: "none",
@@ -100,7 +100,7 @@ export default function Component() {
           className="social-media-icon-link"
           style={{
             color: "white",
-            fontSize: "24px",
+            fontSize: "15px",
             transition: "transform 0.3s ease, color 0.3s ease",
             margin: "0 10px",
             textDecoration: "none",
@@ -122,7 +122,7 @@ export default function Component() {
           className="social-media-icon-link"
           style={{
             color: "white",
-            fontSize: "24px",
+            fontSize: "15px",
             transition: "transform 0.3s ease, color 0.3s ease",
             margin: "0 10px",
             textDecoration: "none",
@@ -144,7 +144,7 @@ export default function Component() {
           className="social-media-icon-link"
           style={{
             color: "white",
-            fontSize: "24px",
+            fontSize: "15px",
             transition: "transform 0.3s ease, color 0.3s ease",
             margin: "0 10px",
             textDecoration: "none",
@@ -163,7 +163,7 @@ export default function Component() {
   className="storemode-nav"
   style={{
     boxSizing: "border-box",
-    marginTop: "10px",
+    marginTop: "0px",
     padding: "0px",
     border: "0px",
     font: "inherit",
