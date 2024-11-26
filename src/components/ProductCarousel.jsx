@@ -1490,7 +1490,7 @@ export default function Component() {
                       transitionDuration: "0.3s",
                       letterSpacing: "0.02em",
                       height: "auto",
-                      right: "-130px",
+                      right: "-140px",
                       bottom: "-5px",
                       fontFamily: "Lato, sans-serif",
                     }}
@@ -1524,7 +1524,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         display: "block",
                         verticalAlign: "middle",
-                        maxWidth: "54%",
+                        maxWidth: "47%",
                         height: "auto",
                         letterSpacing: "0.02em",
                         fontFamily: "Lato, sans-serif",
