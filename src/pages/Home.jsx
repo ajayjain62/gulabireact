@@ -13,9 +13,9 @@ import StyleFinder from '../components/StyleFinder';
 import Trending from '../components/Trending';
 import Deals from '../components/Deals';
 import ShopLook from '../components/ShopLook';
-import HeroBanner from '../components/HeroBanner';
+// import HeroBanner from '../components/HeroBanner';
 import WideRange from '../components/WideRange'
-import OverviewSection from '../components/OverviewSection';
+// import OverviewSection from '../components/OverviewSection';
 import ProductCarousel from '../components/ProductCarousel';
 import JustIn from '../components/JustIn';
 import '../assets/css/ionicons.min.css';
@@ -36,9 +36,9 @@ const Home = () => (
     <Trending />
     <Deals />
     <ShopLook />
-    <HeroBanner />
+    {/* <HeroBanner /> */}
     <WideRange />
-    <OverviewSection />
+    {/* <OverviewSection /> */}
     <ProductCarousel />
     <JustIn />
    
@@ -95,6 +95,9 @@ const Home = () => (
     {/* <Hero />
     <BlogSection />
     <AboveFooter /> */}
+
+    {/* Popular Products Section */}
+    <AboveFooter /> 
   </div>
 );
 
