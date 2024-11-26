@@ -25,18 +25,18 @@ const CiplaVision = () => {
     },
     {
       id: "687",
-      title: "Illness To Wellness",
-      content:
-        "Promoting wellness and holistic healthcare solutions for a better tomorrow.",
+      title: "Journey from illness to lasting wellness.",
       image: "https://www.cipla.com/sites/default/files/2022-11/wellness_2.webp",
+      content:
+        "Advancing wellness and holistic healthcare solutions to empower healthier lives, enhance well-being, and build a brighter, more sustainable future for individuals, families.",
       link: "#",
       icon: "https://www.cipla.com/sites/default/files/2022-09/icon-illness-to-wellness.svg",
     },
     {
       id: "688",
-      title: "Our People. Our Pride.",
+      title: "Our People, Our Pride, Our Inspiration.",
       content:
-        "Celebrating the people who make Cipla a global leader in healthcare.",
+        "Recognizing the talented individuals whose unwavering dedication and innovation have propelled Goa Nutrition to global leadership in delivering exceptional and transformative.",
       image: "https://www.cipla.com/sites/default/files/2022-11/people_0.webp",
       link: "#",
       icon: "https://www.cipla.com/sites/default/files/2022-09/icon-our-people.svg",
@@ -44,7 +44,7 @@ const CiplaVision = () => {
     {
       id: "689",
       title: "BREATHE. Think Immune Science",
-      content: "Championing respiratory health through innovation and care.",
+      content: "Driving excellence in respiratory health through innovative solutions, compassionate care, and an unwavering commitment to enhancing lives and well-being on a global scale.",
       image: "https://www.cipla.com/sites/default/files/2022-11/breathefree_0.webp",
       link: "#",
       icon: "https://www.cipla.com/sites/default/files/2022-09/icon-breathefree.svg",
@@ -52,7 +52,7 @@ const CiplaVision = () => {
     {
       id: "690",
       title: "Towards A Sustainable Future",
-      content: "Building a sustainable and equitable world for future generations.",
+      content: "Building a sustainable, equitable, and inclusive world to secure a healthier, brighter future, empowering generations with opportunities for well-being, prosperity.",
       image:
         "https://www.cipla.com/sites/default/files/2022-11/sustainability_0.webp",
       link: "#",

@@ -108,7 +108,7 @@ export default function Component() {
                           left: "auto",
                           top: "auto",
                           transform: "none",
-                          color: "gray",
+                          color: "black",
                           fontSize: "32px",
                           textAlign: "left",
                           textTransform: "none",
@@ -128,7 +128,7 @@ export default function Component() {
                             margin: "0px 0px 10px",
                             lineHeight: "24px",
                             fontSize: "16px",
-                            color: "gray",
+                            color: "black",
                             fontWeight: "normal",
                           }}
                         >
