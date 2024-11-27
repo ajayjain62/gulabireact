@@ -90,7 +90,7 @@ export default function Component() {
                       style={{
                         boxSizing: "border-box",
                         outline: "none",
-                        height: "100%",
+                        height: "220px",
                         width: "100%",
                       }}
                     >
@@ -158,7 +158,7 @@ export default function Component() {
                       style={{
                         boxSizing: "border-box",
                         outline: "none",
-                        height: "100%",
+                        height: "220px",
                         width: "100%",
                       }}
                     >
@@ -186,7 +186,7 @@ export default function Component() {
                           {" "}
                           <img
                             className="img-responsive"
-                            height={520}
+                            height={320}
                             width={367}
                             alt="RESPIRATORY"
                             src="https://www.cipla.com/sites/default/files/2022-11/breathe-girl-image.webp"
@@ -201,7 +201,7 @@ export default function Component() {
                               maxWidth: "100%",
                               borderRadius: "5px",
                               width: "100%",
-                              height: "100%",
+                              height: "320px",
                               objectFit: "cover",
                             }}
                           />
@@ -247,7 +247,7 @@ export default function Component() {
                       style={{
                         boxSizing: "border-box",
                         outline: "none",
-                        height: "100%",
+                        height: "250px",
                         width: "100%",
                       }}
                     >
@@ -290,7 +290,7 @@ export default function Component() {
                               maxWidth: "100%",
                               borderRadius: "5px",
                               width: "100%",
-                              height: "100%",
+                              height: "250px",
                               objectFit: "cover",
                             }}
                           />
@@ -330,6 +330,7 @@ export default function Component() {
                       justifyContent: "center",
                       alignItems: "center",
                       gridRow: "span 2",
+                      height: 250px,
                     }}
                   >
                     <div
@@ -337,7 +338,7 @@ export default function Component() {
                       style={{
                         boxSizing: "border-box",
                         outline: "none",
-                        height: "100%",
+                        height: "250px",
                         width: "100%",
                       }}
                     >
@@ -365,7 +366,7 @@ export default function Component() {
                           {" "}
                           <img
                             className="img-responsive"
-                            height={520}
+                            height={320}
                             width={367}
                             alt="HIV / AIDS"
                             src="https://www.cipla.com/sites/default/files/2022-11/hiv.webp"
@@ -380,7 +381,7 @@ export default function Component() {
                               maxWidth: "100%",
                               borderRadius: "5px",
                               width: "100%",
-                              height: "100%",
+                              height: "320px",
                               objectFit: "cover",
                             }}
                           />
@@ -427,7 +428,7 @@ export default function Component() {
                       style={{
                         boxSizing: "border-box",
                         outline: "none",
-                        height: "100%",
+                        height: "250px",
                         width: "100%",
                       }}
                     >
@@ -455,7 +456,7 @@ export default function Component() {
                           {" "}
                           <img
                             className="img-responsive"
-                            height={520}
+                            height={320}
                             width={367}
                             alt="ONCOLOGY"
                             src="https://www.cipla.com/sites/default/files/2022-11/oncology.webp"
@@ -470,7 +471,7 @@ export default function Component() {
                               maxWidth: "100%",
                               borderRadius: "5px",
                               width: "100%",
-                              height: "100%",
+                              height: "320px",
                               objectFit: "cover",
                             }}
                           />
@@ -516,7 +517,7 @@ export default function Component() {
                       style={{
                         boxSizing: "border-box",
                         outline: "none",
-                        height: "100%",
+                        height: "280px",
                         width: "100%",
                       }}
                     >
@@ -538,7 +539,7 @@ export default function Component() {
                             outline: "none",
                             position: "relative",
                             display: "block",
-                            height: "100%",
+                            height: "220px",
                             width: "100%",
                           }}
                         >
@@ -560,7 +561,7 @@ export default function Component() {
                               maxWidth: "100%",
                               borderRadius: "5px",
                               width: "100%",
-                              height: "100%",
+                              height: "250px",
                               objectFit: "cover",
                             }}
                           />
