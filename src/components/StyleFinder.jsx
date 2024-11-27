@@ -149,7 +149,7 @@ export default function Component() {
                       position: "relative",
                       display: "flex",
                       justifyContent: "center",
-                      gridRow: "span 2",
+                      alignItems: "center",
                     }}
                   >
                     <div
@@ -189,7 +189,6 @@ export default function Component() {
                             width={367}
                             alt="RESPIRATORY"
                             src="https://www.cipla.com/sites/default/files/2022-11/breathe-girl-image.webp"
-                            typeof="foaf:Image"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -278,7 +277,6 @@ export default function Component() {
                             width={367}
                             alt="API"
                             src="https://www.cipla.com/sites/default/files/2022-11/api.webp"
-                            typeof="foaf:Image"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -328,8 +326,8 @@ export default function Component() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
-                      gridRow: "span 2",
                       height: "250px",
+
                     }}
                   >
                     <div
@@ -369,7 +367,6 @@ export default function Component() {
                             width={367}
                             alt="HIV / AIDS"
                             src="https://www.cipla.com/sites/default/files/2022-11/hiv.webp"
-                            typeof="foaf:Image"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -459,7 +456,6 @@ export default function Component() {
                             width={367}
                             alt="ONCOLOGY"
                             src="https://www.cipla.com/sites/default/files/2022-11/oncology.webp"
-                            typeof="foaf:Image"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -552,7 +548,6 @@ export default function Component() {
                             width={367}
                             alt="Cipla-Generics"
                             src="https://www.cipla.com/sites/default/files/2022-11/cipla-generic.webp"
-                            typeof="foaf:Image"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
