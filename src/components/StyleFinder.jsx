@@ -330,7 +330,7 @@ export default function Component() {
                       justifyContent: "center",
                       alignItems: "center",
                       gridRow: "span 2",
-                      height: 250px,
+                      height: "250px",
                     }}
                   >
                     <div
