@@ -329,8 +329,12 @@ export default function Component() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
+<<<<<<< HEAD
                       // gridRow: "span 2",
                       height: "250px"
+=======
+                      height: "250px",
+>>>>>>> 2a9e65c41c368ddcf2c05dc7ee72cd144f967b0a
                     }}
                   >
                     <div
