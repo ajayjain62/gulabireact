@@ -3,742 +3,742 @@ import React from "react";
 export default function Component() {
   return (
     <>
+      <section
+        style={{
+          border: "0px solid rgb(229, 231, 235)",
+          boxSizing: "border-box",
+          letterSpacing: "0.02em",
+          fontFamily: "Lato, sans-serif",
+        }}
+      >
         <section
+          className="tp_hero_section md:mb-0"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
             letterSpacing: "0.02em",
+            marginBottom: "0px",
             fontFamily: "Lato, sans-serif",
           }}
         >
-          <section
-            className="tp_hero_section md:mb-0"
+          <div
+            className="hero_banner"
             style={{
               border: "0px solid rgb(229, 231, 235)",
               boxSizing: "border-box",
               letterSpacing: "0.02em",
-              marginBottom: "0px",
               fontFamily: "Lato, sans-serif",
             }}
           >
             <div
-              className="hero_banner"
+              className="slider-container"
               style={{
                 border: "0px solid rgb(229, 231, 235)",
                 boxSizing: "border-box",
                 letterSpacing: "0.02em",
+                width: "100%",
                 fontFamily: "Lato, sans-serif",
               }}
             >
               <div
-                className="slider-container"
+                className="slick-slider slick-initialized"
+                dir="ltr"
                 style={{
                   border: "0px solid rgb(229, 231, 235)",
-                  boxSizing: "border-box",
                   letterSpacing: "0.02em",
-                  width: "100%",
+                  boxSizing: "border-box",
+                  userSelect: "none",
+                  touchAction: "pan-y",
+                  WebkitTapHighlightColor: "transparent",
+                  position: "relative",
+                  display: "block",
                   fontFamily: "Lato, sans-serif",
                 }}
               >
-                <div
-                  className="slick-slider slick-initialized"
-                  dir="ltr"
+                <button
+                  className="slick-arrow slick-prev"
+                  type="button"
                   style={{
-                    border: "0px solid rgb(229, 231, 235)",
-                    letterSpacing: "0.02em",
                     boxSizing: "border-box",
-                    userSelect: "none",
-                    touchAction: "pan-y",
-                    WebkitTapHighlightColor: "transparent",
-                    position: "relative",
-                    display: "block",
+                    margin: "0px",
+                    fontFeatureSettings: "inherit",
+                    fontVariationSettings: "inherit",
+                    fontWeight: "inherit",
+                    textTransform: "none",
+                    appearance: "button",
+                    letterSpacing: "0.02em",
+                    padding: "0px",
+                    border: "none",
+                    fontSize: "0px",
+                    lineHeight: 0,
+                    position: "absolute",
+                    top: "50%",
+                    width: "20px",
+                    height: "20px",
+                    transform: "translateY(-50%)",
+                    cursor: "pointer",
+                    outline: "none",
+                    background: "transparent",
+                    color: "transparent",
+                    backgroundImage: "initial",
+                    backgroundColor: "transparent",
+                    left: "-25px",
                     fontFamily: "Lato, sans-serif",
+                    display: "none",
                   }}
                 >
-                  <button
-                    className="slick-arrow slick-prev"
-                    type="button"
-                    style={{
-                      boxSizing: "border-box",
-                      margin: "0px",
-                      fontFeatureSettings: "inherit",
-                      fontVariationSettings: "inherit",
-                      fontWeight: "inherit",
-                      textTransform: "none",
-                      appearance: "button",
-                      letterSpacing: "0.02em",
-                      padding: "0px",
-                      border: "none",
-                      fontSize: "0px",
-                      lineHeight: 0,
-                      position: "absolute",
-                      top: "50%",
-                      width: "20px",
-                      height: "20px",
-                      transform: "translateY(-50%)",
-                      cursor: "pointer",
-                      outline: "none",
-                      background: "transparent",
-                      color: "transparent",
-                      backgroundImage: "initial",
-                      backgroundColor: "transparent",
-                      left: "-25px",
-                      fontFamily: "Lato, sans-serif",
-                      display: "none",
-                    }}
-                  >
-                    {" "}
-                    Previous
-                  </button>
+                  {" "}
+                  Previous
+                </button>
+                <div
+                  className="slick-list"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    letterSpacing: "0.02em",
+                    position: "relative",
+                    display: "block",
+                    overflow: "hidden",
+                    margin: "0px",
+                    padding: "0px",
+                    transform: "translateZ(0px)",
+                    fontFamily: "Lato, sans-serif",
+                    display: "none",
+                  }}
+                >
                   <div
-                    className="slick-list"
+                    className="slick-track"
                     style={{
                       border: "0px solid rgb(229, 231, 235)",
                       boxSizing: "border-box",
                       letterSpacing: "0.02em",
                       position: "relative",
+                      top: "0px",
+                      left: "0px",
                       display: "block",
-                      overflow: "hidden",
-                      margin: "0px",
-                      padding: "0px",
+                      marginLeft: "auto",
+                      marginRight: "auto",
                       transform: "translateZ(0px)",
+                      width: "13893px",
+                      opacity: 1,
                       fontFamily: "Lato, sans-serif",
-                      display: "none",
                     }}
                   >
                     <div
-                      className="slick-track"
+                      className="slick-slide"
+                      aria-hidden="true"
+                      tabIndex="-1"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
                         letterSpacing: "0.02em",
-                        position: "relative",
-                        top: "0px",
-                        left: "0px",
+                        cssFloat: "left",
+                        height: "100%",
+                        minHeight: "1px",
                         display: "block",
-                        marginLeft: "auto",
-                        marginRight: "auto",
-                        transform: "translateZ(0px)",
-                        width: "13893px",
+                        outline: "none",
+                        transition: "opacity 1000ms, visibility 1000ms",
+                        width: "1263px",
+                        position: "relative",
+                        left: "0px",
+                        opacity: 0,
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      <div
+                        style={{
+                          border: "0px solid rgb(229, 231, 235)",
+                          boxSizing: "border-box",
+                          letterSpacing: "0.02em",
+                          display: "flex",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      >
+                        <div
+                          className="relative"
+                          tabIndex="-1"
+                          style={{
+                            border: "0px solid rgb(229, 231, 235)",
+                            boxSizing: "border-box",
+                            position: "relative",
+                            letterSpacing: "0.02em",
+                            width: "100%",
+                            display: "inline-block",
+                            fontFamily: "Lato, sans-serif",
+                          }}
+                        >
+                          <img
+                            className="w-full h-auto"
+                            height={526}
+                            width={1263}
+                            alt="Hero Banner 1"
+                            src="https://www.torrentpharma.com/assets/2_4_5d768c88b1.jpg"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              verticalAlign: "middle",
+                              maxWidth: "100%",
+                              height: "auto",
+                              width: "100%",
+                              letterSpacing: "0.02em",
+                              display: "block",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          />
+                          <div
+                            className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              position: "absolute",
+                              bottom: "0px",
+                              left: "0px",
+                              right: "0px",
+                              top: "0px",
+                              zIndex: 1,
+                              backgroundImage:
+                                "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
+                              opacity: 1,
+                              letterSpacing: "0.02em",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          />
+                          <div
+                            className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              width: "100%",
+                              maxWidth: "1140px",
+                              position: "absolute",
+                              zIndex: 10,
+                              marginLeft: "auto",
+                              marginRight: "auto",
+                              paddingLeft: "1rem",
+                              paddingRight: "1rem",
+                              letterSpacing: "0.02em",
+                              bottom: "60px",
+                              left: "50%",
+                              transform: "translateX(-50%)",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          >
+                            <div
+                              className="flex 2xl:flex-row items-center justify-between flex-wrap xl:flex-nowrap"
+                              style={{
+                                border: "0px solid rgb(229, 231, 235)",
+                                boxSizing: "border-box",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "space-between",
+                                letterSpacing: "0.02em",
+                                flexWrap: "nowrap",
+                                fontFamily: "Lato, sans-serif",
+                              }}
+                            >
+                              <p
+                                className="content_text"
+                                style={{
+                                  border: "0px solid rgb(229, 231, 235)",
+                                  boxSizing: "border-box",
+                                  margin: "0px",
+                                  letterSpacing: "0.02em",
+                                  fontWeight: 700,
+                                  lineHeight: "42px",
+                                  color: "rgb(255, 255, 255)",
+                                  textTransform: "capitalize",
+                                  fontSize: "44px",
+                                  fontFamily: "Lato, sans-serif",
+                                }}
+                              >
+                                Committed to a Healthier Tomorrow
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="slick-slide"
+                      aria-hidden="true"
+                      tabIndex="-1"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        cssFloat: "left",
+                        height: "100%",
+                        minHeight: "1px",
+                        display: "block",
+                        outline: "none",
+                        transition: "opacity 1000ms, visibility 1000ms",
+                        width: "1263px",
+                        position: "relative",
+                        left: "-1263px",
+                        opacity: 0,
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      <div
+                        style={{
+                          border: "0px solid rgb(229, 231, 235)",
+                          boxSizing: "border-box",
+                          letterSpacing: "0.02em",
+                          display: "flex",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      >
+                        <div
+                          className="relative"
+                          tabIndex="-1"
+                          style={{
+                            border: "0px solid rgb(229, 231, 235)",
+                            boxSizing: "border-box",
+                            position: "relative",
+                            letterSpacing: "0.02em",
+                            width: "100%",
+                            display: "inline-block",
+                            fontFamily: "Lato, sans-serif",
+                          }}
+                        >
+                          <img
+                            className="w-full h-auto"
+                            height={526}
+                            width={1263}
+                            alt="Hero Banner 1"
+                            src="https://www.torrentpharma.com/assets/homepage_banner_2_D_50b800be29.png"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              verticalAlign: "middle",
+                              maxWidth: "100%",
+                              height: "auto",
+                              width: "100%",
+                              letterSpacing: "0.02em",
+                              display: "block",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          />
+                          <div
+                            className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              position: "absolute",
+                              bottom: "0px",
+                              left: "0px",
+                              right: "0px",
+                              top: "0px",
+                              zIndex: 1,
+                              backgroundImage:
+                                "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
+                              opacity: 1,
+                              letterSpacing: "0.02em",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          />
+                          <div
+                            className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              width: "100%",
+                              maxWidth: "1140px",
+                              position: "absolute",
+                              zIndex: 10,
+                              marginLeft: "auto",
+                              marginRight: "auto",
+                              paddingLeft: "1rem",
+                              paddingRight: "1rem",
+                              letterSpacing: "0.02em",
+                              bottom: "60px",
+                              left: "50%",
+                              transform: "translateX(-50%)",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          >
+                            <div
+                              className="flex 2xl:flex-row items-center justify-between flex-wrap xl:flex-nowrap"
+                              style={{
+                                border: "0px solid rgb(229, 231, 235)",
+                                boxSizing: "border-box",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "space-between",
+                                letterSpacing: "0.02em",
+                                flexWrap: "nowrap",
+                                fontFamily: "Lato, sans-serif",
+                              }}
+                            >
+                              <p
+                                className="content_text"
+                                style={{
+                                  border: "0px solid rgb(229, 231, 235)",
+                                  boxSizing: "border-box",
+                                  margin: "0px",
+                                  letterSpacing: "0.02em",
+                                  fontWeight: 700,
+                                  lineHeight: "42px",
+                                  color: "rgb(255, 255, 255)",
+                                  textTransform: "capitalize",
+                                  fontSize: "44px",
+                                  fontFamily: "Lato, sans-serif",
+                                }}
+                              >
+                                explore our consumer healthcare range
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="slick-slide"
+                      aria-hidden="true"
+                      tabIndex="-1"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        cssFloat: "left",
+                        height: "100%",
+                        minHeight: "1px",
+                        display: "block",
+                        outline: "none",
+                        transition: "opacity 1000ms, visibility 1000ms",
+                        width: "1263px",
+                        position: "relative",
+                        left: "-2526px",
+                        opacity: 0,
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      <div
+                        style={{
+                          border: "0px solid rgb(229, 231, 235)",
+                          boxSizing: "border-box",
+                          letterSpacing: "0.02em",
+                          display: "flex",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      >
+                        <div
+                          className="relative"
+                          tabIndex="-1"
+                          style={{
+                            border: "0px solid rgb(229, 231, 235)",
+                            boxSizing: "border-box",
+                            position: "relative",
+                            letterSpacing: "0.02em",
+                            width: "100%",
+                            display: "inline-block",
+                            fontFamily: "Lato, sans-serif",
+                          }}
+                        >
+                          <img
+                            className="w-full h-auto"
+                            height={526}
+                            width={1263}
+                            alt="Hero Banner 1"
+                            src="https://www.torrentpharma.com/assets/2_6_002fe627e6.jpg"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              verticalAlign: "middle",
+                              maxWidth: "100%",
+                              height: "auto",
+                              width: "100%",
+                              letterSpacing: "0.02em",
+                              display: "block",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          />
+                          <div
+                            className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              position: "absolute",
+                              bottom: "0px",
+                              left: "0px",
+                              right: "0px",
+                              top: "0px",
+                              zIndex: 1,
+                              backgroundImage:
+                                "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
+                              opacity: 1,
+                              letterSpacing: "0.02em",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          />
+                          <div
+                            className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              width: "100%",
+                              maxWidth: "1140px",
+                              position: "absolute",
+                              zIndex: 10,
+                              marginLeft: "auto",
+                              marginRight: "auto",
+                              paddingLeft: "1rem",
+                              paddingRight: "1rem",
+                              letterSpacing: "0.02em",
+                              bottom: "60px",
+                              left: "50%",
+                              transform: "translateX(-50%)",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          >
+                            <div
+                              className="flex 2xl:flex-row items-center justify-between flex-wrap xl:flex-nowrap"
+                              style={{
+                                border: "0px solid rgb(229, 231, 235)",
+                                boxSizing: "border-box",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "space-between",
+                                letterSpacing: "0.02em",
+                                flexWrap: "nowrap",
+                                fontFamily: "Lato, sans-serif",
+                              }}
+                            >
+                              <p
+                                className="content_text"
+                                style={{
+                                  border: "0px solid rgb(229, 231, 235)",
+                                  boxSizing: "border-box",
+                                  margin: "0px",
+                                  letterSpacing: "0.02em",
+                                  fontWeight: 700,
+                                  lineHeight: "42px",
+                                  color: "rgb(255, 255, 255)",
+                                  textTransform: "capitalize",
+                                  fontSize: "44px",
+                                  fontFamily: "Lato, sans-serif",
+                                }}
+                              >
+                                Creating an Inclusive and Healthy Society
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="slick-slide"
+                      aria-hidden="true"
+                      tabIndex="-1"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        cssFloat: "left",
+                        height: "100%",
+                        minHeight: "1px",
+                        display: "block",
+                        outline: "none",
+                        transition: "opacity 1000ms, visibility 1000ms",
+                        width: "1263px",
+                        position: "relative",
+                        left: "-3789px",
+                        opacity: 0,
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      <div
+                        style={{
+                          border: "0px solid rgb(229, 231, 235)",
+                          boxSizing: "border-box",
+                          letterSpacing: "0.02em",
+                          display: "flex",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      >
+                        <div
+                          className="relative"
+                          tabIndex="-1"
+                          style={{
+                            border: "0px solid rgb(229, 231, 235)",
+                            boxSizing: "border-box",
+                            position: "relative",
+                            letterSpacing: "0.02em",
+                            width: "100%",
+                            display: "inline-block",
+                            fontFamily: "Lato, sans-serif",
+                          }}
+                        >
+                          <img
+                            className="w-full h-auto"
+                            height={526}
+                            width={1263}
+                            alt="Hero Banner 1"
+                            src="https://www.torrentpharma.com/assets/R_and_D_banner4_desktop_38b7c31173.jpg"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              verticalAlign: "middle",
+                              maxWidth: "100%",
+                              height: "auto",
+                              width: "100%",
+                              letterSpacing: "0.02em",
+                              display: "block",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          />
+                          <div
+                            className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              position: "absolute",
+                              bottom: "0px",
+                              left: "0px",
+                              right: "0px",
+                              top: "0px",
+                              zIndex: 1,
+                              backgroundImage:
+                                "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
+                              opacity: 1,
+                              letterSpacing: "0.02em",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          />
+                          <div
+                            className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
+                            style={{
+                              border: "0px solid rgb(229, 231, 235)",
+                              boxSizing: "border-box",
+                              width: "100%",
+                              maxWidth: "1140px",
+                              position: "absolute",
+                              zIndex: 10,
+                              marginLeft: "auto",
+                              marginRight: "auto",
+                              paddingLeft: "1rem",
+                              paddingRight: "1rem",
+                              letterSpacing: "0.02em",
+                              bottom: "60px",
+                              left: "50%",
+                              transform: "translateX(-50%)",
+                              fontFamily: "Lato, sans-serif",
+                            }}
+                          >
+                            <div
+                              className="flex 2xl:flex-row items-center justify-between flex-wrap xl:flex-nowrap"
+                              style={{
+                                border: "0px solid rgb(229, 231, 235)",
+                                boxSizing: "border-box",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "space-between",
+                                letterSpacing: "0.02em",
+                                flexWrap: "nowrap",
+                                fontFamily: "Lato, sans-serif",
+                              }}
+                            >
+                              <p
+                                className="content_text"
+                                style={{
+                                  border: "0px solid rgb(229, 231, 235)",
+                                  boxSizing: "border-box",
+                                  margin: "0px",
+                                  letterSpacing: "0.02em",
+                                  fontWeight: 700,
+                                  lineHeight: "42px",
+                                  color: "rgb(255, 255, 255)",
+                                  textTransform: "capitalize",
+                                  fontSize: "44px",
+                                  fontFamily: "Lato, sans-serif",
+                                }}
+                              >
+                                Unleashing Possibilities through Innovation
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="slick-slide slick-active slick-current"
+                      aria-hidden="false"
+                      tabIndex="-1"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        cssFloat: "left",
+                        height: "100%",
+                        minHeight: "1px",
+                        display: "block",
+                        outline: "none",
+                        transition: "opacity 1000ms, visibility 1000ms",
+                        width: "1263px",
+                        position: "relative",
+                        left: "-5052px",
                         opacity: 1,
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
                       <div
-                        className="slick-slide"
-                        aria-hidden="true"
-                        tabIndex="-1"
                         style={{
                           border: "0px solid rgb(229, 231, 235)",
                           boxSizing: "border-box",
                           letterSpacing: "0.02em",
-                          cssFloat: "left",
-                          height: "100%",
-                          minHeight: "1px",
-                          display: "block",
-                          outline: "none",
-                          transition: "opacity 1000ms, visibility 1000ms",
-                          width: "1263px",
-                          position: "relative",
-                          left: "0px",
-                          opacity: 0,
+                          display: "flex",
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
                         <div
+                          className="relative"
+                          tabIndex="-1"
                           style={{
                             border: "0px solid rgb(229, 231, 235)",
                             boxSizing: "border-box",
+                            position: "relative",
                             letterSpacing: "0.02em",
-                            display: "flex",
+                            width: "100%",
+                            display: "inline-block",
                             fontFamily: "Lato, sans-serif",
                           }}
                         >
-                          <div
-                            className="relative"
-                            tabIndex="-1"
+                          <img
+                            className="w-full h-auto"
+                            height={526}
+                            width={1263}
+                            alt="Hero Banner 1"
+                            src="https://www.torrentpharma.com/assets/Torrent_Mumbai_1_2_94a04fcfb4.jpg"
                             style={{
                               border: "0px solid rgb(229, 231, 235)",
                               boxSizing: "border-box",
-                              position: "relative",
-                              letterSpacing: "0.02em",
+                              verticalAlign: "middle",
+                              maxWidth: "100%",
+                              height: "auto",
                               width: "100%",
-                              display: "inline-block",
+                              letterSpacing: "0.02em",
+                              display: "block",
                               fontFamily: "Lato, sans-serif",
                             }}
-                          >
-                            <img
-                              className="w-full h-auto"
-                              height={526}
-                              width={1263}
-                              alt="Hero Banner 1"
-                              src="https://www.torrentpharma.com/assets/2_4_5d768c88b1.jpg"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                verticalAlign: "middle",
-                                maxWidth: "100%",
-                                height: "auto",
-                                width: "100%",
-                                letterSpacing: "0.02em",
-                                display: "block",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                position: "absolute",
-                                bottom: "0px",
-                                left: "0px",
-                                right: "0px",
-                                top: "0px",
-                                zIndex: 1,
-                                backgroundImage:
-                                  "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
-                                opacity: 1,
-                                letterSpacing: "0.02em",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                width: "100%",
-                                maxWidth: "1140px",
-                                position: "absolute",
-                                zIndex: 10,
-                                marginLeft: "auto",
-                                marginRight: "auto",
-                                paddingLeft: "1rem",
-                                paddingRight: "1rem",
-                                letterSpacing: "0.02em",
-                                bottom: "60px",
-                                left: "50%",
-                                transform: "translateX(-50%)",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            >
-                              <div
-                                className="flex 2xl:flex-row items-center justify-between flex-wrap xl:flex-nowrap"
-                                style={{
-                                  border: "0px solid rgb(229, 231, 235)",
-                                  boxSizing: "border-box",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "space-between",
-                                  letterSpacing: "0.02em",
-                                  flexWrap: "nowrap",
-                                  fontFamily: "Lato, sans-serif",
-                                }}
-                              >
-                                <p
-                                  className="content_text"
-                                  style={{
-                                    border: "0px solid rgb(229, 231, 235)",
-                                    boxSizing: "border-box",
-                                    margin: "0px",
-                                    letterSpacing: "0.02em",
-                                    fontWeight: 700,
-                                    lineHeight: "42px",
-                                    color: "rgb(255, 255, 255)",
-                                    textTransform: "capitalize",
-                                    fontSize: "44px",
-                                    fontFamily: "Lato, sans-serif",
-                                  }}
-                                >
-                                  Committed to a Healthier Tomorrow
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="slick-slide"
-                        aria-hidden="true"
-                        tabIndex="-1"
-                        style={{
-                          border: "0px solid rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          letterSpacing: "0.02em",
-                          cssFloat: "left",
-                          height: "100%",
-                          minHeight: "1px",
-                          display: "block",
-                          outline: "none",
-                          transition: "opacity 1000ms, visibility 1000ms",
-                          width: "1263px",
-                          position: "relative",
-                          left: "-1263px",
-                          opacity: 0,
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      >
-                        <div
-                          style={{
-                            border: "0px solid rgb(229, 231, 235)",
-                            boxSizing: "border-box",
-                            letterSpacing: "0.02em",
-                            display: "flex",
-                            fontFamily: "Lato, sans-serif",
-                          }}
-                        >
+                          />
                           <div
-                            className="relative"
-                            tabIndex="-1"
+                            className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
                             style={{
                               border: "0px solid rgb(229, 231, 235)",
                               boxSizing: "border-box",
-                              position: "relative",
+                              position: "absolute",
+                              bottom: "0px",
+                              left: "0px",
+                              right: "0px",
+                              top: "0px",
+                              zIndex: 1,
+                              backgroundImage:
+                                "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
+                              opacity: 1,
                               letterSpacing: "0.02em",
-                              width: "100%",
-                              display: "inline-block",
                               fontFamily: "Lato, sans-serif",
                             }}
-                          >
-                            <img
-                              className="w-full h-auto"
-                              height={526}
-                              width={1263}
-                              alt="Hero Banner 1"
-                              src="https://www.torrentpharma.com/assets/homepage_banner_2_D_50b800be29.png"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                verticalAlign: "middle",
-                                maxWidth: "100%",
-                                height: "auto",
-                                width: "100%",
-                                letterSpacing: "0.02em",
-                                display: "block",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                position: "absolute",
-                                bottom: "0px",
-                                left: "0px",
-                                right: "0px",
-                                top: "0px",
-                                zIndex: 1,
-                                backgroundImage:
-                                  "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
-                                opacity: 1,
-                                letterSpacing: "0.02em",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                width: "100%",
-                                maxWidth: "1140px",
-                                position: "absolute",
-                                zIndex: 10,
-                                marginLeft: "auto",
-                                marginRight: "auto",
-                                paddingLeft: "1rem",
-                                paddingRight: "1rem",
-                                letterSpacing: "0.02em",
-                                bottom: "60px",
-                                left: "50%",
-                                transform: "translateX(-50%)",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            >
-                              <div
-                                className="flex 2xl:flex-row items-center justify-between flex-wrap xl:flex-nowrap"
-                                style={{
-                                  border: "0px solid rgb(229, 231, 235)",
-                                  boxSizing: "border-box",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "space-between",
-                                  letterSpacing: "0.02em",
-                                  flexWrap: "nowrap",
-                                  fontFamily: "Lato, sans-serif",
-                                }}
-                              >
-                                <p
-                                  className="content_text"
-                                  style={{
-                                    border: "0px solid rgb(229, 231, 235)",
-                                    boxSizing: "border-box",
-                                    margin: "0px",
-                                    letterSpacing: "0.02em",
-                                    fontWeight: 700,
-                                    lineHeight: "42px",
-                                    color: "rgb(255, 255, 255)",
-                                    textTransform: "capitalize",
-                                    fontSize: "44px",
-                                    fontFamily: "Lato, sans-serif",
-                                  }}
-                                >
-                                  explore our consumer healthcare range
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="slick-slide"
-                        aria-hidden="true"
-                        tabIndex="-1"
-                        style={{
-                          border: "0px solid rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          letterSpacing: "0.02em",
-                          cssFloat: "left",
-                          height: "100%",
-                          minHeight: "1px",
-                          display: "block",
-                          outline: "none",
-                          transition: "opacity 1000ms, visibility 1000ms",
-                          width: "1263px",
-                          position: "relative",
-                          left: "-2526px",
-                          opacity: 0,
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      >
-                        <div
-                          style={{
-                            border: "0px solid rgb(229, 231, 235)",
-                            boxSizing: "border-box",
-                            letterSpacing: "0.02em",
-                            display: "flex",
-                            fontFamily: "Lato, sans-serif",
-                          }}
-                        >
-                          <div
-                            className="relative"
-                            tabIndex="-1"
-                            style={{
-                              border: "0px solid rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              position: "relative",
-                              letterSpacing: "0.02em",
-                              width: "100%",
-                              display: "inline-block",
-                              fontFamily: "Lato, sans-serif",
-                            }}
-                          >
-                            <img
-                              className="w-full h-auto"
-                              height={526}
-                              width={1263}
-                              alt="Hero Banner 1"
-                              src="https://www.torrentpharma.com/assets/2_6_002fe627e6.jpg"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                verticalAlign: "middle",
-                                maxWidth: "100%",
-                                height: "auto",
-                                width: "100%",
-                                letterSpacing: "0.02em",
-                                display: "block",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                position: "absolute",
-                                bottom: "0px",
-                                left: "0px",
-                                right: "0px",
-                                top: "0px",
-                                zIndex: 1,
-                                backgroundImage:
-                                  "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
-                                opacity: 1,
-                                letterSpacing: "0.02em",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                width: "100%",
-                                maxWidth: "1140px",
-                                position: "absolute",
-                                zIndex: 10,
-                                marginLeft: "auto",
-                                marginRight: "auto",
-                                paddingLeft: "1rem",
-                                paddingRight: "1rem",
-                                letterSpacing: "0.02em",
-                                bottom: "60px",
-                                left: "50%",
-                                transform: "translateX(-50%)",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            >
-                              <div
-                                className="flex 2xl:flex-row items-center justify-between flex-wrap xl:flex-nowrap"
-                                style={{
-                                  border: "0px solid rgb(229, 231, 235)",
-                                  boxSizing: "border-box",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "space-between",
-                                  letterSpacing: "0.02em",
-                                  flexWrap: "nowrap",
-                                  fontFamily: "Lato, sans-serif",
-                                }}
-                              >
-                                <p
-                                  className="content_text"
-                                  style={{
-                                    border: "0px solid rgb(229, 231, 235)",
-                                    boxSizing: "border-box",
-                                    margin: "0px",
-                                    letterSpacing: "0.02em",
-                                    fontWeight: 700,
-                                    lineHeight: "42px",
-                                    color: "rgb(255, 255, 255)",
-                                    textTransform: "capitalize",
-                                    fontSize: "44px",
-                                    fontFamily: "Lato, sans-serif",
-                                  }}
-                                >
-                                  Creating an Inclusive and Healthy Society
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="slick-slide"
-                        aria-hidden="true"
-                        tabIndex="-1"
-                        style={{
-                          border: "0px solid rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          letterSpacing: "0.02em",
-                          cssFloat: "left",
-                          height: "100%",
-                          minHeight: "1px",
-                          display: "block",
-                          outline: "none",
-                          transition: "opacity 1000ms, visibility 1000ms",
-                          width: "1263px",
-                          position: "relative",
-                          left: "-3789px",
-                          opacity: 0,
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      >
-                        <div
-                          style={{
-                            border: "0px solid rgb(229, 231, 235)",
-                            boxSizing: "border-box",
-                            letterSpacing: "0.02em",
-                            display: "flex",
-                            fontFamily: "Lato, sans-serif",
-                          }}
-                        >
-                          <div
-                            className="relative"
-                            tabIndex="-1"
-                            style={{
-                              border: "0px solid rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              position: "relative",
-                              letterSpacing: "0.02em",
-                              width: "100%",
-                              display: "inline-block",
-                              fontFamily: "Lato, sans-serif",
-                            }}
-                          >
-                            <img
-                              className="w-full h-auto"
-                              height={526}
-                              width={1263}
-                              alt="Hero Banner 1"
-                              src="https://www.torrentpharma.com/assets/R_and_D_banner4_desktop_38b7c31173.jpg"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                verticalAlign: "middle",
-                                maxWidth: "100%",
-                                height: "auto",
-                                width: "100%",
-                                letterSpacing: "0.02em",
-                                display: "block",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                position: "absolute",
-                                bottom: "0px",
-                                left: "0px",
-                                right: "0px",
-                                top: "0px",
-                                zIndex: 1,
-                                backgroundImage:
-                                  "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
-                                opacity: 1,
-                                letterSpacing: "0.02em",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                width: "100%",
-                                maxWidth: "1140px",
-                                position: "absolute",
-                                zIndex: 10,
-                                marginLeft: "auto",
-                                marginRight: "auto",
-                                paddingLeft: "1rem",
-                                paddingRight: "1rem",
-                                letterSpacing: "0.02em",
-                                bottom: "60px",
-                                left: "50%",
-                                transform: "translateX(-50%)",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            >
-                              <div
-                                className="flex 2xl:flex-row items-center justify-between flex-wrap xl:flex-nowrap"
-                                style={{
-                                  border: "0px solid rgb(229, 231, 235)",
-                                  boxSizing: "border-box",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "space-between",
-                                  letterSpacing: "0.02em",
-                                  flexWrap: "nowrap",
-                                  fontFamily: "Lato, sans-serif",
-                                }}
-                              >
-                                <p
-                                  className="content_text"
-                                  style={{
-                                    border: "0px solid rgb(229, 231, 235)",
-                                    boxSizing: "border-box",
-                                    margin: "0px",
-                                    letterSpacing: "0.02em",
-                                    fontWeight: 700,
-                                    lineHeight: "42px",
-                                    color: "rgb(255, 255, 255)",
-                                    textTransform: "capitalize",
-                                    fontSize: "44px",
-                                    fontFamily: "Lato, sans-serif",
-                                  }}
-                                >
-                                  Unleashing Possibilities through Innovation
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="slick-slide slick-active slick-current"
-                        aria-hidden="false"
-                        tabIndex="-1"
-                        style={{
-                          border: "0px solid rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          letterSpacing: "0.02em",
-                          cssFloat: "left",
-                          height: "100%",
-                          minHeight: "1px",
-                          display: "block",
-                          outline: "none",
-                          transition: "opacity 1000ms, visibility 1000ms",
-                          width: "1263px",
-                          position: "relative",
-                          left: "-5052px",
-                          opacity: 1,
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      >
-                        <div
-                          style={{
-                            border: "0px solid rgb(229, 231, 235)",
-                            boxSizing: "border-box",
-                            letterSpacing: "0.02em",
-                            display: "flex",
-                            fontFamily: "Lato, sans-serif",
-                          }}
-                        >
-                          <div
-                            className="relative"
-                            tabIndex="-1"
-                            style={{
-                              border: "0px solid rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              position: "relative",
-                              letterSpacing: "0.02em",
-                              width: "100%",
-                              display: "inline-block",
-                              fontFamily: "Lato, sans-serif",
-                            }}
-                          >
-                            <img
-                              className="w-full h-auto"
-                              height={526}
-                              width={1263}
-                              alt="Hero Banner 1"
-                              src="https://www.torrentpharma.com/assets/Torrent_Mumbai_1_2_94a04fcfb4.jpg"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                verticalAlign: "middle",
-                                maxWidth: "100%",
-                                height: "auto",
-                                width: "100%",
-                                letterSpacing: "0.02em",
-                                display: "block",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
-                            <div
-                              className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-home-overlay z-[1] opacity-[32]"
-                              style={{
-                                border: "0px solid rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                position: "absolute",
-                                bottom: "0px",
-                                left: "0px",
-                                right: "0px",
-                                top: "0px",
-                                zIndex: 1,
-                                backgroundImage:
-                                  "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 5%, transparent 90.94%)",
-                                opacity: 1,
-                                letterSpacing: "0.02em",
-                                fontFamily: "Lato, sans-serif",
-                              }}
-                            />
+                          />
                           <div
                             className="absolute container mx-auto bottom-[18px] px-4 md:bottom-[60px] banner_content z-10"
                             style={{
@@ -992,8 +992,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        
-        
+
         <section
           className="tp_healthcare_brands_section py-[52px] xl:py-[122px] 2xl:py-[122px] px-4 container mx-auto"
           style={{
@@ -1019,6 +1018,7 @@ export default function Component() {
               marginLeft: "auto",
               marginRight: "auto",
               display: "grid",
+              backgroundColor: "#f2f2f2d9",
               letterSpacing: "0.02em",
               fontFamily: "Lato, sans-serif",
             }}
@@ -1359,7 +1359,7 @@ export default function Component() {
                       }}
                     />
                   </div>
-                  
+
                   <img
                     className="absolute z-10 shalcal_prod_2 bottom-[13px] right-[13px]"
                     alt="shelcalImg2.png"
@@ -1380,8 +1380,7 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   />
-                  
-                  
+
                   <img
                     className="absolute shalcal_prod_5 bottom-[10px] right-[82px] z-10"
                     alt="shelcalImg1.png"
@@ -1495,25 +1494,24 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    
                     <img
                       alt="UnienzmesProd"
                       src=" https://i.postimg.cc/C5zQx6jP/Untitled-design-19.png"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "block",
-                      verticalAlign: "middle",
-                      maxWidth: "40%",
-                      height: "auto",
-                      position: "absolute",
-                      bottom: "-14px",
-                      right: "100px",
-                      zIndex: 0,
-                      letterSpacing: "0.02em",
-                      transition: "0.3s",
-                      width: "70%",
-                      fontFamily: "Lato, sans-serif",
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "40%",
+                        height: "auto",
+                        position: "absolute",
+                        bottom: "-14px",
+                        right: "100px",
+                        zIndex: 0,
+                        letterSpacing: "0.02em",
+                        transition: "0.3s",
+                        width: "70%",
+                        fontFamily: "Lato, sans-serif",
                       }}
                     />
                     <img
@@ -1530,7 +1528,6 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     />
-                    
                   </div>
                 </a>
                 <a
@@ -1628,19 +1625,19 @@ export default function Component() {
                       src="https://i.postimg.cc/xjztTR1v/Untitled-design-20.png"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "block",
-                      verticalAlign: "middle",
-                      maxWidth: "40%",
-                      height: "auto",
-                      position: "absolute",
-                      bottom: "-14px",
-                      right: "100px",
-                      zIndex: 0,
-                      letterSpacing: "0.02em",
-                      transition: "0.3s",
-                      width: "70%",
-                      fontFamily: "Lato, sans-serif",
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "40%",
+                        height: "auto",
+                        position: "absolute",
+                        bottom: "-14px",
+                        right: "100px",
+                        zIndex: 0,
+                        letterSpacing: "0.02em",
+                        transition: "0.3s",
+                        width: "70%",
+                        fontFamily: "Lato, sans-serif",
                       }}
                     />
                     <img
@@ -1828,10 +1825,11 @@ export default function Component() {
                     fontFamily: "Lato, sans-serif",
                   }}
                 >
-                At Immune Science, we uphold a tradition of dedication, 
-                professional integrity, and robust R&D to achieve excellence.
-                With leading brands in key therapeutic areas, our products 
-                are proven to be both efficient and effective in improving patient outcomes.
+                  At Immune Science, we uphold a tradition of dedication,
+                  professional integrity, and robust R&D to achieve excellence.
+                  With leading brands in key therapeutic areas, our products are
+                  proven to be both efficient and effective in improving patient
+                  outcomes.
                 </p>
               </div>
               <div
@@ -2338,202 +2336,7 @@ export default function Component() {
                     />
                   </svg>
                 </div>
-                <div
-                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
-                  style={{
-                    border: "0px solid rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    gap: "0.5rem",
-                    letterSpacing: "0.02em",
-                    paddingLeft: "1rem",
-                    paddingRight: "1rem",
-                    paddingTop: "0.75rem",
-                    paddingBottom: "0.75rem",
-                    flexBasis: "calc(33.33% - 2rem)",
-                    borderRadius: "24px",
-                    background: "rgba(54, 54, 120, 0.06)",
-                    transition: "0.2s",
-                    height: "150px",
-                    cursor: "pointer",
-                    fontFamily: "Lato, sans-serif",
-                  }}
-                >
-                  <div
-                    className="flex items-center justify-between gap-4"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "space-between",
-                      gap: "1rem",
-                      letterSpacing: "0.02em",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <img
-                      alt="Anti-Microbial"
-                      src="https://www.torrentpharma.com/assets/Anti_Microbial_64ff27e7ab.jpg"
-                      style={{
-                        boxSizing: "border-box",
-                        display: "block",
-                        verticalAlign: "middle",
-                        maxWidth: "100%",
-                        height: "auto",
-                        letterSpacing: "0.02em",
-                        border: "none",
-                        borderRadius: "20px",
-                        width: "100px",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    />
-                    <h6
-                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        margin: "0px",
-                        width: "10rem",
-                        fontSize: "1.125rem",
-                        fontWeight: 600,
-                        lineHeight: "30px",
-                        color: "rgb(30 30 30/1)",
-                        letterSpacing: "0.0015em",
-                        textAlign: "left",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      Anti-Microbial
-                    </h6>
-                  </div>
-                  <svg
-                    height="14"
-                    width="7"
-                    fill="none"
-                    viewBox="0 0 7 14"
-                    xmlns="http://www.w3.org/2000/svg"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "block",
-                      verticalAlign: "middle",
-                      letterSpacing: "0.02em",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <path
-                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
-                      fill="#363678"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        letterSpacing: "0.02em",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    />
-                  </svg>
-                </div>
-                <div
-                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
-                  style={{
-                    border: "0px solid rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    gap: "0.5rem",
-                    letterSpacing: "0.02em",
-                    paddingLeft: "1rem",
-                    paddingRight: "1rem",
-                    paddingTop: "0.75rem",
-                    paddingBottom: "0.75rem",
-                    flexBasis: "calc(33.33% - 2rem)",
-                    borderRadius: "24px",
-                    background: "rgba(54, 54, 120, 0.06)",
-                    transition: "0.2s",
-                    height: "150px",
-                    cursor: "pointer",
-                    fontFamily: "Lato, sans-serif",
-                  }}
-                >
-                  <div
-                    className="flex items-center justify-between gap-4"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "space-between",
-                      gap: "1rem",
-                      letterSpacing: "0.02em",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <img
-                      alt="Cardiovascular"
-                      src="https://www.torrentpharma.com/assets/Cardiovascular_0df16aa1bb.jpg"
-                      style={{
-                        boxSizing: "border-box",
-                        display: "block",
-                        verticalAlign: "middle",
-                        maxWidth: "100%",
-                        height: "auto",
-                        letterSpacing: "0.02em",
-                        border: "none",
-                        borderRadius: "20px",
-                        width: "100px",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    />
-                    <h6
-                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        margin: "0px",
-                        width: "10rem",
-                        fontSize: "1.125rem",
-                        fontWeight: 600,
-                        lineHeight: "30px",
-                        color: "rgb(30 30 30/1)",
-                        letterSpacing: "0.0015em",
-                        textAlign: "left",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      Cardiovascular
-                    </h6>
-                  </div>
-                  <svg
-                    height="14"
-                    width="7"
-                    fill="none"
-                    viewBox="0 0 7 14"
-                    xmlns="http://www.w3.org/2000/svg"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "block",
-                      verticalAlign: "middle",
-                      letterSpacing: "0.02em",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <path
-                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
-                      fill="#363678"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        letterSpacing: "0.02em",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    />
-                  </svg>
-                </div>
+
                 <div
                   className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-center items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
                   style={{
@@ -2664,14 +2467,14 @@ export default function Component() {
               >
                 <img
                   alt="envSustainability"
-                  src="https://www.torrentpharma.com/assets/Image_09dafa7814.png"
+                  src="https://www.smallbizpages.ca/wp-content/uploads/2024/10/canadian-sustainable-business-practices.jpeg"
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
                     display: "block",
                     verticalAlign: "middle",
                     maxWidth: "100%",
-                    height: "auto",
+                    height: "300px",
                     letterSpacing: "0.02em",
                     fontFamily: "Lato, sans-serif",
                   }}
@@ -2688,7 +2491,7 @@ export default function Component() {
                   flexBasis: "0px",
                   flexDirection: "column",
                   justifyContent: "flex-start",
-                  gap: "1.5rem",
+                  // gap: "1.5rem",
                   letterSpacing: "0.02em",
                   alignItems: "flex-start",
                   fontFamily: "Lato, sans-serif",
@@ -2702,7 +2505,7 @@ export default function Component() {
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "flex-start",
-                    gap: "1.5rem",
+                    // gap: "1.5rem",
                     alignSelf: "stretch",
                     letterSpacing: "0.02em",
                     fontFamily: "Lato, sans-serif",
@@ -2716,7 +2519,7 @@ export default function Component() {
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "flex-start",
-                      gap: "1.5rem",
+                      // gap: "1.5rem",
                       letterSpacing: "0.02em",
                       fontFamily: "Lato, sans-serif",
                     }}
@@ -2752,9 +2555,7 @@ export default function Component() {
                       lineHeight: "2rem",
                       fontFamily: "Lato, sans-serif",
                     }}
-                  >
-                    At Immune Science, we are as dedicated to preserving the environment as we are to improving health. We are mindful of our impact on sustainability, ensuring that our efforts contribute to a healthier planet alongside a healthier society.
-                  </p>
+                  ></p>
                 </div>
                 <div
                   className="env_sustainability_left_content block md:hidden w-[260px] h-[260px]"
@@ -2796,13 +2597,21 @@ export default function Component() {
                     fontFamily: "Lato, sans-serif",
                   }}
                 >
-                  Immune Science, a leading force in the global pharmaceutical industry, is pioneering in niche markets with a focus on therapeutic areas such as cardiovascular (CV), central nervous system (CNS), gastro-intestinal (GI), women’s healthcare (WHC), vitamins, minerals, nutritionals (VMN), and cosmo-dermatology. Our expertise also extends to diabetology, pain management, gynaecology, oncology, and anti-infective segments. With a presence in over 50 countries, Immune Science holds a top market position, especially in key regions like Brazil and Germany.
+                  Immune Science, a leading force in the global pharmaceutical
+                  industry, is pioneering in niche markets with a focus on
+                  therapeutic areas such as cardiovascular (CV), central nervous
+                  system (CNS), gastro-intestinal (GI), women’s healthcare
+                  (WHC), vitamins, minerals, nutritionals (VMN), and
+                  cosmo-dermatology. Our expertise also extends to diabetology,
+                  pain management, gynaecology, oncology, and anti-infective
+                  segments. With a presence in over 50 countries, Immune Science
+                  holds a top market position, especially in key regions like
+                  Brazil and Germany.
                 </p>
               </div>
             </div>
           </div>
         </section>
-
       </section>
       <style
         dangerouslySetInnerHTML={{

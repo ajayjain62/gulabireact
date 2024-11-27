@@ -96,7 +96,7 @@ export default function Component() {
                 style={{
                   boxSizing: "border-box",
                   outline: "none",
-                  background: "#7c1212",
+                  background: "rgb(104, 52, 128)",
                   borderRadius: "18px",
                   padding: "30px",
                   position: "absolute",
