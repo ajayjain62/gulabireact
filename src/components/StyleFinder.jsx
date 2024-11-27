@@ -150,7 +150,7 @@ export default function Component() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
-                      gridRow: "span 2",
+                      // gridRow: "span 2",
                     }}
                   >
                     <div
@@ -329,8 +329,8 @@ export default function Component() {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
-                      gridRow: "span 2",
-                      height: 250px,
+                      // gridRow: "span 2",
+                      height: "250px"
                     }}
                   >
                     <div
