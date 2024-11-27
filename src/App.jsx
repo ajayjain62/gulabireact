@@ -18,6 +18,7 @@ import Compare from "./pages/Compare";
 import Gastro from './components/Gastro';
 import Checkout from "./pages/Checkout"; // Fixed case sensitivity
 import CSR from "./pages/CSR";
+import SkinGlow from "./components/SkinGlow";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -46,6 +47,7 @@ const App = () => (
       <Route path="/csr" element={<CSR />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/gastro" element={<Gastro />} />
+      <Route path="/skin-glow" element={<SkinGlow />} />
     </Routes>
 
     {/* Footer Component */}
