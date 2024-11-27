@@ -1031,7 +1031,7 @@ export default function Component() {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                gap: "60px",
+                gap: "10px",
                 alignSelf: "stretch",
                 letterSpacing: "0.02em",
                 fontFamily: "Lato, sans-serif",
@@ -1075,7 +1075,7 @@ export default function Component() {
                       width: "fit-content",
                       fontWeight: 700,
                       lineHeight: 1.5,
-                      color: "rgb(54 54 120/1)",
+                      color: "#683480",
                       letterSpacing: "0.02em",
                       fontSize: "45px",
                       fontFamily: "Lato, sans-serif",
@@ -1159,14 +1159,13 @@ export default function Component() {
                   letterSpacing: "0.02em",
                   maxWidth: "990px",
                   flexDirection: "row",
-                  gap: "100px",
+                  gap: "80px",
                   fontFamily: "Lato, sans-serif",
                 }}
               >
                 <a
                   className="max-w-[250px] min-w-[250px] md:min-w-[400px] md:max-w-[400px] max-h-[212.256px] min-h-[136.8px] md:min-h-[212.256px] shadow-custom-shadow rounded-[32px] flex justify-between relative tedibar_box"
-                  href="https://tedibar.com/"
-                  target="_blank"
+                  href="#"
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
@@ -1209,16 +1208,18 @@ export default function Component() {
                     <img
                       className="w-[63%] md:w-full"
                       alt="Tedibar"
-                      src="https://i.postimg.cc/J0cCZWMJ/1.png"
+                      src="https://i.postimg.cc/9QHPzNHN/glutathione.png"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
                         display: "block",
                         verticalAlign: "middle",
-                        maxWidth: "100%",
+                        maxWidth: "80%",
                         height: "auto",
                         letterSpacing: "0.02em",
                         width: "100%",
+                        position: "relative",
+                        left: "-18px",
                         fontFamily: "Lato, sans-serif",
                       }}
                     />
@@ -1245,6 +1246,7 @@ export default function Component() {
                     src="https://i.postimg.cc/XN9cKLXT/goa-nutrition.png"
                     style={{
                       border: "0px solid rgb(229, 231, 235)",
+                      transition: "all .3s ease",
                       boxSizing: "border-box",
                       display: "block",
                       verticalAlign: "middle",
@@ -1255,7 +1257,7 @@ export default function Component() {
                       right: "0px",
                       zIndex: 0,
                       letterSpacing: "0.02em",
-                      transition: "0.3s",
+                      transition: "0.3s ease",
                       width: "34%",
                       fontFamily: "Lato, sans-serif",
                     }}
@@ -1284,8 +1286,8 @@ export default function Component() {
                 </a>
                 <a
                   className="max-w-[250px] min-w-[250px] md:min-w-[400px] md:max-w-[400px] max-h-[212.256px] min-h-[136.8px] md:min-h-[212.256px] shadow-custom-shadow rounded-[32px] flex justify-between relative shalcal_prods"
-                  href="https://shelcal.com/"
-                  target="_blank"
+                  href="#"
+                  
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
@@ -1334,10 +1336,12 @@ export default function Component() {
                         boxSizing: "border-box",
                         display: "block",
                         verticalAlign: "middle",
-                        maxWidth: "73%",
+                        maxWidth: "78%",
                         height: "auto",
                         letterSpacing: "0.02em",
                         width: "100%",
+                        position: "relative",
+                        left:"-15px",
                         fontFamily: "Lato, sans-serif",
                       }}
                     />
@@ -1403,8 +1407,8 @@ export default function Component() {
                 </a>
                 <a
                   className="max-w-[250px] min-w-[250px] md:min-w-[400px] md:max-w-[400px] max-h-[212.256px] min-h-[136.8px] md:min-h-[212.256px] shadow-custom-shadow rounded-[32px] flex justify-between relative Unienzmes"
-                  href="https://unienzyme.com/"
-                  target="_blank"
+                  href="#"
+
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
@@ -1447,7 +1451,7 @@ export default function Component() {
                     <img
                       className="w-[68%] sm:w-[76%] md:w-full"
                       alt="Unienzyme"
-                      src="https://www.torrentpharma.com/assets/Unienzyme1_998f9c8c38.svg"
+                      src="https://i.postimg.cc/hPdbDR6d/biotin.png"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
@@ -1456,7 +1460,9 @@ export default function Component() {
                         maxWidth: "100%",
                         height: "auto",
                         letterSpacing: "0.02em",
-                        width: "100%",
+                        width: "80%",
+                        position: "relative",
+                        left: "-70px",
                         fontFamily: "Lato, sans-serif",
                       }}
                     />
@@ -1531,8 +1537,7 @@ export default function Component() {
                 </a>
                 <a
                   className="max-w-[250px] min-w-[250px] md:min-w-[400px] md:max-w-[400px] max-h-[212.256px] min-h-[136.8px] md:min-h-[212.256px] shadow-custom-shadow rounded-[32px] flex justify-between relative Ahaglow"
-                  href="https://www.ahaglow.com/"
-                  target="_blank"
+                  href="#"
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
@@ -1573,7 +1578,7 @@ export default function Component() {
                     <img
                       className="w-[65%] md:w-full"
                       alt="Ahaglow"
-                      src="https://www.torrentpharma.com/assets/ahglow_logo_75812b6c20.svg"
+                      src="https://i.postimg.cc/3xjXGCKr/collagen.png"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
@@ -1582,7 +1587,9 @@ export default function Component() {
                         maxWidth: "100%",
                         height: "auto",
                         letterSpacing: "0.02em",
-                        width: "100%",
+                        width: "85%",
+                        position: "relative",
+                        left: "-40px",
                         fontFamily: "Lato, sans-serif",
                       }}
                     />
@@ -1735,7 +1742,7 @@ export default function Component() {
                       width: "fit-content",
                       fontWeight: 700,
                       lineHeight: 1.5,
-                      color: "rgb(54 54 120/1)",
+                      color: "#683480",
                       letterSpacing: "0.02em",
                       fontSize: "45px",
                       fontFamily: "Lato, sans-serif",
@@ -1883,7 +1890,7 @@ export default function Component() {
                   >
                     <img
                       alt="Gastro Intestinal"
-                      src="https://www.torrentpharma.com/assets/Gastro_Intestinal_e1b56a0125.jpg"
+                      src="https://i.postimg.cc/1XNRqB1v/gastro.png"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -1981,7 +1988,7 @@ export default function Component() {
                   >
                     <img
                       alt="Neuro-Psychiatric"
-                      src="https://www.torrentpharma.com/assets/Neuro_Psychiatric_070ca12e7a.jpg"
+                      src="https://i.postimg.cc/GhxtJMsf/neuro-psychiatric.png"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -2079,7 +2086,7 @@ export default function Component() {
                   >
                     <img
                       alt="Gynecology"
-                      src="https://www.torrentpharma.com/assets/Gynecology_ed0c0c6654.jpg"
+                      src="https://i.postimg.cc/15vP3bFy/gyenocology.png"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -2177,7 +2184,7 @@ export default function Component() {
                   >
                     <img
                       alt="Nephrology"
-                      src="https://www.torrentpharma.com/assets/Nephrology_d89cbffcf1.jpg"
+                      src="https://i.postimg.cc/cJnNTHbJ/nephrology.png"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -2275,7 +2282,7 @@ export default function Component() {
                   >
                     <img
                       alt="Oncology"
-                      src="https://www.torrentpharma.com/assets/Oncology_a7865bbb82.jpg"
+                      src="https://i.postimg.cc/y82MJK8C/oncology.png"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -2462,18 +2469,19 @@ export default function Component() {
                   letterSpacing: "0.02em",
                   display: "block",
                   fontFamily: "Lato, sans-serif",
+                  paddingTop: "20px",
                 }}
               >
                 <img
                   alt="envSustainability"
-                  src="https://i.postimg.cc/5t8WNf6X/hand-drawn-circular-economy-infographic-template-23-2149201463.jpg"
+                  src="https://i.postimg.cc/VN8dj3K2/recycle-bin-2.png"
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
                     display: "block",
                     verticalAlign: "middle",
                     maxWidth: "100%",
-                    height: "380px",
+                    height: "359px",
                     letterSpacing: "0.02em",
                     fontFamily: "Lato, sans-serif",
                   }}
@@ -2532,7 +2540,7 @@ export default function Component() {
                         width: "fit-content",
                         fontWeight: 700,
                         lineHeight: 1.5,
-                        color: "rgb(54 54 120/1)",
+                        color: "#683480",
                         letterSpacing: "0.02em",
                         fontSize: "45px",
                         fontFamily: "Lato, sans-serif",

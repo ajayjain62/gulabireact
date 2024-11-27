@@ -112,7 +112,7 @@ export default function Component() {
                           fontSize: "32px",
                           textAlign: "left",
                           textTransform: "none",
-                          fontWeight: 700,
+                          fontWeight: 500,
                         }}
                       >
                         From care to cure
@@ -162,7 +162,7 @@ export default function Component() {
                       }}
                     >
                       <a
-                        href="https://www.cipla.com/our-offerings/our-therapies/respiratory"
+                        href="#"
                         style={{
                           boxSizing: "border-box",
                           backgroundColor: "transparent",
@@ -188,7 +188,7 @@ export default function Component() {
                             height={320}
                             width={367}
                             alt="RESPIRATORY"
-                            src="https://www.cipla.com/sites/default/files/2022-11/breathe-girl-image.webp"
+                            src="https://i.postimg.cc/zBFCN2Ws/cfa9327f7711a76c6b36dc9586306cd6.jpg"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -250,7 +250,7 @@ export default function Component() {
                       }}
                     >
                       <a
-                        href="https://www.cipla.com/our-offerings/api"
+                        href="#"
                         style={{
                           boxSizing: "border-box",
                           backgroundColor: "transparent",
@@ -276,7 +276,7 @@ export default function Component() {
                             height={250}
                             width={367}
                             alt="API"
-                            src="https://www.cipla.com/sites/default/files/2022-11/api.webp"
+                            src="https://i.postimg.cc/pTfwHvsP/45ad575a044828afb1423d549645ef91.jpg"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -340,7 +340,7 @@ export default function Component() {
                       }}
                     >
                       <a
-                        href="https://www.cipla.com/our-offerings/our-therapies/hiv-aids"
+                        href="#"
                         style={{
                           boxSizing: "border-box",
                           backgroundColor: "transparent",
@@ -366,7 +366,7 @@ export default function Component() {
                             height={320}
                             width={367}
                             alt="HIV / AIDS"
-                            src="https://www.cipla.com/sites/default/files/2022-11/hiv.webp"
+                            src="https://i.postimg.cc/zD9xk67j/man-woman-holding-half-earth-globe-1343-158.jpg"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -429,7 +429,7 @@ export default function Component() {
                       }}
                     >
                       <a
-                        href="https://www.cipla.com/our-offerings/our-therapies/oncology"
+                        href="#"
                         style={{
                           boxSizing: "border-box",
                           backgroundColor: "transparent",
@@ -455,7 +455,7 @@ export default function Component() {
                             height={320}
                             width={367}
                             alt="ONCOLOGY"
-                            src="https://www.cipla.com/sites/default/files/2022-11/oncology.webp"
+                            src="https://i.postimg.cc/zXgcZ8v6/2040ead323baf678ccad099d9110e147.jpg"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -469,7 +469,7 @@ export default function Component() {
                               height: "320px",
                               objectFit: "cover",
                               position: "relative",
-                              top: "-137px",
+                              top: "-65px",
                             }
                             }
                           />
@@ -494,7 +494,7 @@ export default function Component() {
                             fontWeight: 600,
                           }}
                         >
-                          human rights responsibility
+                          Boost morale
                         </span>
                       </a>
                     </div>
@@ -520,8 +520,7 @@ export default function Component() {
                       }}
                     >
                       <a
-                        href="https://www.cipla.com/our-offerings/cipla-generics"
-                        target="_blank"
+                        href="#"
                         style={{
                           boxSizing: "border-box",
                           backgroundColor: "transparent",
@@ -547,7 +546,7 @@ export default function Component() {
                             height={250}
                             width={367}
                             alt="Cipla-Generics"
-                            src="https://www.cipla.com/sites/default/files/2022-11/cipla-generic.webp"
+                            src="https://i.postimg.cc/5yc8wdJQ/76f941f1315dfb8991fb99787185c019.jpg"
                             style={{
                               boxSizing: "border-box",
                               outline: "none",
@@ -560,8 +559,7 @@ export default function Component() {
                               width: "100%",
                               height: "250px",
                               objectFit: "cover",
-                              position: "relative",
-                              top: "-185px",
+                              
                             }}
                           />
                         </span>
@@ -574,7 +572,7 @@ export default function Component() {
                             transition: "0.5s linear",
                             position: "absolute",
                             left: "0px",
-                            top: "0",
+                            top: "50%",
                             transform: "translateY(-50%)",
                             width: "100%",
                             color: "rgb(255, 255, 255)",

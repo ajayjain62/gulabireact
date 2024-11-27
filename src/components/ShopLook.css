@@ -110,7 +110,8 @@ body {
     width: 350px;
     gap: 10px;
     position: relative;
-    left: -100px;
+    left: -85px;
+    z-index: 999;
     justify-content: center;
 }
 

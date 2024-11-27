@@ -45,7 +45,7 @@ export default function Component() {
               width={1263}
               sizes="100vw"
               src="https://goanutritions.com/cdn/shop/files/1_13265548-dddb-4f91-b79f-28184cc68598.jpg?v=1731131975&width=1500"
-              srcSet="//goanutritions.com/cdn/shop/files/1_13265548-dddb-4f91-b79f-28184cc68598.jpg?v=1731131975&width=375 375w, //goanutritions.com/cdn/shop/files/1_13265548-dddb-4f91-b79f-28184cc68598.jpg?v=1731131975&width=550 550w, //goanutritions.com/cdn/shop/files/1_13265548-dddb-4f91-b79f-28184cc68598.jpg?v=1731131975&width=750 750w, //goanutritions.com/cdn/shop/files/1_13265548-dddb-4f91-b79f-28184cc68598.jpg?v=1731131975&width=1100 1100w, //goanutritions.com/cdn/shop/files/1_13265548-dddb-4f91-b79f-28184cc68598.jpg?v=1731131975&width=1500 1500w"
+              srcSet="https://i.postimg.cc/2yN1wyFd/goa-nutrition-banner.jpg"
               style={{
                 boxSizing: "inherit",
                 transition: "opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)",

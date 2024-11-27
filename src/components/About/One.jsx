@@ -121,17 +121,17 @@ export default function Component() {
         <picture style={{ boxSizing: "border-box", outline: "none" }}>
           <source
             media="(max-width: 680px)"
-            srcSet="https://www.cipla.com/sites/default/files/2024-09/cipla_about_us_banner_0.jpg"
+            srcSet="https://i.postimg.cc/bY22bHgX/About-us-1-1.jpg"
             style={{ boxSizing: "border-box", outline: "none" }}
           />
           <source
             media="(min-width: 680px)"
-            srcSet="https://www.cipla.com/sites/default/files/2024-09/cipla_about_us_banner.jpg"
+            srcSet="https://i.postimg.cc/bY22bHgX/About-us-1-1.jpg"
             style={{ boxSizing: "border-box", outline: "none" }}
           />
           <img
             className="img-responsive w-100"
-            src="https://www.cipla.com/sites/default/files/2024-09/cipla_about_us_banner_0.jpg"
+            src="https://i.postimg.cc/bY22bHgX/About-us-1-1.jpg"
             style={{
               boxSizing: "border-box",
               outline: "none",

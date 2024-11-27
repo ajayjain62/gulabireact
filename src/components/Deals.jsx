@@ -11,6 +11,7 @@ export default function Component() {
           display: "block",
           padding: "40px 0px",
           background: "#f2f2f2",
+          marginTop: "-90px",
         }}
       >
         <div
@@ -77,7 +78,7 @@ export default function Component() {
                   height={571}
                   width={912}
                   alt="Are you driven by pupose"
-                  src="https://www.cipla.com/themes/cipla/images/driven-by-purpose.webp"
+                  src="https://i.postimg.cc/pT41pYZV/goa-nutrition-2.jpg"
                   typeof="foaf:Image"
                   style={{
                     boxSizing: "border-box",
@@ -88,6 +89,7 @@ export default function Component() {
                     display: "block",
                     height: "auto",
                     maxWidth: "100%",
+                    borderRadius: "30px",
                   }}
                 />
               </div>

@@ -9,8 +9,8 @@ const CiplaVision = () => {
     title: "Our Purpose ‘Caring for Life’",
     content:
       "Our humanitarian approach for healthcare in pursuit of our purpose ‘Caring for Life’ makes us a partner of choice for global health bodies and stakeholders.",
-    image: "https://www.cipla.com/sites/default/files/2022-11/purpose_1.webp",
-    link: "https://www.cipla.com/about-us/onecipla-credo",
+    image: "https://i.postimg.cc/qRnTvYGv/671140ebd9074655bea422dcba0404dd.jpg",
+    link: "#",
   });
 
   const visionTypes = [
@@ -19,14 +19,14 @@ const CiplaVision = () => {
       title: "Our Purpose ‘Caring for Life’",
       content:
         "Our humanitarian approach for healthcare in pursuit of our purpose ‘Caring for Life’ makes us a partner of choice for global health bodies and stakeholders.",
-      image: "https://www.cipla.com/sites/default/files/2022-11/purpose_1.webp",
-      link: "https://www.cipla.com/about-us/onecipla-credo",
+      image: "https://i.postimg.cc/qRnTvYGv/671140ebd9074655bea422dcba0404dd.jpg",
+      link: "#",
       icon: "https://www.cipla.com/sites/default/files/2022-09/icon-purpose.svg",
     },
     {
       id: "687",
       title: "Journey from illness to lasting wellness.",
-      image: "https://www.cipla.com/sites/default/files/2022-11/wellness_2.webp",
+      image: "https://i.postimg.cc/Z5hwdqhm/205ef5e27daa2642ff80d059fc4df267.jpg",
       content:
         "Advancing wellness and holistic healthcare solutions to empower healthier lives, enhance well-being, and build a brighter, more sustainable future for individuals, families.",
       link: "#",
@@ -45,7 +45,7 @@ const CiplaVision = () => {
       id: "689",
       title: "BREATHE. Think Immune Science",
       content: "Driving excellence in respiratory health through innovative solutions, compassionate care, and an unwavering commitment to enhancing lives and well-being on a global scale.",
-      image: "https://www.cipla.com/sites/default/files/2022-11/breathefree_0.webp",
+      image: "https://i.postimg.cc/T3DhZRyK/213b59b15f1e0c9300e67b3c1b4edbc6.jpg",
       link: "#",
       icon: "https://www.cipla.com/sites/default/files/2022-09/icon-breathefree.svg",
     },
@@ -54,7 +54,7 @@ const CiplaVision = () => {
       title: "Towards A Sustainable Future",
       content: "Building a sustainable, equitable, and inclusive world to secure a healthier, brighter future, empowering generations with opportunities for well-being, prosperity.",
       image:
-        "https://www.cipla.com/sites/default/files/2022-11/sustainability_0.webp",
+        "https://i.postimg.cc/BQDXzSPX/6db9f4fc064816f90deea1cda908d5de.jpg",
       link: "#",
       icon: "https://www.cipla.com/sites/default/files/2022-09/icon-sustainability.svg",
     },

@@ -21,7 +21,7 @@ const Header = () => {
   const menuItems = [
     {
       label: "About Us",
-      link: "https://www.cipla.com/about-us",
+      link: "http://localhost:5173/about",
       megaMenu: [
         { label: "Our Credo", link: "https://www.cipla.com/about-us/onecipla-credo" },
         { label: "Board of Directors", link: "https://www.cipla.com/about-us/board-directors" },
@@ -29,7 +29,7 @@ const Header = () => {
     },
     {
       label: "Franchise",
-      link: "https://www.cipla.com/our-presence",
+      link: "#",
       megaMenu: [
         { label: "Australia", link: "https://www.cipla.com/our-presence/australia" },
         { label: "Brazil", link: "https://www.cipla.com/our-presence/brazil" },
@@ -37,7 +37,7 @@ const Header = () => {
     },
     {
       label: "Product",
-      link: "https://www.cipla.com/products",
+      link: "#",
       megaMenu: [
         { label: "Prescription Medicines", link: "https://www.cipla.com/products/prescription" },
         { label: "Over-the-Counter", link: "https://www.cipla.com/products/otc" },
@@ -45,23 +45,23 @@ const Header = () => {
     },
     {
       label: "Corporate Social Responsibility",
-      link: "https://www.cipla.com/contact",
+      link: "http://localhost:5173/csr",
     },
      {
       label: "Sustainability",
-      link: "https://www.cipla.com/contact",
+      link: "#",
     },
      {
       label: "Careers",
-      link: "https://www.cipla.com/contact",
+      link: "#",
     },
      {
       label: "Media centre",
-      link: "https://www.cipla.com/contact",
+      link: "#",
     },
      {
       label: "Contact us",
-      link: "https://www.cipla.com/contact",
+      link: "http://localhost:5173/contact",
     }
   ];
 
@@ -78,7 +78,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-holder">
-        <a className="logo" href="https://www.cipla.com/" rel="home" title="Home">
+        <a className="logo" href="http://localhost:5173/" rel="home" title="Home">
           <img alt="Home" src="https://i.postimg.cc/0NYGQGCD/logo-2.png" />
         </a>
       </div>
