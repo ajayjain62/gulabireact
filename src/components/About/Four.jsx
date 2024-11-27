@@ -62,7 +62,7 @@ const WhatWeDo = () => {
 };
 
 const Section = styled.section`
-  background: linear-gradient(135deg, #1c1c54, #6e44ff);
+  background: linear-gradient(135deg, rgb(104, 52, 128), rgb(104, 52, 128));
   color: #ffffff;
   padding: 80px 20px;
   position: relative;

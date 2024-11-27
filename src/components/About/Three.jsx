@@ -61,9 +61,9 @@ const Section = styled.section`
     height: 200%;
     background: linear-gradient(
       120deg,
-      #6e44ff,
+      rgb(104, 52, 128),
       #1c1c54,
-      #6e44ff,
+      rgb(104, 52, 128),
       #000
     );
     background-size: 300% 300%;
@@ -98,13 +98,15 @@ const Section = styled.section`
     letter-spacing: 3px;
     color: #ffffff;
     position: relative;
+    fant-family: "Poppins", sans-serif;
   }
 
   .who-we-are-description {
-    font-size: 1.25rem;
+    font-size: 16px;
     line-height: 1.8;
     margin-bottom: 20px;
     color: #f1f1f1;
+    font-family: "Poppins", sans-serif;
   }
 
   &:hover {

@@ -1913,7 +1913,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Gastro Intestinal
+                      Bone & Joint Care
                     </h6>
                   </div>
                   <svg
@@ -2011,7 +2011,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Neuro-Psychiatric
+                      Body Detox
                     </h6>
                   </div>
                   <svg
@@ -2109,7 +2109,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Gynecology
+                      Collagen Supplement 
                     </h6>
                   </div>
                   <svg
@@ -2207,7 +2207,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Nephrology
+                      Memory Enhancer
                     </h6>
                   </div>
                   <svg
@@ -2305,7 +2305,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Oncology
+                      Hight Enhancer
                     </h6>
                   </div>
                   <svg

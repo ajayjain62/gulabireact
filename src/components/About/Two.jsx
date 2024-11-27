@@ -23,102 +23,136 @@ export default function Component() {
   }, []);
 
   return (
-    <StyledSection>
+    <StyledWrapper>
       {/* Banner */}
-      <div className="banner" ref={bannerRef}>
-        <h2>25 Years of Excellence in Nutraceuticals</h2>
+      <div className="custom-banner" ref={bannerRef}>
+        <h2 className="banner-heading">
+          25 Years of Excellence in Nutraceuticals
+        </h2>
       </div>
 
       {/* About Us Section */}
-      <div className="header-subsection clearfix" ref={headerRef}>
-        <div className="col-md-7">
-          <div className="header-subsection-left">
-            <h1 className="page-title">About Us</h1>
-            <div className="clearfix page-subtitle">
-              <p>
-                Goa Nutritions, a leading nutraceutical manufacturer for 25
-                years, offers end-to-end solutions, regulatory compliance, and
-                state-of-the-art facilities to produce tablets, capsules,
-                liquids, and powders globally.
-              </p>
-            </div>
+      <div className="about-section" ref={headerRef}>
+        <div className="about-content">
+          <div className="about-text">
+            <h1 className="about-title">About Us</h1>
+            <p className="about-description">
+              Goa Nutritions, a leading nutraceutical manufacturer for 25 years,
+              offers end-to-end solutions, regulatory compliance, and
+              state-of-the-art facilities to produce tablets, capsules, liquids,
+              and powders globally.
+            </p>
+          </div>
+          <div className="about-image">
+            {/* Placeholder for an image */}
+            <img
+              src="https://via.placeholder.com/400x300"
+              alt="About Goa Nutritions"
+              className="image-placeholder"
+            />
           </div>
         </div>
       </div>
-    </StyledSection>
+    </StyledWrapper>
   );
 }
 
-// Styled Components for custom styles
-const StyledSection = styled.section`
+// Styled Components with unique class names
+const StyledWrapper = styled.section`
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 
   /* Banner Styles */
-  .banner {
-    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+  .custom-banner {
+    background: linear-gradient(135deg, rgb(63, 81, 181), rgb(104, 52, 128));
     color: white;
     text-align: center;
-    padding: 20px 0;
-    font-size: 24px;
-    font-weight: bold;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 50px 20px;
     position: relative;
     overflow: hidden;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .banner h2 {
+  .banner-heading {
+    font-size: 28px;
+    font-weight: bold;
     margin: 0;
-    position: relative;
-    z-index: 1;
   }
 
-  /* Header Subsection */
-  .header-subsection {
-    max-width: 1170px;
-    margin: 30px auto;
-    padding-bottom: 30px;
+  /* About Section Styles */
+  .about-section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    position: relative;
-    z-index: 2;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
   }
 
-  .col-md-7 {
-    width: 58.3333%;
-  }
-
-  .header-subsection-left {
-    background: #ffffff;
-    padding: 53px 70px 54px 55px;
-    margin-top: 30px;
-    box-shadow: rgba(0, 0, 0, 0.75) 2px 3px 20px -7px;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-  }
-
-  .page-title {
-    font-size: 44px;
-    font-weight: 600;
-    margin-bottom: 20px;
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
     color: rgb(104, 52, 128);
+    width: 100%;
+    gap: 20px;
   }
 
-  .page-subtitle {
+  .about-text {
+    flex: 1;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .about-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(104, 52, 128);
+    margin-bottom: 15px;
+  }
+
+  .about-description {
     font-size: 16px;
     font-weight: 300;
-    color: rgb(27, 48, 59);
-    line-height: 24px;
+    color: rgb(60, 60, 60);
+    line-height: 1.8;
   }
 
-  /* Animation Enhancements */
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+
+  .image-placeholder {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive Styles */
   @media (max-width: 768px) {
-    .header-subsection {
+    .about-content {
       flex-direction: column;
-      text-align: center;
     }
 
-    .col-md-7 {
+    .about-text,
+    .about-image {
       width: 100%;
+      padding: 10px;
+    }
+
+    .about-title {
+      font-size: 24px;
+    }
+
+    .about-description {
+      font-size: 14px;
     }
   }
 `;
