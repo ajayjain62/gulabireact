@@ -34,7 +34,7 @@ export default function Component() {
               display: "block",
               backgroundColor: "rgba(18, 18, 18,.1)",
               position: "absolute",
-              left: "0px",
+              left: "-100px",
               top: "0px",
               width: "100%",
               height: "100%",

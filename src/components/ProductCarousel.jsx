@@ -9,6 +9,7 @@ export default function Component() {
           boxSizing: "border-box",
           letterSpacing: "0.02em",
           fontFamily: "Lato, sans-serif",
+          backgroundColor: "#f2f2f2d9",
         }}
       >
         <section
@@ -974,7 +975,6 @@ export default function Component() {
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
                         cursor: "pointer",
-                        backgroundColor: "rgb(255 255 255/1)",
                         transitionProperty: "all",
                         transitionTimingFunction:
                           "cubic-bezier(0.4, 0, 0.2, 1)",
@@ -1018,7 +1018,6 @@ export default function Component() {
               marginLeft: "auto",
               marginRight: "auto",
               display: "grid",
-              backgroundColor: "#f2f2f2d9",
               letterSpacing: "0.02em",
               fontFamily: "Lato, sans-serif",
             }}
@@ -1252,7 +1251,7 @@ export default function Component() {
                       maxWidth: "100%",
                       height: "auto",
                       position: "absolute",
-                      bottom: "-16px",
+                      bottom: "-28px",
                       right: "0px",
                       zIndex: 0,
                       letterSpacing: "0.02em",
@@ -1372,7 +1371,7 @@ export default function Component() {
                       maxWidth: "34%",
                       height: "auto",
                       position: "absolute",
-                      bottom: "-14px",
+                      bottom: "-24px",
                       right: "13px",
                       zIndex: 10,
                       letterSpacing: "0.02em",
@@ -1393,7 +1392,7 @@ export default function Component() {
                       maxWidth: "25%",
                       height: "auto",
                       position: "absolute",
-                      bottom: "-14px",
+                      bottom: "-29px",
                       right: "82px",
                       zIndex: 10,
                       letterSpacing: "0.02em",
@@ -1489,8 +1488,8 @@ export default function Component() {
                       transitionDuration: "0.3s",
                       letterSpacing: "0.02em",
                       height: "auto",
-                      right: "-140px",
-                      bottom: "-5px",
+                      right: "-143px",
+                      bottom: "-26px",
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
@@ -1522,7 +1521,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         display: "block",
                         verticalAlign: "middle",
-                        maxWidth: "47%",
+                        maxWidth: "49%",
                         height: "auto",
                         letterSpacing: "0.02em",
                         fontFamily: "Lato, sans-serif",
@@ -1610,8 +1609,8 @@ export default function Component() {
                       border: "0px solid rgb(229, 231, 235)",
                       boxSizing: "border-box",
                       position: "absolute",
-                      bottom: "-10px",
-                      right: "-130px",
+                      bottom: "-26px",
+                      right: "-136px",
                       transitionProperty: "all",
                       transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
                       transitionDuration: "0.3s",
@@ -1648,7 +1647,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         display: "block",
                         verticalAlign: "middle",
-                        maxWidth: "47%",
+                        maxWidth: "49%",
                         height: "auto",
                         letterSpacing: "0.02em",
                         fontFamily: "Lato, sans-serif",
@@ -1668,7 +1667,7 @@ export default function Component() {
             letterSpacing: "0.02em",
             paddingTop: "60px",
             paddingBottom: "60px",
-            backgroundColor: "rgb(245, 248, 255)",
+            backgroundColor: "#ffffff",
             fontFamily: "Lato, sans-serif",
           }}
         >
@@ -2467,14 +2466,14 @@ export default function Component() {
               >
                 <img
                   alt="envSustainability"
-                  src="https://www.smallbizpages.ca/wp-content/uploads/2024/10/canadian-sustainable-business-practices.jpeg"
+                  src="https://i.postimg.cc/5t8WNf6X/hand-drawn-circular-economy-infographic-template-23-2149201463.jpg"
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
                     display: "block",
                     verticalAlign: "middle",
                     maxWidth: "100%",
-                    height: "300px",
+                    height: "380px",
                     letterSpacing: "0.02em",
                     fontFamily: "Lato, sans-serif",
                   }}

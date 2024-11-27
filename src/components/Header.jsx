@@ -80,7 +80,7 @@ export default function Component() {
             color: "white",
             fontSize: "15px",
             transition: "transform 0.3s ease, color 0.3s ease",
-            margin: "0 10px",
+            margin: "0 5px 0px 10px",
             textDecoration: "none",
           }}
         ><FontAwesomeIcon
@@ -102,7 +102,7 @@ export default function Component() {
             color: "white",
             fontSize: "15px",
             transition: "transform 0.3s ease, color 0.3s ease",
-            margin: "0 10px",
+            margin: "0 5px",
             textDecoration: "none",
           }}
         >
@@ -124,7 +124,7 @@ export default function Component() {
             color: "white",
             fontSize: "15px",
             transition: "transform 0.3s ease, color 0.3s ease",
-            margin: "0 10px",
+            margin: "0 5px",
             textDecoration: "none",
           }}
         >
@@ -146,7 +146,7 @@ export default function Component() {
             color: "white",
             fontSize: "15px",
             transition: "transform 0.3s ease, color 0.3s ease",
-            margin: "0 10px",
+            margin: "0 5px",
             textDecoration: "none",
           }}
         ><FontAwesomeIcon

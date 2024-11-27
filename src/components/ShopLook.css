@@ -38,12 +38,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    position: relative;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically within their flex line */
+    text-align: center;
 }
 
 /* Banner Section */
 .banner {
     flex: 1;
     position: relative;
+    right: -100px;
 }
 
 .image-container {
@@ -102,18 +107,22 @@ body {
     flex: 0.4;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    width: 350px;
+    gap: 10px;
+    position: relative;
+    left: -100px;
+    justify-content: center;
 }
 
 .topic {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 21px;
     background-color: #f4f4f4;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     color: rgb(80, 80, 80);
     gap: 10px;

@@ -149,7 +149,6 @@ export default function Component() {
                       position: "relative",
                       display: "flex",
                       justifyContent: "center",
-                      alignItems: "center",
                       gridRow: "span 2",
                     }}
                   >
@@ -473,7 +472,10 @@ export default function Component() {
                               width: "100%",
                               height: "320px",
                               objectFit: "cover",
-                            }}
+                              position: "relative",
+                              top: "-137px",
+                            }
+                            }
                           />
                         </span>
                         <span
@@ -563,6 +565,8 @@ export default function Component() {
                               width: "100%",
                               height: "250px",
                               objectFit: "cover",
+                              position: "relative",
+                              top: "-185px",
                             }}
                           />
                         </span>
@@ -575,7 +579,7 @@ export default function Component() {
                             transition: "0.5s linear",
                             position: "absolute",
                             left: "0px",
-                            top: "50%",
+                            top: "0",
                             transform: "translateY(-50%)",
                             width: "100%",
                             color: "rgb(255, 255, 255)",

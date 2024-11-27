@@ -1,9 +1,13 @@
 import React from 'react';
 import './WideRange.css';
 
+
+
 const OverviewSection = () => {
   return (
-    <div className="background">
+  
+    
+
     <section className="overview-section">
       <div className="overview-container">
         <div className="overview-left">
@@ -25,34 +29,36 @@ Formulation development effort revolves around developing the best formulation f
           </p>
         </div>
         <div className="overview-right">
-          <div className="overview-facts">
-          <div className="facts-flex">
-            <FactItem 
-              number="8" 
-              label="Physical Processings" 
-              imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/physical_icon.svg" 
-            />
-            <FactItem 
-              number="750+" 
-              label="Layering & Coating" 
-              imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/layering_icon.svg" 
-            /></div>
-            <div className="facts-flex">
-            <FactItem 
-              number="2000+" 
-              label="Capsules Technology" 
-              imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/capsules_icon.svg" 
-            />
-            <FactItem 
-              number="50+" 
-              label="Packaging Technology" 
-              imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/packaging_icon.svg" 
-            /> </div>
-          </div>
-        </div>
+  <div className="overview-facts">
+    <div className="facts-flex">
+      <FactItem 
+        imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/physical_icon.svg" 
+        label="Physical Processings" 
+        numberImage="https://tirupatigroup.co.in/wp-content/custom/images/RnD/physical_icon.svg" 
+      />
+      <FactItem 
+        imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/layering_icon.svg" 
+        label="Layering & Coating" 
+        numberImage="https://via.placeholder.com/250" 
+      />
+    </div>
+    <div className="facts-flex">
+      <FactItem 
+        imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/capsules_icon.svg" 
+        label="Capsules Technology" 
+        numberImage="https://via.placeholder.com/250" 
+      />
+      <FactItem 
+        imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/packaging_icon.svg" 
+        label="Packaging Technology" 
+        numberImage="https://via.placeholder.com/250" 
+      />
+    </div>
+  </div>
+</div>
+
       </div>
     </section>
-    </div>
   );
 };
 
