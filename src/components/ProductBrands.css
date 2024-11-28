@@ -1,0 +1,53 @@
+.our_brands_wrapper {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    letter-spacing: 0.02em;
+    max-width: 990px;
+    gap: 80px;
+    font-family: "Lato, sans-serif";
+}
+
+.product-container {
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 212.256px;
+    min-height: 212.256px;
+    border-radius: 32px;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), 0px 32px 54.67px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden; /* Ensure images don't overflow */
+    transition: transform 0.3s ease-in; /* Add transition for hover effect */
+}
+
+.product-container:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in; /* Smooth transition for image */
+}
+
+.product-image:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+.product-bg-image,
+.product-bg-image-2,
+.product-bg-image-3,
+.product-bg-image-4 {
+    transition: all 0.3s ease; /* Transition for background images */
+}
+
+.product-container:hover .product-bg-image,
+.product-container:hover .product-bg-image-2,
+.product-container:hover .product-bg-image-3,
+.product-container:hover .product-bg-image-4 {
+    transform: translateY(-5px); /* Move background images slightly on hover */
+}

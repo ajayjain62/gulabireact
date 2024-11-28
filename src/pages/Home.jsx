@@ -16,6 +16,7 @@ import ShopLook from '../components/ShopLook';
 // import HeroBanner from '../components/HeroBanner';
 import WideRange from '../components/WideRange'
 // import OverviewSection from '../components/OverviewSection';
+// import ProductSectionAni from '../components/ProductSectionAni';
 import ProductCarousel from '../components/ProductCarousel';
 import JustIn from '../components/JustIn';
 import '../assets/css/ionicons.min.css';
@@ -40,6 +41,7 @@ const Home = () => (
     <WideRange />
     {/* <OverviewSection /> */}
     <ProductCarousel />
+    {/* <ProductSectionAni /> */}
     <JustIn />
    
 
