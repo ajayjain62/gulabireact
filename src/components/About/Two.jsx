@@ -46,7 +46,7 @@ export default function Component() {
           <div className="about-image">
             {/* Placeholder for an image */}
             <img
-              src="https://via.placeholder.com/400x300"
+              src="https://cdn.shopify.com/s/files/1/0710/6301/1604/files/istockphoto-1082411378-612x612_480x480.jpg?v=1674041844"
               alt="About Goa Nutritions"
               className="image-placeholder"
             />
@@ -65,7 +65,7 @@ const StyledWrapper = styled.section`
 
   /* Banner Styles */
   .custom-banner {
-    background: linear-gradient(135deg, rgb(63, 81, 181), rgb(104, 52, 128));
+    background: linear-gradient(135deg, rgb(145, 101, 170), rgb(104, 52, 128));
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -79,6 +79,8 @@ const StyledWrapper = styled.section`
     font-size: 28px;
     font-weight: bold;
     margin: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
   }
 
   /* About Section Styles */

@@ -6,6 +6,7 @@ import Three from "../components/About/Three";
 import Four from "../components/About/Four";
 import Five from "../components/About/Five";
 import Seven from "../components/About/Seven";
+import Eight from "../components/About/Eight";
 
 export default function Component() {
   return (
@@ -13,10 +14,10 @@ export default function Component() {
       <One />
       <Two />
       <Three />
-      <Five/>
-
-      <Four/>
-      <Seven/>
+      <Seven />
+      <Four />
+      <Five />
+      <Eight />
     </>
   );
 }

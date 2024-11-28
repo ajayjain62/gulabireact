@@ -19,6 +19,7 @@ import Gastro from './components/Gastro';
 import Checkout from "./pages/Checkout"; // Fixed case sensitivity
 import CSR from "./pages/CSR";
 import SkinGlow from "./components/SkinGlow";
+import Career from "./pages/Career";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -48,6 +49,8 @@ const App = () => (
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/gastro" element={<Gastro />} />
       <Route path="/skin-glow" element={<SkinGlow />} />
+      <Route path="/career" element={<Career />} />
+
     </Routes>
 
     {/* Footer Component */}
