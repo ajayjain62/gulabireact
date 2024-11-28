@@ -35,7 +35,7 @@ const CSRPage = () => {
   React.useEffect(() => {
     gsap.from(".animated-title", {
       y: -50,
-      opacity: 0,
+      opacity: 1,
       duration: 1.5,
       stagger: 0.3,
     });
@@ -79,6 +79,7 @@ const CSRPage = () => {
               fontSize: "4rem",
               fontWeight: 700,
               marginBottom: "1rem",
+              opacity: 1,
             }}
           >
             Corporate Social Responsibility
@@ -89,6 +90,7 @@ const CSRPage = () => {
               fontSize: "1.5rem",
               maxWidth: "600px",
               margin: "0 auto",
+              opacity: 1,
             }}
           >
             A commitment to improving social, environmental, and economic

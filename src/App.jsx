@@ -13,7 +13,7 @@ import About from "./pages/About";
 import Shop from "./pages/Shop"; // Corrected component name
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-// import Product from "./pages/Product";
+import Product from "./pages/Product";
 import Compare from "./pages/Compare";
 import Gastro from './components/Gastro';
 import Checkout from "./pages/Checkout"; // Fixed case sensitivity
@@ -43,7 +43,7 @@ const App = () => (
       <Route path="/shop" element={<Shop />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/contact" element={<Contact />} />
-      {/* <Route path="/product-page" element={<Product />} /> */}
+      <Route path="/product" element={<Product />} />
       <Route path="/compare" element={<Compare />} />
       <Route path="/csr" element={<CSR />} />
       <Route path="/checkout" element={<Checkout />} />
