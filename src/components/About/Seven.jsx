@@ -4,263 +4,976 @@ export default function Component() {
   return (
     <>
       <div
-        className="text-img-desc"
+        className="py-8 md:py-20 px-4 container mx-auto"
         style={{
+          border: "0px solid rgb(229, 231, 235)",
           boxSizing: "border-box",
-          outline: "none",
-          padding: "30px 0px",
-          margin: "0px -15px",
+          width: "100%",
+          maxWidth: "1140px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          paddingLeft: "1rem",
+          paddingRight: "1rem",
+          letterSpacing: "0.02em",
+          paddingTop: "5rem",
+          paddingBottom: "5rem",
+          fontFamily: "Lato, sans-serif",
         }}
       >
         <div
-          className="dropdown-bg aos-init aos-animate"
+          className="grid grid-cols-1 gap-10"
           style={{
+            border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
-            outline: "none",
-            transitionProperty: "width",
-            position: "absolute",
-            width: "100%",
-            height: "300px",
-            left: "0px",
-            transitionTimingFunction: "ease",
-            transitionDuration: "1.5s",
-            transitionDelay: "0.5s",
-          }}
-        />
-        <div
-          className="col-md-6"
-          style={{
-            boxSizing: "border-box",
-            outline: "none",
-            position: "relative",
-            minHeight: "1px",
-            paddingRight: "15px",
-            paddingLeft: "15px",
-            cssFloat: "left",
-            width: "50%",
+            display: "grid",
+            gridTemplateColumns: "repeat(1, minmax(0px, 1fr))",
+            gap: "2.5rem",
+            letterSpacing: "0.02em",
+            fontFamily: "Lato, sans-serif",
           }}
         >
           <div
-            className="text-img-desc-content"
             style={{
+              border: "0px solid rgb(229, 231, 235)",
               boxSizing: "border-box",
-              outline: "none",
-              padding: "50px",
-              borderRadius: "5px",
-              background: "rgb(255, 255, 255)",
-              boxShadow: "rgba(8, 36, 59, 0.29) 0px 0px 20px 2px",
+              letterSpacing: "0.02em",
+              fontFamily: "Lato, sans-serif",
             }}
           >
-            <h4
+            <h3
+              className="core_values_title text-lg md:text-2xl font-bold leading-[28.8px] mb-6"
               style={{
+                border: "0px solid rgb(229, 231, 235)",
                 boxSizing: "border-box",
-                outline: "none",
-                fontFamily: "inherit",
-                fontWeight: 500,
-                lineHeight: 1.1,
-                color: "inherit",
-                fontSize: "38px",
-                marginBottom: "30px",
-                marginTop: "0px",
-              }}
-            >
-              Our History-Cipla Archives
-            </h4>
-            <figure
-              style={{
-                boxSizing: "border-box",
-                outline: "none",
-                display: "block",
                 margin: "0px",
-                marginBottom: "20px",
+                marginBottom: "1.5rem",
+                fontWeight: 700,
+                letterSpacing: "0.02em",
+                fontSize: "1.5rem",
+                lineHeight: "2rem",
+                fontFamily: "Lato, sans-serif",
               }}
             >
-              <img
-                className="img-responsive"
-                alt="cipla-history"
-                src="https://www.cipla.com/sites/default/files/2024-09/cipla-history.jpg"
-                style={{
-                  boxSizing: "border-box",
-                  outline: "none",
-                  borderStyle: "none",
-                  border: "0px",
-                  verticalAlign: "middle",
-                  display: "block",
-                  height: "auto",
-                  maxWidth: "100%",
-                  width: "100%",
-                }}
-              />
-            </figure>
+              Core Values
+            </h3>
             <p
+              className="core_values_para text-sm xl:text-base 2xl:text-lg font-normal leading-normal"
               style={{
+                border: "0px solid rgb(229, 231, 235)",
                 boxSizing: "border-box",
-                outline: "none",
-                margin: "0px 0px 10px",
-                fontWeight: 300,
-                lineHeight: "24px",
-                fontSize: "14px",
-                marginBottom: "0px",
-                padding: "0px 0px 15px",
+                margin: "0px",
+                fontWeight: 400,
+                letterSpacing: "0.02em",
+                fontSize: "1rem",
+                lineHeight: "1.5rem",
+                fontFamily: "Lato, sans-serif",
               }}
             >
-              The Cipla story is one of purpose and perseverance, built on the
-              foundation of care. Explore the milestones of Cipla's illustrious
-              legacy of care!
+              The Company's core values serve as the foundation and guiding
+              principles, leading to longevity and success in the pharmaceutical
+              industry.
             </p>
-            <a
-              href="https://www.cipla.com/about-us/cipla-archive"
-              style={{
-                boxSizing: "border-box",
-                backgroundColor: "transparent",
-                color: "rgb(51, 122, 183)",
-                textDecoration: "none",
-                fontSize: "14px",
-                outline: "none",
-              }}
-            >
-              <i
-                className="glyphicon glyphicon-arrow-right"
-                style={{
-                  boxSizing: "border-box",
-                  outline: "none",
-                  position: "relative",
-                  top: "1px",
-                  fontFamily: '"Glyphicons Halflings"',
-                  fontStyle: "normal",
-                  fontWeight: 400,
-                  lineHeight: 1,
-                  WebkitFontSmoothing: "antialiased",
-                  transition: "0.25s linear",
-                  marginRight: "8px",
-                  display: "inline-block",
-                  transform: "translateX(0px)",
-                }}
-              />
-              {"Read More"}
-            </a>
           </div>
-        </div>
-        <div
-          className="col-md-6"
-          style={{
-            boxSizing: "border-box",
-            outline: "none",
-            position: "relative",
-            minHeight: "1px",
-            paddingRight: "15px",
-            paddingLeft: "15px",
-            cssFloat: "left",
-            width: "50%",
-          }}
-        >
           <div
-            className="text-img-desc-content"
+            className="core_values_card_wrapper grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 xl:gap-7 2xl:grid-cols-3 2xl:gap-10 justify-items-center"
             style={{
+              border: "0px solid rgb(229, 231, 235)",
               boxSizing: "border-box",
-              outline: "none",
-              padding: "50px",
-              borderRadius: "5px",
-              background: "rgb(255, 255, 255)",
-              boxShadow: "rgba(8, 36, 59, 0.29) 0px 0px 20px 2px",
+              display: "grid",
+              justifyItems: "center",
+              letterSpacing: "0.02em",
+              gridTemplateColumns: "repeat(3, minmax(0px, 1fr))",
+              gap: "1.75rem",
+              fontFamily: "Lato, sans-serif",
             }}
           >
-            <h4
+            <div
+              className="core_values_card_box rounded-3xl overflow-hidden"
               style={{
+                border: "0px solid rgb(229, 231, 235)",
                 boxSizing: "border-box",
-                outline: "none",
-                fontFamily: "inherit",
-                fontWeight: 500,
-                lineHeight: 1.1,
-                color: "inherit",
-                fontSize: "38px",
-                marginBottom: "30px",
-                marginTop: "0px",
+                overflow: "hidden",
+                borderRadius: "1.5rem",
+                letterSpacing: "0.02em",
+                fontFamily: "Lato, sans-serif",
               }}
             >
-              A tribute to Dr. Y.K. Hamied
-            </h4>
-            <figure
-              style={{
-                boxSizing: "border-box",
-                outline: "none",
-                display: "block",
-                margin: "0px",
-                marginBottom: "20px",
-              }}
-            >
-              <img
-                className="img-responsive"
-                alt="y.k-hamid"
-                src="https://www.cipla.com/sites/default/files/2024-09/y.k-hamid.jpg"
+              <div
+                className="card_header rounded-t-3xl px-6 flex items-center justify-start gap-4"
                 style={{
+                  border: "0px solid rgb(229, 231, 235)",
                   boxSizing: "border-box",
-                  outline: "none",
-                  borderStyle: "none",
-                  border: "0px",
-                  verticalAlign: "middle",
-                  display: "block",
-                  height: "auto",
-                  maxWidth: "100%",
-                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "flex-start",
+                  gap: "1rem",
+                  borderTopLeftRadius: "1.5rem",
+                  borderTopRightRadius: "1.5rem",
+                  paddingLeft: "1.5rem",
+                  paddingRight: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
                 }}
-              />
-            </figure>
-            <p
-              style={{
-                boxSizing: "border-box",
-                outline: "none",
-                margin: "0px 0px 10px",
-                fontWeight: 300,
-                lineHeight: "24px",
-                fontSize: "14px",
-                marginBottom: "0px",
-                padding: "0px 0px 15px",
-              }}
-            >
-              Celebrating the Living legend– Pharmaceutical scientist and
-              philanthropist, Dr Y.K. Hamied!
-            </p>
-            <a
-              href="https://youtu.be/Rl_jyBn3ohw?si=i2E2DjCbaWjYXrn4"
-              target="_blank"
-              style={{
-                boxSizing: "border-box",
-                backgroundColor: "transparent",
-                color: "rgb(51, 122, 183)",
-                textDecoration: "none",
-                fontSize: "14px",
-                outline: "none",
-              }}
-            >
-              <i
-                className="glyphicon glyphicon-arrow-right"
+              >
+                <div
+                  className="w-[99px] h-[68px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    height: "68px",
+                    width: "99px",
+                    letterSpacing: "0.02em",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <img
+                    className="h-full w-full object-cover"
+                    alt="integrity"
+                    src="https://www.torrentpharma.com/assets/Integrity_c8e18a533a.svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      maxWidth: "100%",
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  />
+                </div>
+                <div
+                  className="header_title text-lg md:text-2xl font-bold leading-[28.8px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 700,
+                    letterSpacing: "0.02em",
+                    fontSize: "1.5rem",
+                    lineHeight: "2rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <h3
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      fontSize: "inherit",
+                      fontWeight: "inherit",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Integrity
+                  </h3>
+                </div>
+              </div>
+              <div
+                className="card_body bg-white p-6"
                 style={{
+                  border: "0px solid rgb(229, 231, 235)",
                   boxSizing: "border-box",
-                  outline: "none",
-                  position: "relative",
-                  top: "1px",
-                  fontFamily: '"Glyphicons Halflings"',
-                  fontStyle: "normal",
-                  fontWeight: 400,
-                  lineHeight: 1,
-                  WebkitFontSmoothing: "antialiased",
-                  transition: "0.25s linear",
-                  marginRight: "8px",
-                  display: "inline-block",
-                  transform: "translateX(0px)",
+                  backgroundColor: "rgb(255 255 255/1)",
+                  padding: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
                 }}
-              />
-              {"Read More"}
-            </a>
+              >
+                <div
+                  className="core_values_para text-sm xl:text-base 2xl:text-lg font-normal leading-normal"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 400,
+                    letterSpacing: "0.02em",
+                    fontSize: "1rem",
+                    lineHeight: "1.5rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <strong
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        fontWeight: "bolder",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      When Truth is Paramount
+                    </strong>
+                  </p>
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Thoughts and actions entail doing the right thing at all
+                    times and in all circumstances; whether or not anyone is
+                    watching. This requires inner courage and conviction, no
+                    matter what the consequences are. It is honouring one’s
+                    commitments and being accountable for one’s actions,
+                    end-to-end.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="core_values_card_box rounded-3xl overflow-hidden"
+              style={{
+                border: "0px solid rgb(229, 231, 235)",
+                boxSizing: "border-box",
+                overflow: "hidden",
+                borderRadius: "1.5rem",
+                letterSpacing: "0.02em",
+                fontFamily: "Lato, sans-serif",
+              }}
+            >
+              <div
+                className="card_header rounded-t-3xl px-6 flex items-center justify-start gap-4"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "flex-start",
+                  gap: "1rem",
+                  borderTopLeftRadius: "1.5rem",
+                  borderTopRightRadius: "1.5rem",
+                  paddingLeft: "1.5rem",
+                  paddingRight: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="w-[99px] h-[68px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    height: "68px",
+                    width: "99px",
+                    letterSpacing: "0.02em",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <img
+                    className="h-full w-full object-cover"
+                    alt="integrity"
+                    src="https://www.torrentpharma.com/assets/Passion_for_Excellence_bdee25b1f5.png"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      maxWidth: "100%",
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  />
+                </div>
+                <div
+                  className="header_title text-lg md:text-2xl font-bold leading-[28.8px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 700,
+                    letterSpacing: "0.02em",
+                    fontSize: "1.5rem",
+                    lineHeight: "2rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <h3
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      fontSize: "inherit",
+                      fontWeight: "inherit",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Passion for Excellence
+                  </h3>
+                </div>
+              </div>
+              <div
+                className="card_body bg-white p-6"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  backgroundColor: "rgb(255 255 255/1)",
+                  padding: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="core_values_para text-sm xl:text-base 2xl:text-lg font-normal leading-normal"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 400,
+                    letterSpacing: "0.02em",
+                    fontSize: "1rem",
+                    lineHeight: "1.5rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <strong
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        fontWeight: "bolder",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      When best is not enough
+                    </strong>
+                  </p>
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Passion for excellence means not doing extra-ordinary
+                    things, but doing ordinary things in all pursuits
+                    exceedingly well. Passion and excellence are forces that
+                    fuel each other on the exclusive path to leadership. As we
+                    are what we repeatedly do, excellence then is not an act,
+                    but a habit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="core_values_card_box rounded-3xl overflow-hidden"
+              style={{
+                border: "0px solid rgb(229, 231, 235)",
+                boxSizing: "border-box",
+                overflow: "hidden",
+                borderRadius: "1.5rem",
+                letterSpacing: "0.02em",
+                fontFamily: "Lato, sans-serif",
+              }}
+            >
+              <div
+                className="card_header rounded-t-3xl px-6 flex items-center justify-start gap-4"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "flex-start",
+                  gap: "1rem",
+                  borderTopLeftRadius: "1.5rem",
+                  borderTopRightRadius: "1.5rem",
+                  paddingLeft: "1.5rem",
+                  paddingRight: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="w-[99px] h-[68px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    height: "68px",
+                    width: "99px",
+                    letterSpacing: "0.02em",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <img
+                    className="h-full w-full object-cover"
+                    alt="integrity"
+                    src="https://www.torrentpharma.com/assets/Decision_Making_4fe4435f64.svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      maxWidth: "100%",
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  />
+                </div>
+                <div
+                  className="header_title text-lg md:text-2xl font-bold leading-[28.8px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 700,
+                    letterSpacing: "0.02em",
+                    fontSize: "1.5rem",
+                    lineHeight: "2rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <h3
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      fontSize: "inherit",
+                      fontWeight: "inherit",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Participative Decision Making
+                  </h3>
+                </div>
+              </div>
+              <div
+                className="card_body bg-white p-6"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  backgroundColor: "rgb(255 255 255/1)",
+                  padding: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="core_values_para text-sm xl:text-base 2xl:text-lg font-normal leading-normal"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 400,
+                    letterSpacing: "0.02em",
+                    fontSize: "1rem",
+                    lineHeight: "1.5rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <strong
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        fontWeight: "bolder",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Involvement that engenders effectiveness
+                    </strong>
+                  </p>
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    An ideal organization facilitates participation and
+                    involvement of each of its members in various decision
+                    making processes, thus ensuring their commitment to such
+                    decisions as well as its outcome. It provides a platform for
+                    seeking and nurturing constructive ideas from individuals,
+                    teams and units which eventually yields exceptional results.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="core_values_card_box rounded-3xl overflow-hidden"
+              style={{
+                border: "0px solid rgb(229, 231, 235)",
+                boxSizing: "border-box",
+                overflow: "hidden",
+                borderRadius: "1.5rem",
+                letterSpacing: "0.02em",
+                fontFamily: "Lato, sans-serif",
+              }}
+            >
+              <div
+                className="card_header rounded-t-3xl px-6 flex items-center justify-start gap-4"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "flex-start",
+                  gap: "1rem",
+                  borderTopLeftRadius: "1.5rem",
+                  borderTopRightRadius: "1.5rem",
+                  paddingLeft: "1.5rem",
+                  paddingRight: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="w-[99px] h-[68px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    height: "68px",
+                    width: "99px",
+                    letterSpacing: "0.02em",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <img
+                    className="h-full w-full object-cover"
+                    alt="integrity"
+                    src="https://www.torrentpharma.com/assets/Society_Environment_7f8ecaa70a.svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      maxWidth: "100%",
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  />
+                </div>
+                <div
+                  className="header_title text-lg md:text-2xl font-bold leading-[28.8px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 700,
+                    letterSpacing: "0.02em",
+                    fontSize: "1.5rem",
+                    lineHeight: "2rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <h3
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      fontSize: "inherit",
+                      fontWeight: "inherit",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Concern for Society & Environment
+                  </h3>
+                </div>
+              </div>
+              <div
+                className="card_body bg-white p-6"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  backgroundColor: "rgb(255 255 255/1)",
+                  padding: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="core_values_para text-sm xl:text-base 2xl:text-lg font-normal leading-normal"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 400,
+                    letterSpacing: "0.02em",
+                    fontSize: "1rem",
+                    lineHeight: "1.5rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <strong
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        fontWeight: "bolder",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      When every smile matters
+                    </strong>
+                  </p>
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Concern for Society & Environment is a sense of
+                    responsibility and contribution to society that defines our
+                    existence. It entails making a difference in the quality of
+                    lives and environment surrounding us. It is important to
+                    encourage fellow-members on collective as well as individual
+                    basis to fulfil the responsibility of leaving behind a world
+                    rich in flora and fauna and rich in time tested values and
+                    ideals and above all rich in social fervour for our future
+                    generations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="core_values_card_box rounded-3xl overflow-hidden"
+              style={{
+                border: "0px solid rgb(229, 231, 235)",
+                boxSizing: "border-box",
+                overflow: "hidden",
+                borderRadius: "1.5rem",
+                letterSpacing: "0.02em",
+                fontFamily: "Lato, sans-serif",
+              }}
+            >
+              <div
+                className="card_header rounded-t-3xl px-6 flex items-center justify-start gap-4"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "flex-start",
+                  gap: "1rem",
+                  borderTopLeftRadius: "1.5rem",
+                  borderTopRightRadius: "1.5rem",
+                  paddingLeft: "1.5rem",
+                  paddingRight: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="w-[99px] h-[68px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    height: "68px",
+                    width: "99px",
+                    letterSpacing: "0.02em",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <img
+                    className="h-full w-full object-cover"
+                    alt="integrity"
+                    src="https://www.torrentpharma.com/assets/Fairnesswith_Care_11e602d2c3.svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      maxWidth: "100%",
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  />
+                </div>
+                <div
+                  className="header_title text-lg md:text-2xl font-bold leading-[28.8px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 700,
+                    letterSpacing: "0.02em",
+                    fontSize: "1.5rem",
+                    lineHeight: "2rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <h3
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      fontSize: "inherit",
+                      fontWeight: "inherit",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Fairness with Care{" "}
+                  </h3>
+                </div>
+              </div>
+              <div
+                className="card_body bg-white p-6"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  backgroundColor: "rgb(255 255 255/1)",
+                  padding: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="core_values_para text-sm xl:text-base 2xl:text-lg font-normal leading-normal"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 400,
+                    letterSpacing: "0.02em",
+                    fontSize: "1rem",
+                    lineHeight: "1.5rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <strong
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        fontWeight: "bolder",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Harnessing equality
+                    </strong>
+                  </p>
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Fairness and Care towards all fellow members are
+                    inextricably linked. Weaving the threads of equality,
+                    irrespective of caste, creed, religion and gender, into the
+                    day to day fabric, ensures fairness for each and every
+                    individual. Empathic care recognises needs and aspirations
+                    of all. Only such fairness and care eventually lead fellow
+                    members to the dawn of eternal success.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="core_values_card_box rounded-3xl overflow-hidden"
+              style={{
+                border: "0px solid rgb(229, 231, 235)",
+                boxSizing: "border-box",
+                overflow: "hidden",
+                borderRadius: "1.5rem",
+                letterSpacing: "0.02em",
+                fontFamily: "Lato, sans-serif",
+              }}
+            >
+              <div
+                className="card_header rounded-t-3xl px-6 flex items-center justify-start gap-4"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "flex-start",
+                  gap: "1rem",
+                  borderTopLeftRadius: "1.5rem",
+                  borderTopRightRadius: "1.5rem",
+                  paddingLeft: "1.5rem",
+                  paddingRight: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="w-[99px] h-[68px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    height: "68px",
+                    width: "99px",
+                    letterSpacing: "0.02em",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <img
+                    className="h-full w-full object-cover"
+                    alt="integrity"
+                    src="https://www.torrentpharma.com/assets/Transparency_9890454f1e.png"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      maxWidth: "100%",
+                      height: "100%",
+                      width: "100%",
+                      objectFit: "cover",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  />
+                </div>
+                <div
+                  className="header_title text-lg md:text-2xl font-bold leading-[28.8px]"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 700,
+                    letterSpacing: "0.02em",
+                    fontSize: "1.5rem",
+                    lineHeight: "2rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <h3
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      fontSize: "inherit",
+                      fontWeight: "inherit",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Transparency
+                  </h3>
+                </div>
+              </div>
+              <div
+                className="card_body bg-white p-6"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  backgroundColor: "rgb(255 255 255/1)",
+                  padding: "1.5rem",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              >
+                <div
+                  className="core_values_para text-sm xl:text-base 2xl:text-lg font-normal leading-normal"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: 400,
+                    letterSpacing: "0.02em",
+                    fontSize: "1rem",
+                    lineHeight: "1.5rem",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin: "0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <strong
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        fontWeight: "bolder",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Openness that builds enduring trust
+                    </strong>
+                  </p>
+                  <p
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      margin:"0px",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    Transparency implies openness. It is the opposite of
+                    secrecy. It encourages more informed decision making and
+                    aids in creating enduring trust among all stakeholders.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div
-          className="clearfix"
-          style={{ boxSizing: "border-box", outline: "none" }}
-        />
       </div>
-     
+  
     </>
   );
 }

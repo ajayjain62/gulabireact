@@ -18,7 +18,7 @@ export default function Component() {
 
       <Four/>
       <Six/>
-      {/* <Seven/> */}
+      <Seven/>
     </>
   );
 }
