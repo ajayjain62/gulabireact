@@ -5,7 +5,6 @@ import Two from "../components/About/Two";
 import Three from "../components/About/Three";
 import Four from "../components/About/Four";
 import Five from "../components/About/Five";
-import Six from "../components/About/Six";
 import Seven from "../components/About/Seven";
 
 export default function Component() {
@@ -17,7 +16,6 @@ export default function Component() {
       <Five/>
 
       <Four/>
-      <Six/>
       <Seven/>
     </>
   );
