@@ -46,7 +46,7 @@ export default function Component() {
           <div className="about-image">
             {/* Placeholder for an image */}
             <img
-              src="https://cdn.shopify.com/s/files/1/0710/6301/1604/files/istockphoto-1082411378-612x612_480x480.jpg?v=1674041844"
+              src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
               alt="About Goa Nutritions"
               className="image-placeholder"
             />
@@ -132,9 +132,8 @@ const StyledWrapper = styled.section`
 
   .image-placeholder {
     max-width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
 
   /* Responsive Styles */
