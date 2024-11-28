@@ -27,26 +27,18 @@ const OverviewSection = () => {
             <div className="overview-facts">
               <div className="facts-flex">
                 <FactItem
-                  label="Physical Processings"
-                  imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/physical_icon.svg"
-                  largeImageSrc="https://i.postimg.cc/x17q4wxs/1d1367b44f5ac7b1bba3aaac333d4cfd.jpg"
+                  largeImageSrc="https://i.postimg.cc/76KvwF11/layering.jpg"
                 />
                 <FactItem
-                  label="Layering & Coating"
-                  imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/layering_icon.svg"
-                  largeImageSrc="https://i.postimg.cc/sDhLW7Fv/b15138ffc80e281dc6b08152c6a66193.jpg"
+                  largeImageSrc="https://i.postimg.cc/qqqPR1QP/physical.jpg"
                 />
               </div>
               <div className="facts-flex">
                 <FactItem
-                  label="Capsules Technology"
-                  imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/capsules_icon.svg"
-                  largeImageSrc="https://i.postimg.cc/t45G1WPF/c4566893b212316793cbea531db04ef8.jpg"
+                  largeImageSrc="https://i.postimg.cc/GtfZsv5H/pacakaging.jpg"
                 />
                 <FactItem
-                  label="Packaging Technology"
-                  imgSrc="https://tirupatigroup.co.in/wp-content/custom/images/RnD/packaging_icon.svg"
-                  largeImageSrc="https://i.postimg.cc/fRHgnKmq/670c3ab6639af19fb8ad61fec5aec0e4.jpg"
+                  largeImageSrc="https://i.postimg.cc/mZcRTrqt/Need-a-Car-250-x-250-px.jpg"
                 />
               </div>
             </div>
