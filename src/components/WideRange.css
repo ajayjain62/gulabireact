@@ -58,7 +58,7 @@
 
 .facts-flex {
   display: flex;
-  justify-content: space-between;
+  gap: 60px !important;
   margin-bottom: 10px;
 }
 
@@ -80,6 +80,13 @@
   height: 194px;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 100px;
+}
+
+.large-image:hover {
+  background-color: rgba(216, 191, 216, 0.5); /* Light purple overlay */
+  box-shadow: 0 4px 8px rgba(216, 191, 216, 0.6); /* Optional shadow for effect */
+  transform: scale(1.05); /* Slight scaling effect on hover */
 }
 
 /* Smaller icon image (used in the fact details) */
