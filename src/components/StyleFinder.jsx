@@ -469,7 +469,7 @@ export default function Component() {
                               height: "320px",
                               objectFit: "cover",
                               position: "relative",
-                              top: "-65px",
+                              top: "-50px",
                             }
                             }
                           />
@@ -559,6 +559,8 @@ export default function Component() {
                               width: "100%",
                               height: "250px",
                               objectFit: "cover",
+                              position: "relative",
+                              top: "14px",
                               
                             }}
                           />

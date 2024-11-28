@@ -44,7 +44,7 @@ export default function Component() {
                   fontSize: "38px",
                   fontWeight: 700,
                   textTransform: "uppercase",
-                  color: "#363678",
+                  color: "#683480xxxx",
                   marginTop: "0px",
                   marginBottom: "40px",
                   position: "relative",
@@ -103,7 +103,7 @@ export default function Component() {
                         height={200}
                         width={367}
                         alt="Cipla hikes stake in digital tech company GoApptiv"
-                        src="https://www.cipla.com/sites/default/files/2024-01/mint-media-release.png"
+                        src="https://i.postimg.cc/FKDmHkNJ/9-D62-Jj-LITDm-Id-GABa-TDVkg.jpg"
                         typeof="foaf:Image"
                         style={{
                           boxSizing: "border-box",
@@ -150,13 +150,13 @@ export default function Component() {
                               lineHeight: "24px",
                             }}
                           >
-                            Cipla hikes stake in digital tech company GoApptiv
+                            Goa hikes stake in digital tech company GoApptiv
                           </p>
                         </div>
                         <a
                           className="read-more-arrow"
                           alt="Cipla hikes stake in digital tech company GoApptiv"
-                          href="https://www.livemint.com/companies/news/cipla-hikes-stake-in-digital-tech-company-goapptiv-11702608833054.html"
+                          href="#"
                           target="_blank"
                           title="Cipla hikes stake in digital tech company GoApptiv"
                           style={{
@@ -218,7 +218,7 @@ export default function Component() {
                         className="img-responsive"
                         height={200}
                         width={367}
-                        src="https://www.cipla.com/sites/default/files/2024-01/times-of-india-image.webp"
+                        src="https://i.postimg.cc/t4G9SHB7/h-Bq5i-B6a-Sjq-VLxp0-Ls-Zo2w.webp"
                         typeof="foaf:Image"
                         style={{
                           boxSizing: "border-box",
@@ -265,13 +265,13 @@ export default function Component() {
                               lineHeight: "24px",
                             }}
                           >
-                            Cipla reports 32% rise in net profit
+                            Goa Nutrition reports 32% rise in net profit
                           </p>
                         </div>
                         <a
                           className="read-more-arrow"
                           alt="Cipla reports 32% rise in net profit"
-                          href="https://timesofindia.indiatimes.com/business/india-business/cipla-reports-32-rise-in-net-profit-latest-news/articleshow/107064841.cms?from=mdr"
+                          href="#"
                           target="_blank"
                           title="Cipla reports 32% rise in net profit"
                           style={{
@@ -334,7 +334,7 @@ export default function Component() {
                         height={200}
                         width={367}
                         alt="Cipla shares jump 7%, hit 52-week high on strong Q3 earnings"
-                        src="https://www.cipla.com/sites/default/files/2024-01/times-of-india-image_0.webp"
+                        src="https://i.postimg.cc/LsH2S3Kp/Rlm-Haw4d-Tb-SPo-UXMBSpltw.jpg"
                         typeof="foaf:Image"
                         style={{
                           boxSizing: "border-box",
@@ -381,14 +381,14 @@ export default function Component() {
                               lineHeight: "24px",
                             }}
                           >
-                            Cipla shares jump 7%, hit 52-week high on strong Q3
+                           Goa shares jump 7%, hit 52-week high on strong Q3
                             earnings
                           </p>
                         </div>
                         <a
                           className="read-more-arrow"
                           alt="Cipla shares jump 7%, hit 52-week high on strong Q3 earnings"
-                          href="https://economictimes.indiatimes.com/markets/stocks/news/cipla-shares-jump-7-hit-52-week-high-on-strong-q3-earnings/articleshow/107070149.cms"
+                          href="#"
                           target="_blank"
                           title="Cipla shares jump 7%, hit 52-week high on strong Q3 earnings"
                           style={{
@@ -505,7 +505,7 @@ export default function Component() {
                         <a
                           className="read-more-arrow"
                           alt="Strong US sales growth, sustained domestic momentum helps Cipla Q1 net profit beat estimates"
-                          href="https://www.livemint.com/companies/strong-us-sales-growth-sustained-domestic-momentum-helps-cipla-q1-net-profit-beat-estimates-11690381927736.html"
+                          href="#"
                           target="_blank"
                           title="Strong US sales growth, sustained domestic momentum helps Cipla Q1 net profit beat estimates"
                           style={{
@@ -568,7 +568,7 @@ export default function Component() {
                         height={200}
                         width={367}
                         alt="Cipla Q3 results: Pharma company's net profit jumps 32% to Rs 1,056 crore"
-                        src="https://www.cipla.com/sites/default/files/2024-01/business-time-image.png"
+                        src="https://i.postimg.cc/zGw84PQ7/ZQo-Q-5-RHSLOSa-OJkl9k-ZDA.jpg"
                         typeof="foaf:Image"
                         style={{
                           boxSizing: "border-box",
@@ -615,16 +615,16 @@ export default function Component() {
                               lineHeight: "24px",
                             }}
                           >
-                            Cipla Q3 results: Pharma company's net profit jumps
+                            Goa Nutrition Q3 results: Pharma company's net profit jumps
                             32% to Rs 1,056 crore
                           </p>
                         </div>
                         <a
                           className="read-more-arrow"
                           alt="Cipla Q3 results: Pharma company's net profit jumps 32% to Rs 1,056 crore"
-                          href="https://www.businesstoday.in/industry/pharma/story/cipla-q3-results-pharma-companys-net-profit-jumps-32-to-rs-1056-crore-414452-2024-01-22"
+                          href="#"
                           target="_blank"
-                          title="Cipla Q3 results: Pharma company's net profit jumps 32% to Rs 1,056 crore"
+                          title="Goa Nutrition Q3 results: Pharma company's net profit jumps 32% to Rs 1,056 crore"
                           style={{
                             boxSizing: "border-box",
                             borderRadius: "30px",
@@ -732,14 +732,14 @@ export default function Component() {
                               lineHeight: "24px",
                             }}
                           >
-                            Cipla’s #BerokZindagi partners with digital content
+                            Goa Nutrition #BerokZindagi partners with digital content
                             platform FilterCopy
                           </p>
                         </div>
                         <a
                           className="read-more-arrow"
                           alt="Cipla’s #BerokZindagi partners with digital content platform FilterCopy"
-                          href="https://www.financialexpress.com/business/brandwagon-ciplas-berokzindagi-partners-with-digital-content-platform-filtercopy-3237209/"
+                          href="#"
                           target="_blank"
                           title="Cipla’s #BerokZindagi partners with digital content platform FilterCopy"
                           style={{
@@ -802,7 +802,7 @@ export default function Component() {
                         height={200}
                         width={367}
                         alt="The Hindu Business Line"
-                        src="https://www.cipla.com/sites/default/files/2023-12/The Hindu Business Line.webp"
+                        src="https://i.postimg.cc/SxKbtNWS/h-Owxaa7-ETDq-Wce4v6tt15-Q.webp"
                         typeof="foaf:Image"
                         style={{
                           boxSizing: "border-box",
@@ -849,14 +849,14 @@ export default function Component() {
                               lineHeight: "24px",
                             }}
                           >
-                            Cipla rolls out knowledge platform for health care
+                           Goa Nutrition rolls out knowledge platform for health care
                             practitioners
                           </p>
                         </div>
                         <a
                           className="read-more-arrow"
                           alt="Cipla rolls out knowledge platform for health care practitioners"
-                          href="https://www.thehindubusinessline.com/companies/cipla-rolls-out-knowledge-platform-for-health-care-practitioners/article67202715.ece"
+                          href="#"
                           target="_blank"
                           title="Cipla rolls out knowledge platform for health care practitioners"
                           style={{
@@ -916,7 +916,7 @@ export default function Component() {
               }}
             >
               <a
-                href="https://www.cipla.com/media-centre"
+                href=""
                 style={{
                   boxSizing: "border-box",
                   position: "relative",

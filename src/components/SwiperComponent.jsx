@@ -8,7 +8,7 @@ function SwiperComponent() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-src="https://i.postimg.cc/XN1HBpCh/GOA-NUTRIATION-1.jpg" // Use forward slashes
+          src="https://i.postimg.cc/RCczXjxs/About-us-3.jpg" // Use forward slashes
           alt="First slide"
         />
         {/* <Carousel.Caption>
@@ -20,7 +20,7 @@ src="https://i.postimg.cc/XN1HBpCh/GOA-NUTRIATION-1.jpg" // Use forward slashes
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://i.postimg.cc/43Zyd0Sh/GOA-NUTRIATION-1.jpg"
+          src="https://i.postimg.cc/Z5tD9qMV/3.jpg"
           alt="Second slide"
         />
         {/* <Carousel.Caption>

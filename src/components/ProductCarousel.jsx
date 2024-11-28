@@ -1052,7 +1052,7 @@ export default function Component() {
               >
                 <a
                   className="flex items-center justify-start gap-6"
-                  href="https://www.torrentpharma.com/ourproducts/our-brands/"
+                  href="#"
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
@@ -1719,7 +1719,7 @@ export default function Component() {
               >
                 <a
                   className="flex items-center justify-start gap-6"
-                  href="https://www.torrentpharma.com/ourproducts/therapeutic-area/"
+                  href="#"
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
