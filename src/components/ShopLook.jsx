@@ -42,7 +42,7 @@ export default function Component() {
             paragraph: "Our disaster management initiatives provide relief and support during crises.",
             buttonText: "Find Out More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/disaster-management.html",
-            image: "https://www.cipla.com/sites/default/files/2023-07/disaster-relief-resized.webp",
+            image: "https://i.postimg.cc/DZVYRmmb/memory-enhancer.jpg",
             icon: "🧠"
         },
     };
