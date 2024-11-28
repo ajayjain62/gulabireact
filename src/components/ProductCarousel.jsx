@@ -2527,7 +2527,7 @@ export default function Component() {
                       alignItems: "center",
                       justifyContent: "flex-start",
                       // gap: "1.5rem",
-                      letterSpacing: "0.02em",
+                      letterSpacing: "0.03em",
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
