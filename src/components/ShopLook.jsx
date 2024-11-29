@@ -18,7 +18,7 @@ export default function Component() {
             paragraph: "We provide educational resources and support to empower the next generation.",
             buttonText: "Learn More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/education.html",
-            image: "https://i.postimg.cc/s2Mr3FTp/cardiology.jpg",
+            image: "https://i.postimg.cc/brfrG0rN/cardiology-2.jpg",
             icon: "🛡️"
         },
         AntiDiabietic: {

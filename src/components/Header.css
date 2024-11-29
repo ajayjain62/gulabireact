@@ -12,7 +12,7 @@
 }
 
 
-a:hover {
+.menu-item a:hover {
     color: #683480 !important;
 }
 

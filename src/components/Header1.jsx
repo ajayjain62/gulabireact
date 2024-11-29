@@ -53,7 +53,7 @@ const Header = () => {
     },
      {
       label: "Careers",
-      link: "#",
+      link: "http://localhost:5173/career",
     },
      {
       label: "Media centre",

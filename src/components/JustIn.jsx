@@ -171,7 +171,7 @@ export default function Component() {
                             backgroundImage:
                               'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                             backgroundRepeat: "no-repeat",
-                            padding: "7px 35px 7px 0px",
+                            padding: "7px 35px 7px 21px",
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
@@ -286,7 +286,7 @@ export default function Component() {
                             backgroundImage:
                               'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                             backgroundRepeat: "no-repeat",
-                            padding: "7px 35px 7px 0px",
+                            padding: "7px 35px 7px 21px",
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
@@ -403,7 +403,7 @@ export default function Component() {
                             backgroundImage:
                               'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                             backgroundRepeat: "no-repeat",
-                            padding: "7px 35px 7px 0px",
+                            padding: "7px 35px 7px 21px",
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
@@ -520,7 +520,7 @@ export default function Component() {
                             backgroundImage:
                               'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                             backgroundRepeat: "no-repeat",
-                            padding: "7px 35px 7px 0px",
+                            padding: "7px 35px 7px 21px",
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
@@ -637,7 +637,7 @@ export default function Component() {
                             backgroundImage:
                               'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                             backgroundRepeat: "no-repeat",
-                            padding: "7px 35px 7px 0px",
+                            padding: "7px 35px 7px 21px",
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
@@ -754,7 +754,7 @@ export default function Component() {
                             backgroundImage:
                               'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                             backgroundRepeat: "no-repeat",
-                            padding: "7px 35px 7px 0px",
+                            padding: "7px 35px 7px 21px",
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
@@ -871,7 +871,7 @@ export default function Component() {
                             backgroundImage:
                               'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                             backgroundRepeat: "no-repeat",
-                            padding: "7px 35px 7px 0px",
+                            padding: "7px 35px 7px 21px",
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",

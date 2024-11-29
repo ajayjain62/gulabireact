@@ -2312,7 +2312,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Hight Enhancer
+                      Height Enhancer
                     </h6>
                   </div>
                   <svg
