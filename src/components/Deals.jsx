@@ -151,7 +151,7 @@ export default function Component() {
                       lineHeight: "24px",
                       color: "rgb(255, 255, 255)",
                       fontSize: "16px",
-                      fontWeight: 600,
+                      fontWeight: 400,
                     }}
                   >
                     At Immune Science, we strive to foster a high-performance,
