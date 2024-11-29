@@ -81,6 +81,7 @@
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 100px;
+  cursor: pointer;
 }
 
 .large-image:hover {

@@ -10,7 +10,7 @@ export default function Component() {
             paragraph: "Our health initiatives focus on improving healthcare access and quality for underserved communities.",
             buttonText: "Read More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/health.html",
-            image: "https://www.cipla.com/sites/default/files/2023-07/health-image.webp",
+            image: "https://i.postimg.cc/3N7CFT6p/anti-anemic.jpg",
             icon: "🌟"
         },
         Cardiology: {
@@ -18,7 +18,7 @@ export default function Component() {
             paragraph: "We provide educational resources and support to empower the next generation.",
             buttonText: "Learn More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/education.html",
-            image: "https://www.cipla.com/sites/default/files/2022-11/education-banner.webp",
+            image: "https://i.postimg.cc/s2Mr3FTp/cardiology.jpg",
             icon: "🛡️"
         },
         AntiDiabietic: {
@@ -26,7 +26,7 @@ export default function Component() {
             paragraph: "Our skilling programs aim to equip individuals with the necessary skills for employment.",
             buttonText: "Explore More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/skilling.html",
-            image: "https://www.cipla.com/sites/default/files/2022-11/skill-banner.webp",
+            image: "https://i.postimg.cc/sxgCxvz0/anti-diabtic.jpg",
             icon: "💧"
         },
         EyeHealth: {
@@ -34,7 +34,7 @@ export default function Component() {
             paragraph: "We are committed to sustainable practices that protect our environment.",
             buttonText: "Discover More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/environmental-sustainability.html",
-            image: "https://www.cipla.com/sites/default/files/2023-07/environment-resized.webp",
+            image: "https://i.postimg.cc/1Xr0C3NP/eye-health.jpg",
             icon: "👁️"
         },
         MemoryEnhancers: {
@@ -42,7 +42,7 @@ export default function Component() {
             paragraph: "Our disaster management initiatives provide relief and support during crises.",
             buttonText: "Find Out More",
             buttonLink: "https://www.cipla.com/csr/cipla-foundation/disaster-management.html",
-            image: "https://www.cipla.com/sites/default/files/2023-07/disaster-relief-resized.webp",
+            image: "https://i.postimg.cc/DZVYRmmb/memory-enhancer.jpg",
             icon: "🧠"
         },
     };
