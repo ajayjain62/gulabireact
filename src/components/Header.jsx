@@ -78,7 +78,7 @@ export default function Component() {
           className="social-media-icon-link"
           style={{
             color: "white",
-            fontSize: "15px",
+            fontSize: "18px",
             transition: "transform 0.3s ease, color 0.3s ease",
             margin: "0 5px 0px 10px",
             textDecoration: "none",
@@ -100,7 +100,7 @@ export default function Component() {
           className="social-media-icon-link"
           style={{
             color: "white",
-            fontSize: "15px",
+            fontSize: "18px",
             transition: "transform 0.3s ease, color 0.3s ease",
             margin: "0 5px",
             textDecoration: "none",
@@ -122,7 +122,7 @@ export default function Component() {
           className="social-media-icon-link"
           style={{
             color: "white",
-            fontSize: "15px",
+            fontSize: "18px",
             transition: "transform 0.3s ease, color 0.3s ease",
             margin: "0 5px",
             textDecoration: "none",
@@ -144,7 +144,7 @@ export default function Component() {
           className="social-media-icon-link"
           style={{
             color: "white",
-            fontSize: "15px",
+            fontSize: "18px",
             transition: "transform 0.3s ease, color 0.3s ease",
             margin: "0 5px",
             textDecoration: "none",

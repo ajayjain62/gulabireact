@@ -9,7 +9,7 @@ import Hero from '../components/Hero';
 import Category from '../components/Category';
 import AboveFooter from '../components/AboveFooter';
 import BelowReel from '../components/BelowReel';
-import StyleFinder from '../components/StyleFinder';
+import StyleFinder from '../components/Finder';
 import Trending from '../components/Trending';
 import Deals from '../components/Deals';
 import ShopLook from '../components/ShopLook';
