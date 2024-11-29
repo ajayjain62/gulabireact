@@ -44,8 +44,8 @@ export default function Component() {
               height={372}
               width={1263}
               sizes="100vw"
-              src="https://i.postimg.cc/bJtt2qM9/About-us-2.jpg"
-              srcSet="https://i.postimg.cc/bJtt2qM9/About-us-2.jpg"
+              src="https://i.postimg.cc/CMQ2pPnW/about-us-7.jpg"
+              srcSet="https://i.postimg.cc/CMQ2pPnW/about-us-7.jpg"
               style={{
                 boxSizing: "inherit",
                 transition: "opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)",

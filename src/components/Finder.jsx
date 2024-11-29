@@ -23,22 +23,22 @@ const Portfolio = () => {
               />
               <PortfolioItemWithLink
                 title="Philanthropic causes"
-                imageUrl="https://i.postimg.cc/pTfwHvsP/45ad575a044828afb1423d549645ef91.jpg"
+                imageUrl="https://i.postimg.cc/RhKCL5xH/philithropic-causes.jpg"
                 link="#"
               />
               <PortfolioItemWithLink
                 title="Ethical/human rights responsibility"
-                imageUrl="https://i.postimg.cc/zD9xk67j/man-woman-holding-half-earth-globe-1343-158.jpg"
+                imageUrl="https://i.postimg.cc/R0p0MLTN/HUMAN.jpg"
                 link="#"
               />
               <PortfolioItemWithLink
                 title="Boost morale"
-                imageUrl="https://i.postimg.cc/zXgcZ8v6/2040ead323baf678ccad099d9110e147.jpg"
+                imageUrl="https://i.postimg.cc/9M4Qzwx1/maral.jpg"
                 link="#"
               />
               <PortfolioItemWithLink
                 title="Build a positive brand"
-                imageUrl="https://i.postimg.cc/5yc8wdJQ/76f941f1315dfb8991fb99787185c019.jpg"
+                imageUrl="https://i.postimg.cc/1tL5FR2S/brand.jpg"
                 link="#"
               />
             </div>

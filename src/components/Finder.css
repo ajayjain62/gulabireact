@@ -11,7 +11,7 @@
 }
 
 .portfolio-title {
-  font-family: inherit;
+  font-family: poppins, sans-serif;
   line-height: 1.1;
   margin: 0 0 0px;
   padding: 20px 0;
@@ -27,7 +27,6 @@
 .home-page {
   box-sizing: border-box;
   outline: none;
-  background: linear-gradient(180deg, #ffffff, #f4effa);
   padding: 20px 0;
 }
 
@@ -126,7 +125,7 @@
 
 .image-title {
   position: absolute;
-  bottom: 30%;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%, 0);
   color: #fff;

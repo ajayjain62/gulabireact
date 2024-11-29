@@ -79,7 +79,7 @@ const Header = () => {
     <header className="header">
       <div className="logo-holder">
         <a className="logo" href="http://localhost:5173/" rel="home" title="Home">
-          <img alt="Home" src="https://i.postimg.cc/0NYGQGCD/logo-2.png" />
+          <img alt="Home" src="https://i.postimg.cc/2SfrmKRH/GOA-1.png" />
         </a>
       </div>
       <nav className="navbar">

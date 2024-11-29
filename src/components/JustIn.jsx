@@ -175,7 +175,7 @@ export default function Component() {
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
-                            backgroundColor: "transparent",
+                            backgroundColor: "#fff",
                           }}
                         >
                           {"Read More"}
@@ -290,7 +290,7 @@ export default function Component() {
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
-                            backgroundColor: "transparent",
+                            backgroundColor: "#fff",
                           }}
                         >
                           {"Read More"}
@@ -407,7 +407,7 @@ export default function Component() {
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
-                            backgroundColor: "transparent",
+                            backgroundColor: "#fff",
                           }}
                         >
                           {"Read More"}
@@ -524,7 +524,7 @@ export default function Component() {
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
-                            backgroundColor: "transparent",
+                            backgroundColor: "#fff",
                           }}
                         >
                           {"Read More"}
@@ -641,7 +641,7 @@ export default function Component() {
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
-                            backgroundColor: "transparent",
+                            backgroundColor: "#fff",
                           }}
                         >
                           {"Read More"}
@@ -758,7 +758,7 @@ export default function Component() {
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
-                            backgroundColor: "transparent",
+                            backgroundColor: "#fff",
                           }}
                         >
                           {"Read More"}
@@ -875,7 +875,7 @@ export default function Component() {
                             fontSize: "14px",
                             backgroundSize: "9px",
                             outline: "none",
-                            backgroundColor: "transparent",
+                            backgroundColor: "#fff",
                           }}
                         >
                           {"Read More"}

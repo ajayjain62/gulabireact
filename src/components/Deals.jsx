@@ -199,7 +199,7 @@ export default function Component() {
                           'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                         backgroundRepeat: "no-repeat",
                         display: "block",
-                        color: "rgb(3, 94, 166)",
+                        color: "#000000",
                         outline: "none",
                       }}
                     >
@@ -232,7 +232,7 @@ export default function Component() {
                           'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                         backgroundRepeat: "no-repeat",
                         display: "block",
-                        color: "rgb(3, 94, 166)",
+                        color: "#000000",
                         outline: "none",
                       }}
                     >
@@ -265,7 +265,7 @@ export default function Component() {
                           'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                         backgroundRepeat: "no-repeat",
                         display: "block",
-                        color: "rgb(3, 94, 166)",
+                        color: "#000000",
                         outline: "none",
                       }}
                     >

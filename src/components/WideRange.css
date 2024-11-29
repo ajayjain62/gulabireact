@@ -85,8 +85,8 @@
 }
 
 .large-image:hover {
-  background-color: rgba(216, 191, 216, 0.5); /* Light purple overlay */
-  box-shadow: 0 4px 8px rgba(216, 191, 216, 0.6); /* Optional shadow for effect */
+ 
+  box-shadow: 2px 5px 15px #683480; /* Optional shadow for effect */
   transform: scale(1.05); /* Slight scaling effect on hover */
 }
 
