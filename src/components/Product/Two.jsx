@@ -71,7 +71,7 @@ export default function Component() {
             Nephrology, Oncology, Pulmonology, Gynecology and Pediatric
             treatments. Torrent Pharma, over four generations has followed the
             value systems and remained ahead of its competition earning the
-            sobriquet of 'The Company With The Most First Launches'.
+            sobriquet of The Company With The Most First Launches.
           </p>
         </div>
       </div>

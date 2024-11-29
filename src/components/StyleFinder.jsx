@@ -132,11 +132,11 @@ export default function Component() {
                             fontWeight: "normal",
                           }}
                         >
-                        Immune Science pioneers groundbreaking therapies
-                        across various areas, including respiratory, 
-                        HIV/AIDS, oncology, and more, empowering patients 
-                        with new beginnings through innovative treatments
-                        for rare diseases and general health.
+                          Immune Science pioneers groundbreaking therapies
+                          across various areas, including respiratory, HIV/AIDS,
+                          oncology, and more, empowering patients with new
+                          beginnings through innovative treatments for rare
+                          diseases and general health.
                         </p>
                       </div>
                     </div>
@@ -327,7 +327,6 @@ export default function Component() {
                       justifyContent: "center",
                       alignItems: "center",
                       height: "250px",
-
                     }}
                   >
                     <div
@@ -470,8 +469,7 @@ export default function Component() {
                               objectFit: "cover",
                               position: "relative",
                               top: "-50px",
-                            }
-                            }
+                            }}
                           />
                         </span>
                         <span
@@ -561,7 +559,6 @@ export default function Component() {
                               objectFit: "cover",
                               position: "relative",
                               top: "14px",
-                              
                             }}
                           />
                         </span>
@@ -596,36 +593,6 @@ export default function Component() {
           </div>
         </div>
       </div>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-html {
-  box-sizing: border-box;
-  outline: none;
-  line-height: 1.15;
-  font-family: sans-serif;
-  text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-size: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  box-sizing: border-box;
-  outline: none;
-  line-height: 1.42857;
-  background-color: rgb(255, 255, 255);
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  font-family: Poppins, sans-serif;
-  font-size: 14px;
-  width: 100%;
-  color: rgba(0, 0, 0, 0.8);
-}
-`,
-        }}
-      />
     </>
   );
 }
