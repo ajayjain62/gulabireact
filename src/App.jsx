@@ -29,6 +29,20 @@ import "./assets/css/bootstrap.min.css";
 import "./assets/css/plugins/plugins.css";
 import "./assets/css/style.min.css";
 
+
+//import packages
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'animate.css';
+import 'react-owl-carousel2/lib/styles.css'; // Owl Carousel Styles
+import 'magnific-popup/dist/magnific-popup.css'; // Magnific Popup Styles
+import './assets/css/style.css';
+import './assets/css/themes/blue-orange.css'; // Theme style
+import './assets/css/owl.carousel.min.css';
+import './assets/css/owl.theme.default.min.css';
+
+
+
 const App = () => (
   <Router>
     {/* Header Components */}
