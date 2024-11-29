@@ -1,6 +1,56 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 
-export default function Component() {
+export default function CoreValuesCard() {
+  const cardRef = useRef(null);
+  const imageRef = useRef(null);
+  const titleRef = useRef(null);
+
+  useEffect(() => {
+    // GSAP animations for the card
+    const tl = gsap.timeline({
+      defaults: { duration: 1.2, ease: "power4.out" },
+    });
+
+    // Card entry animation
+    tl.fromTo(
+      cardRef.current,
+      { y: 50, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        boxShadow: "rgba(0, 0, 0, 0.3) 0px 8px 24px",
+        duration: 1,
+      }
+    );
+
+    // Image animation
+    tl.fromTo(
+      imageRef.current,
+      { scale: 0.8, rotate: "45deg", opacity: 0 },
+      {
+        scale: 1,
+        rotate: "0deg",
+        opacity: 1,
+        duration: 1.5,
+        ease: "elastic.out(1, 0.5)",
+      },
+      "-=0.8"
+    );
+
+    // Title animation
+    tl.fromTo(
+      titleRef.current,
+      { x: "-100%", opacity: 0 },
+      {
+        x: "0%",
+        opacity: 1,
+        color: "#ffeb3b",
+        textShadow: "2px 2px 8px rgba(0,0,0,0.3)",
+      },
+      "-=0.5"
+    );
+  }, []);
   return (
     <>
       <section
@@ -33,7 +83,7 @@ export default function Component() {
               paddingLeft: "1rem",
               paddingRight: "1rem",
               letterSpacing: "0.02em",
-              paddingTop: "5rem",
+              paddingTop: "2rem",
               paddingBottom: "5rem",
               fontFamily: "Lato, sans-serif",
             }}
@@ -69,7 +119,7 @@ export default function Component() {
                     letterSpacing: "0.02em",
                     fontSize: "1.5rem",
                     lineHeight: "2rem",
-                    color: "rgb(54, 54, 120)",
+                    color: "rgb(104, 52, 128)",
                     textAlign: "left",
                     fontFamily: "Lato, sans-serif",
                   }}
@@ -91,7 +141,7 @@ export default function Component() {
                     fontFamily: "Lato, sans-serif",
                   }}
                 >
-                  The Company's core values serve as the foundation and guiding
+                  The Companys core values serve as the foundation and guiding
                   principles, leading to longevity and success in the
                   pharmaceutical industry.
                 </p>
@@ -191,7 +241,7 @@ export default function Component() {
                           fontSize: "inherit",
                           fontWeight: "inherit",
                           margin: "0px",
-                          color:"#fff",
+                          color: "#fff",
                           letterSpacing: "0.02em",
                           fontFamily: "Lato, sans-serif",
                         }}
@@ -345,7 +395,7 @@ export default function Component() {
                           fontSize: "inherit",
                           fontWeight: "inherit",
                           margin: "0px",
-                          color:"#fff",
+                          color: "#fff",
                           letterSpacing: "0.02em",
                           fontFamily: "Lato, sans-serif",
                         }}
@@ -499,7 +549,7 @@ export default function Component() {
                           fontSize: "inherit",
                           fontWeight: "inherit",
                           margin: "0px",
-                          color:"#fff",
+                          color: "#fff",
                           letterSpacing: "0.02em",
                           fontFamily: "Lato, sans-serif",
                         }}
@@ -653,7 +703,7 @@ export default function Component() {
                           fontSize: "inherit",
                           fontWeight: "inherit",
                           margin: "0px",
-                          color:"#fff",
+                          color: "#fff",
                           letterSpacing: "0.02em",
                           fontFamily: "Lato, sans-serif",
                         }}
@@ -807,7 +857,7 @@ export default function Component() {
                           fontSize: "inherit",
                           fontWeight: "inherit",
                           margin: "0px",
-                          color:"#fff",
+                          color: "#fff",
                           letterSpacing: "0.02em",
                           fontFamily: "Lato, sans-serif",
                         }}
@@ -962,7 +1012,7 @@ export default function Component() {
                           fontSize: "inherit",
                           fontWeight: "inherit",
                           margin: "0px",
-                          color:"#fff",
+                          color: "#fff",
                           letterSpacing: "0.02em",
                           fontFamily: "Lato, sans-serif",
                         }}
@@ -1038,7 +1088,6 @@ export default function Component() {
           </div>
         </div>
       </section>
-      
     </>
   );
 }
