@@ -1,8 +1,13 @@
 import React from "react";
 import './Footer.css'; // Importing the CSS file
-
+import  Newsletter from './Newsletter';
 export default function Footer() {
   return (
+
+    <>
+
+   <Newsletter />
+    
     <div className="footer-main">
       <div className="container footer-top footer-top-desktop">
         <div className="container-fluid">
@@ -78,6 +83,7 @@ export default function Footer() {
         </div>
       </div>
     </div>
-    </div>
+    </div>  
+    </>
   );
 }
