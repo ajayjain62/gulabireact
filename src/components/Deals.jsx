@@ -154,7 +154,10 @@ export default function Component() {
                       fontWeight: 600,
                     }}
                   >
-                  At Immune Science, we strive to foster a high-performance, meritocratic work culture, where care is the cornerstone of everything we do. We believe in empowering our team to excel while nurturing a supportive and compassionate environment.
+                    At Immune Science, we strive to foster a high-performance,
+                    meritocratic work culture, where care is the cornerstone of
+                    everything we do. We believe in empowering our team to excel
+                    while nurturing a supportive and compassionate environment.
                   </p>
                 </div>
                 <ul
@@ -200,7 +203,7 @@ export default function Component() {
                         outline: "none",
                       }}
                     >
-                      Health category 
+                      Health category
                     </a>
                   </li>
                   <li
@@ -233,7 +236,7 @@ export default function Component() {
                         outline: "none",
                       }}
                     >
-                      Private Labeling 
+                      Private Labeling
                     </a>
                   </li>
                   <li
@@ -266,7 +269,7 @@ export default function Component() {
                         outline: "none",
                       }}
                     >
-                      Contact Us 
+                      Contact Us
                     </a>
                   </li>
                 </ul>
@@ -275,36 +278,6 @@ export default function Component() {
           </div>
         </div>
       </section>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-html {
-  box-sizing: border-box;
-  outline: none;
-  line-height: 1.15;
-  font-family: sans-serif;
-  text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-size: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  box-sizing: border-box;
-  outline: none;
-  line-height: 1.42857;
-  background-color: rgb(255, 255, 255);
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  font-family: Poppins, sans-serif;
-  font-size: 14px;
-  width: 100%;
-  color: rgba(0, 0, 0, 0.8);
-}
-`,
-        }}
-      />
     </>
   );
 }
