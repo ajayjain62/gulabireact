@@ -711,7 +711,7 @@ textarea.form-control {
 
 /*=========Header==========*/
 .navbar {
-  min-height: 55px;
+  min-height: 0px;
   background: none;
   padding: 20px 0 24px;
   margin: 0;
