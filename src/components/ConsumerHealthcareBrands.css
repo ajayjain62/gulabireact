@@ -1,8 +1,16 @@
+.consumer{
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  letter-spacing: 0.02em;
+  font-family: Lato, sans-serif;
+  background-color: rgba(242, 242, 242, 0.85);
+}
 .tp_healthcare_brands_section {
     padding: 52px 1rem;
     max-width: 1140px;
     margin: auto;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(242, 242, 242, 0.85);
   }
   
   .grid {
@@ -15,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 10px;
   }
   
   .text-section {
@@ -89,19 +97,19 @@
   
   /* Background Colors */
   .brand-card.tedibar {
-    background-color: rgb(224, 131, 220);
+    background-image: linear-gradient(225deg, #834e96, rgb(104, 52, 128));
   }
   
   .brand-card.shalcal {
-    background-color: rgb(55, 191, 48);
+    background-image: linear-gradient(225deg, rgb(56, 191, 48), rgb(12, 74, 8));
   }
   
   .brand-card.unienzyme {
-    background-color: rgba(0, 173, 29, 0.904);
+    background-image: linear-gradient(225deg, rgb(4, 99, 191), rgb(4, 64, 122));
   }
   
   .brand-card.ahaglow {
-    background-color: rgb(144, 84, 28);
+    background-image: linear-gradient(225deg, rgb(28, 115, 144), rgb(21, 86, 107));
   }
   
   /* Brand Content */
@@ -137,7 +145,7 @@
   /* Responsive Styles */
   @media (min-width: 768px) {
     .header-text {
-      font-size: 42px;
+      font-size: 37px;
     }
   
     .sub-header-text {
@@ -155,7 +163,93 @@
   
   @media (min-width: 1024px) {
     .header-text {
-      font-size: 52px;
+      font-size: 45px;
     }
   }
-  
+ /* Ingredient Image */
+.ingredient-image {
+  position: absolute;
+  bottom: -20px;
+  right: 60px;
+  width: 100px;
+  height: auto;
+  z-index: 10;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.brand-image {
+width: 100%;
+max-width: 80%; 
+height: 60px;
+position: relative;
+left: -40px;
+top: -50px;
+}
+
+.arrow-image {
+  position: absolute; 
+  width: 35px;
+  left: 30px;
+  bottom: 20px;
+}
+
+.brand-content {
+  gap: 120px;
+}
+
+/* Product Image with 3D Look */
+.brand-product {
+  position: absolute;
+  right: 0px;
+  bottom: -12px;
+  max-width: 130px;
+  transform: translateY(0) scale(1);
+  transition: transform 0.5s ease, opacity 0.5s ease, box-shadow 0.5s ease;
+  z-index: 2;
+}
+
+/* Brand Card Base */
+.brand-card {
+  position: relative;
+  padding: 1rem;
+  overflow: visible;
+  border-radius: 30px;
+  box-shadow: 0px 32px 54.67px rgba(0, 0, 0, 0.2);
+  max-width: 410px;
+  min-width: 385px;
+  max-height: 217px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Background Colors */
+.brand-card.tedibar {
+  background-image: linear-gradient(225deg, #834e96, rgb(104, 52, 128));
+}
+
+.brand-card.shalcal {
+  background-image: linear-gradient(225deg, rgb(56, 191, 48), rgb(12, 74, 8));
+}
+
+.brand-card.unienzyme {
+  background-image: linear-gradient(225deg, rgb(4, 99, 191), rgb(4, 64, 122));
+}
+
+.brand-card.ahaglow {
+  background-image: linear-gradient(225deg, rgb(28, 115, 144), rgb(21, 86, 107));
+}
+
+/* Hover Effects */
+.brand-card:hover .ingredient-image {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.brand-card:hover .brand-product {
+  transform: translateY(-30px) scale(1.2);
+  opacity: 1;
+}
+ 

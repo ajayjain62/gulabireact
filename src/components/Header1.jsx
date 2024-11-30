@@ -28,15 +28,7 @@ const Header = () => {
       ]
     },
     {
-      label: "Franchise",
-      link: "#",
-      megaMenu: [
-        { label: "Australia", link: "https://www.cipla.com/our-presence/australia" },
-        { label: "Brazil", link: "https://www.cipla.com/our-presence/brazil" },
-      ]
-    },
-    {
-      label: "Product",
+      label: "Our Expertise",
       link: "#",
       megaMenu: [
         { label: "Prescription Medicines", link: "https://www.cipla.com/products/prescription" },
@@ -47,17 +39,22 @@ const Header = () => {
       label: "Corporate Social Responsibility",
       link: "http://localhost:5173/csr",
     },
-     {
-      label: "Sustainability",
-      link: "#",
-    },
-     {
-      label: "Careers",
-      link: "http://localhost:5173/career",
-    },
+
      {
       label: "Media centre",
       link: "#",
+    },
+    {
+      label: "Franchise",
+      link: "#",
+      megaMenu: [
+        { label: "Australia", link: "https://www.cipla.com/our-presence/australia" },
+        { label: "Brazil", link: "https://www.cipla.com/our-presence/brazil" },
+      ]
+    },
+    {
+      label: "Careers",
+      link: "http://localhost:5173/career",
     },
      {
       label: "Contact us",
