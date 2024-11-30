@@ -23,6 +23,7 @@
     "@splidejs/react-splide": "^0.7.12",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
+    "font-awesome": "^4.7.0",
     "framer-motion": "^11.12.0",
     "gsap": "^3.12.5",
     "magnific-popup": "^1.2.0",
