@@ -29,17 +29,17 @@ import "./assets/css/bootstrap.min.css";
 import "./assets/css/plugins/plugins.css";
 import "./assets/css/style.min.css";
 
-// Additional Vendor Styles
-import "./assetss/css/lib/bootstrap.min.css";
-import "./assetss/css/plugins/lineicons.css";
-import "./assetss/vendors/magnific-popup/magnific-popup.css";
-import "./assetss/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css";
-import "./assetss/vendors/bootstrap-select/css/bootstrap-select.min.css";
-import "./assetss/vendors/owl-carousel/assets/owl.carousel.css";
-import "./assetss/css/plugins/animate.css";
-import "./assetss/css/plugins/preloader.css";
-import "./assetss/css/themes/blue-orange.css";
-import "./assetss/css/plugins/font-awesome.min.css";
+import "./assets/css/lib/bootstrap.min.css";
+import "./assets/css/plugins/lineicons.css";
+import "./assets/css/vendor/magnific-popup.css";
+import "./assets/css/vendor/jquery.bootstrap-touchspin.min.css";
+import "./assets/css/vendor/bootstrap-select.min.css";
+import "./assets/css/vendor/owl.carousel.css";
+import "./assets/css/plugins/animate.css";
+import "./assets/css/plugins/preloader.css";
+import "./assets/css/themes/blue-orange.css";
+import "./assets/css/plugins/font-awesome.min.css";
+
 
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
