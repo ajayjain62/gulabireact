@@ -1,41 +1,119 @@
-<!-- Style the bar as you like -->
-<style>
-  .my-slider-progress {
-    background: #ccc;
-  }
-  
-  .my-slider-progress-bar {
-    background: greenyellow;
-    height: 2px;
-    transition: width 400ms ease;
-    width: 0;
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Goa Nutrition</title>
 
-<div class="splide">
-  <div class="splide__track">
-    <ul class="splide__list">
-      <li class="splide__slide">Slide 01</li>
-      ...
-    </ul>
-  </div>
-  
-  <!-- Add the progress bar element -->
-  <div class="my-slider-progress">
-    <div class="my-slider-progress-bar"></div>
-  </div>
-</div>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet" type="text/css" />
 
-<script>
-  var splide = new Splide( '.splide' );
-  var bar    = splide.root.querySelector( '.my-carousel-progress-bar' );
-  
-  // Updates the bar width whenever the carousel moves:
-  splide.on( 'mounted move', function () {
-    var end  = splide.Components.Controller.getEnd() + 1;
-    var rate = Math.min( ( splide.index + 1 ) / end, 1 );
-    bar.style.width = String( 100 * rate ) + '%';
-  } );
-  
-  splide.mount();
-</script>
+    <!-- CSS Plugin Files -->
+    <link href="assetss/css/plugins/animate.css" rel="stylesheet" />
+    <link href="assetss/css/plugins/font-awesome.min.css" rel="stylesheet" />
+    <link href="assetss/vendors/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link href="assetss/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+    <link href="assetss/vendors/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="assetss/vendors/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assetss/vendors/owl-carousel/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assetss/css/style.css" rel="stylesheet" />
+    <link href="assetss/css/themes/blue-orange.css" rel="stylesheet" />
+
+    <!-- Splide Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Splide/4.0.7/splide.min.css" />
+
+    <!-- IE9 Support -->
+    <!--[if lt IE 9]>
+      <script src="js/lib/html5shiv.min.js"></script>
+      <script src="js/lib/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom Styles -->
+    <style>
+      .my-slider-progress {
+        background: #ccc;
+        height: 4px;
+        margin-top: 5px;
+      }
+
+      .my-slider-progress-bar {
+        background: greenyellow;
+        height: 100%;
+        width: 0;
+        transition: width 400ms ease;
+      }
+
+      .splide__slide {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        background: #f5f5f5;
+        border: 1px solid #ddd;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Splide Carousel Section -->
+    <div class="splide" id="main-carousel">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">Slide 01</li>
+          <li class="splide__slide">Slide 02</li>
+          <li class="splide__slide">Slide 03</li>
+          <li class="splide__slide">Slide 04</li>
+        </ul>
+      </div>
+      <div class="my-slider-progress">
+        <div class="my-slider-progress-bar"></div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="assetss/js/lib/jquery-2.2.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="assetss/js/lib/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assetss/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assetss/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assetss/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+    <script src="assetss/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+    <!-- Splide JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Splide/4.0.7/splide.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assetss/js/main.js"></script>
+
+    <!-- Custom Script for Splide -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var splide = new Splide('#main-carousel', {
+          type: 'loop',
+          perPage: 3,
+          autoplay: true,
+          interval: 3000,
+          gap: '1rem',
+          breakpoints: {
+            768: {
+              perPage: 1,
+            },
+          },
+        });
+
+        var bar = document.querySelector('.my-slider-progress-bar');
+
+        splide.on('mounted move', function () {
+          var end = splide.Components.Controller.getEnd() + 1;
+          var rate = Math.min((splide.index + 1) / end, 1);
+          bar.style.width = String(100 * rate) + '%';
+        });
+
+        splide.mount();
+      });
+    </script>
+  </body>
+</html>

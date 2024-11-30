@@ -3068,34 +3068,7 @@ export default function Component() {
           </button>
         </div>
       </div>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-html {
-  border: 0px solid rgb(229, 231, 235);
-  box-sizing: border-box;
-  line-height: 1.5;
-  text-size-adjust: 100%;
-  tab-size: 4;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  -webkit-tap-highlight-color: transparent;
-  letter-spacing: 0.02em;
-  font-family: Lato, sans-serif;
-}
-
-body {
-  border: 0px solid rgb(229, 231, 235);
-  box-sizing: border-box;
-  margin: 0px;
-  line-height: inherit;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.02em;
-  font-family: Lato, sans-serif;
-}
-`,
-        }}
-      />
+      
     </>
   );
 }
