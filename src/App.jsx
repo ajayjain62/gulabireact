@@ -20,6 +20,7 @@ import Checkout from "./pages/Checkout";
 import CSR from "./pages/CSR";
 import SkinGlow from "./components/SkinGlow";
 import Career from "./pages/Career";
+import Rnd from "./pages/Rnd";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -65,6 +66,8 @@ const App = () => (
       <Route path="/gastro" element={<Gastro />} />
       <Route path="/skin-glow" element={<SkinGlow />} />
       <Route path="/career" element={<Career />} />
+      <Route path="/rd" element={<Rnd />} />
+
     </Routes>
 
     {/* Footer Component */}

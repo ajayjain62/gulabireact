@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
@@ -117,7 +118,7 @@ export default function CoreValuesCard() {
                     marginBottom: "1.5rem",
                     fontWeight: 700,
                     letterSpacing: "0.02em",
-                    fontSize: "1.5rem",
+                    fontSize: "2.5rem",
                     lineHeight: "2rem",
                     color: "rgb(104, 52, 128)",
                     textAlign: "left",

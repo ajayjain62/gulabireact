@@ -1,6 +1,4 @@
 import React from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Sphere } from "@react-three/drei";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 
@@ -10,24 +8,29 @@ const CSRPage = () => {
       title: "Philanthropic Responsibility",
       content:
         "Participate in philanthropic causes and give back to the community.",
+      image: "public/assets/img/csr/Philanthropic responsibility.jpg", // Replace with actual image paths
     },
     {
       title: "Environmental Responsibility",
       content: "Support eco-friendly initiatives and reduce carbon footprints.",
+      image: "public/assets/img/csr/Environmental responsibility.jpg",
     },
     {
       title: "Ethical Responsibility",
       content: "Uphold human rights and ensure ethical business practices.",
+      image: "public/assets/img/csr/Ethicalhuman rights responsibility.jpg",
     },
     {
       title: "Economic Responsibility",
       content:
         "Create positive economic value and contribute to sustainable growth.",
+      image: "public/assets/img/csr/Economic responsibility.jpg",
     },
     {
       title: "Community Engagement",
       content:
         "Forge stronger bonds between employees and the community, boosting morale and building a positive brand.",
+      image: "public/assets/img/csr/Give back to the community.jpg",
     },
   ];
 
@@ -59,7 +62,7 @@ const CSRPage = () => {
         className="hero-section"
         style={{
           position: "relative",
-          height: "100vh",
+          height: "60vh",
           background: "linear-gradient(129.27deg, #662D91 7.77%, #9B5DE5 88.92%)",
           display: "flex",
           alignItems: "center",
@@ -97,24 +100,6 @@ const CSRPage = () => {
             development.
           </p>
         </motion.div>
-        {/* Rotating 3D Sphere */}
-        <div
-          style={{
-            position: "absolute",
-            right: "10%",
-            bottom: "10%",
-            width: "25%",
-          }}
-        >
-          <Canvas>
-            <ambientLight intensity={0.5} />
-            <directionalLight position={[5, 5, 5]} />
-            <Sphere args={[1.5, 32, 32]} scale={2}>
-              <meshStandardMaterial color="#f9a8d4" wireframe />
-            </Sphere>
-            <OrbitControls enableZoom={false} autoRotate />
-          </Canvas>
-        </div>
       </div>
 
       {/* CSR Sections */}
@@ -157,13 +142,16 @@ const CSRPage = () => {
             </p>
           </div>
           <div style={{ flex: 1, padding: "20px" }}>
-            <Canvas>
-              <ambientLight intensity={0.5} />
-              <directionalLight position={[2, 5, 2]} />
-              <Sphere args={[1, 32, 32]} scale={1.5}>
-                <meshStandardMaterial color="#4f46e5" />
-              </Sphere>
-            </Canvas>
+            <img
+              src={section.image}
+              alt={section.title}
+              style={{
+                width: "100%",
+                height: "auto",
+                borderRadius: "10px",
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+              }}
+            />
           </div>
         </motion.div>
       ))}

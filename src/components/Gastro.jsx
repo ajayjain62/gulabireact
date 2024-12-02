@@ -13,12 +13,12 @@ export default function Component() {
         }}
       >
         <section
-          className="tp_therapeutic_areas_section py-[32px] md:py-[60px]"
+          className="tp_therapeutic_areas_section py-[32px] md:py-[ 25px]"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
             letterSpacing: "0.02em",
-            paddingTop: "60px",
+            paddingTop: "30px",
             backgroundColor: "#ffffff",
             fontFamily: "Lato, sans-serif",
           }}
@@ -39,14 +39,14 @@ export default function Component() {
             }}
           >
             <div
-              className="grid grid-cols-1 gap-[32px] md:gap-[60px]"
+              className="grid grid-cols-1 gap-[32px] md:gap-[25px]"
               style={{
                 border: "0px solid rgb(229, 231, 235)",
                 boxSizing: "border-box",
                 display: "grid",
                 gridTemplateColumns: "repeat(1, minmax(0px, 1fr))",
                 letterSpacing: "0.02em",
-                gap: "60px",
+                gap: "25px",
                 fontFamily: "Lato, sans-serif",
               }}
             >
@@ -256,7 +256,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -333,7 +333,7 @@ export default function Component() {
                   >
                     <img
                       alt="Neuro-Psychiatric"
-                      src="https://www.torrentpharma.com/assets/Neuro_Psychiatric_070ca12e7a.jpg"
+                      src="public\assets\img\categories\BODY DETIX.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -354,7 +354,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -430,8 +430,8 @@ export default function Component() {
                     }}
                   >
                     <img
-                      alt="Gynecology"
-                      src="https://www.torrentpharma.com/assets/Gynecology_ed0c0c6654.jpg"
+                      alt="Oncology"
+                      src="public\assets\img\categories\IMMUNITY BOOSTER.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -452,7 +452,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -461,7 +461,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      Collagen Supplement
+                      Immunity Booster
                     </h6>
                   </div>
                   <svg
@@ -529,7 +529,7 @@ export default function Component() {
                   >
                     <img
                       alt="Nephrology"
-                      src="https://www.torrentpharma.com/assets/Nephrology_d89cbffcf1.jpg"
+                      src="public\assets\img\categories\memory enhancer.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -550,7 +550,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -627,7 +627,7 @@ export default function Component() {
                   >
                     <img
                       alt="Oncology"
-                      src="https://www.torrentpharma.com/assets/Oncology_a7865bbb82.jpg"
+                      src="public\assets\img\categories\female vitality.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -648,7 +648,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -726,7 +726,7 @@ export default function Component() {
                   >
                     <img
                       alt="Gastro Intestinal"
-                      src="https://i.postimg.cc/FRdT5kQM/bone-and-joint-care.png"
+                      src="public\assets\img\categories\skin glow .jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -747,7 +747,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -790,23 +790,13 @@ export default function Component() {
             </div>
           </div>
         </section>
-      </section>
-      <section
-        style={{
-          border: "0px solid rgb(229, 231, 235)",
-          boxSizing: "border-box",
-          letterSpacing: "0.02em",
-          fontFamily: "Lato, sans-serif",
-          backgroundColor: "#f2f2f2d9",
-        }}
-      >
         <section
-          className="tp_therapeutic_areas_section py-[32px] md:py-[60px]"
+          className="tp_therapeutic_areas_section py-[32px] md:py-[0px]"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
             letterSpacing: "0.02em",
-            paddingBottom: "60px",
+            paddingTop: "25px",
             backgroundColor: "#ffffff",
             fontFamily: "Lato, sans-serif",
           }}
@@ -827,14 +817,14 @@ export default function Component() {
             }}
           >
             <div
-              className="grid grid-cols-1 gap-[32px] md:gap-[60px]"
+              className="grid grid-cols-1 gap-[32px] md:gap-[ 0px]"
               style={{
                 border: "0px solid rgb(229, 231, 235)",
                 boxSizing: "border-box",
                 display: "grid",
                 gridTemplateColumns: "repeat(1, minmax(0px, 1fr))",
                 letterSpacing: "0.02em",
-                gap: "60px",
+                gap: " 0px",
                 fontFamily: "Lato, sans-serif",
               }}
             >
@@ -849,8 +839,968 @@ export default function Component() {
                   letterSpacing: "0.02em",
                   fontFamily: "Lato, sans-serif",
                 }}
+              ></div>
+              <div
+                className="flex items-center justify-start flex-wrap gap-6 md:gap-8 xl:gap-8 2xl:gap-[42px]"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  display: "flex",
+                  flexWrap: "wrap",
+                  alignItems: "center",
+                  justifyContent: "flex-start",
+                  letterSpacing: "0.02em",
+                  gap: "2rem",
+                  fontFamily: "Lato, sans-serif",
+                }}
               >
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Gastro Intestinal"
+                      src="public\assets\img\categories\extracts.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        color: "rgb(30 30 30/1)",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Extracts
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Neuro-Psychiatric"
+                      src="public\assets\img\categories\superfood.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        color: "rgb(30 30 30/1)",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Speciality Superfoods
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Gynecology"
+                      src="public\assets\img\categories\anti anemic.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        color: "rgb(30 30 30/1)",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Anti Anemic
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Nephrology"
+                      src="public\assets\img\categories\anti diabtic.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        color: "rgb(30 30 30/1)",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Antidiabetic
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Oncology"
+                      src="public\assets\img\categories\cardiology.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        color: "rgb(30 30 30/1)",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Cardiology
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
+
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Gastro Intestinal"
+                      src="public\assets\img\categories\weight loss.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        color: "rgb(30 30 30/1)",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Weight Loss
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Gastro Intestinal"
+                      src="public\assets\img\categories\collegen suppliment.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        color: "rgb(30 30 30/1)",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Collagen Supplements
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Gastro Intestinal"
+                      src="public\assets\img\categories\hairfall control.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        color: "rgb(30 30 30/1)",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Hair Fall Control
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
+                <div
+                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                  style={{
+                    border: "0px solid rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "0.5rem",
+                    letterSpacing: "0.02em",
+                    paddingLeft: "1rem",
+                    paddingRight: "1rem",
+                    paddingTop: "0.75rem",
+                    paddingBottom: "0.75rem",
+                    flexBasis: "calc(33.33% - 2rem)",
+                    borderRadius: "24px",
+                    background: "rgba(54, 54, 120, 0.06)",
+                    transition: "0.2s",
+                    height: "150px",
+                    cursor: "pointer",
+                    fontFamily: "Lato, sans-serif",
+                  }}
+                >
+                  <div
+                    className="flex items-center justify-between gap-4"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "1rem",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <img
+                      alt="Gastro Intestinal"
+                      src="public\assets\img\categories\eye health.jpg"
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        maxWidth: "100%",
+                        height: "auto",
+                        letterSpacing: "0.02em",
+                        border: "none",
+                        borderRadius: "20px",
+                        width: "100px",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                    <h6
+                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        margin: "0px",
+                        width: "10rem",
+                        fontSize: "16px",
+                        fontWeight: 600,
+                        lineHeight: "30px",
+                        letterSpacing: "0.0015em",
+                        textAlign: "left",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      Eye Health
+                    </h6>
+                  </div>
+                  <svg
+                    height="14"
+                    width="7"
+                    fill="none"
+                    viewBox="0 0 7 14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "block",
+                      verticalAlign: "middle",
+                      letterSpacing: "0.02em",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <path
+                      d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                      fill="#363678"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    />
+                  </svg>
+                </div>
               </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section
+        style={{
+          border: "0px solid rgb(229, 231, 235)",
+          boxSizing: "border-box",
+          letterSpacing: "0.02em",
+          fontFamily: "Lato, sans-serif",
+          backgroundColor: "#f2f2f2d9",
+        }}
+      >
+        <section
+          className="tp_therapeutic_areas_section py-[32px] md:py-[ 25px]"
+          style={{
+            border: "0px solid rgb(229, 231, 235)",
+            boxSizing: "border-box",
+            letterSpacing: "0.02em",
+            paddingBottom: "25px",
+            backgroundColor: "#ffffff",
+            fontFamily: "Lato, sans-serif",
+          }}
+        >
+          <div
+            className="px-4 container mx-auto"
+            style={{
+              border: "0px solid rgb(229, 231, 235)",
+              boxSizing: "border-box",
+              width: "100%",
+              maxWidth: "1140px",
+              marginLeft: "auto",
+              marginRight: "auto",
+              paddingLeft: "1rem",
+              paddingRight: "1rem",
+              letterSpacing: "0.02em",
+              fontFamily: "Lato, sans-serif",
+            }}
+          >
+            <div
+              className="grid grid-cols-1 gap-[32px] md:gap-[ 25px]"
+              style={{
+                border: "0px solid rgb(229, 231, 235)",
+                boxSizing: "border-box",
+                display: "grid",
+                gridTemplateColumns: "repeat(1, minmax(0px, 1fr))",
+                letterSpacing: "0.02em",
+                gap: "25px",
+                fontFamily: "Lato, sans-serif",
+              }}
+            >
+              <div
+                className="flex flex-col items-start"
+                style={{
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                  letterSpacing: "0.02em",
+                  fontFamily: "Lato, sans-serif",
+                }}
+              ></div>
               <div
                 className="flex items-center justify-start flex-wrap gap-6 md:gap-8 xl:gap-8 2xl:gap-[42px]"
                 style={{
@@ -902,7 +1852,7 @@ export default function Component() {
                   >
                     <img
                       alt="Gastro Intestinal"
-                      src="https://www.torrentpharma.com/assets/Gastro_Intestinal_e1b56a0125.jpg"
+                      src="public\assets\img\categories\antioxidents.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -923,7 +1873,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -1000,7 +1950,7 @@ export default function Component() {
                   >
                     <img
                       alt="Neuro-Psychiatric"
-                      src="https://www.torrentpharma.com/assets/Neuro_Psychiatric_070ca12e7a.jpg"
+                      src="public\assets\img\categories\male vitality.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -1021,7 +1971,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -1030,7 +1980,7 @@ export default function Component() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                     Male Vitality
+                      Male Vitality
                     </h6>
                   </div>
                   <svg
@@ -1098,7 +2048,7 @@ export default function Component() {
                   >
                     <img
                       alt="Gynecology"
-                      src="https://www.torrentpharma.com/assets/Gynecology_ed0c0c6654.jpg"
+                      src="public\assets\img\categories\performance.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -1119,7 +2069,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -1196,7 +2146,7 @@ export default function Component() {
                   >
                     <img
                       alt="Nephrology"
-                      src="https://www.torrentpharma.com/assets/Nephrology_d89cbffcf1.jpg"
+                      src="public\assets\img\categories\dendruff.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -1217,7 +2167,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -1294,7 +2244,7 @@ export default function Component() {
                   >
                     <img
                       alt="Oncology"
-                      src="https://www.torrentpharma.com/assets/Oncology_a7865bbb82.jpg"
+                      src="public\assets\img\categories\height enhancer.jpg"
                       style={{
                         boxSizing: "border-box",
                         display: "block",
@@ -1315,7 +2265,7 @@ export default function Component() {
                         boxSizing: "border-box",
                         margin: "0px",
                         width: "10rem",
-                        fontSize: "1.125rem",
+                        fontSize: "16px",
                         fontWeight: 600,
                         lineHeight: "30px",
                         color: "rgb(30 30 30/1)",
@@ -1353,80 +2303,6 @@ export default function Component() {
                       }}
                     />
                   </svg>
-                </div>
-
-                <div
-                  className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-center items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
-                  style={{
-                    border: "0px solid rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    gap: "0.5rem",
-                    letterSpacing: "0.02em",
-                    paddingLeft: "1rem",
-                    paddingRight: "1rem",
-                    paddingTop: "0.75rem",
-                    paddingBottom: "0.75rem",
-                    flexBasis: "calc(33.33% - 2rem)",
-                    borderRadius: "24px",
-                    background: "rgba(54, 54, 120, 0.06)",
-                    transition: "0.2s",
-                    height: "150px",
-                    cursor: "pointer",
-                    fontFamily: "Lato, sans-serif",
-                  }}
-                >
-                  <div
-                    className="flex items-center justify-center flex-row-reverse gap-4"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "flex",
-                      flexDirection: "row-reverse",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      gap: "1rem",
-                      letterSpacing: "0.02em",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <img
-                      className="theraputic-many-more"
-                      alt="Many More"
-                      src="https://www.torrentpharma.com/assets/manymore_33eac8c082.png"
-                      style={{
-                        boxSizing: "border-box",
-                        display: "block",
-                        verticalAlign: "middle",
-                        maxWidth: "100%",
-                        height: "auto",
-                        letterSpacing: "0.02em",
-                        border: "none",
-                        borderRadius: "20px",
-                        width: "auto",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    />
-                    <h6
-                      className="text-lg font-semibold leading-[30px] text-[#1E1E1E]"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        margin: "0px",
-                        fontSize: "1.125rem",
-                        fontWeight: 600,
-                        lineHeight: "30px",
-                        color: "rgb(30 30 30/1)",
-                        letterSpacing: "0.0015em",
-                        textAlign: "left",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      Many More
-                    </h6>
-                  </div>
                 </div>
               </div>
             </div>
