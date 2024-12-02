@@ -8,7 +8,7 @@ export default function Component() {
         style={{
           boxSizing: "border-box",
           display: "block",
-          padding: "111px 0px 145px",
+          padding: "111px 0px 0px",
           background: "rgb(248, 251, 253)",
           margin: "0px",
           marginRight: "0px",

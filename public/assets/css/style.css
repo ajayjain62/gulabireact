@@ -723,6 +723,7 @@ textarea.form-control {
 .navbar .navbar-header {
   margin: 0;
   transition: all 300ms linear 0s;
+  display: none;
 }
 
 .navbar .navbar-header .btn-warning {

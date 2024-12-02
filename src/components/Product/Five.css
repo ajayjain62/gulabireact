@@ -1,0 +1,153 @@
+/* Product Section Styles */
+.five-product-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .five-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .five-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .five-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .five-product-image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .five-product-image {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .five-hotspots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .five-hotspot {
+    width: 15px;
+    height: 15px;
+    background-color: #007bff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .five-hotspot:hover {
+    transform: scale(1.2);
+  }
+  
+  .five-hotspot.active {
+    background-color: #0056b3;
+  }
+  
+  .five-hotspot-content {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* How It Works Section Styles */
+  .five-how-it-works {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .five-steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .five-step {
+    text-align: center;
+    max-width: 250px;
+  }
+  
+  .five-step-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+  
+  .five-step-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .five-step-description {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Watch Section Styles */
+.five-watch-section {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #f8fbfd;
+  }
+  
+  .five-watch-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 700px;
+  }
+  
+  .five-watch-content {
+    flex: 1;
+  }
+  
+  .five-watch-image img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  .five-watch-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .five-watch-features li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .five-watch-features li::before {
+    content: "✔";
+    color: green;
+    margin-right: 8px;
+  }
+  

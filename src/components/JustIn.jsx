@@ -927,7 +927,7 @@ export default function Component() {
                   display: "inline-block",
                   paddingLeft: "25px",
                   backgroundColor: "rgb(255, 255, 255)",
-                  color: "rgb(0, 173, 138)",
+                  color: "#683480",
                   fontSize: "18px",
                   fontWeight: 600,
                   backgroundImage:
