@@ -72,7 +72,7 @@ export default function Component() {
               fontSize: "1.5rem",
               lineHeight: "2.25rem",
               color: "Black",
-              letterSpacing: "0.02em",
+              letterSpacing: "0.03em",
               marginTop: "2rem",
               fontFamily: "Lato, sans-serif",
             }}
