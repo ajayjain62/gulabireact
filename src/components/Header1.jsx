@@ -79,7 +79,7 @@ const Header = () => {
           <img alt="Home" src="https://i.postimg.cc/2SfrmKRH/GOA-1.png" />
         </a>
       </div>
-      <nav className="navbar">
+      <nav className="navbaru">
         <ul className="menu">
           {menuItems.map((item, index) => (
             <li key={index} className="menu-item">
@@ -93,13 +93,13 @@ const Header = () => {
       </nav>
       <div className="search-container">
   <form onSubmit={handleSearchSubmit} className="search-box">
-    <div className="search-input-wrapper">
+    <div className="search-inputq-wrapper">
       <input 
         type="text" 
         value={searchTerm}
         onChange={handleSearchChange}
         placeholder="Type to search..." 
-        className="search-input"
+        className="search-inputq"
       />
       <button type="submit" className="search-icon-button">
         <svg 
