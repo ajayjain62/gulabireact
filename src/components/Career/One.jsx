@@ -1095,37 +1095,6 @@ export default function Component() {
           </div>
         </div>
       </section>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-html {
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-  font-family: poppins, sans-serif;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
-body {
-  box-sizing: border-box;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: var(--bs-body-text-align);
-  text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
-  padding: 0px;
-  margin: 0px;
-  font-family: Moderat, sans-serif;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  background-color: rgb(104, 52, 128);
-}
-`,
-        }}
-      />
     </>
   );
 }
