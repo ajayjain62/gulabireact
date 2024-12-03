@@ -4,54 +4,85 @@ import "./Five.css";
 const Five = () => {
   const [activeHotspot, setActiveHotspot] = useState(null);
 
-  const hotspotContent = {
-    1: "Feature 1: High-resolution display for clear visuals.",
-    2: "Feature 2: Long battery life ensures uninterrupted use.",
-    3: "Feature 3: Water-resistant design for durability.",
-  };
+  const hotspots = [
+    {
+      id: 1,
+      position: { top: "20%", left: "10%" },
+      lineClass: "five-line-1",
+      text: "Hotspot 1: Cool feature here!",
+  },
+  {
+      id: 2,
+      position: { top: "50%", right: "15%" },
+      lineClass: "five-line-2",
+      text: "Hotspot 2: Learn more about this.",
+  },
+  {
+      id: 3,
+      position: { bottom: "15%", left: "20%" },
+      lineClass: "five-line-3",
+      text: "Hotspot 3: Discover something new.",
+  },
+];
 
-  const handleHotspotClick = (id) => {
-    setActiveHotspot(activeHotspot === id ? null : id);
-  };
+const handleHotspotClick = (id) => {
+  setActiveHotspot(activeHotspot === id ? null : id);
+};
 
   return (
     <section>
       {/* Product Section */}
       <div className="five-product-section">
-        <div className="five-container">
-          <h2 className="five-title">THE PRODUCT</h2>
-          <p className="five-description">
-            Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.
-          </p>
-          <div className="five-product-image-container">
-            <img
-              src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
-              alt="Smart Watch"
-              className="five-product-image"
-            />
-            <div className="five-hotspots">
-              <div
-                className={`five-hotspot ${activeHotspot === 1 ? "active" : ""}`}
-                style={{ top: "20%", left: "10%" }}
-                onClick={() => handleHotspotClick(1)}
-              ></div>
-              <div
-                className={`five-hotspot ${activeHotspot === 2 ? "active" : ""}`}
-                style={{ top: "50%", right: "15%" }}
-                onClick={() => handleHotspotClick(2)}
-              ></div>
-              <div
-                className={`five-hotspot ${activeHotspot === 3 ? "active" : ""}`}
-                style={{ bottom: "15%", left: "20%" }}
-                onClick={() => handleHotspotClick(3)}
-              ></div>
+            <div className="five-container">
+                <h2 className="five-title">THE PRODUCT</h2>
+                <p className="five-description">
+                    Introduce the product here. A small description about what it is and how it helps the user.
+                </p>
+                <div className="five-product-image-container">
+                    <img
+                        src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
+                        alt="Product"
+                        className="five-product-image"
+                    />
+                    {hotspots.map((hotspot) => (
+                        <div key={hotspot.id}>
+                            <div
+                                className={`five-hotspot ${
+                                    activeHotspot === hotspot.id ? "active" : ""
+                                }`}
+                                style={hotspot.position}
+                                onClick={() => handleHotspotClick(hotspot.id)}
+                            ></div>
+                            <div
+                                className={`${hotspot.lineClass} ${
+                                    activeHotspot === hotspot.id ? "active" : ""
+                                }`}
+                                style={{
+                                    top: hotspot.position.top || "unset",
+                                    bottom: hotspot.position.bottom || "unset",
+                                    left: hotspot.position.left || "unset",
+                                    right: hotspot.position.right || "unset",
+                                    width: "100px", // Adjust for line length
+                                }}
+                            ></div>
+                            <div
+                                className={`five-hotspot-content ${
+                                    activeHotspot === hotspot.id ? "active" : ""
+                                }`}
+                                style={{
+                                    top: `calc(${hotspot.position.top} + 20px)` || "unset",
+                                    bottom: `calc(${hotspot.position.bottom} - 20px)` || "unset",
+                                    left: "50%",
+                                    transform: "translateX(-50%)",
+                                }}
+                            >
+                                {hotspot.text}
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
-            <div className="five-hotspot-content">
-              {activeHotspot && <p>{hotspotContent[activeHotspot]}</p>}
-            </div>
-          </div>
         </div>
-      </div>
 
       {/* How It Works Section */}
       <div className="five-how-it-works">

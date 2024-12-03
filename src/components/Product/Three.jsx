@@ -3,12 +3,12 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import * as THREE from "three";
 import { useNavigate } from "react-router-dom"; // for React Router
-
 import "./Category.css";
 
 const ThreeJsCarousel = () => {
   const sceneRef = useRef(null);
   const rendererRef = useRef(null);
+  const splideRef = useRef(null); // Reference for Splide instance
   const navigate = useNavigate(); // Initialize navigation for React Router
 
   useEffect(() => {
@@ -178,28 +178,23 @@ const ThreeJsCarousel = () => {
     },
   ];
 
-  return (
-    <div style={{ position: "relative",  }}>
-      <div
-        ref={sceneRef}
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          zIndex: -1,
-        }}
-      ></div>
+  const handlePrev = () => {
+    if (splideRef.current) splideRef.current.go("<");
+  };
 
-      <div
-        style={{
-          padding: "10px",
-          position: "relative",
-          zIndex: 1,
-        }}
-      >
+  const handleNext = () => {
+    if (splideRef.current) splideRef.current.go(">");
+  };
+
+  return (
+    <div className="threejs-carousel">
+      <div ref={sceneRef} className="threejs-background"></div>
+      <div className="carousel-container">
+        <button className="carousel-button prev" onClick={handlePrev}>
+          &#8249;
+        </button>
         <Splide
+          ref={splideRef}
           options={{
             type: "loop",
             perPage: 5,
@@ -211,22 +206,13 @@ const ThreeJsCarousel = () => {
               480: { perPage: 2, gap: "10px" },
             },
             arrows: false,
-            pagination: true,
+            pagination: false,
           }}
         >
           {categories.map((item, index) => (
             <SplideSlide key={index}>
               <div
-                onClick={() => navigate(item.link)} // Navigate to the category's page
-                style={{
-                  color: "#000",
-                  padding: "10px",
-                  textAlign: "center",
-                  cursor: "pointer",
-                  borderRadius: "15px",
-                  transition: "transform 0.4s ease",
-                  overflow: "hidden",
-                }}
+                onClick={() => navigate(item.link)}
                 className="carousel-slide"
               >
                 <img
@@ -234,21 +220,14 @@ const ThreeJsCarousel = () => {
                   alt={item.label}
                   className="carousel-image"
                 />
-                <div
-                  style={{
-                    padding: "10px",
-                    fontWeight: "500",
-                    fontSize: "1.2rem",
-                    color: "#000",
-                    textShadow: "1px 1px 2px rgba(0,0,0,0.3)",
-                  }}
-                >
-                  {item.label}
-                </div>
+                <div className="carousel-label">{item.label}</div>
               </div>
             </SplideSlide>
           ))}
         </Splide>
+        <button className="carousel-button next" onClick={handleNext}>
+          &#8250;
+        </button>
       </div>
     </div>
   );
