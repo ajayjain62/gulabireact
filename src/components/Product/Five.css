@@ -33,6 +33,7 @@
   border-radius: 10px;
 }
 
+/* Hotspots */
 .five-hotspot {
   width: 15px;
   height: 15px;
@@ -53,10 +54,26 @@
   background-color: #0056b3;
 }
 
-/* Lines with individual classes */
-.five-line-1,
-.five-line-2,
-.five-line-3 {
+/* Unique positioning for each hotspot */
+.hotspot-1 {
+  top: 20%;
+  left: 10%;
+}
+
+.hotspot-2 {
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+}
+
+.hotspot-3 {
+  bottom: 15%;
+  right: 20%;
+  z-index: 2;
+}
+
+/* Lines */
+.five-line {
   position: absolute;
   height: 2px;
   background-color: #007bff;
@@ -66,19 +83,39 @@
   transition: transform 0.5s ease-out;
 }
 
-.five-line-1.active {
+.line-1 {
+  top: 22%;
+  left:-20%;
+  width: 100px;
+}
+
+.line-2 {
+  top: 52%;
+  left: 52%;
+  width: 125px;
+  z-index: 1;
+}
+
+.line-3 {
+  bottom: 17%;
+  right: -18%;
+  width: 120px;
+  z-index: 1;
+}
+
+.line-1.active {
   transform: scaleX(1);
 }
 
-.five-line-2.active {
+.line-2.active {
   transform: scaleX(1);
 }
 
-.five-line-3.active {
+.line-3.active {
   transform: scaleX(1);
 }
 
-/* Text animation */
+/* Text content */
 .five-hotspot-content {
   position: absolute;
   font-size: 1em;
@@ -93,6 +130,23 @@
   opacity: 1;
   transform: translateY(0);
   color: #007bff;
+}
+
+/* Unique positioning for each content */
+.content-1 {
+  top: 25%;
+  left: -53%;
+}
+
+.content-2 {
+  top: 54%;
+  left: 57%;
+  width: 100%;
+}
+
+.content-3 {
+  bottom: 9%;
+  right: -50%;
 }
 
 
