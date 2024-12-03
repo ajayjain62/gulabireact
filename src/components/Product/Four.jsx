@@ -8,12 +8,13 @@ export default function Component() {
         style={{
           boxSizing: "border-box",
           display: "block",
-          padding: "111px 0px 0px",
+          padding: "0px 0px 30px",
           background: "rgb(248, 251, 253)",
           margin: "0px",
           marginRight: "0px",
           marginLeft: "0px",
           fontFamily: "poppins, sans-serif",
+          marginTop: "30px",
         }}
       >
         <div
@@ -25,6 +26,7 @@ export default function Component() {
             paddingLeft: "15px",
             paddingRight: "15px",
             width: "1170px",
+            marginTop:"-100px",
           }}
         >
           <div
@@ -49,6 +51,7 @@ export default function Component() {
                 left: "33.3333%",
                 visibility: "visible",
                 animationName: "fadeIn",
+                marginTop: "130px",
               }}
             >
               <img

@@ -29,7 +29,7 @@ const Header = () => {
     },
     {
       label: "Our Expertise",
-      link: "#",
+      link: "http://localhost:5173/product",
       megaMenu: [
         { label: "Prescription Medicines", link: "https://www.cipla.com/products/prescription" },
         { label: "Over-the-Counter", link: "https://www.cipla.com/products/otc" },
