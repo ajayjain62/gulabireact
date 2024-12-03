@@ -8,7 +8,7 @@ export default function Component() {
         style={{
           boxSizing: "border-box",
           position: "relative",
-          paddingTop: "3rem",
+          paddingTop: "3.1rem",
           paddingBottom: "3rem",
         }}
       >
