@@ -1,0 +1,49 @@
+.carousel-slide {
+  color: #000;
+  text-align: left; /* Align content to the left */
+  cursor: pointer;
+  border-radius: 15px;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+}
+
+.carousel-slide:hover {
+  transform: scale(1.05);
+}
+
+.carousel-image {
+  width: 100%;
+  height: 250px; /* Default for large screens */
+  object-fit: contain;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 100px; /* Height for tablets */
+    object-fit: contain;
+    font-size: 8px;
+    width: 150px;
+    gap: 5px;
+  }
+
+  .carousel-slide {
+    padding: 0; /* Remove padding for mobile devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-image {
+    height: 100px; /* Height for tablets */
+    object-fit: contain;
+    font-size: 8px;
+    width: 150px;
+    gap: 5px;
+
+  }
+
+  .carousel-slide {
+    padding: 0; /* Ensure no padding for small devices */
+  }
+}

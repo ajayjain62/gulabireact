@@ -18,7 +18,7 @@
     "@material-tailwind/react": "^2.1.10",
     "@mui/icons-material": "^6.1.9",
     "@mui/material": "^6.1.9",
-    "@react-three/drei": "^9.117.3",
+    "@react-three/drei": "^9.119.0",
     "@react-three/fiber": "^8.17.10",
     "@splidejs/react-splide": "^0.7.12",
     "animate.css": "^4.1.1",
