@@ -83,9 +83,10 @@
   transition: transform 0.5s ease-out;
 }
 
+/* Line Animations */
 .line-1 {
   top: 22%;
-  left:-20%;
+  left: -20%;
   width: 100px;
 }
 
@@ -104,15 +105,25 @@
 }
 
 .line-1.active {
-  transform: scaleX(1);
+  animation: expandLine 0.5s forwards;
 }
 
 .line-2.active {
-  transform: scaleX(1);
+  animation: expandLine 0.5s forwards;
 }
 
 .line-3.active {
-  transform: scaleX(1);
+  animation: expandLine 0.5s forwards;
+}
+
+/* Keyframe for line animation */
+@keyframes expandLine {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
 /* Text content */
@@ -131,6 +142,19 @@
   transform: translateY(0);
   color: #007bff;
 }
+
+/* Slide-in effect for content */
+@keyframes slideIn {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 /* Unique positioning for each content */
 .content-1 {
