@@ -17,7 +17,7 @@ export default function Component() {
       >
         <img
           className="w-full object-cover"
-          src="src\assets\img\skinglowbanner\skin glow.jpg"
+          src="src\assets\img\skinglowbanner\skin glow (1).jpg"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
