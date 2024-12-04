@@ -58,6 +58,8 @@ import WeightLoss from "./pages/WeightLoss";
 
 import MemoryEnhancers from "./pages/MemoryEnhancers";
 
+import EyeHealth from "./pages/EyeHealth.jsx";
+
 // Import CSS files
 import "./assets/css/ionicons.min.css";
 import "./assets/css/simple-line-icons.css";
@@ -123,6 +125,7 @@ const App = () => (
       <Route path="/memoryenhancer" element={<MemoryEnhancers />} />
       <Route path="/immunity-booster" element={<ImmunityBooster />} />
       <Route path="/hair-fall-control" element={<HairFallControl />} />
+      <Route path="/eye-health" element={<EyeHealth />} />
 
     </Routes>
 

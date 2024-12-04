@@ -4,7 +4,7 @@ import "./TherapeuticAreas.css"; // Import the CSS file
 export default function TherapeuticAreas() {
   return (
     <div className="container">
-      <p className="section-title">MALE VITALITY</p>
+      <p className="section-title">PERFORMANCE</p>
       <div className="section-content">
         <p>
           Achieve radiant, glowing skin with our advanced Glutathione formula.
