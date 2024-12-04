@@ -28,6 +28,8 @@ import CollagenSupplement from "./pages/CollagenSupplement.jsx";
 import AntiAnemic from "./pages/AntiAnemic";
 
 import AntiDiabetic from "./pages/AntiDiabetic";
+import ImmunityBooster from "./pages/ImmunityBooster.jsx";
+import HairFallControl from "./pages/HairFallControl.jsx";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -50,6 +52,7 @@ import "./assets/css/plugins/font-awesome.min.css";
 
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const App = () => (
   <Router>
@@ -78,6 +81,8 @@ const App = () => (
       <Route path="/collagen-supplement" element={<CollagenSupplement />} />
       <Route path="/anti-anemic" element={<AntiAnemic />} />
       <Route path="/anti-diabetic" element={<AntiDiabetic />} />
+      <Route path="/immunity-booster" element={<ImmunityBooster />} />
+      <Route path="/hair-fall-control" element={<HairFallControl />} />
     </Routes>
 
     {/* Footer Component */}
