@@ -30,6 +30,8 @@ import CollagenSupplement from "./pages/CollagenSupplement.jsx";
 import AntiAnemic from "./pages/AntiAnemic";
 
 import AntiDiabetic from "./pages/AntiDiabetic";
+import ImmunityBooster from "./pages/ImmunityBooster.jsx";
+import HairFallControl from "./pages/HairFallControl.jsx";
 
 
 import BoneAndJoint from "./pages/BoneAndJoint";
@@ -79,6 +81,7 @@ import "./assets/css/plugins/font-awesome.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Height } from "@mui/icons-material";
 
+
 const App = () => (
   <Router>
     {/* Header Components */}
@@ -121,6 +124,10 @@ const App = () => (
 
 
 
+
+
+      <Route path="/immunity-booster" element={<ImmunityBooster />} />
+      <Route path="/hair-fall-control" element={<HairFallControl />} />
 
     </Routes>
 
