@@ -23,15 +23,15 @@ const Header = () => {
       label: "About Us",
       link: "http://localhost:5173/about",
       megaMenu: [
-        { label: "Our Credo", link: "https://www.cipla.com/about-us/onecipla-credo" },
-        { label: "Board of Directors", link: "https://www.cipla.com/about-us/board-directors" },
+        { label: "Our Credo", link: "#" },
+        { label: "Board of Directors", link: "#" },
       ],
     },
     {
       label: "Our Expertise",
-      link: "http://localhost:5173/gastro",
+      link: "http://localhost:5173/our-expertise",
       megaMenu: [
-        { label: "Skin Glow", link: "http://localhost:5173/product" },
+        { label: "Skin Glow", link: "http://localhost:5173/skin-glow" },
         { label: "Bone & Joint Care", link: "http://localhost:5173/bone-and-joint" },
         { label: "Female Vitality", link: "http://localhost:5173/female-vitality" },
         { label: "Height Enhancer", link: "http://localhost:5173/height-enhancer" },
