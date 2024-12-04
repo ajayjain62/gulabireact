@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Fast and secure
+                    Flawless Skin Support
                   </h4>
                   <p
                     style={{
@@ -147,8 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore{" "}
+                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
                   </p>
                 </div>
               </div>
@@ -215,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Voice Assistant
+                    Radiant Complexion Booster
                   </h4>
                   <p
                     style={{
@@ -225,8 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore{" "}
+                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
                   </p>
                 </div>
               </div>
@@ -293,7 +291,8 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Apps you love
+                    Detox and Revitalize
+
                   </h4>
                   <p
                     style={{
@@ -303,8 +302,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore{" "}
+                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
                   </p>
                 </div>
               </div>
@@ -383,7 +381,8 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Stay in touch
+                    Optimal Absorption Formula
+
                   </h4>
                   <p
                     style={{
@@ -393,8 +392,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore{" "}
+                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
                   </p>
                 </div>
               </div>
@@ -461,7 +459,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Designed for you
+                    Tailored for Your Needs
                   </h4>
                   <p
                     style={{
@@ -471,8 +469,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore{" "}
+                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
                   </p>
                 </div>
               </div>
@@ -539,7 +536,8 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Precise timepiece
+                    Maximum Effectiveness
+
                   </h4>
                   <p
                     style={{
@@ -549,8 +547,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore{" "}
+                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
                   </p>
                 </div>
               </div>
