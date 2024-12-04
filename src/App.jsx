@@ -21,6 +21,7 @@ import CSR from "./pages/CSR";
 import SkinGlow from "./components/SkinGlow";
 import Career from "./pages/Career";
 import Rnd from "./pages/Rnd";
+import AntiAnemic from "./pages/AntiAnemic";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -40,7 +41,6 @@ import "./assets/css/plugins/animate.css";
 import "./assets/css/plugins/preloader.css";
 import "./assets/css/themes/blue-orange.css";
 import "./assets/css/plugins/font-awesome.min.css";
-
 
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -67,7 +67,7 @@ const App = () => (
       <Route path="/skin-glow" element={<SkinGlow />} />
       <Route path="/career" element={<Career />} />
       <Route path="/rd" element={<Rnd />} />
-
+      <Route path="/anti-anemic" element={<AntiAnemic />} />
     </Routes>
 
     {/* Footer Component */}
