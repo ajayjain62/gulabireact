@@ -1,11 +1,11 @@
 import React from 'react'
-import One from '../components/Anti-Diabetic/One'
-import Two from '../components/Anti-Diabetic/Two'
-import Three from '../components/Anti-Diabetic/Three'
-import Four from '../components/Anti-Diabetic/Four'
-import Five from '../components/Anti-Diabetic/Five'
+import One from '../components/AntiDiabetic/One'
+import Two from '../components/AntiDiabetic/Two'
+import Three from '../components/AntiDiabetic/Three'
+import Four from '../components/AntiDiabetic/Four'
+import Five from '../components/AntiDiabetic/Five'
 
-function Product() {
+function AntiDiabetic() {
 return (
     <div>
     
@@ -18,4 +18,4 @@ return (
 )
 }
 
-export default Product
+export default AntiDiabetic
