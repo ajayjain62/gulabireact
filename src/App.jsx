@@ -25,6 +25,9 @@ import BodyDetox from "./pages/BodyDetox.jsx";
 // import ImmunityBooster from "./pages/ImmunityBooster.jsx";
 import CollagenSupplement from "./pages/CollagenSupplement.jsx";
 
+import AntiAnemic from "./pages/AntiAnemic";
+
+import AntiDiabetic from "./pages/AntiDiabetic";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -45,10 +48,8 @@ import "./assets/css/plugins/preloader.css";
 import "./assets/css/themes/blue-orange.css";
 import "./assets/css/plugins/font-awesome.min.css";
 
-
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
-
 
 const App = () => (
   <Router>
@@ -75,7 +76,8 @@ const App = () => (
       <Route path="/body-detox" element={<BodyDetox />} />
       {/* <Route path="/immunity-booster" element={<ImmunityBooster />} /> */}
       <Route path="/collagen-supplement" element={<CollagenSupplement />} />
-
+      <Route path="/anti-anemic" element={<AntiAnemic />} />
+      <Route path="/anti-diabetic" element={<AntiDiabetic />} />
     </Routes>
 
     {/* Footer Component */}

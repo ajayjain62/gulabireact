@@ -555,6 +555,30 @@ export default function Component() {
           </div>
         </div>
       </section>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-size-adjust: 100%;
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: rgb(51, 51, 51);
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+`,
+        }}
+      />
     </>
   );
 }
