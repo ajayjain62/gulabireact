@@ -68,7 +68,7 @@ const CiplaVision = () => {
   return (
     <section className="cipla-vision cipla-mission">
       <div className="cipla-vision-wrapper">
-        <div className="container">
+        <div className="containeri">
           {/* Vision Banner */}
           <div className="home-page view-content">
             <div className="vision-banner">

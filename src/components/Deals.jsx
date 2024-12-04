@@ -15,7 +15,7 @@ export default function Component() {
         }}
       >
         <div
-          className="container"
+          className="containerw"
           style={{
             boxSizing: "border-box",
             outline: "none",

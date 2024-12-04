@@ -50,7 +50,7 @@ export default function Component() {
     return (
         <section className="cipla-vision foundation cus-bg-vision-grey">
             <div className="cipla-vision-wrapper">
-                <div className="container">
+                <div className="containerq">
                     <div className="view-header">
                         <h3>STANDING STRONG. CARING FOR LIFE.</h3>
                         <p>

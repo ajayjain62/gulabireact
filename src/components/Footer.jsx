@@ -9,7 +9,7 @@ export default function Footer() {
    <Newsletter />
     
     <div className="footer-main">
-      <div className="container footer-top footer-top-desktop">
+      <div className="containeru footer-top footer-top-desktop">
         <div className="container-fluid">
           <div className="row">
             <footer className="col-md-4" role="contentinfo">

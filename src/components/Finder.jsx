@@ -9,7 +9,7 @@ const Portfolio = () => {
       </div>
       <div className="home-page view-content">
         <div className="our-portfolio-wrapper">
-          <div className="container">
+          <div className="containere">
             <div className="our-portfolio-grid-wrapper our-portfolio-items">
               <PortfolioItem
                 title="From care to cure"

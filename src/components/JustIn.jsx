@@ -62,7 +62,7 @@ export default function Component() {
                 style={{ boxSizing: "border-box", outline: "none" }}
               >
                 <div
-                  className="container"
+                  className="containers"
                   style={{
                     boxSizing: "border-box",
                     outline: "none",

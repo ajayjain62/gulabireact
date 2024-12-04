@@ -35,10 +35,10 @@
   outline: none;
 }
 
-.container {
+.containere {
   box-sizing: border-box;
   outline: none;
-  padding: 0 15px;
+  padding: 0px 15px;
   margin: 0 auto;
   width: 1170px; /* Fixed width */
 }
