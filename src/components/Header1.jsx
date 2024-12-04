@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import './Header.css'; // Ensure this path is correct
+import "./Header.css"; // Ensure the correct path
 
 const MegaMenu = ({ items }) => (
-  <div className="mega-menu">
-    <ul className="mega-menu-list">
+  <div className="unique-mega-menu">
+    <ul className="unique-mega-menu-list">
       {items.map((item, index) => (
-        <li key={index} className="mega-menu-item">
-          <a href={item.link} target="_self" style={{ textDecoration: 'none' }}>
+        <li key={index} className="unique-mega-menu-item">
+          <a href={item.link} target="_self" className="unique-mega-menu-link">
             {item.label}
           </a>
         </li>
@@ -25,23 +25,40 @@ const Header = () => {
       megaMenu: [
         { label: "Our Credo", link: "https://www.cipla.com/about-us/onecipla-credo" },
         { label: "Board of Directors", link: "https://www.cipla.com/about-us/board-directors" },
-      ]
+      ],
     },
     {
       label: "Our Expertise",
       link: "http://localhost:5173/product",
       megaMenu: [
-        { label: "Prescription Medicines", link: "https://www.cipla.com/products/prescription" },
-        { label: "Over-the-Counter", link: "https://www.cipla.com/products/otc" },
-      ]
+        { label: "Skin Glow", link: "#" },
+        { label: "Bone & Joint Care", link: "#" },
+        { label: "Female Vitality", link: "#" },
+        { label: "Height Enhancer", link: "#" },
+        { label: "Antioxidants", link: "#" },
+        { label: "Male Vitality", link: "#" },
+        { label: "Performance", link: "#" },
+        { label: "Dandruff", link: "#" },
+        { label: "Extracts", link: "#" },
+        { label: "Speciality Super Foods", link: "#" },
+        { label: "Anti Anemic", link: "#" },
+        { label: "Antidiabetic", link: "#" },
+        { label: "Cardiology", link: "#" },
+        { label: "Weight Loss", link: "#" },
+        { label: "Eye Health", link: "#" },
+        { label: "Memory Enhancer", link: "#" },
+        { label: "Hair Fall Control", link: "#" },
+        { label: "Collagen Supplement", link: "#" },
+        { label: "Body Detox", link: "#" },
+        { label: "Immunity Booster", link: "#" },
+      ],
     },
     {
       label: "Corporate Social Responsibility",
       link: "http://localhost:5173/csr",
     },
-
-     {
-      label: "Media centre",
+    {
+      label: "Media Centre",
       link: "#",
     },
     {
@@ -50,16 +67,16 @@ const Header = () => {
       megaMenu: [
         { label: "Australia", link: "https://www.cipla.com/our-presence/australia" },
         { label: "Brazil", link: "https://www.cipla.com/our-presence/brazil" },
-      ]
+      ],
     },
     {
       label: "Careers",
       link: "http://localhost:5173/career",
     },
-     {
-      label: "Contact us",
+    {
+      label: "Contact Us",
       link: "http://localhost:5173/contact",
-    }
+    },
   ];
 
   const handleSearchChange = (event) => {
@@ -68,25 +85,24 @@ const Header = () => {
 
   const handleSearchSubmit = (event) => {
     event.preventDefault();
-    // Handle search logic here
     console.log("Searching for:", searchTerm);
   };
 
   return (
     <header className="header">
-      <div className="logo-holder">
-        <a className="logo" href="http://localhost:5173/" rel="home" title="Home">
-          <img alt="Home" src="https://i.postimg.cc/2SfrmKRH/GOA-1.png" />
+      <div className="unique-logo-holder">
+        <a className="unique-logo" href="http://localhost:5173/" rel="home" title="Home">
+          <img alt="Home" src="https://i.postimg.cc/2SfrmKRH/GOA-1.png" className="unique-logo-img" />
         </a>
       </div>
-      <nav className="navbaru">
-        <ul className="menu">
+      <nav className="unique-navbar">
+        <ul className="unique-menu">
           {menuItems.map((item, index) => (
-            <li key={index} className="menu-item">
-              <a href={item.link} className="menu-link">{item.label}</a>
-              {item.megaMenu && (
-                <MegaMenu items={item.megaMenu} />
-              )}
+            <li key={index} className="unique-menu-item">
+              <a href={item.link} className="unique-menu-link">
+                {item.label}
+              </a>
+              {item.megaMenu && <MegaMenu items={item.megaMenu} />}
             </li>
           ))}
         </ul>
