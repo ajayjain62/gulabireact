@@ -20,11 +20,17 @@ import Checkout from "./pages/Checkout";
 import CSR from "./pages/CSR";
 import SkinGlow from "./components/SkinGlow";
 import Career from "./pages/Career";
+
 import Rnd from "./pages/Rnd";  
+
+import BodyDetox from "./pages/BodyDetox.jsx";
+
+import CollagenSupplement from "./pages/CollagenSupplement.jsx";
 
 import AntiAnemic from "./pages/AntiAnemic";
 
 import AntiDiabetic from "./pages/AntiDiabetic";
+
 
 import BoneAndJoint from "./pages/BoneAndJoint";
 
@@ -95,6 +101,9 @@ const App = () => (
       <Route path="/skin-glow" element={<SkinGlow />} />
       <Route path="/career" element={<Career />} />
       <Route path="/rd" element={<Rnd />} />
+      <Route path="/body-detox" element={<BodyDetox />} />
+      {/* <Route path="/immunity-booster" element={<ImmunityBooster />} /> */}
+      <Route path="/collagen-supplement" element={<CollagenSupplement />} />
       <Route path="/anti-anemic" element={<AntiAnemic />} />
       <Route path="/anti-diabetic" element={<AntiDiabetic />} />
       <Route path="/bone-and-joint" element={<BoneAndJoint />} />
