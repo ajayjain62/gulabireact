@@ -21,6 +21,10 @@ import CSR from "./pages/CSR";
 import SkinGlow from "./components/SkinGlow";
 import Career from "./pages/Career";
 import Rnd from "./pages/Rnd";
+import BodyDetox from "./pages/BodyDetox.jsx";
+// import ImmunityBooster from "./pages/ImmunityBooster.jsx";
+import CollagenSupplement from "./pages/CollagenSupplement.jsx";
+
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -45,6 +49,7 @@ import "./assets/css/plugins/font-awesome.min.css";
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 const App = () => (
   <Router>
     {/* Header Components */}
@@ -67,6 +72,9 @@ const App = () => (
       <Route path="/skin-glow" element={<SkinGlow />} />
       <Route path="/career" element={<Career />} />
       <Route path="/rd" element={<Rnd />} />
+      <Route path="/body-detox" element={<BodyDetox />} />
+      {/* <Route path="/immunity-booster" element={<ImmunityBooster />} /> */}
+      <Route path="/collagen-supplement" element={<CollagenSupplement />} />
 
     </Routes>
 
