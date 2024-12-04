@@ -18,44 +18,27 @@ import Compare from "./pages/Compare";
 import Gastro from "./components/Gastro";
 import Checkout from "./pages/Checkout";
 import CSR from "./pages/CSR";
-import SkinGlow from "./components/SkinGlow";
 import Career from "./pages/Career";
-
 import Rnd from "./pages/Rnd";
-
 import BodyDetox from "./pages/BodyDetox.jsx";
-
 import CollagenSupplement from "./pages/CollagenSupplement.jsx";
-
 import AntiAnemic from "./pages/AntiAnemic";
-
 import AntiDiabetic from "./pages/AntiDiabetic";
 import ImmunityBooster from "./pages/ImmunityBooster.jsx";
 import HairFallControl from "./pages/HairFallControl.jsx";
-
 import BoneAndJoint from "./pages/BoneAndJoint";
-
 import FemaleVitality from "./pages/FemaleVitality";
-
 import HeightEnhancer from "./pages/HeightEnhancer";
-
 import AntiOxidant from "./pages/AntiOxidant";
-
 import MaleVitality from "./pages/MaleVitality";
-
 import Performance from "./pages/Performance";
-
 import Dendruff from "./pages/Dendruff";
-
 import Extracts from "./pages/Extracts";
-
 import SpecialitySuperfoods from "./pages/SpecialitySuperfoods";
-
 import Cardiology from "./pages/Cardiology";
-
 import WeightLoss from "./pages/WeightLoss";
-
 import MemoryEnhancers from "./pages/MemoryEnhancers";
+import EyeHealth from "./pages/EyeHealth.jsx";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -64,7 +47,6 @@ import "./assets/css/plugins/jquery-ui.min.css";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/plugins/plugins.css";
 import "./assets/css/style.min.css";
-
 import "./assets/css/lib/bootstrap.min.css";
 import "./assets/css/plugins/lineicons.css";
 import "./assets/css/vendor/magnific-popup.css";
@@ -78,7 +60,6 @@ import "./assets/css/plugins/font-awesome.min.css";
 
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Height } from "@mui/icons-material";
 
 const App = () => (
   <Router>
@@ -102,7 +83,6 @@ const App = () => (
       <Route path="/career" element={<Career />} />
       <Route path="/rd" element={<Rnd />} />
       <Route path="/body-detox" element={<BodyDetox />} />
-      {/* <Route path="/immunity-booster" element={<ImmunityBooster />} /> */}
       <Route path="/collagen-supplements" element={<CollagenSupplement />} />
       <Route path="/anti-anemic" element={<AntiAnemic />} />
       <Route path="/anti-diabetic" element={<AntiDiabetic />} />
@@ -118,9 +98,9 @@ const App = () => (
       <Route path="/cardiology" element={<Cardiology />} />
       <Route path="/weight-loss" element={<WeightLoss />} />
       <Route path="/memory-enhancer" element={<MemoryEnhancers />} />
-
       <Route path="/immunity-booster" element={<ImmunityBooster />} />
       <Route path="/hairfall-control" element={<HairFallControl />} />
+      <Route path="/eye-health" element={<EyeHealth />} />
     </Routes>
 
     {/* Footer Component */}
