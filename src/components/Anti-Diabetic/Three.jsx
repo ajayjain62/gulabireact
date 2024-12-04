@@ -82,75 +82,36 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=165 165w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=360 360w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=533 533w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358 713w",
-      label: "Glutathione",
-      link: "/category/anti-anemic",
-    },
-    {
-      src: "//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=165 165w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=360 360w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=533 533w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866 712w",
-      label: "Marine Collagen",
+      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\Rhodiola Rosea.jpg",
+      label: "Rhodiola Rosea",
       link: "/category/anti-diabetic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=165 165w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=360 360w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=533 533w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055 713w",
-      label: "Collagen Supplement",
-      link: "/category/antioxidants",
+      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\VITAMINB12MEN4.jpg",
+      label: "Vital B12 Men",
+      link: "/category/anti-diabetic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=165 165w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=360 360w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=533 533w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593 713w",
-      label: "R-Alpha Lipoic Acid",
-      link: "/category/body-detox",
+      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\VITAMINB124 women.jpg",
+      label: "Vital B12 Women",
+      link: "/category/anti-diabetic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=165 165w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=360 360w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=533 533w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667 713w",
-      label: "Plant Based Biotin",
-      link: "/category/collagen-supplement",
+      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\fenugreek seeds.jpg",
+      label: "Fenugreek Seed",
+      link: "/category/anti-diabetic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=165 165w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=360 360w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=533 533w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007 713w",
-      label: "Collagen Powder",
-      link: "/category/dandruff",
+      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\palmetto.jpg",
+      label: "Palmetto Boost",
+      link: "/category/anti-diabetic",
     },
     {
-      src: "https://goanutritions.com/cdn/shop/products/262db3f25b79dba3e32542808633871c.jpg?v=1676114362&width=1946",
-      label: "Skin Hydration",
-      link: "/category/extracts",
+      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\combogia tablets.jpg",
+      label: "Garcinia Cambogia",
+      link: "/category/anti-diabetic",
     },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/RESVERATROL4.jpg?v=1675923964&width=1946",
-      label: "Resveratrol Supplement",
-      link: "/category/eye-health",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/0a5b88b59753b3db1af5d7e248062ec6.jpg?v=1676114400&width=1946",
-      label: "NAC Supplement",
-      link: "/category/female-vitality",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/M.V.WOMEN4.jpg?v=1675923814&width=1946",
-      label: "Multivitamins",
-      link: "/category/hairfall-control",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/20395c42bb877591cdd49ab5a02d9265.jpg?v=1676114405&width=1946",
-      label: "Grape Seed Extract",
-      link: "/category/height-enhancer",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/a0684901e9f4303e60e4796da488e1c2.jpg?v=1676114377&width=1946",
-      label: "Glutathione Tablets",
-      link: "/category/immunity-booster",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/8af93504edf5effff2a51eb62663785b.jpg?v=1676114390&width=1946",
-      label: "Skin Whitening",
-      link: "/category/joint-care",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/N-ACITYLCYSTEINE7.jpg?v=1675923841&width=1946",
-      label: "NAC Supplement",
-      link: "/category/male-vitality",
-    },
+   
   ];
 
   const handlePrev = () => {
