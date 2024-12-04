@@ -121,11 +121,6 @@ const App = () => (
       <Route path="/cardiology" element={<Cardiology />} />
       <Route path="/weightloss" element={<WeightLoss />} />
       <Route path="/memoryenhancer" element={<MemoryEnhancers />} />
-
-
-
-
-
       <Route path="/immunity-booster" element={<ImmunityBooster />} />
       <Route path="/hair-fall-control" element={<HairFallControl />} />
 
