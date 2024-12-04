@@ -21,7 +21,11 @@ import CSR from "./pages/CSR";
 import SkinGlow from "./components/SkinGlow";
 import Career from "./pages/Career";
 import Rnd from "./pages/Rnd";
+<<<<<<< Updated upstream
 import AntiAnemic from "./pages/AntiAnemic";
+=======
+import AntiDiabetic from "./pages/AntiDiabetic";
+>>>>>>> Stashed changes
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -44,6 +48,7 @@ import "./assets/css/plugins/font-awesome.min.css";
 
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
+import AntiDaibetic from "./pages/Panne.jsx/AntiDaibetic";
 
 const App = () => (
   <Router>
@@ -67,7 +72,12 @@ const App = () => (
       <Route path="/skin-glow" element={<SkinGlow />} />
       <Route path="/career" element={<Career />} />
       <Route path="/rd" element={<Rnd />} />
+<<<<<<< Updated upstream
       <Route path="/anti-anemic" element={<AntiAnemic />} />
+=======
+      <Route path="/anti-diabetic" element={<AntiDiabetic />} />
+
+>>>>>>> Stashed changes
     </Routes>
 
     {/* Footer Component */}
