@@ -18,7 +18,6 @@ export default function Component() {
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
             letterSpacing: "0.02em",
-            paddingTop: "30px",
             backgroundColor: "#ffffff",
             fontFamily: "Lato, sans-serif",
           }}
@@ -93,7 +92,7 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    Therapeutic Areas
+                    Our Expertise
                   </p>
                   <div
                     className="min-h-8 min-w-8 rounded-[50%] flex items-center justify-center bg-[#36367824]"
@@ -176,7 +175,7 @@ export default function Component() {
                     fontFamily: "Lato, sans-serif",
                   }}
                 >
-                  At Immune Science, we uphold a tradition of dedication,
+                  At Goa Nutrition, we uphold a tradition of dedication,
                   professional integrity, and robust R&D to achieve excellence.
                   With leading brands in key therapeutic areas, our products are
                   proven to be both efficient and effective in improving patient
@@ -210,7 +209,6 @@ export default function Component() {
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
                     paddingTop: "0.75rem",
-                    paddingBottom: "0.75rem",
                     flexBasis: "calc(33.33% - 2rem)",
                     borderRadius: "24px",
                     background: "rgba(54, 54, 120, 0.06)",
@@ -810,6 +808,8 @@ export default function Component() {
               maxWidth: "1140px",
               marginLeft: "auto",
               marginRight: "auto",
+              paddingTop:"5px",
+              paddingBottom:"15px",
               paddingLeft: "1rem",
               paddingRight: "1rem",
               letterSpacing: "0.02em",
@@ -1062,8 +1062,7 @@ export default function Component() {
                     letterSpacing: "0.02em",
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
-                    paddingTop: "0.75rem",
-                    paddingBottom: "0.75rem",
+            
                     flexBasis: "calc(33.33% - 2rem)",
                     borderRadius: "24px",
                     background: "rgba(54, 54, 120, 0.06)",
@@ -1757,7 +1756,6 @@ export default function Component() {
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
             letterSpacing: "0.02em",
-            paddingBottom: "25px",
             backgroundColor: "#ffffff",
             fontFamily: "Lato, sans-serif",
           }}
@@ -1773,6 +1771,8 @@ export default function Component() {
               marginRight: "auto",
               paddingLeft: "1rem",
               paddingRight: "1rem",
+              paddingTop:"0px",
+              paddingBottom:"15px",
               letterSpacing: "0.02em",
               fontFamily: "Lato, sans-serif",
             }}
