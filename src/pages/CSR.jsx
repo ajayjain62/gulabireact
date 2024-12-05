@@ -63,7 +63,9 @@ const CSRPage = () => {
         style={{
           position: "relative",
           height: "60vh",
-          background: "linear-gradient(129.27deg, #662D91 7.77%, #9B5DE5 88.92%)",
+          backgroundImage: "Url(https://i.postimg.cc/0N5B4QZ2/CORPORATE-SOCIAL-RESPONSBLITY.jpg)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
