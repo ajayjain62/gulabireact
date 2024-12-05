@@ -8,29 +8,29 @@ const CSRPage = () => {
       title: "Philanthropic Responsibility",
       content:
         "Participate in philanthropic causes and give back to the community.",
-      image: "public/assets/img/csr/Philanthropic responsibility.jpg", // Replace with actual image paths
+      image: "https://i.postimg.cc/h4yBr8t3/Philanthropic-responsibility.jpg", // Replace with actual image paths
     },
     {
       title: "Environmental Responsibility",
       content: "Support eco-friendly initiatives and reduce carbon footprints.",
-      image: "public/assets/img/csr/Environmental responsibility.jpg",
+      image: "https://i.postimg.cc/qqjMcWZm/Environmental-responsibility.jpg",
     },
     {
       title: "Ethical Responsibility",
       content: "Uphold human rights and ensure ethical business practices.",
-      image: "public/assets/img/csr/Ethicalhuman rights responsibility.jpg",
+      image: "https://i.postimg.cc/D0WY5Xxt/Ethicalhuman-rights-responsibility.jpg",
     },
     {
       title: "Economic Responsibility",
       content:
         "Create positive economic value and contribute to sustainable growth.",
-      image: "public/assets/img/csr/Economic responsibility.jpg",
+      image: "https://i.postimg.cc/m2BHYshS/Economic-responsibility.jpg",
     },
     {
       title: "Community Engagement",
       content:
         "Forge stronger bonds between employees and the community, boosting morale and building a positive brand.",
-      image: "public/assets/img/csr/Give back to the community.jpg",
+      image: "https://i.postimg.cc/YCtTBh0m/Give-back-to-the-community.jpg",
     },
   ];
 
@@ -96,8 +96,7 @@ const CSRPage = () => {
               opacity: 1,
             }}
           >
-            A commitment to improving social, environmental, and economic
-            development.
+            Corporate Social Responsibility (CSR) refers to a company’s commitment to operate ethically, contribute to economic development, and improve the quality of life for employees, local communities, and society at large.
           </p>
         </motion.div>
       </div>
