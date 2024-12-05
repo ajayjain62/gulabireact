@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import "./Five.css";
+import { motion } from "framer-motion";
 
 const Five = () => {
+  const stepVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
   const [activeHotspot, setActiveHotspot] = useState(null);
 
   const hotspots = [
@@ -62,8 +67,7 @@ const Five = () => {
               <>
                 <div className="five-line line-1 active"></div>
                 <div className="five-hotspot-content content-1 active">
-                Powerful Antioxidant Support
-
+                  Powerful Antioxidant Support
                 </div>
               </>
             )}
@@ -79,8 +83,7 @@ const Five = () => {
               <>
                 <div className="five-line line-2 active"></div>
                 <div className="five-hotspot-content content-2 active">
-                Advanced Skin Hydration
-
+                  Advanced Skin Hydration
                 </div>
               </>
             )}
@@ -96,8 +99,7 @@ const Five = () => {
               <>
                 <div className="five-line line-3 active"></div>
                 <div className="five-hotspot-content content-3 active">
-                Comprehensive Wellness
-
+                  Comprehensive Wellness
                 </div>
               </>
             )}
@@ -105,84 +107,158 @@ const Five = () => {
         </div>
       </div>
 
-      {/* How It Works Section */}
-      <div className="five-how-it-works">
-        <h2 className="five-title">HOW IT WORKS</h2>
-        <p className="five-description">
+      <motion.div
+        className="five-how-it-works"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.8 }}
+      >
+        <motion.h2
+          className="five-title"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          HOW IT WORKS
+        </motion.h2>
+        <motion.p
+          className="five-description"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2 }}
+        >
           Everybody loves glowing, healthy skin. Here’s how our Flawless
           Collagen Support works! It’s simple and effective.
-        </p>
-        <div className="five-steps">
-          <div className="five-step">
-            <img
-              src="https://demo.web3canvas.com/themeforest/proland/images/desktop.png"
-              alt="Connect Device"
-              className="five-step-icon"
-            />
-            <h3 className="five-step-title">Boost & Absorb</h3>
-            <p className="five-step-description">
-              From reducing hyperpigmentation to boosting collagen production,
-              our formula supports overall skin health, delays signs of aging,
-              and enhances your natural glow. Feel confident in your skin every
-              day.
-            </p>
-          </div>
-          <div className="five-step">
-            <img
-              src="https://demo.web3canvas.com/themeforest/proland/images/toggles.png"
-              alt="Configure It"
-              className="five-step-icon"
-            />
-            <h3 className="five-step-title">Achieve Radiant Skin</h3>
-            <p className="five-step-description">
-              From reducing hyperpigmentation to boosting collagen production,
-              our formula supports overall skin health, delays signs of aging,
-              and enhances your natural glow. Feel confident in your skin every
-              day.
-            </p>
-          </div>
-          <div className="five-step">
-            <img
-              src="https://demo.web3canvas.com/themeforest/proland/images/trophy.png"
-              alt="Done"
-              className="five-step-icon"
-            />
-            <h3 className="five-step-title">Connect to Radiance</h3>
-            <p className="five-step-description">
-              Our natural dietary supplement features a powerful blend of
-              antioxidants and vitamins, including Glutathione, Alpha Lipoic
-              Acid, Vitamin E, Hyaluronic Acid, and more. These ingredients work
-              together to fight dark spots, under-eye circles, and uneven skin
-              tones.
-            </p>
-          </div>
-        </div>
-      </div>
+        </motion.p>
+        <motion.div
+          className="five-steps"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            visible: { transition: { staggerChildren: 0.3 } },
+          }}
+        >
+          {[
+            {
+              title: "Boost & Absorb",
+              description:
+                "From reducing hyperpigmentation to boosting collagen production, our formula supports overall skin health, delays signs of aging, and enhances your natural glow. Feel confident in your skin every day.",
+              imgSrc:
+                "https://demo.web3canvas.com/themeforest/proland/images/desktop.png",
+              alt: "Connect Device",
+            },
+            {
+              title: "Achieve Radiant Skin",
+              description:
+                "From reducing hyperpigmentation to boosting collagen production, our formula supports overall skin health, delays signs of aging, and enhances your natural glow. Feel confident in your skin every day.",
+              imgSrc:
+                "https://demo.web3canvas.com/themeforest/proland/images/toggles.png",
+              alt: "Configure It",
+            },
+            {
+              title: "Connect to Radiance",
+              description:
+                "Our natural dietary supplement features a powerful blend of antioxidants and vitamins, including Glutathione, Alpha Lipoic Acid, Vitamin E, Hyaluronic Acid, and more. These ingredients work together to fight dark spots, under-eye circles, and uneven skin tones.",
+              imgSrc:
+                "https://demo.web3canvas.com/themeforest/proland/images/trophy.png",
+              alt: "Done",
+            },
+          ].map((step, index) => (
+            <motion.div
+              key={index}
+              className="five-step"
+              variants={stepVariants}
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.3 }}
+            >
+              <motion.img
+                src={step.imgSrc}
+                alt={step.alt}
+                className="five-step-icon"
+                initial={{ rotate: 0 }}
+                whileHover={{ rotate: 15 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              />
+              <h3 className="five-step-title">{step.title}</h3>
+              <p className="five-step-description">{step.description}</p>
+            </motion.div>
+          ))}
+        </motion.div>
+      </motion.div>
 
       {/* The Watch Section */}
-      <div className="five-watch-section">
-        <div className="five-watch-container">
-          <div className="five-watch-content">
+      <motion.div
+        className="five-watch-section"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
+        <motion.div
+          className="five-watch-container"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <motion.div
+            className="five-watch-content"
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
             <h2 className="five-title">GLUTATHIONE</h2>
             <p className="five-description">
-            Experience the ultimate in skin health with our advanced formula. Packed with powerful ingredients, it supports your journey toward radiant, youthful skin.
+              Experience the ultimate in skin health with our advanced formula.
+              Packed with powerful ingredients, it supports your journey toward
+              radiant, youthful skin.
             </p>
-            <ul className="five-watch-features">
-              <li>✅ Supports All Skin Types</li>
-              <li>✅ Powerful Antioxidant Protection</li>
-              <li>✅ Boosts Collagen & Skin Elasticity</li>
-              <li>✅ Improves Absorption & Effectiveness</li>
-            </ul>
-          </div>
-          <div className="five-watch-image">
+            <motion.ul
+              className="five-watch-features"
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: { opacity: 0 },
+                visible: {
+                  opacity: 1,
+                  transition: { staggerChildren: 0.3 },
+                },
+              }}
+            >
+              {[
+                "✅ Supports All Skin Types",
+                "✅ Powerful Antioxidant Protection",
+                "✅ Boosts Collagen & Skin Elasticity",
+                "✅ Improves Absorption & Effectiveness",
+              ].map((item, index) => (
+                <motion.li
+                  key={index}
+                  variants={{
+                    hidden: { opacity: 0, y: 10 },
+                    visible: { opacity: 1, y: 0 },
+                  }}
+                >
+                  {item}
+                </motion.li>
+              ))}
+            </motion.ul>
+          </motion.div>
+
+          <motion.div
+            className="five-watch-image"
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/XN9cKLXT/goa-nutrition.png"
               alt="Smart Watch"
               className="five-watch-img"
             />
-          </div>
-        </div>
-      </div>
+          </motion.div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };
