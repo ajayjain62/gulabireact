@@ -10,7 +10,7 @@ export default function Component() {
           outline: "none",
           display: "block",
           padding: "40px 0px",
-          background: "#f2f2f2",
+          background: "#fff",
           marginTop: "-90px",
         }}
       >
@@ -34,26 +34,15 @@ export default function Component() {
               className="view-header"
               style={{ boxSizing: "border-box", outline: "none" }}
             >
+            <p> Purpose Unleashed</p>
               <h3
                 style={{
-                  boxSizing: "border-box",
-                  outline: "none",
-                  fontFamily: "inherit",
-                  lineHeight: 1.1,
-                  margin: "0px 0px 40px",
-                  padding: "0px 0px 10px",
-                  textAlign: "center",
-                  fontSize: "38px",
-                  fontWeight: 700,
-                  textTransform: "uppercase",
-                  color: "#683480",
-                  marginTop: "0px",
-                  marginBottom: "40px",
-                  position: "relative",
+
                 }}
               >
                 Are You Driven By Purpose?
               </h3>
+              
             </div>
             <div
               className="home-page view-content"
