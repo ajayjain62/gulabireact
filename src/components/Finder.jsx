@@ -3,7 +3,7 @@ import "./Finder.css"; // Importing CSS module
 
 const Portfolio = () => {
   return (
-    <div className="view view-home-page">
+    <div className="viewer view-home-page">
       <div className="view-header">
         <h3 className="portfolio-title">OUR PORTFOLIO OF CARE</h3>
       </div>

@@ -25,7 +25,7 @@ const CiplaVision = () => {
     },
     {
       id: "687",
-      title: "Journey from illness to lasting wellness.",
+      title: "Journey from illness to wellness.",
       image: "https://i.postimg.cc/Z5hwdqhm/205ef5e27daa2642ff80d059fc4df267.jpg",
       content:
         "Advancing wellness and holistic healthcare solutions to empower healthier lives, enhance well-being, and build a brighter, more sustainable future for individuals, families.",
@@ -34,7 +34,7 @@ const CiplaVision = () => {
     },
     {
       id: "688",
-      title: "Our People, Our Pride, Our Inspiration.",
+      title: "Our People,Our Pride,Our Inspire.",
       content:
         "Recognizing the talented individuals whose unwavering dedication and innovation have propelled Goa Nutrition to global leadership in delivering exceptional and transformative.",
       image: "https://www.cipla.com/sites/default/files/2022-11/people_0.webp",
