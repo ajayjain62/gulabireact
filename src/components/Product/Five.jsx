@@ -159,7 +159,7 @@ const Five = () => {
             {
               title: "Connect to Radiance",
               description:
-                "Our natural dietary supplement features a powerful blend of antioxidants and vitamins, including Glutathione, Alpha Lipoic Acid, Vitamin E, Hyaluronic Acid, and more. These ingredients work together to fight dark spots, under-eye circles, and uneven skin tones.",
+                "Our natural dietary supplement features a powerful blend of antioxidants and vitamins, including Glutathione, Alpha Lipoic Acid, Vitamin E, Hyaluronic Acid.",
               imgSrc:
                 "https://demo.web3canvas.com/themeforest/proland/images/trophy.png",
               alt: "Done",
@@ -226,10 +226,10 @@ const Five = () => {
               }}
             >
               {[
-                "✅ Supports All Skin Types",
-                "✅ Powerful Antioxidant Protection",
-                "✅ Boosts Collagen & Skin Elasticity",
-                "✅ Improves Absorption & Effectiveness",
+                " Supports All Skin Types",
+                " Powerful Antioxidant Protection",
+                " Boosts Collagen & Skin Elasticity",
+                " Improves Absorption & Effectiveness",
               ].map((item, index) => (
                 <motion.li
                   key={index}

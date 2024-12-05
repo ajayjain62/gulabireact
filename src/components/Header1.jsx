@@ -59,14 +59,14 @@ const Header = () => {
     },
     {
       label: "Media Centre",
-      link: "#",
+      link: "http://localhost:5173/media-center",
     },
     {
       label: "Franchise",
-      link: "#",
+      link: "http://localhost:5173/franchise",
       megaMenu: [
-        { label: "Australia", link: "https://www.cipla.com/our-presence/australia" },
-        { label: "Brazil", link: "https://www.cipla.com/our-presence/brazil" },
+        { label: "Australia", link: "#" },
+        { label: "Brazil", link: "#" },
       ],
     },
     {
