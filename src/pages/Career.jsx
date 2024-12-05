@@ -1,7 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CareerPage.css";
 
 const CareerPage = () => {
+  const [popupContent, setPopupContent] = useState(null);
+
+  const handlePopupOpen = (content) => {
+    setPopupContent(content);
+  };
+
+  const handlePopupClose = () => {
+    setPopupContent(null);
+  };
+
+  const whyWorkWithUsContent = [
+    {
+      title: "Impactful Work",
+      image: "/images/impactful-work.jpg",
+      description:
+        "Contribute to life-saving pharmaceutical solutions and make a meaningful impact in global healthcare.",
+    },
+    {
+      title: "Collaborative Culture",
+      image: "/images/collaborative-culture.jpg",
+      description:
+        "Be part of a dynamic team that values collaboration, innovation, and shared success.",
+    },
+    {
+      title: "Growth Opportunities",
+      image: "/images/growth-opportunities.jpg",
+      description:
+        "Grow your career with tailored learning programs, mentorship, and leadership opportunities.",
+    },
+  ];
+
   return (
     <div className="careerPage-container">
       {/* Header Section */}
@@ -61,30 +92,44 @@ const CareerPage = () => {
         </div>
       </section>
 
-      {/* Values Section */}
+      {/* Why Work With Us Section */}
       <section className="careerPage-values">
-        <h2>Our Core Values</h2>
+        <h2>Why Work With Us</h2>
         <div className="careerPage-valuesList">
-          <div className="careerPage-valueCard">
-            <h3>Innovation</h3>
-            <p>
-              We push boundaries to deliver cutting-edge solutions in healthcare.
-            </p>
-          </div>
-          <div className="careerPage-valueCard">
-            <h3>Integrity</h3>
-            <p>
-              Transparency and ethics guide every aspect of our work.
-            </p>
-          </div>
-          <div className="careerPage-valueCard">
-            <h3>Excellence</h3>
-            <p>
-              We aim for the highest standards in everything we do.
+          {whyWorkWithUsContent.map((item, index) => (
+            <div
+              key={index}
+              className="careerPage-valueCard"
+              onClick={() => handlePopupOpen(item)}
+            >
+              <h3>{item.title}</h3>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Popup Section */}
+      {popupContent && (
+        <div className="careerPage-popup">
+          <div className="careerPage-popupContent">
+            <button
+              className="careerPage-popupClose"
+              onClick={handlePopupClose}
+            >
+              &times;
+            </button>
+            <img
+              src={popupContent.image}
+              alt={popupContent.title}
+              className="careerPage-popupImage"
+            />
+            <h3 className="careerPage-popupTitle">{popupContent.title}</h3>
+            <p className="careerPage-popupDescription">
+              {popupContent.description}
             </p>
           </div>
         </div>
-      </section>
+      )}
     </div>
   );
 };
