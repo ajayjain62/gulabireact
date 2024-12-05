@@ -9,16 +9,13 @@
   letter-spacing: 0.02em;
 }
 
-.overview-container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 2rem;
-}
+  .overview-container {
+
+  }
 
 .overview-left,
 .overview-right {
-  width: 50%;
+  width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -42,29 +39,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .overview-description {
   color: rgb(113, 113, 112);
   margin-top: 1rem;
-  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
   line-height: 1.50rem;
 }
 
 .overview-facts {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 .facts-flex {
   display: flex;
-  gap: 60px !important;
   margin-bottom: 10px;
 }
 
 .fact-item {
   text-align: center;
-  margin: 10px;
+  margin: 10px 35px;
 }
 
 .fact-details {
@@ -76,8 +75,8 @@
 
 /* Large image (250px x 250px) */
 .large-image {
-  width: 200px;
-  height: 194px;
+  width: 170px;
+  height: 170px;
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 100px;

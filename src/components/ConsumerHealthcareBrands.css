@@ -42,10 +42,7 @@
     color: inherit;
   }
   
-  .header-link:hover {
-    color: #501d6f;
-  }
-  
+
   .header-text {
     font-size: 32px;
     font-weight: bold;
@@ -134,12 +131,13 @@
   
   /* Hover Effects */
   .brand-card:hover .brand-ingredient {
-    transform: rotateY(360deg) scale(1.2);
+    transform: rotate(11.22deg) !important;
+    transition: transform 0.3s ease-in-out !important;
   }
   
   .brand-card:hover .brand-product {
-    transform: translateY(-30px) scale(1.1);
-    opacity: 1;
+    transform: rotate(11.22deg) !important;
+    transition: transform 0.3s ease-in-out !important;
   }
   
   /* Responsive Styles */
@@ -185,6 +183,7 @@ position: relative;
 left: -40px;
 top: -50px;
 }
+
 
 .arrow-image {
   position: absolute; 

@@ -39,6 +39,7 @@ import Cardiology from "./pages/Cardiology";
 import WeightLoss from "./pages/WeightLoss";
 import MemoryEnhancers from "./pages/MemoryEnhancers";
 import EyeHealth from "./pages/EyeHealth.jsx";
+import MediaCenter from "./pages/MediaCenter";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -101,6 +102,8 @@ const App = () => (
       <Route path="/immunity-booster" element={<ImmunityBooster />} />
       <Route path="/hairfall-control" element={<HairFallControl />} />
       <Route path="/eye-health" element={<EyeHealth />} />
+      <Route path="/media-center" element={<MediaCenter />} />
+
     </Routes>
 
     {/* Footer Component */}

@@ -27,18 +27,18 @@ const OverviewSection = () => {
             <div className="overview-facts">
               <div className="facts-flex">
                 <FactItem
-                  largeImageSrc="https://i.postimg.cc/76KvwF11/layering.jpg"
+                  largeImageSrc="src\assets\img\techimages\1.jpg"
                 />
                 <FactItem
-                  largeImageSrc="https://i.postimg.cc/qqqPR1QP/physical.jpg"
+                  largeImageSrc="src\assets\img\techimages\2 (1).jpg"
                 />
               </div>
               <div className="facts-flex">
                 <FactItem
-                  largeImageSrc="https://i.postimg.cc/GtfZsv5H/pacakaging.jpg"
+                  largeImageSrc="src\assets\img\techimages\4.jpg"
                 />
                 <FactItem
-                  largeImageSrc="https://i.postimg.cc/mZcRTrqt/Need-a-Car-250-x-250-px.jpg"
+                  largeImageSrc="src\assets\img\techimages\3.jpg"
                 />
               </div>
             </div>

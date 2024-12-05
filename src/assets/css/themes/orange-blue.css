@@ -34,10 +34,6 @@ a {
   color: #ff6622;
 }
 
-a:hover, a:focus {
-  color: #882a00;
-}
-
 .btn-primary {
   background: #ff6622;
 }

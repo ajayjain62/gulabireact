@@ -8,8 +8,11 @@ const ConsumerHealthcareBrands = () => {
       <div className="grid">
         <div className="flex-container">
           <div className="text-section">
+          
             <a className="header-link" href="#">
-              <p className="header-text">Consumer Healthcare Brands</p>
+            <div>
+          <p className="header-text">Consumer Healthcare Brands</p> 
+          </div>
               <div className="arrow-container">
                 <svg height="14" width="7" fill="none" viewBox="0 0 7 14" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z" fill="#363678" />
@@ -41,7 +44,7 @@ const ConsumerHealthcareBrands = () => {
             />
             <BrandCard
               className="unienzyme"
-              imgSrc="https://i.postimg.cc/hPdbDR6d/biotin.png"
+              imgSrc="src\assets\img\techimages\Untitled (100 x 50 px) (1).png"
               ingredientImgSrc="https://i.postimg.cc/C5zQx6jP/Untitled-design-19.png"
               imgAlt="Unienzyme"
               brandImgSrc="https://i.postimg.cc/d3PyhhCb/goa-nutrition-3.png"

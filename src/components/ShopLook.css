@@ -4,9 +4,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.cipla-vision {
+.cipla-visions {
     padding: 40px 0;
-    background-color: #fff;
+    background: rgb(242, 242, 242);
 }
 
 .container {
@@ -22,13 +22,14 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #683480;
+    margin: 5px 0px 10px 0px;
 }
 
 .view-header p {
     font-size: 16px;
     color: rgb(100, 100, 100);
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     line-height: 1.5;
 }
 
@@ -41,6 +42,7 @@ body {
     justify-content: center; /* Centers items horizontally */
     align-items: center; /* Centers items vertically within their flex line */
     text-align: center;
+    margin-top: 40px;
 }
 
 /* Banner Section */
@@ -118,7 +120,7 @@ body {
     display: flex;
     align-items: center;
     padding: 21px;
-    background-color: #f4f4f4;
+    background-color: #fff;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
@@ -129,7 +131,7 @@ body {
 }
 
 .topic-icon {
-    font-size: 18px;
+    font-size: 20px;
     color: #0073c2;
 }
 
