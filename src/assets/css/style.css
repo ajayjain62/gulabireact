@@ -7404,7 +7404,7 @@ span.required {
   justify-content: center;
   font-size: 24px;
   color: #fff;
-  background-color: #007bff;
+  background-color: red;
   height: 100%;
 }
 @charset "UTF-8";
