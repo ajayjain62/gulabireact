@@ -37,7 +37,7 @@
 .five-hotspot {
   width: 15px;
   height: 15px;
-  background-color: #007bff;
+  background-color: red;
   border: 2px solid #fff;
   border-radius: 50%;
   position: absolute;
@@ -76,7 +76,7 @@
 .five-line {
   position: absolute;
   height: 2px;
-  background-color: #007bff;
+  background-color: red;
   z-index: -1;
   transform-origin: left center;
   transform: scaleX(0);
@@ -140,7 +140,7 @@
 .five-hotspot-content.active {
   opacity: 1;
   transform: translateY(0);
-  color: #007bff;
+  color: red;
 }
 
 /* Slide-in effect for content */

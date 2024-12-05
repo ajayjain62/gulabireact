@@ -183,7 +183,7 @@ export default function Component() {
                         transition: "0.5s linear",
                         backgroundColor: "rgb(255, 255, 255)",
                         fontSize: "16px",
-                        fontWeight: 600,
+                        fontWeight: 500,
                         backgroundImage:
                           'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                         backgroundRepeat: "no-repeat",
@@ -216,7 +216,7 @@ export default function Component() {
                         transition: "0.5s linear",
                         backgroundColor: "rgb(255, 255, 255)",
                         fontSize: "16px",
-                        fontWeight: 600,
+                        fontWeight: 500,
                         backgroundImage:
                           'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                         backgroundRepeat: "no-repeat",
@@ -249,7 +249,7 @@ export default function Component() {
                         transition: "0.5s linear",
                         backgroundColor: "rgb(255, 255, 255)",
                         fontSize: "16px",
-                        fontWeight: 600,
+                        fontWeight: 500,
                         backgroundImage:
                           'url("https://www.cipla.com/themes/cipla/images/arrow-yellow.svg")',
                         backgroundRepeat: "no-repeat",
