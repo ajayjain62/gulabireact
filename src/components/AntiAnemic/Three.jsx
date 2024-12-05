@@ -82,12 +82,12 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\PLANTBASEDIRON5.jpg",
+      src: "https://i.postimg.cc/pLQh32qp/PLANTBASEDIRON6.jpg",
       label: "Iron Supplement",
       link: "/category/anti-anemic",
     },
     {
-      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\women teenager.jpg",
+      src: "https://i.postimg.cc/Jz8csYFH/women-teenager.jpg",
       label: "Iron Tablets",
       link: "/category/anti-anemic",
     },
