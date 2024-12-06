@@ -8,7 +8,7 @@ function SwiperComponent() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="public\assets\img\swiperslide\health care.jpg" // Use forward slashes
+          src="src\assets\img\slider\c a r e (1349 x 400 px) (1349 x 450 px) (1) (1).jpg" // Use forward slashes
           alt="First slide"
         />
         {/* <Carousel.Caption>

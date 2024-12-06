@@ -94,24 +94,8 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
   color: #8f969d;
 }
 
-.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-  color: #374048;
-  background: none;
-}
-
 .navbar-default .nav li.active a {
   background: none;
-  color: #9300FF;
-}
-
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  background-color: transparent;
-  color: #9300FF;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #9300FF;
 }
 
@@ -411,11 +395,6 @@ footer.row .menu-rights p {
   color: #a6eba5;
 }
 
-.footer-menu li a:hover, .footer-menu li a:focus {
-  background: none;
-  color: #374048;
-}
-
 .social-links {
   border-bottom-color: #e9eef2;
 }
@@ -423,10 +402,6 @@ footer.row .menu-rights p {
 .social-links ul li a {
   background: #a6eba5;
   color: #fff;
-}
-
-.social-links ul li a:hover, .social-links ul li a:focus {
-  background: #374048;
 }
 
 /*=====Page Header=====*/
@@ -478,11 +453,6 @@ footer.row .menu-rights p {
   color: #8e9eac;
 }
 
-.categories li a:hover, .categories li a:focus {
-  background: none;
-  color: #374048;
-}
-
 .tag {
   color: #bdc7ce;
   background: #f8fbfd;
@@ -500,20 +470,12 @@ footer.row .menu-rights p {
   color: #323f4a;
 }
 
-.blog h2 a:hover, .blog h2 a:focus {
-  color: #2979ff;
-}
-
 .blog h5 {
   color: #a9b9c7;
 }
 
 .blog h5 a {
   color: #52a8f5;
-}
-
-.blog h5 a:hover, .blog h5 a:focus {
-  color: #374048;
 }
 
 .blog p {
@@ -557,10 +519,6 @@ footer.row .menu-rights p {
   color: #292929;
 }
 
-.author-about .media-body h3 a:hover, .author-about .media-body h3 a:focus {
-  color: #2979ff;
-}
-
 .author-about .media-body p {
   color: #8e9eac;
 }
@@ -568,10 +526,6 @@ footer.row .menu-rights p {
 .author-about .media-body ul li a {
   color: #fff;
   background: #bbd4e6;
-}
-
-.author-about .media-body ul li a:hover, .author-about .media-body ul li a:focus {
-  background: #374048;
 }
 
 /*=====Comments======*/
@@ -766,25 +720,11 @@ footer.row .menu-rights p {
   color: #999;
 }
 
-.pagination li a:hover, .pagination li a:focus {
-  color: #fff;
-  background: #2979ff;
-}
+
 
 .pagination li.active a {
   color: #fff;
   background: #2979ff;
-}
-
-.pagination li.active a:hover, .pagination li.active a:focus {
-  background: #374048;
-}
-
-/*  =========== NAV TABS =========== */
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:focus,
-.nav-pills > li.active > a:hover {
-  background-color: #2FCA2D;
 }
 
 /*  =========== UTILITIES =========== */
