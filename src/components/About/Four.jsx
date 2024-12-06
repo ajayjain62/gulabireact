@@ -125,13 +125,13 @@ const Section = styled.section`
   }
 
   .what-we-do-card-title {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #ffffff;
     margin-bottom: 10px;
   }
 
   .what-we-do-card-text {
-    font-size: 1rem;
+    font-size: 16px;
     color: #dcdcdc;
     line-height: 1.6;
   }

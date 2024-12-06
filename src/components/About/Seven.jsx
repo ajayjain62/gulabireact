@@ -1,34 +1,67 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import './CoreValuesCard.css'; // Import the CSS file
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 50 },
+// Variants for parent (container)
+const containerVariants = {
+  hidden: {}, // No animation on the parent itself
   visible: {
-    opacity: 1,
+    transition: {
+      staggerChildren: 0.3, // Stagger each child animation by 0.3s
+    },
+  },
+};
+
+// Variants for child (each card)
+const cardVariants = {
+  hidden: { y: 50, opacity: 0 },
+  visible: {
     y: 0,
-    transition: { duration: 5, ease: "easeOut" },
+    opacity: 1,
+    transition: { duration: 1, ease: "easeOut" },
   },
 };
 
 export default function CoreValuesCard() {
+  const [isInView, setIsInView] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsInView(true);
+        }
+      },
+      { threshold: 0.3 } // Trigger when 30% of the section is visible
+    );
+
+    const section = document.querySelector('.corevalues_section');
+    if (section) {
+      observer.observe(section);
+    }
+
+    return () => {
+      if (section) observer.unobserve(section);
+    };
+  }, []);
+
   return (
     <motion.section
       className="corevalues_section"
       initial="hidden"
-      animate="visible"
-      variants={fadeUp}
+      animate={isInView ? "visible" : "hidden"}
+      variants={containerVariants}
     >
       <div className="corevalues_content">
         <div className="py-8 md:py-20 px-4 container mx-auto">
           <div className="grid grid-cols-1 gap-10">
-            <div>
+            <motion.div variants={cardVariants}>
               <h3 className="core_values_title">Core Values</h3>
               <p className="core_values_para">
                 The Company's core values serve as the foundation and guiding principles, leading to longevity and success in the pharmaceutical industry.
               </p>
-            </div>
-            <div className="core_values_card_wrapper">
+            </motion.div>
+            <motion.div className="core_values_card_wrapper" variants={containerVariants}>
               {/* Core Value Card Example */}
               <CoreValueCard
                 imageSrc="https://www.torrentpharma.com/assets/Integrity_c8e18a533a.svg"
@@ -66,7 +99,7 @@ export default function CoreValuesCard() {
                 description="Transparency implies openness. It is the opposite of secrecy. It encourages more informed decision making and aids in creating enduring trust among all stakeholders."
                 strongText="Openness that builds enduring trust"
               />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -75,7 +108,7 @@ export default function CoreValuesCard() {
 }
 
 const CoreValueCard = ({ imageSrc, title, description, strongText }) => (
-  <div className="core_values_card_box">
+  <motion.div className="core_values_card_box" variants={cardVariants}>
     <div className="card_header">
       <div className="w-[99px] h-[68px]">
         <img
@@ -96,5 +129,5 @@ const CoreValueCard = ({ imageSrc, title, description, strongText }) => (
         <p>{description}</p>
       </div>
     </div>
-  </div>
+  </motion.div>
 );
