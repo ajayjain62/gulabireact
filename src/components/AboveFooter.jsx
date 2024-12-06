@@ -10,7 +10,7 @@ export default function Component() {
       >
         <link
           type="text/css"
-          href="//goanutritions.com/cdn/shop/t/1/assets/section-image-banner.css?v=170916557215809668651674035698"
+          href="#"
           media="all"
           rel="stylesheet"
           style={{ boxSizing: "inherit" }}
@@ -44,8 +44,8 @@ export default function Component() {
               height={372}
               width={1263}
               sizes="100vw"
-              src="https://i.postimg.cc/CMQ2pPnW/about-us-7.jpg"
-              srcSet="https://i.postimg.cc/CMQ2pPnW/about-us-7.jpg"
+              src="src/assets/img/slider/About us (1) (2).jpg"
+              srcSet="src/assets/img/slider/About us (1) (2).jpg"
               style={{
                 boxSizing: "inherit",
                 transition: "opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)",

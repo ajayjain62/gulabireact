@@ -95,8 +95,7 @@
   z-index: 1044; }
   .mfp-preloader a {
     color: #CCC; }
-    .mfp-preloader a:hover {
-      color: #FFF; }
+
 
 .mfp-s-ready .mfp-preloader {
   display: none; }

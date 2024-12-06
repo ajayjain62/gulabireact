@@ -53,10 +53,6 @@
   transition: color 0.3s;
 }
 
-.menu1 li a:hover {
-  color: rgb(255, 255, 255) !important; /* Change color on hover */
-}
-
   
   .footer-bottom {
     padding-top: 70px;
