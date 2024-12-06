@@ -1,6 +1,6 @@
-
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import { motion } from "framer-motion";
 
 export default function CoreValuesCard() {
   const cardRef = useRef(null);
@@ -172,8 +172,11 @@ export default function CoreValuesCard() {
                     fontFamily: "Lato, sans-serif",
                   }}
                 >
-                  <div
+                  <motion.div
                     className="card_header rounded-t-3xl px-6 flex items-center justify-start gap-4"
+                    initial={{ opacity: 0, y: -50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
                     style={{
                       border: "0px solid rgb(229, 231, 235)",
                       boxSizing: "border-box",
@@ -192,8 +195,11 @@ export default function CoreValuesCard() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    <div
+                    <motion.div
                       className="w-[99px] h-[68px]"
+                      initial={{ scale: 0.8 }}
+                      animate={{ scale: 1 }}
+                      transition={{ duration: 0.6, ease: "easeOut" }}
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
@@ -220,9 +226,12 @@ export default function CoreValuesCard() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       />
-                    </div>
-                    <div
+                    </motion.div>
+                    <motion.div
                       className="header_title text-lg md:text-2xl font-bold leading-[28.8px]"
+                      initial={{ opacity: 0, x: -50 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.8, ease: "easeOut" }}
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
@@ -235,7 +244,7 @@ export default function CoreValuesCard() {
                         fontFamily: "Lato, sans-serif",
                       }}
                     >
-                      <h3
+                      <motion.h3
                         style={{
                           border: "0px solid rgb(229, 231, 235)",
                           boxSizing: "border-box",
@@ -246,11 +255,14 @@ export default function CoreValuesCard() {
                           letterSpacing: "0.02em",
                           fontFamily: "Lato, sans-serif",
                         }}
+                        initial={{ scale: 0.8, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        transition={{ duration: 0.7, ease: "easeOut" }}
                       >
                         Integrity
-                      </h3>
-                    </div>
-                  </div>
+                      </motion.h3>
+                    </motion.div>
+                  </motion.div>
                   <div
                     className="card_body bg-white p-6"
                     style={{
