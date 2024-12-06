@@ -1,98 +1,238 @@
-/* General styles omitted for brevity */
-/* Use previous styles for header, about, and open positions sections */
+/* Header Section */
+.careerPage-header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.careerPage-headerContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.careerPage-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.careerPage-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.careerPage-ctaButton {
+  background: white;
+  color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.careerPage-ctaButton:hover {
+  background: #0056b3;
+  color: white;
+}
+
+/* About Section */
+.careerPage-about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.careerPage-aboutContent {
+  flex: 1 1 50%;
+  text-align: left;
+}
+
+.careerPage-aboutContent h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.careerPage-aboutContent p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.careerPage-aboutImage {
+  flex: 1 1 50%;
+  text-align: center;
+}
+
+.careerPage-aboutImage img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Open Positions Section */
+.careerPage-openings {
+  padding: 40px 20px;
+  background: #f8f9fa;
+}
+
+.careerPage-jobList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.careerPage-jobCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.careerPage-jobCard:hover {
+  transform: translateY(-10px);
+}
+
+.careerPage-jobTitle {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.careerPage-jobLocation {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.careerPage-jobDescription {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.careerPage-applyButton {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.careerPage-applyButton:hover {
+  background: #0056b3;
+}
 
 /* Why Work With Us Section */
 .careerPage-values {
-    padding: 40px 20px;
-    background: #f8f9fa;
-    text-align: center;
+  padding: 40px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.careerPage-valuesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.careerPage-valueCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.careerPage-valueCard:hover {
+  transform: translateY(-10px);
+}
+
+/* Popup Section */
+.careerPage-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.careerPage-popupContent {
+  background: #fff;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+.careerPage-popupClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.careerPage-popupImage {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.careerPage-popupTitle {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.careerPage-popupDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .careerPage-about {
+    flex-direction: column;
   }
-  
-  .careerPage-valuesList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+
+  .careerPage-jobCard {
+    width: 90%;
   }
-  
-  .careerPage-valueCard {
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-  
-  .careerPage-valueCard:hover {
-    transform: translateY(-10px);
-  }
-  
-  /* Popup Section */
-  .careerPage-popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-  }
-  
+
   .careerPage-popupContent {
-    background: #fff;
-    border-radius: 12px;
-    width: 80%;
-    max-width: 800px;
-    padding: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    position: relative;
-    text-align: center;
+    width: 90%;
   }
-  
-  .careerPage-popupClose {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: transparent;
-    border: none;
-    font-size: 1.5rem;
-    color: #333;
-    cursor: pointer;
+
+  .careerPage-valueCard {
+    width: 90%;
   }
-  
-  .careerPage-popupImage {
-    width: 100%;
-    border-radius: 12px;
-    margin-bottom: 15px;
-  }
-  
-  .careerPage-popupTitle {
-    font-size: 1.8rem;
-    color: #007bff;
-    margin-bottom: 10px;
-  }
-  
-  .careerPage-popupDescription {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #555;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .careerPage-valueCard {
-      width: 90%;
-    }
-  
-    .careerPage-popupContent {
-      width: 90%;
-    }
-  }
-  
+}

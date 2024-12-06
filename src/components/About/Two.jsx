@@ -147,7 +147,7 @@ const StyledWrapper = styled.section`
 
       &:hover {
         transform: scale(1.05) rotate(3deg);
-        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+ 
       }
     }
   }

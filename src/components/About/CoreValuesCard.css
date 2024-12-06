@@ -1,0 +1,98 @@
+.corevalues_section {
+    border: 0 solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    letter-spacing: 0.02em;
+    font-family: Lato, sans-serif;
+  }
+  
+  .corevalues_content {
+    border: 0 solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    letter-spacing: 0.02em;
+    font-family: Lato, sans-serif;
+  }
+  
+  .py-8 {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+    gap: 2.5rem;
+  }
+  
+  .core_values_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: rgb(104, 52, 128);
+    text-align: left;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .core_values_para {
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: rgb(113, 113, 112);
+    text-align: left;
+    margin: 0;
+  }
+  
+  .core_values_card_wrapper {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    gap: 1.75rem;
+  }
+  
+  .core_values_card_box {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 24px 0px;
+  }
+  
+  .card_header {
+    background: linear-gradient(129.27deg, rgb(104, 52, 128) 7.77%, rgb(145, 101, 170) 88.92%);
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
+  
+  .header_title {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  .card_body {
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+  }
+  
+  .card_body .core_values_para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: rgb(113, 113, 112);
+    text-align: left;
+  }
+  

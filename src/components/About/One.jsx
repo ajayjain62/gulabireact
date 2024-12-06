@@ -20,6 +20,7 @@ export default function Component() {
             padding: "15px",
             background: "rgba(0, 0, 0, 0.15)",
             margin: "15px",
+            display: "none",
             borderRadius: "0px",
             position: "absolute",
             backgroundColor: "rgba(0, 0, 0, 0.15)",
@@ -126,12 +127,12 @@ export default function Component() {
           />
           <source
             media="(min-width: 680px)"
-            srcSet="https://i.postimg.cc/bY22bHgX/About-us-1-1.jpg"
+            srcSet="src\assets\img\slider\Together towards a timeless purpose of caringfor life..jpg"
             style={{ boxSizing: "border-box", outline: "none" }}
           />
           <img
             className="img-responsive w-100"
-            src="https://i.postimg.cc/bY22bHgX/About-us-1-1.jpg"
+            src="src\assets\img\slider\Together towards a timeless purpose of caringfor life..jpg"
             style={{
               boxSizing: "border-box",
               outline: "none",
