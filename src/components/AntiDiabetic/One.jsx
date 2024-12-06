@@ -9,15 +9,14 @@ export default function Component() {
           border: "0px solid rgb(229, 231, 235)",
           boxSizing: "border-box",
           position: "relative",
-          backgroundImage:
-            "linear-gradient(129deg, rgb(54, 54, 120) 7.77%, rgb(15, 15, 65) 88.92%), linear-gradient(90deg, rgb(239, 239, 239), rgb(137, 137, 137))",
+          // backgroundImage: "URL(https://i.postimg.cc/qq7nfPSK/antidiabtic-1.jpg)",
           letterSpacing: "0.02em",
           fontFamily: "Lato, sans-serif",
         }}
       >
         <img
           className="w-full object-cover"
-          src="https://www.torrentpharma.com/assets/Thraputic_areas_2976cec928.jpg"
+          src="https://i.postimg.cc/qq7nfPSK/antidiabtic-1.jpg"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
@@ -76,7 +75,7 @@ export default function Component() {
               fontFamily: "Lato, sans-serif",
             }}
           >
-            <p
+            {/* <p
               className="text-2xl leading-8 text-white"
               style={{
                 border: "0px solid rgb(229, 231, 235)",
@@ -90,7 +89,7 @@ export default function Component() {
               }}
             >
               Our Products
-            </p>
+            </p> */}
             <p
               className="text-[32px] tracking-[0.64px] md:text-[48px] md:leading-[57.6px] font-extrabold leading-9 md:tracking-[1.24px] capitalize text-[#FFF] w-full"
               style={{
@@ -107,7 +106,7 @@ export default function Component() {
                 fontFamily: "Lato, sans-serif",
               }}
             >
-              Extensive Presence Across Therapies
+              {/* Extensive Presence Across Therapies */}
             </p>
             <div
               className="custom-hero-breadcrumbs w-full"
@@ -142,7 +141,7 @@ export default function Component() {
                   style={{
                     border: "0px solid rgb(229, 231, 235)",
                     boxSizing: "border-box",
-                    display: "flex",
+                    display: "none",
                     width: "100%",
                     overflow: "hidden",
                     textOverflow: "ellipsis",
@@ -166,7 +165,7 @@ export default function Component() {
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
                         boxSizing: "border-box",
-                        display: "inline-block",
+                        display: "none",
                         width: "auto",
                         overflow: "hidden",
                         textOverflow: "ellipsis",
@@ -212,7 +211,7 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    <span
+                    {/* <span
                       className="overflow-hidden text-ellipsis max-w-[100px] xs:max-w-[150px] sm:max-w-none w-auto whitespace-nowrap inline-block"
                       style={{
                         border: "0px solid rgb(229, 231, 235)",
@@ -228,7 +227,7 @@ export default function Component() {
                       }}
                     >
                       Our Products
-                    </span>
+                    </span> */}
                   </span>
                   <span
                     className="inline-block mx-2"
