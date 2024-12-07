@@ -93,7 +93,7 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    Our Expertise
+                    Health Category
                   </p>
                   <div
                     className="min-h-8 min-w-8 rounded-[50%] flex items-center justify-center bg-[#36367824]"
@@ -198,7 +198,7 @@ export default function Component() {
                 }}
               >
                 <Link
-                  to="/bone-and-joint"
+                  to="#"
                   style={{
                     display: "block", // Ensure the Link behaves like a block-level element
                     textDecoration: "none", // Remove default underline styling for links
@@ -271,7 +271,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Bone & Joint Care
+                        Anti-Diabetic
                       </h6>
                     </div>
                     <svg
@@ -304,7 +304,7 @@ export default function Component() {
                 </Link>
 
                 <Link
-                  to="/body-detox"
+                  to="#"
                   style={{
                     display: "block", // Make Link a block element
                     textDecoration: "none", // Remove default link styling
@@ -378,7 +378,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Body Detox
+                        Anti-Microbial
                       </h6>
                     </div>
                     <svg
@@ -411,7 +411,7 @@ export default function Component() {
                 </Link>
 
                 <Link
-                  to="/immunity-booster"
+                  to="#"
                   style={{
                     display: "block", // Ensures the Link acts as a block element
                     textDecoration: "none", // Removes default underline styling
@@ -485,7 +485,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Immunity Booster
+                        Cardiovascular
                       </h6>
                     </div>
                     <svg
@@ -518,7 +518,7 @@ export default function Component() {
                 </Link>
 
                 <Link
-                  to="/memory-enhancer"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -592,7 +592,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Memory Enhancer
+                        Dermatologic
                       </h6>
                     </div>
                     <svg
@@ -625,7 +625,7 @@ export default function Component() {
                 </Link>
 
                 <Link
-                  to="/female-vitality"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -699,7 +699,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Female Vitality
+                        Urology
                       </h6>
                     </div>
                     <svg
@@ -732,7 +732,7 @@ export default function Component() {
                 </Link>
 
                 <Link
-                  to="/skin-glow"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -806,7 +806,220 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Skin Glow
+                        Pain
+                      </h6>
+                    </div>
+                    <svg
+                      height="14"
+                      width="7"
+                      fill="none"
+                      viewBox="0 0 7 14"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      <path
+                        d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                        fill="#363678"
+                        style={{
+                          border: "0px solid rgb(229, 231, 235)",
+                          boxSizing: "border-box",
+                          letterSpacing: "0.02em",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      />
+                    </svg>
+                  </div>
+                </Link>
+                <Link
+                  to="/extracts"
+                  style={{
+                    display: "block",
+                    textDecoration: "none",
+                  }}
+                >
+                  <div
+                    className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "0.5rem",
+                      letterSpacing: "0.02em",
+                      paddingLeft: "1rem",
+                      paddingRight: "1rem",
+                      paddingTop: "0.75rem",
+                      paddingBottom: "0.75rem",
+                      flexBasis: "calc(33.33% - 2rem)",
+                      borderRadius: "24px",
+                      background: "rgba(54, 54, 120, 0.06)",
+                      transition: "0.2s",
+                      height: "150px",
+                      cursor: "pointer",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <div
+                      className="flex items-center justify-between gap-4"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        gap: "1rem",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      <img
+                        alt="Gastro Intestinal"
+                        src="public\assets\img\categories\extracts.jpg"
+                        style={{
+                          boxSizing: "border-box",
+                          display: "block",
+                          verticalAlign: "middle",
+                          maxWidth: "100%",
+                          height: "auto",
+                          letterSpacing: "0.02em",
+                          border: "none",
+                          borderRadius: "20px",
+                          width: "100px",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      />
+                      <h6
+                        className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                        style={{
+                          border: "0px solid rgb(229, 231, 235)",
+                          boxSizing: "border-box",
+                          margin: "0px",
+                          width: "10rem",
+                          fontSize: "16px",
+                          fontWeight: 600,
+                          lineHeight: "30px",
+                          color: "rgb(30 30 30/1)",
+                          letterSpacing: "0.0015em",
+                          textAlign: "left",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      >
+                        Gastro Intestinal
+                      </h6>
+                    </div>
+                    <svg
+                      height="14"
+                      width="7"
+                      fill="none"
+                      viewBox="0 0 7 14"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        display: "block",
+                        verticalAlign: "middle",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      <path
+                        d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
+                        fill="#363678"
+                        style={{
+                          border: "0px solid rgb(229, 231, 235)",
+                          boxSizing: "border-box",
+                          letterSpacing: "0.02em",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      />
+                    </svg>
+                  </div>
+                </Link>
+
+                <Link
+                  to="#"
+                  style={{
+                    display: "block",
+                    textDecoration: "none",
+                  }}
+                >
+                  <div
+                    className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
+                    style={{
+                      border: "0px solid rgb(229, 231, 235)",
+                      boxSizing: "border-box",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "0.5rem",
+                      letterSpacing: "0.02em",
+                      paddingLeft: "1rem",
+                      paddingRight: "1rem",
+                      paddingTop: "0.75rem",
+                      paddingBottom: "0.75rem",
+                      flexBasis: "calc(33.33% - 2rem)",
+                      borderRadius: "24px",
+                      background: "rgba(54, 54, 120, 0.06)",
+                      transition: "0.2s",
+                      height: "150px",
+                      cursor: "pointer",
+                      fontFamily: "Lato, sans-serif",
+                    }}
+                  >
+                    <div
+                      className="flex items-center justify-between gap-4"
+                      style={{
+                        border: "0px solid rgb(229, 231, 235)",
+                        boxSizing: "border-box",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        gap: "1rem",
+                        letterSpacing: "0.02em",
+                        fontFamily: "Lato, sans-serif",
+                      }}
+                    >
+                      <img
+                        alt="Speciality Superfoods"
+                        src="public/assets/img/categories/superfood.jpg"
+                        style={{
+                          boxSizing: "border-box",
+                          display: "block",
+                          verticalAlign: "middle",
+                          maxWidth: "100%",
+                          height: "auto",
+                          letterSpacing: "0.02em",
+                          border: "none",
+                          borderRadius: "20px",
+                          width: "100px",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      />
+                      <h6
+                        className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
+                        style={{
+                          border: "0px solid rgb(229, 231, 235)",
+                          boxSizing: "border-box",
+                          margin: "0px",
+                          width: "10rem",
+                          fontSize: "16px",
+                          fontWeight: 600,
+                          lineHeight: "30px",
+                          color: "rgb(30 30 30/1)",
+                          letterSpacing: "0.0015em",
+                          textAlign: "left",
+                          fontFamily: "Lato, sans-serif",
+                        }}
+                      >
+                        Gynecology
                       </h6>
                     </div>
                     <svg
@@ -882,219 +1095,6 @@ export default function Component() {
                     >
                       <img
                         alt="Gastro Intestinal"
-                        src="public\assets\img\categories\extracts.jpg"
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          verticalAlign: "middle",
-                          maxWidth: "100%",
-                          height: "auto",
-                          letterSpacing: "0.02em",
-                          border: "none",
-                          borderRadius: "20px",
-                          width: "100px",
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      />
-                      <h6
-                        className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
-                        style={{
-                          border: "0px solid rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          margin: "0px",
-                          width: "10rem",
-                          fontSize: "16px",
-                          fontWeight: 600,
-                          lineHeight: "30px",
-                          color: "rgb(30 30 30/1)",
-                          letterSpacing: "0.0015em",
-                          textAlign: "left",
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      >
-                        Extracts
-                      </h6>
-                    </div>
-                    <svg
-                      height="14"
-                      width="7"
-                      fill="none"
-                      viewBox="0 0 7 14"
-                      xmlns="http://www.w3.org/2000/svg"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        display: "block",
-                        verticalAlign: "middle",
-                        letterSpacing: "0.02em",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      <path
-                        d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
-                        fill="#363678"
-                        style={{
-                          border: "0px solid rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          letterSpacing: "0.02em",
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      />
-                    </svg>
-                  </div>
-                </Link>
-
-                <Link
-                  to="/speciality-superfoods"
-                  style={{
-                    display: "block",
-                    textDecoration: "none",
-                  }}
-                >
-                  <div
-                    className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "space-between",
-                      gap: "0.5rem",
-                      letterSpacing: "0.02em",
-                      paddingLeft: "1rem",
-                      paddingRight: "1rem",
-                      paddingTop: "0.75rem",
-                      paddingBottom: "0.75rem",
-                      flexBasis: "calc(33.33% - 2rem)",
-                      borderRadius: "24px",
-                      background: "rgba(54, 54, 120, 0.06)",
-                      transition: "0.2s",
-                      height: "150px",
-                      cursor: "pointer",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <div
-                      className="flex items-center justify-between gap-4"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        gap: "1rem",
-                        letterSpacing: "0.02em",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      <img
-                        alt="Speciality Superfoods"
-                        src="public/assets/img/categories/superfood.jpg"
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          verticalAlign: "middle",
-                          maxWidth: "100%",
-                          height: "auto",
-                          letterSpacing: "0.02em",
-                          border: "none",
-                          borderRadius: "20px",
-                          width: "100px",
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      />
-                      <h6
-                        className="text-lg font-semibold leading-[30px] text-[#1E1E1E] w-40"
-                        style={{
-                          border: "0px solid rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          margin: "0px",
-                          width: "10rem",
-                          fontSize: "16px",
-                          fontWeight: 600,
-                          lineHeight: "30px",
-                          color: "rgb(30 30 30/1)",
-                          letterSpacing: "0.0015em",
-                          textAlign: "left",
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      >
-                        Speciality Superfoods
-                      </h6>
-                    </div>
-                    <svg
-                      height="14"
-                      width="7"
-                      fill="none"
-                      viewBox="0 0 7 14"
-                      xmlns="http://www.w3.org/2000/svg"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        display: "block",
-                        verticalAlign: "middle",
-                        letterSpacing: "0.02em",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      <path
-                        d="M0.166748 13.6668L6.83342 7.00016L0.166748 0.333496V13.6668Z"
-                        fill="#363678"
-                        style={{
-                          border: "0px solid rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          letterSpacing: "0.02em",
-                          fontFamily: "Lato, sans-serif",
-                        }}
-                      />
-                    </svg>
-                  </div>
-                </Link>
-                <Link
-                  to="/weight-loss"
-                  style={{
-                    display: "block",
-                    textDecoration: "none",
-                  }}
-                >
-                  <div
-                    className="therapeutic_areas_services_wrapper basis-full md:basis-[calc(50%-2rem)] xl:basis-[calc(33.33%-2rem)] 2xl:basis-[calc(25%-42px)] flex justify-between items-center gap-2 px-[24px] py-[16px] md:px-4 md:py-3 3xl:px-6 3xl:py-6"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "space-between",
-                      gap: "0.5rem",
-                      letterSpacing: "0.02em",
-                      paddingLeft: "1rem",
-                      paddingRight: "1rem",
-                      paddingTop: "0.75rem",
-                      paddingBottom: "0.75rem",
-                      flexBasis: "calc(33.33% - 2rem)",
-                      borderRadius: "24px",
-                      background: "rgba(54, 54, 120, 0.06)",
-                      transition: "0.2s",
-                      height: "150px",
-                      cursor: "pointer",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <div
-                      className="flex items-center justify-between gap-4"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        gap: "1rem",
-                        letterSpacing: "0.02em",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      <img
-                        alt="Gastro Intestinal"
                         src="public\assets\img\categories\weight loss.jpg"
                         style={{
                           boxSizing: "border-box",
@@ -1125,7 +1125,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Weight Loss
+                        Miscellaneous
                       </h6>
                     </div>
                     <svg
@@ -1158,7 +1158,7 @@ export default function Component() {
                 </Link>
 
                 <Link
-                  to="/anti-diabetic"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -1232,7 +1232,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Antidiabetic
+                        Oncology
                       </h6>
                     </div>
                     <svg
@@ -1264,7 +1264,7 @@ export default function Component() {
                   </div>
                 </Link>
                 <Link
-                  to="/cardiology"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -1339,7 +1339,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Cardiology
+                        Nephrology
                       </h6>
                     </div>
                     <svg
@@ -1371,7 +1371,7 @@ export default function Component() {
                   </div>{" "}
                 </Link>
                 <Link
-                  to="/collagen-supplements"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -1445,7 +1445,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Collagen Supplements
+                        Miscellaneous
                       </h6>
                     </div>
                     <svg
@@ -1477,7 +1477,7 @@ export default function Component() {
                   </div>
                 </Link>
                 <Link
-                  to="/hairfall-control"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -1551,7 +1551,7 @@ export default function Component() {
                           fontFamily: "Lato, sans-serif",
                         }}
                       >
-                        Hair Fall Control
+                        Oncology
                       </h6>
                     </div>
                     <svg
@@ -1583,7 +1583,7 @@ export default function Component() {
                   </div>
                 </Link>
                 <Link
-                  to="/eye-health"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -1688,7 +1688,7 @@ export default function Component() {
                   </div>
                 </Link>
                 <Link
-                  to="/anti-oxidants"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -1793,7 +1793,7 @@ export default function Component() {
                   </div>
                 </Link>
                 <Link
-                  to="/male-vitality"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -1899,7 +1899,7 @@ export default function Component() {
                   </div>
                 </Link>
                 <Link
-                  to="/performance"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -2005,7 +2005,7 @@ export default function Component() {
                   </div>
                 </Link>
                 <Link
-                  to="/dandruff"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",
@@ -2111,7 +2111,7 @@ export default function Component() {
                   </div>
                 </Link>
                 <Link
-                  to="/height-enhancer"
+                  to="#"
                   style={{
                     display: "block",
                     textDecoration: "none",

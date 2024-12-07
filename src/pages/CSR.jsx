@@ -56,7 +56,7 @@ const CSRPage = () => {
       className="csr-page"
       style={{
         fontFamily: "'Inter', sans-serif",
-        overflowX: "hidden",
+        overflow: "hidden",
       }}
     >
       {/* Hero Section */}
@@ -75,35 +75,6 @@ const CSRPage = () => {
           textAlign: "center",
         }}
       >
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.2 }}
-        >
-          <h1
-            className="animated-title"
-            style={{
-              fontSize: "4rem",
-              fontWeight: 700,
-              marginBottom: "1rem",
-            }}
-          >
-            Corporate Social Responsibility
-          </h1>
-          <p
-            className="animated-title"
-            style={{
-              fontSize: "1.5rem",
-              maxWidth: "600px",
-              margin: "0 auto",
-            }}
-          >
-            Corporate Social Responsibility (CSR) refers to a company’s
-            commitment to operate ethically, contribute to economic development,
-            and improve the quality of life for employees, local communities,
-            and society at large.
-          </p>
-        </motion.div>
       </div>
 
       {/* CSR Sections */}
@@ -158,60 +129,6 @@ const CSRPage = () => {
           </div>
         </motion.div>
       ))}
-
-      {/* Call to Action Section */}
-      <div
-        className="cta-section"
-        style={{
-          textAlign: "center",
-          padding: "100px",
-          backgroundColor: "#1f2937",
-          color: "#fff",
-        }}
-      >
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1 }}
-        >
-          <h2
-            style={{
-              fontSize: "2.5rem",
-              fontWeight: 700,
-              marginBottom: "1rem",
-            }}
-          >
-            Join Us in Making a Difference
-          </h2>
-          <p
-            style={{
-              fontSize: "1.2rem",
-              maxWidth: "600px",
-              margin: "0 auto 1.5rem auto",
-            }}
-          >
-            Help us create a positive impact in the world through sustainable
-            and responsible practices.
-          </p>
-          <motion.button
-            whileHover={{ scale: 1.1, backgroundColor: "#9B5DE5" }}
-            whileTap={{ scale: 0.95 }}
-            style={{
-              padding: "15px 30px",
-              fontSize: "1rem",
-              fontWeight: 600,
-              color: "#fff",
-              backgroundColor: "rgb(104, 52, 128)",
-              border: "none",
-              borderRadius: "5px",
-              cursor: "pointer",
-            }}
-          >
-            Get Involved
-          </motion.button>
-        </motion.div>
-      </div>
     </div>
   );
 };
