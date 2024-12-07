@@ -60,6 +60,7 @@ import "./assets/css/plugins/preloader.css";
 import "./assets/css/themes/blue-orange.css";
 import "./assets/css/plugins/font-awesome.min.css";
 
+
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 

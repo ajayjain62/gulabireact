@@ -81,7 +81,7 @@ const Section = styled.section`
   }
 
   .what-we-do-title {
-    font-size: 2.5rem;
+    font-size: 45px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 40px;
