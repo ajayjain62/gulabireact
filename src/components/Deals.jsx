@@ -172,7 +172,7 @@ export default function Component() {
                     <a
                       className="read-more-arrow"
                       alt="Opening Positions"
-                      href="#"
+                      href="http://localhost:5173/health-cetagory"
                       title="Opening Positions"
                       style={{
                         boxSizing: "border-box",
@@ -205,7 +205,7 @@ export default function Component() {
                     <a
                       className="read-more-arrow"
                       alt="Life At Cipla"
-                      href="#"
+                      href="http://localhost:5173/private-lab"
                       title="Life At Cipla"
                       style={{
                         boxSizing: "border-box",
@@ -238,7 +238,7 @@ export default function Component() {
                     <a
                       className="read-more-arrow"
                       alt="Recruitment Fraud"
-                      href="#"
+                      href="http://localhost:5173/contact"
                       title="Recruitment Fraud"
                       style={{
                         boxSizing: "border-box",

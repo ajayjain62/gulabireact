@@ -132,7 +132,7 @@ export default function Component() {
           />
           <img
             className="img-responsive w-100"
-            src="src\assets\img\slider\Together towards a timeless purpose of caringfor life..jpg"
+            src="src\assets\img\slider\c a r e (1349 x 400 px) (2).jpg"
             style={{
               boxSizing: "border-box",
               outline: "none",
@@ -155,6 +155,7 @@ export default function Component() {
             maxWidth: "60px",
             maxHeight: "60px",
             position: "absolute",
+            display: "none",
             right: "50px",
             bottom: "20px",
           }}

@@ -30,9 +30,9 @@ export default function Component() {
             boxSizing: "border-box",
             marginRight: "auto",
             display: "block",
-            padding: "0px 55px",
-            paddingRight: "55px",
-            paddingLeft: "55px",
+            padding: "0px 20px",
+            paddingRight: "20px",
+            paddingLeft: "20px",
           }}
         >
           <div
