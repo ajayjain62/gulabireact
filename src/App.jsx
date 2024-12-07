@@ -41,6 +41,7 @@ import MemoryEnhancers from "./pages/MemoryEnhancers";
 import EyeHealth from "./pages/EyeHealth.jsx";
 import MediaCenter from "./pages/MediaCenter";
 import FranchisePage from "./pages/Franchise.jsx";
+import Technology from "./pages/Technology";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -105,6 +106,7 @@ const App = () => (
       <Route path="/eye-health" element={<EyeHealth />} />
       <Route path="/media-center" element={<MediaCenter />} />
       <Route path="/franchise" element={<FranchisePage />} />
+      <Route path="/technology" element={<Technology />} />
 
     </Routes>
 

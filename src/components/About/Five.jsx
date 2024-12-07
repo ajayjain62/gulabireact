@@ -78,7 +78,7 @@ const Section = styled.section`
   }
 
   .how-different-description {
-    font-size: 1.2rem;
+    font-size:16px;
     line-height: 1.8;
     margin-bottom: 30px;
     color: #555555;
