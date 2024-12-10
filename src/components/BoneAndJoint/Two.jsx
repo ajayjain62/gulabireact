@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">BONE AND JOINT</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+        Bone and joints form the structural framework of the human body, enabling movement, support, and protection for vital organs. Bones provide strength and shape, while joints allow flexibility and mobility. Together, they play a crucial role in physical activity and overall health. Proper care, including exercise and nutrition, ensures their longevity and functionality throughout life.
         </p>
       </div>
     </div>

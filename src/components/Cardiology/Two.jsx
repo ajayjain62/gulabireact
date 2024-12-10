@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">CARDIOLOGY</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+        Cardiology is a branch of medicine that focuses on diagnosing and treating diseases and disorders of the heart and blood vessels. It encompasses conditions such as coronary artery disease, heart failure, arrhythmias, and congenital heart defects. Cardiologists use advanced techniques, including imaging and interventional procedures, to ensure heart health and improve the quality of life for patients.
         </p>
       </div>
     </div>

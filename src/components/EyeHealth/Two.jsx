@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">EYE HEALTH</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+          Eye health is essential for maintaining clear vision and overall well-being. Proper eye care involves protecting eyes from excessive screen time, wearing sunglasses to block harmful UV rays, and consuming a diet rich in vitamins A, C, and E. Regular eye exams help detect and prevent conditions like glaucoma, cataracts, and macular degeneration, ensuring long-term visual health.
         </p>
       </div>
     </div>

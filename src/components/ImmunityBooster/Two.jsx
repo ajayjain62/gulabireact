@@ -4,15 +4,10 @@ import "./TherapeuticAreas.css"; // Import the CSS file
 export default function TherapeuticAreas() {
   return (
     <div className="container">
-      <p className="section-title">SKIN GLOW</p>
+      <p className="section-title">IMMUNITY BOOSTER</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+          Immunity boosters are substances that help strengthen the body's natural defense system, making it more resilient against infections and diseases. These can include vitamins, minerals, herbs, and natural foods like citrus fruits, ginger, garlic, and leafy greens. Regular intake of immunity-boosting elements can help enhance overall health, improve recovery times, and reduce the risk of chronic illnesses.
         </p>
       </div>
     </div>

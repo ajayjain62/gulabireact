@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">PERFORMANCE</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+          Performance refers to how well a system, process, or individual achieves specific goals or tasks. It encompasses speed, efficiency, reliability, and quality, impacting productivity and satisfaction. Whether in technology, sports, or business, high performance is crucial for success. It involves continuous improvement, strategic planning, and adaptability to ensure consistent, optimal outcomes and long-term growth.
         </p>
       </div>
     </div>
