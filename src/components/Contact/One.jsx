@@ -519,7 +519,7 @@ export default function Component() {
     <>
       <a
         className="ng-tns-c2338824720-0"
-        href="https://unstop.com/manage/opportunity/all/create"
+        href="#"
         style={{
           boxSizing: "inherit",
           outline: "0px",

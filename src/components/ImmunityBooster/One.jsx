@@ -17,7 +17,7 @@ export default function Component() {
       >
         <img
           className="w-full object-cover"
-          src="https://www.torrentpharma.com/assets/Thraputic_areas_2976cec928.jpg"
+          src="src\assets\img\product\immunitybooster.jpg"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",

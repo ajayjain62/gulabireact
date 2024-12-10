@@ -1,0 +1,98 @@
+.contact-form {
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  
+  label {
+    color: #383838;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .required {
+    color: rgb(214, 53, 0);
+    font-style: italic;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid #E2E2E2;
+    border-radius: 8px;
+    height: 50px;
+    box-sizing: border-box;
+    color: #383838;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .tel-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    height: 50px;
+  }
+  
+  .country-code-selector {
+    width: 90px;
+    border: none;
+    background: none;
+    color: #5D5D5D;
+    font-size: inherit;
+    padding: 0 6px;
+    text-align: center;
+    outline: none;
+  }
+  
+  .tel-input {
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 14px;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #683480;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    height: 40px;
+    width: 150px;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover {
+    background: #572d6b;
+  }
+  
+  .submit-icon {
+    margin-right: 4px;
+  }
+  
