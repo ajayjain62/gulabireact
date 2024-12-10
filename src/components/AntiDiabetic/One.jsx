@@ -9,7 +9,7 @@ export default function Component() {
           border: "0px solid rgb(229, 231, 235)",
           boxSizing: "border-box",
           position: "relative",
-          backgroundImage: "URL(https://i.postimg.cc/qq7nfPSK/antidiabtic-1.jpg)",
+          // backgroundImage: "URL(https://i.postimg.cc/qq7nfPSK/antidiabtic-1.jpg)",
           letterSpacing: "0.02em",
           fontFamily: "Lato, sans-serif",
         }}
