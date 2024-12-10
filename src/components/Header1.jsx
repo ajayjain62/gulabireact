@@ -21,7 +21,7 @@ const Header = () => {
   const menuItems = [
     {
       label: "About Us",
-      link: "http://localhost:5173/about",
+      link: "/about",
       megaMenu: [
         { label: "Our Credo", link: "#" },
         { label: "Board of Directors", link: "#" },
@@ -29,41 +29,41 @@ const Header = () => {
     },
     {
       label: "Our Expertise",
-      link: "http://localhost:5173/our-expertise",
+      link: "/our-expertise",
       megaMenu: [
-        { label: "Skin Glow", link: "http://localhost:5173/skin-glow" },
-        { label: "Bone & Joint Care", link: "http://localhost:5173/bone-and-joint" },
-        { label: "Female Vitality", link: "http://localhost:5173/female-vitality" },
-        { label: "Height Enhancer", link: "http://localhost:5173/height-enhancer" },
-        { label: "Antioxidants", link: "http://localhost:5173/anti-oxidant" },
-        { label: "Male Vitality", link: "http://localhost:5173/male-vitality" },
-        { label: "Performance", link: "http://localhost:5173/performance" },
-        { label: "Dandruff", link: "http://localhost:5173/dendruff" },
-        { label: "Extracts", link: "http://localhost:5173/extracts" },
-        { label: "Speciality Super Foods", link: "http://localhost:5173/speciality-superfoods" },
-        { label: "Anti Anemic", link: "http://localhost:5173/anti-anemic" },
-        { label: "Antidiabetic", link: "http://localhost:5173/anti-diabetic" },
-        { label: "Cardiology", link: "http://localhost:5173/cardiology" },
-        { label: "Weight Loss", link: "http://localhost:5173/weightloss" },
-        { label: "Eye Health", link: "http://localhost:5173/eye-health" },
-        { label: "Memory Enhancer", link: "http://localhost:5173/memoryenhancer" },
-        { label: "Hair Fall Control", link: "http://localhost:5173/hair-fall-control" },
-        { label: "Collagen Supplement", link: "http://localhost:5173/collagen-supplement" },
-        { label: "Body Detox", link: "http://localhost:5173/body-detox" },
-        { label: "Immunity Booster", link: "http://localhost:5173/immunity-booster" },
+        { label: "Skin Glow", link: "/skin-glow" },
+        { label: "Bone & Joint Care", link: "/bone-and-joint" },
+        { label: "Female Vitality", link: "/female-vitality" },
+        { label: "Height Enhancer", link: "/height-enhancer" },
+        { label: "Antioxidants", link: "/anti-oxidant" },
+        { label: "Male Vitality", link: "/male-vitality" },
+        { label: "Performance", link: "/performance" },
+        { label: "Dandruff", link: "/dandruff" },
+        { label: "Extracts", link: "/extracts" },
+        { label: "Speciality Super Foods", link: "/speciality-superfoods" },
+        { label: "Anti Anemic", link: "/anti-anemic" },
+        { label: "Antidiabetic", link: "/anti-diabetic" },
+        { label: "Cardiology", link: "/cardiology" },
+        { label: "Weight Loss", link: "/weight-loss" },
+        { label: "Eye Health", link: "/eye-health" },
+        { label: "Memory Enhancer", link: "/memory-enhancer" },
+        { label: "Hair Fall Control", link: "/hair-fall-control" },
+        { label: "Collagen Supplement", link: "/collagen-supplement" },
+        { label: "Body Detox", link: "/body-detox" },
+        { label: "Immunity Booster", link: "/immunity-booster" },
       ],
     },
     {
       label: "Corporate Social Responsibility",
-      link: "http://localhost:5173/csr",
+      link: "/csr",
     },
     {
       label: "Media Centre",
-      link: "http://localhost:5173/media-center",
+      link: "/media-center",
     },
     {
       label: "Franchise",
-      link: "http://localhost:5173/franchise",
+      link: "/franchise",
       megaMenu: [
         { label: "Australia", link: "#" },
         { label: "Brazil", link: "#" },
@@ -71,11 +71,11 @@ const Header = () => {
     },
     {
       label: "Careers",
-      link: "http://localhost:5173/career",
+      link: "/career",
     },
     {
       label: "Contact Us",
-      link: "http://localhost:5173/contact",
+      link: "/contact",
     },
   ];
 
@@ -88,10 +88,11 @@ const Header = () => {
     console.log("Searching for:", searchTerm);
   };
 
-  return (
+  return (  
+
     <header className="header">
       <div className="unique-logo-holder">
-        <a className="unique-logo" href="http://localhost:5173/" rel="home" title="Home">
+        <a className="unique-logo" href="/" rel="home" title="Home">
           <img alt="Home" src="https://i.postimg.cc/2SfrmKRH/GOA-1.png" className="unique-logo-img" />
         </a>
       </div>

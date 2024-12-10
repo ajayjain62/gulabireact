@@ -43,7 +43,6 @@ export default function Component() {
             left: "0px",
             right: "0px",
             top: "0px",
-            zIndex: 10,
             marginLeft: "auto",
             marginRight: "auto",
             display: "flex",
@@ -285,6 +284,7 @@ export default function Component() {
               </nav>
             </div>
           </div>
+
         </div>
         <div
           className="absolute top-0 bottom-0 left-0 right-0 bg-common-hero-overlay z-[1]"
@@ -297,9 +297,6 @@ export default function Component() {
             right: "0px",
             top: "0px",
             zIndex: 1,
-            backgroundImage:
-              "linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 41.02%, transparent 90.94%)",
-            letterSpacing: "0.02em",
             fontFamily: "Lato, sans-serif",
           }}
         />

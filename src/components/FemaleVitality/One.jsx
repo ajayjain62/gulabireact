@@ -17,7 +17,7 @@ export default function Component() {
       >
         <img
           className="w-full object-cover"
-          src="https://www.torrentpharma.com/assets/Thraputic_areas_2976cec928.jpg"
+          src="src\assets\img\product\femalevitality.jpg"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
@@ -76,39 +76,7 @@ export default function Component() {
               fontFamily: "Lato, sans-serif",
             }}
           >
-            <p
-              className="text-2xl leading-8 text-white"
-              style={{
-                border: "0px solid rgb(229, 231, 235)",
-                boxSizing: "border-box",
-                margin: "0px",
-                fontSize: "1.5rem",
-                lineHeight: "2rem",
-                color: "rgb(255 255 255/1)",
-                letterSpacing: "0.02em",
-                fontFamily: "Lato, sans-serif",
-              }}
-            >
-              Our Products
-            </p>
-            <p
-              className="text-[32px] tracking-[0.64px] md:text-[48px] md:leading-[57.6px] font-extrabold leading-9 md:tracking-[1.24px] capitalize text-[#FFF] w-full"
-              style={{
-                border: "0px solid rgb(229, 231, 235)",
-                boxSizing: "border-box",
-                margin: "0px",
-                width: "100%",
-                fontWeight: 800,
-                textTransform: "capitalize",
-                color: "rgb(255 255 255/1)",
-                fontSize: "48px",
-                lineHeight: "57.6px",
-                letterSpacing: "1.24px",
-                fontFamily: "Lato, sans-serif",
-              }}
-            >
-              Extensive Presence Across Therapies
-            </p>
+
             <div
               className="custom-hero-breadcrumbs w-full"
               style={{
@@ -161,46 +129,6 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    <span
-                      className="overflow-hidden text-ellipsis max-w-[100px] xs:max-w-[150px] sm:max-w-none w-auto whitespace-nowrap inline-block"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        display: "inline-block",
-                        width: "auto",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        whiteSpace: "nowrap",
-                        letterSpacing: "0.02em",
-                        maxWidth: "none",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      Home
-                    </span>
-                  </span>
-                  <span
-                    className="inline-block mx-2"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      marginLeft: "0.5rem",
-                      marginRight: "0.5rem",
-                      display: "inline-block",
-                      letterSpacing: "0.02em",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <span
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        letterSpacing: "0.02em",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      /
-                    </span>
                   </span>
                   <span
                     className="inline-block"
@@ -212,47 +140,7 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    <span
-                      className="overflow-hidden text-ellipsis max-w-[100px] xs:max-w-[150px] sm:max-w-none w-auto whitespace-nowrap inline-block"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        display: "inline-block",
-                        width: "auto",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        whiteSpace: "nowrap",
-                        letterSpacing: "0.02em",
-                        maxWidth: "none",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      Our Products
-                    </span>
-                  </span>
-                  <span
-                    className="inline-block mx-2"
-                    style={{
-                      border: "0px solid rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      marginLeft: "0.5rem",
-                      marginRight: "0.5rem",
-                      display: "inline-block",
-                      letterSpacing: "0.02em",
-                      fontFamily: "Lato, sans-serif",
-                    }}
-                  >
-                    <span
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        letterSpacing: "0.02em",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      /
-                    </span>
-                  </span>
+                  </span> 
                   <span
                     className="inline-block"
                     style={{
@@ -263,23 +151,7 @@ export default function Component() {
                       fontFamily: "Lato, sans-serif",
                     }}
                   >
-                    <span
-                      className="overflow-hidden text-ellipsis max-w-[100px] xs:max-w-[150px] sm:max-w-none w-auto whitespace-nowrap inline-block"
-                      style={{
-                        border: "0px solid rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        display: "inline-block",
-                        width: "auto",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        whiteSpace: "nowrap",
-                        letterSpacing: "0.02em",
-                        maxWidth: "none",
-                        fontFamily: "Lato, sans-serif",
-                      }}
-                    >
-                      Therapeutic Areas
-                    </span>
+                
                   </span>
                 </div>
               </nav>
@@ -297,9 +169,6 @@ export default function Component() {
             right: "0px",
             top: "0px",
             zIndex: 1,
-            backgroundImage:
-              "linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 41.02%, transparent 90.94%)",
-            letterSpacing: "0.02em",
             fontFamily: "Lato, sans-serif",
           }}
         />

@@ -41,7 +41,9 @@ import MemoryEnhancers from "./pages/MemoryEnhancers";
 import EyeHealth from "./pages/EyeHealth.jsx";
 import MediaCenter from "./pages/MediaCenter";
 import FranchisePage from "./pages/Franchise.jsx";
-import Technology from "./pages/Technology";
+import PrivateLab from "./pages/PrivateLab";
+import HealthCetagory from "./pages/HealthCetagory.jsx"
+import Technology from "./pages/Technology.jsx";
 
 // Import CSS files
 import "./assets/css/ionicons.min.css";
@@ -60,6 +62,7 @@ import "./assets/css/plugins/animate.css";
 import "./assets/css/plugins/preloader.css";
 import "./assets/css/themes/blue-orange.css";
 import "./assets/css/plugins/font-awesome.min.css";
+
 
 // Package CSS
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -86,7 +89,7 @@ const App = () => (
       <Route path="/career" element={<Career />} />
       <Route path="/rd" element={<Rnd />} />
       <Route path="/body-detox" element={<BodyDetox />} />
-      <Route path="/collagen-supplements" element={<CollagenSupplement />} />
+      <Route path="/collagen-supplement" element={<CollagenSupplement />} />
       <Route path="/anti-anemic" element={<AntiAnemic />} />
       <Route path="/anti-diabetic" element={<AntiDiabetic />} />
       <Route path="/bone-and-joint" element={<BoneAndJoint />} />
@@ -102,10 +105,12 @@ const App = () => (
       <Route path="/weight-loss" element={<WeightLoss />} />
       <Route path="/memory-enhancer" element={<MemoryEnhancers />} />
       <Route path="/immunity-booster" element={<ImmunityBooster />} />
-      <Route path="/hairfall-control" element={<HairFallControl />} />
+      <Route path="/hair-fall-control" element={<HairFallControl />} />
       <Route path="/eye-health" element={<EyeHealth />} />
       <Route path="/media-center" element={<MediaCenter />} />
       <Route path="/franchise" element={<FranchisePage />} />
+      <Route path="/private-lab" element={<PrivateLab />} />
+      <Route path="/health-cetagory" element={<HealthCetagory />} />
       <Route path="/technology" element={<Technology />} />
 
     </Routes>

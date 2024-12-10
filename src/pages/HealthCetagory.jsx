@@ -33,6 +33,7 @@ export default function Component() {
               marginLeft: "auto",
               marginRight: "auto",
               paddingLeft: "1rem",
+              paddingBottom:"80px",
               paddingRight: "1rem",
               letterSpacing: "0.02em",
               fontFamily: "Lato, sans-serif",

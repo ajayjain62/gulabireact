@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    z-index: 1000;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+/* Part 1 - Hero Section */
+.part-1 {
+    height: 100vh;
+    position: relative;
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+
+.image-carousel {
+    transform: translate3d(0px, 0px, 0px) rotate(-0.0001deg);
+    translate: none;
+    rotate: none;
+    scale: none;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 3vw;
+    width: 200vw;
+    height: 200vh;
+    background-color: #000;
+    scale: 1;
+}
+
+.image-row img {
+    object-fit: cover;
+    transition: transform 1s ease;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.scroll-indicator {
+    margin-top: 2rem;
+    color: white;
+}
+
+/* Part 2 */
+.part-2 {
+    padding: 5rem;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.part-2 .content {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* Part 3 */
+.part-3 {
+    padding: 5rem;
+    background: #fff;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.75rem 2rem;
+    background: #663480;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.btn.secondary {
+    background: #ddd;
+    color: #333;
+}
+
+/* Part 4 */
+.part-4 {
+    padding: 5rem;
+    background: #f1f1f1;
+}
+
+.features {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.features article {
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
