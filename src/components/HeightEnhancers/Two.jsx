@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">HEIGHT ENHANCER</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+          A height enhancer is a product designed to support and potentially improve an individuals height. These products often include natural supplements, exercises, and specialized footwear that create the appearance of added height. While the effectiveness of height enhancers can vary, they are popular among people looking to boost confidence and improve posture. They are commonly used during growth years or as a temporary solution for adults.
         </p>
       </div>
     </div>

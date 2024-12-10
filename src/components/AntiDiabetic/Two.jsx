@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">ANTI DIABETIC</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+        Anti-diabetic medications are designed to help manage blood sugar levels in individuals with diabetes. They work through various mechanisms, such as increasing insulin sensitivity, stimulating insulin production, or reducing glucose absorption. Common types include metformin, insulin, and sulfonylureas. Combined with a healthy diet and lifestyle, these medications play a crucial role in diabetes management and preventing complications.
         </p>
       </div>
     </div>

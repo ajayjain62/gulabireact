@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">FEMALE VITALITY</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+          Female vitality encompasses the unique energy, strength, and well-being that empower women to lead fulfilling and balanced lives. It is the harmony of physical health, emotional resilience, and mental clarity, which supports women in managing daily challenges and pursuing their passions. Embracing practices that nurture vitality—such as balanced nutrition, exercise, mindfulness, and self-care—enhances overall wellness and empowers women to thrive.
         </p>
       </div>
     </div>

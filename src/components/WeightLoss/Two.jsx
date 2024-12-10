@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">WEIGHT LOSS</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+          Weight loss is the process of reducing body weight by burning more calories than consumed. It typically involves a combination of healthy eating, regular physical activity, and lifestyle changes. Effective weight loss focuses on sustainable habits rather than quick fixes, aiming to improve overall health, boost energy levels, and reduce the risk of chronic conditions like diabetes and heart disease.
         </p>
       </div>
     </div>

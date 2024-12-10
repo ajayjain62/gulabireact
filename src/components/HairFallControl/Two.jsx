@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">HAIR FALL CONTROL</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+          Hair fall control involves adopting a comprehensive approach that includes proper hair care, a balanced diet, and maintaining overall health. Regular cleansing with mild shampoos, conditioning, and gentle scalp massages can improve blood circulation. Additionally, using natural oils, managing stress, and avoiding excessive heat treatments can help strengthen hair roots, reduce breakage, and promote healthy hair growth.
         </p>
       </div>
     </div>

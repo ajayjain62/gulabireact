@@ -7,12 +7,7 @@ export default function TherapeuticAreas() {
       <p className="section-title">ANTI OXIDANT</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+        Antioxidants are compounds that protect the body from damage caused by harmful molecules called free radicals. Found in fruits, vegetables, and other natural sources, they help prevent oxidative stress, which can lead to chronic diseases and aging. Key antioxidants include vitamins C and E, beta-carotene, and selenium, promoting better health and supporting the immune system.
         </p>
       </div>
     </div>

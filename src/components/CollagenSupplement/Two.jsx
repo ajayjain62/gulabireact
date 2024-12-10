@@ -4,15 +4,10 @@ import "./TherapeuticAreas.css"; // Import the CSS file
 export default function TherapeuticAreas() {
   return (
     <div className="container">
-      <p className="section-title">SKIN GLOW</p>
+      <p className="section-title">COLLAGEN SUPPLEMENT</p>
       <div className="section-content">
         <p>
-          Achieve radiant, glowing skin with our advanced Glutathione formula.
-          Packed with powerful antioxidants and essential nutrients like ALA,
-          HLA, and Biotin, it deeply nourishes your skin, boosts hydration, and
-          reduces oxidative stress. Unlock a brighter, healthier complexion
-          while supporting overall skin health and vitality. Glow naturally,
-          every day!
+        Collagen supplements are a popular health product designed to support skin elasticity, joint health, and overall well-being. Collagen, a vital protein in the body, diminishes with age, leading to wrinkles, weaker joints, and reduced flexibility. These supplements, often available in powder, capsule, or liquid form, help replenish collagen levels, promoting youthful skin, stronger hair, and improved mobility.
         </p>
       </div>
     </div>
