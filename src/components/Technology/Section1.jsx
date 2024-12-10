@@ -1,16 +1,16 @@
 import React from 'react'
 import './Technology.css'
-import ''
+
 
 function Section1() {
   return (
     <section className="part-1">
     <div className="image-carousel">
         <div className="image-row">
-            <img src="./Assets/Images/1.jpg" alt="Image 1" />
-            <img src="./Assets/Images/2.jpg" alt="Image 2" />
-            <img src="./Assets/Images/3.jpg" alt="Image 3" />
-            <img src="./Assets/Images/4.jpg" alt="Image 4" />
+            <img src="src/assets/img/Technology/9D62JjLITDmIdGABaTDVkg.jpg" alt="Image 1" />
+            <img src="src/assets/img/Technology/ZQoQ_5RHSLOSaOJkl9kZDA.jpg" alt="Image 2" />
+            <img src="src/assets/img/Technology/hOwxaa7ETDqWce4v6tt15Q.webp" alt="Image 3" />
+            <img src="src/assets/img/Technology/RlmHaw4dTbSPoUXMBSpltw.jpg" alt="Image 4" />
         </div>
     </div>
     <div className="overlay">
