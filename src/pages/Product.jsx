@@ -4,6 +4,7 @@ import Two from '../components/Product/Two'
 import Three from '../components/Product/Three'
 import Four from '../components/Product/Four'
 import Five from '../components/Product/Five'
+// import Six from '../components/Product/Six'
 function Product() {
   return (
     <div>
@@ -13,6 +14,7 @@ function Product() {
     <Three />
     <Four/>
     <Five />
+    {/* <Six/> */}
     </div>
   )
 }

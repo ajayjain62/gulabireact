@@ -7,21 +7,43 @@
     <title>Goa Nutrition</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- CSS Plugin Files -->
     <link href="assets/css/css/plugins/animate.css" rel="stylesheet" />
     <link href="assets/css/plugins/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/vendors/magnific-popup/magnific-popup.css" rel="stylesheet" />
-    <link href="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
-    <link href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
-    <link href="assets/vendors/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="assets/vendors/owl-carousel/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendors/magnific-popup/magnific-popup.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendors/owl-carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendors/owl-carousel/assets/owl.theme.default.min.css"
+      rel="stylesheet"
+    />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/themes/blue-orange.css" rel="stylesheet" />
 
     <!-- Splide Carousel CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Splide/4.0.7/splide.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Splide/4.0.7/splide.min.css"
+    />
 
     <!-- IE9 Support -->
     <!--[if lt IE 9]>
@@ -90,13 +112,13 @@
 
     <!-- Custom Script for Splide -->
     <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        var splide = new Splide('#main-carousel', {
-          type: 'loop',
+      document.addEventListener("DOMContentLoaded", function () {
+        var splide = new Splide("#main-carousel", {
+          type: "loop",
           perPage: 3,
           autoplay: true,
           interval: 3000,
-          gap: '1rem',
+          gap: "1rem",
           breakpoints: {
             768: {
               perPage: 1,
@@ -104,16 +126,30 @@
           },
         });
 
-        var bar = document.querySelector('.my-slider-progress-bar');
+        var bar = document.querySelector(".my-slider-progress-bar");
 
-        splide.on('mounted move', function () {
+        splide.on("mounted move", function () {
           var end = splide.Components.Controller.getEnd() + 1;
           var rate = Math.min((splide.index + 1) / end, 1);
-          bar.style.width = String(100 * rate) + '%';
+          bar.style.width = String(100 * rate) + "%";
         });
 
         splide.mount();
       });
     </script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>

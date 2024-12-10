@@ -55,7 +55,7 @@ const Section = styled.section`
   text-align: center;
 
   .how-different-title {
-    font-size: 45px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: rgb(104, 52, 128); /* Custom heading color */
     margin-bottom: 20px;
@@ -73,13 +73,13 @@ const Section = styled.section`
   }
 
   .how-different-content-wrapper {
-    max-width: 1140px;
+    max-width: 800px;
     margin: 0 auto;
   }
 
   .how-different-description {
-    font-size: 18px;
-    line-height: 25px;
+    font-size:16px;
+    line-height: 1.8;
     margin-bottom: 30px;
     color: #555555;
   }
@@ -98,7 +98,7 @@ const Section = styled.section`
     }
 
     p {
-      font-size: 18px;
+      font-size: 1.1rem;
       line-height: 1.6;
       color: rgb(104, 52, 128); /* Text in accent color */
       font-weight: bold;
