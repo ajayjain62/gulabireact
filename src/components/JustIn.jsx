@@ -9,7 +9,7 @@ export default function Component() {
           boxSizing: "border-box",
           outline: "none",
           display: "block",
-          padding: "40px 0px",
+          padding: "60px 0px",
         }}
       >
         <div
@@ -38,14 +38,14 @@ export default function Component() {
                   fontFamily: "inherit",
                   lineHeight: 1.1,
                   margin: "0px 0px 0px",
-                  padding: "0px 0px 20px",
+                  padding: "0px 0px 0px",
                   textAlign: "center",
                   fontSize: "38px",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   color: "#683480xxxx",
                   marginTop: "0px",
-                  marginBottom: "40px",
+                  marginBottom: "0px",
                   position: "relative",
                 }}
               >

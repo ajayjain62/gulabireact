@@ -643,7 +643,7 @@ export default function Component() {
               height={439}
               width={720}
               alt="Contact Us"
-              src="https://d8it4huxumps7.cloudfront.net/uploads/images/contact-us/contact-image.png?d=1540x940"
+              src="src\assets\img\contact\maincontact.png"
               style={{
                 boxSizing: "inherit",
                 outline: "0px",
