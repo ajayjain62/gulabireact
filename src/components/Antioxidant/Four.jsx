@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Benefits of Antioxidants for Health and Wellness
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Antioxidants help protect the body from harmful free radicals, reducing oxidative stress and inflammation. They support immune function, promote heart health, improve skin appearance, and may reduce the risk of chronic diseases.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Top Natural Sources of Antioxidants
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   Top natural sources of antioxidants include berries, dark leafy greens, nuts, seeds, and green tea. These foods help neutralize free radicals, supporting overall health and reducing the risk of chronic diseases.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    The Role of Antioxidants in Preventing Chronic Diseases
 
                   </h4>
                   <p
@@ -302,7 +302,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Antioxidants play a crucial role in preventing chronic diseases by neutralizing free radicals, which can damage cells and lead to conditions like heart disease, diabetes, and cancer. They support overall health and reduce inflammation.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Antioxidants and Their Impact on Aging
 
                   </h4>
                   <p
@@ -392,7 +392,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    Antioxidants help combat oxidative stress, which contributes to aging and cell damage. By neutralizing free radicals, they promote healthy skin, reduce wrinkles, and support overall cellular health, slowing down the aging process.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    Antioxidant-Rich Foods to Include in Your Diet
                   </h4>
                   <p
                     style={{
@@ -469,7 +469,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Incorporating antioxidant-rich foods like berries, dark leafy greens, nuts, and dark chocolate into your diet can help combat free radicals, reduce inflammation, and support overall health and longevity.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +536,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    Antioxidants in Skincare: Boosting Your Skin Health
 
                   </h4>
                   <p
@@ -547,7 +547,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   Antioxidants in skincare help combat free radicals, reducing oxidative stress and preventing premature aging. They boost skin health by promoting a radiant complexion, improving elasticity, and protecting against environmental damage.{" "}
                   </p>
                 </div>
               </div>

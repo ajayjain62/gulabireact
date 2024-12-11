@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Top Nutrients for Combating Anemia
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Top nutrients for combating anemia include iron, vitamin B12, and folic acid. These essential vitamins and minerals help boost red blood cell production, improving oxygen transport and overall energy levels.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Benefits of Iron-Rich Diets for Preventing Anemia
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   An iron-rich diet is essential for preventing anemia as it helps maintain healthy red blood cell production, supports oxygen transport, boosts energy levels, and reduces fatigue, promoting overall vitality and well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Natural Remedies and Lifestyle Tips for Anemia Prevention
 
                   </h4>
                   <p
@@ -302,7 +302,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    
+                    Natural remedies and lifestyle tips for anemia prevention include consuming iron-rich foods like leafy greens, beans, and red meat, ensuring adequate vitamin C intake, staying hydrated, and maintaining a balanced diet to enhance nutrient absorption.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +382,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Anti-Anemic Foods to Include in Your Daily Diet
 
                   </h4>
                   <p
@@ -392,7 +393,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    Including anti-anemic foods in your daily diet, such as leafy greens, lean meats, beans, and fortified cereals, helps boost iron and vitamin levels, supporting healthy blood production and preventing anemia.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +460,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    The Role of Vitamins and Minerals in Managing Anemia
                   </h4>
                   <p
                     style={{
@@ -469,7 +470,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    
+                    Vitamins and minerals, especially iron, vitamin B12, and folic acid, play a crucial role in managing anemia by supporting red blood cell production and maintaining healthy hemoglobin levels.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +538,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    How to Maintain Healthy Hemoglobin Level
 
                   </h4>
                   <p
@@ -547,7 +549,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                    Maintaining healthy hemoglobin levels involves eating iron-rich foods like red meat, leafy greens, and legumes, along with vitamin C to enhance absorption. Staying hydrated and managing stress also support optimal levels.{" "}
                   </p>
                 </div>
               </div>

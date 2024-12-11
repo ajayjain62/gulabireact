@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Top Benefits of Detoxing Your Body
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    
+                    Detoxing your body can improve digestion, boost energy levels, and enhance overall well-being. It helps remove toxins, supports organ function, promotes clearer skin, and strengthens the immune system for better health.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +215,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Natural Ways to Detox Your Body Safely
                   </h4>
                   <p
                     style={{
@@ -224,7 +225,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   Natural ways to detox your body include staying hydrated, eating a balanced diet rich in fruits and vegetables, exercising regularly, and incorporating herbal teas. These methods support the bodys natural detox processes safely and effectively.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +292,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Signs You Might Need a Body Detox
 
                   </h4>
                   <p
@@ -302,7 +303,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Signs you might need a body detox include chronic fatigue, digestive issues, skin problems, frequent headaches, and poor concentration. These symptoms can indicate accumulated toxins affecting overall health and well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +382,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Detox Diets: What to Eat and What to Avoid
 
                   </h4>
                   <p
@@ -392,7 +393,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    A detox diet focuses on eating whole, nutrient-rich foods like fruits, vegetables, and lean proteins while avoiding processed foods, added sugars, and alcohol. This helps cleanse the body and boost overall health.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +460,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    Detox Water Recipes to Cleanse Your Body
                   </h4>
                   <p
                     style={{
@@ -469,7 +470,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Detox water recipes are a refreshing way to cleanse your body, boost metabolism, and improve hydration. Infused with ingredients like lemon, cucumber, and mint, they help flush toxins and support overall health.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +537,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    The Role of Hydration in Detoxification
 
                   </h4>
                   <p
@@ -547,7 +548,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   Hydration is essential for detoxification as it helps flush out toxins through urine and sweat. Drinking enough water supports kidney function, aids digestion, and promotes healthy skin, boosting the body natural cleansing process.{" "}
                   </p>
                 </div>
               </div>

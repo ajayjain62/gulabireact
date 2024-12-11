@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Understanding the Causes of Hair Fall
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Hair fall can result from factors like stress, hormonal imbalances, poor diet, genetics, or medical conditions. Understanding these causes helps in identifying effective solutions and promoting healthy hair growth.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Diet Tips for Stronger and Healthier Hair
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   A balanced diet rich in proteins, vitamins, and minerals is key to stronger, healthier hair. Include foods like eggs, nuts, leafy greens, and fish to nourish hair from within.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Best Hair Care Practices to Reduce Hair Loss
 
                   </h4>
                   <p
@@ -302,7 +302,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    
+                    To reduce hair loss, use mild shampoos, avoid excessive heat styling, and regularly massage your scalp with nourishing oils. Stay hydrated and trim split ends to maintain healthy hair.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +382,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    How Stress Affects Hair Loss and Ways to Manage It
 
                   </h4>
                   <p
@@ -392,7 +393,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    Stress triggers hair loss by disrupting the hair growth cycle, leading to excessive shedding. Manage it through relaxation techniques, a balanced diet, regular exercise, and maintaining a healthy lifestyle.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +460,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    When to Seek Professional Help for Hair Fall
                   </h4>
                   <p
                     style={{
@@ -469,7 +470,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    If hair fall persists despite home remedies or is sudden and excessive, its time to consult a professional to identify underlying causes and receive appropriate treatment.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +537,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    Lifestyle Changes to Support Hair Growth
 
                   </h4>
                   <p
@@ -547,7 +548,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   Adopting a healthy lifestyle supports hair growth by managing stress, eating a nutrient-rich diet, staying hydrated, exercising regularly, and avoiding excessive heat or chemical treatments on your hair.{" "}
                   </p>
                 </div>
               </div>

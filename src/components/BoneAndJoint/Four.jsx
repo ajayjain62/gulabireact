@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Common Bone and Joint Disorders
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Common bone and joint disorders include arthritis, osteoporosis, and fractures. These conditions can cause pain, reduced mobility, and decreased quality of life, making early diagnosis and treatment essential for managing symptoms and maintaining function.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Top Nutrients for Strong Bones and Joints
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                    To maintain strong bones and joints, ensure adequate intake of calcium, vitamin D, magnesium, and vitamin K. These nutrients support bone density, joint function, and overall skeletal health, reducing the risk of osteoporosis.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Tips for Maintaining Healthy Bones and Joints
 
                   </h4>
                   <p
@@ -302,7 +302,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Maintaining healthy bones and joints involves regular exercise, a balanced diet rich in calcium and vitamin D, staying hydrated, and avoiding smoking. Stretching, strength training, and proper posture also support joint flexibility and bone strength.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    How Aging Affects Bones and Joints
 
                   </h4>
                   <p
@@ -392,7 +392,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    As we age, bones lose density and joints can become less flexible, leading to stiffness and discomfort. This natural process increases the risk of fractures, joint pain, and reduced mobility.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    Preventing Joint Pain and Stiffness
                   </h4>
                   <p
                     style={{
@@ -469,7 +469,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Preventing joint pain and stiffness involves staying active, maintaining a healthy weight, and incorporating stretches and strength-training exercises. Consuming anti-inflammatory foods and staying hydrated also supports joint health and mobility.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +536,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    Bone and Joint Care: Lifestyle and Dietary Tips
 
                   </h4>
                   <p
@@ -547,7 +547,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                    Maintaining bone and joint health involves a balanced diet rich in calcium, vitamin D, and protein, alongside regular weight-bearing exercises. Staying hydrated, managing weight, and avoiding smoking also support long-term bone and joint function.{" "}
                   </p>
                 </div>
               </div>

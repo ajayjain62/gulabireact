@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    What Are Immunity Boosters and How Do They Work?
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Immunity boosters are substances that enhance the body’s natural defense mechanisms. They work by providing essential nutrients, reducing inflammation, and promoting healthy immune cell function to protect against illnesses and infections.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Natural Ways to Boost Your Immunity Year-Round
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   Boost your immunity year-round by eating a balanced diet rich in fruits, vegetables, and whole grains, staying hydrated, exercising regularly, getting enough sleep, and managing stress effectively.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Lifestyle Habits for a Stronger Immune System
 
                   </h4>
                   <p
@@ -302,7 +302,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Adopting healthy lifestyle habits, such as regular exercise, balanced nutrition, adequate sleep, and stress management, can significantly strengthen your immune system and enhance your bodys ability to fight off illnesses.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    How Regular Exercise Supports Immune Function
 
                   </h4>
                   <p
@@ -392,7 +392,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    Regular exercise strengthens the immune system by promoting healthy circulation, reducing inflammation, and supporting efficient immune cell function. It helps the body fight off illnesses and enhances overall resilience.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    Managing Stress to Improve Immune Response
                   </h4>
                   <p
                     style={{
@@ -469,7 +469,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Managing stress is crucial for a strong immune system. Chronic stress weakens immune function, making the body more vulnerable to illness. Practicing relaxation techniques like meditation and deep breathing can boost immunity and overall well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +536,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    mmunity Boosters for Kids: Safe and Effective Options
 
                   </h4>
                   <p
@@ -547,7 +547,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   Immunity boosters for kids include nutrient-rich foods like fruits, vegetables, and whole grains, along with supplements such as vitamin C and zinc. Proper sleep, hydration, and regular physical activity also help strengthen their immune system.{" "}
                   </p>
                 </div>
               </div>

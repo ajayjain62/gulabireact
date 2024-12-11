@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Heart Conditions and Their Symptoms
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    
+                    Heart conditions can manifest through symptoms like chest pain, shortness of breath, fatigue, and irregular heartbeats. Early detection and treatment are crucial to prevent complications and maintain heart health.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +215,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Preventive Measures for Heart Health
                   </h4>
                   <p
                     style={{
@@ -224,7 +225,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   Preventive measures for heart health include maintaining a balanced diet, regular physical activity, managing stress, avoiding smoking, and monitoring blood pressure and cholesterol levels to reduce the risk of heart disease.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +292,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    The Importance of Regular Heart Check-Ups
 
                   </h4>
                   <p
@@ -302,7 +303,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Regular heart check-ups are vital for detecting potential issues early, preventing heart disease, and maintaining overall cardiovascular health. They help identify risk factors, enable timely treatment, and promote a longer, healthier life.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +382,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Lifestyle Changes for a Healthy Heart
 
                   </h4>
                   <p
@@ -392,7 +393,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    Making lifestyle changes like eating a balanced diet, exercising regularly, managing stress, and avoiding smoking can significantly improve heart health. These habits help reduce risk factors for heart disease and promote overall well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +460,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    The Role of Genetics in Cardiac Health
                   </h4>
                   <p
                     style={{
@@ -469,7 +470,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Genetics play a crucial role in cardiac health, influencing risk factors like high blood pressure, cholesterol levels, and heart disease susceptibility. Understanding your genetic makeup can guide preventive measures and personalized treatment plans.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +537,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    Cardiac Rehabilitation: What to Expect
 
                   </h4>
                   <p
@@ -547,7 +548,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   Cardiac rehabilitation is a comprehensive program that includes supervised exercise, education, and counseling to improve heart health. It helps patients regain strength, manage risk factors, and prevent future heart issues.{" "}
                   </p>
                 </div>
               </div>
