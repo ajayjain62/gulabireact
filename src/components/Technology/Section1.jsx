@@ -1,6 +1,7 @@
 import React from 'react'
 import './Technology.css'
-
+//motion
+import {Motion} from 'framer-motion'
 
 function Section1() {
   return (
