@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Top Nutrients to Manage Blood Sugar Levels
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Top nutrients for managing blood sugar levels include fiber, magnesium, and omega-3 fatty acids. Incorporating whole grains, leafy greens, nuts, and fatty fish can help regulate glucose and support overall metabolic health.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Natural Remedies for Controlling Diabetes
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   
+                    Natural remedies for controlling diabetes include eating a balanced diet rich in fiber, whole grains, and low-sugar fruits, staying physically active, managing stress, and incorporating herbs like cinnamon and turmeric to support blood sugar levels.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +292,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Role of a Balanced Diet in Diabetes Prevention
 
                   </h4>
                   <p
@@ -302,7 +303,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    A balanced diet plays a crucial role in diabetes prevention by stabilizing blood sugar levels. Consuming nutrient-dense foods like whole grains, vegetables, lean proteins, and healthy fats helps maintain insulin sensitivity and overall health.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +382,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Exercise and Lifestyle Tips for Blood Sugar Management
 
                   </h4>
                   <p
@@ -392,7 +393,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    Regular exercise and a balanced lifestyle are key for blood sugar management. Activities like walking, strength training, and stress reduction improve insulin sensitivity, while maintaining a healthy diet supports stable blood sugar levels.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +460,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    Anti-Diabetic Herbs and Their Benefits
                   </h4>
                   <p
                     style={{
@@ -469,7 +470,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Anti-diabetic herbs, such as cinnamon, bitter melon, and fenugreek, are known for their ability to help regulate blood sugar levels and improve insulin sensitivity, supporting diabetes management and overall health naturally.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +537,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    Foods to Avoid for Maintaining Healthy Blood Sugar Level
 
                   </h4>
                   <p
@@ -547,7 +548,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   To maintain healthy blood sugar levels, avoid foods high in refined sugars, processed carbohydrates, sugary beverages, and deep-fried items. These can cause blood sugar spikes and long-term health issues.{" "}
                   </p>
                 </div>
               </div>
