@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Benefits of Collagen Supplements
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Collagen supplements improve skin elasticity, reduce wrinkles, and strengthen hair and nails. They also support joint health, enhance mobility, and promote overall well-being by replenishing the bodys natural collagen levels.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Skin Health and Collagen
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   Collagen is essential for maintaining skin elasticity and hydration. By replenishing collagen levels, supplements can reduce wrinkles, improve texture, and promote a youthful, glowing complexion.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Joint Health and Mobility Support
 
                   </h4>
                   <p
@@ -302,7 +302,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Collagen supplements support joint health by improving cartilage strength and elasticity, reducing stiffness, and enhancing mobility. They help maintain flexibility and comfort, especially for active individuals and aging adults.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Hair and Nail Strength with Collagen
 
                   </h4>
                   <p
@@ -392,7 +392,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    Collagen supplements boost hair and nail strength by enhancing keratin production, promoting growth, and reducing brittleness. They nourish from within, resulting in healthier, shinier hair and stronger, resilient nails.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    Incorporating Collagen into Your Routine
                   </h4>
                   <p
                     style={{
@@ -469,7 +469,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Incorporating collagen into your routine is simple—add it to smoothies, coffee, or meals. Choose from powders, capsules, or liquids to support skin, joints, and overall vitality effortlessly.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +536,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    How Aging Affects Collagen Levels
 
                   </h4>
                   <p
@@ -547,7 +547,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   As we age, collagen production naturally declines, leading to wrinkles, sagging skin, weaker joints, and reduced elasticity. This decrease affects overall skin texture, joint health, and mobility.{" "}
                   </p>
                 </div>
               </div>
