@@ -172,7 +172,7 @@ export default function Component() {
                     <a
                       className="read-more-arrow"
                       alt="Opening Positions"
-                      href="http://localhost:5173/health-cetagory"
+                      href="http://localhost:5173/health-category"
                       title="Opening Positions"
                       style={{
                         boxSizing: "border-box",

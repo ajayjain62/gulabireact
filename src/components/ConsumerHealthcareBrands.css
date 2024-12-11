@@ -6,7 +6,7 @@
   background-color: rgba(242, 242, 242, 0.85);
 }
 .tp_healthcare_brands_section {
-    padding: 52px 1rem;
+    padding: 10px 1rem;
     max-width: 1140px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
@@ -57,6 +57,11 @@
     justify-content: center;
     background-color: rgba(54, 54, 120, 0.14);
     border-radius: 50%;
+    display: none;
+  }
+
+  p {
+    margin-top: 0px;
   }
   
   .sub-header-text {

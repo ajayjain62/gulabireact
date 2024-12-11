@@ -546,7 +546,7 @@ export default function Component() {
           height={16}
           width={16}
           alt="Host Icon"
-          src="https://cdn.unstop.com/uploads/images/unstop/menu_icons/host-icon.svg"
+          src="src\assets\img\contact\contactbaneer.jpg"
           style={{ boxSizing: "inherit", outline: "0px", marginRight: "4px" }}
         />{" "}
         Submit{" "}

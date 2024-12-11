@@ -11,7 +11,7 @@ const ConsumerHealthcareBrands = () => {
           
             <a className="header-link" href="#">
             <div>
-          <p className="header-text">Consumer Healthcare Brands</p> 
+          <h3 className="header-text">Consumer Healthcare Brands</h3> 
           </div>
               <div className="arrow-container">
                 <svg height="14" width="7" fill="none" viewBox="0 0 7 14" xmlns="http://www.w3.org/2000/svg">
