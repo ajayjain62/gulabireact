@@ -1,7 +1,7 @@
 import React from 'react'
 import './Technology.css'
 //motion
-import {Motion} from 'framer-motion'
+import { motion } from "framer-motion";
 
 function Section1() {
   return (
@@ -21,7 +21,10 @@ function Section1() {
         </div>
     </div>
 </section>
-  )
+)
 }
 
 export default Section1
+
+export const fadeIn = 'fade-in';
+
