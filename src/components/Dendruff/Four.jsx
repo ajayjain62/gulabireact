@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    What is Dandruff and What Causes It?
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    
+                    Dandruff is a common scalp condition characterized by flaky, white or yellowish skin. It is often caused by excess oil production, fungal growth, or skin conditions like psoriasis and eczema.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +215,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Common Symptoms of Dandruff
                   </h4>
                   <p
                     style={{
@@ -224,7 +225,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   Common symptoms of dandruff include flaky, white or yellowish scales on the scalp, itchiness, and irritation. It may also cause dryness and redness, impacting the scalps overall comfort and appearance.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +292,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Preventing Dandruff: Tips for a Healthy Scalp
 
                   </h4>
                   <p
@@ -302,7 +303,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Preventing dandruff involves maintaining a clean scalp, using anti-dandruff shampoos, avoiding harsh hair products, and managing stress. Regular oiling and a balanced diet can also promote scalp health.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +382,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Natural Ingredients to Soothe and Treat Dandruff
 
                   </h4>
                   <p
@@ -392,7 +393,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    
+                    Natural ingredients like tea tree oil, aloe vera, apple cider vinegar, and coconut oil help soothe the scalp, reduce inflammation, and fight the fungal causes of dandruff for healthier, flake-free hair.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +461,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    Lifestyle Changes to Reduce Dandruff
                   </h4>
                   <p
                     style={{
@@ -469,7 +471,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Adopting a healthy lifestyle can help reduce dandruff. Maintain a balanced diet rich in vitamins and minerals, stay hydrated, manage stress, and practice regular scalp hygiene to promote a healthier scalp.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +538,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    When to See a Dermatologist for Dandruff
 
                   </h4>
                   <p
@@ -547,7 +549,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   If dandruff persists despite home treatments, worsens, or is accompanied by redness, itching, or swelling, it’s time to see a dermatologist. Professional guidance can help identify underlying conditions and recommend effective treatments.{" "}
                   </p>
                 </div>
               </div>
