@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    Top Factors Influencing Male Vitality
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Male vitality is influenced by factors such as diet, exercise, sleep quality, stress levels, and hormone balance. Maintaining a healthy lifestyle, managing stress, and proper nutrition are essential for optimal energy and well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Exercise and Its Impact 
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   Regular exercise plays a crucial role in enhancing male vitality by improving blood circulation, boosting energy levels, and supporting hormone balance. It promotes overall health, strengthens muscles, and increases stamina and well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    Lifestyle Habits for Maintaining Optimal Male Vitality
 
                   </h4>
                   <p
@@ -302,7 +302,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Maintaining optimal male vitality involves regular exercise, a balanced diet rich in nutrients, adequate sleep, stress management, and staying hydrated. These lifestyle habits support energy levels, hormone balance, and overall well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Managing Stress to Support Male Vitality
 
                   </h4>
                   <p
@@ -392,7 +392,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    Managing stress is crucial for male vitality as it helps maintain hormonal balance and overall energy levels. Practices like regular exercise, mindfulness, and adequate sleep can significantly reduce stress and enhance vitality.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    Common Myths About Male Vitality Debunked
                   </h4>
                   <p
                     style={{
@@ -469,7 +469,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Many myths surround male vitality, such as the belief that it only relates to age or that supplements alone can boost energy. In reality, lifestyle choices, diet, and exercise play key roles.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +536,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    When to Seek Medical Advice for Low Vitality Levels
 
                   </h4>
                   <p
@@ -547,7 +547,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   
+                    If you experience persistent fatigue, low energy, or reduced motivation despite healthy lifestyle habits, it may be time to seek medical advice. Underlying conditions could be affecting your vitality and overall well-being.{" "}
                   </p>
                 </div>
               </div>

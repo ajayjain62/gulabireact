@@ -1,7 +1,10 @@
 import React from 'react'
 import './Technology.css'
+<<<<<<< Updated upstream
 //motion
 import { motion } from "framer-motion";
+=======
+>>>>>>> Stashed changes
 
 function Section1() {
   return (
