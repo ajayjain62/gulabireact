@@ -82,33 +82,28 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\Rhodiola Rosea.jpg",
-      label: "Rhodiola Rosea",
+      src: "src/assets/img/products/fybaa.jpg",
+      label: "Fybaa",
       link: "/category/anti-diabetic",
     },
     {
-      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\VITAMINB12MEN4.jpg",
-      label: "Vital B12 Men",
+      src: "src/assets/img/products/HORNYGOATWEED4.jpg",
+      label: "Horny Goat Weed Maca Roots",
       link: "/category/anti-diabetic",
     },
     {
-      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\VITAMINB124 women.jpg",
-      label: "Vital B12 Women",
+      src: "src/assets/img/products/MYO-INOSITOL7.jpg",
+      label: "MYO - Inositol",
       link: "/category/anti-diabetic",
     },
     {
-      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\fenugreek seeds.jpg",
+      src: "src/assets/img/products/fenugreek seeds.jpg",
       label: "Fenugreek Seed",
       link: "/category/anti-diabetic",
     },
     {
-      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\palmetto.jpg",
-      label: "Palmetto Boost",
-      link: "/category/anti-diabetic",
-    },
-    {
-      src: "C:\Users\Sameer\OneDrive\Documents\GitHub\gulabireact\src\assets\img\category\combogia tablets.jpg",
-      label: "Garcinia Cambogia",
+      src: "src/assets/img/products/Pueraria.jpg",
+      label: "Pueraria",
       link: "/category/anti-diabetic",
     },
    

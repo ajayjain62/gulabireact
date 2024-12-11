@@ -82,12 +82,12 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "https://i.postimg.cc/63GSc1fL/r-alpha.jpg",
+      src: "src/assets/img/products/r-alpha.jpg",
       label: "R-Alpha",
       link: "/category/anti-anemic",
     },
     {
-      src: "https://i.postimg.cc/KvDB3VYM/0a655ef3099ed97b6a136d04978cdca5.jpg",
+      src: "src/assets/img/products/glutathione.jpg",
       label: "Glutathione",
       link: "/category/anti-diabetic",
     },

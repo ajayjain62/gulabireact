@@ -1,10 +1,6 @@
 import React from 'react'
 import './Technology.css'
-<<<<<<< Updated upstream
-//motion
-import { motion } from "framer-motion";
-=======
->>>>>>> Stashed changes
+
 
 function Section1() {
   return (
@@ -28,6 +24,4 @@ function Section1() {
 }
 
 export default Section1
-
-export const fadeIn = 'fade-in';
 

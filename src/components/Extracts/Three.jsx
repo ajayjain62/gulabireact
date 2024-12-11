@@ -82,27 +82,27 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "https://i.postimg.cc/PxwXDyL0/Rhodiola-Rosea.jpg",
+      src: "src/assets/img/products/rhodiola.jpg",
       label: "Rhodiola Rosea",
       link: "/category/anti-anemic",
     },
     {
-      src: "https://i.postimg.cc/rpvx6Rj1/apple-cider-vinegar.jpg",
+      src: "src/assets/img/products/apple cider.jpg",
       label: "Apple Cider Tablet",
       link: "/category/anti-diabetic",
     },
     {
-      src: "https://i.postimg.cc/2SMBvfn2/collagen-protein-powder.jpg",
+      src: "src/assets/img/products/collagen.jpg",
       label: "Collagen Supplement",
       link: "/category/antioxidants",
     },
     {
-      src: "https://i.postimg.cc/25dT5RGt/noni-juice-tablets.jpg",
+      src: "src/assets/img/products/noni.jpg",
       label: "Noni Juice Tablet",
       link: "/category/body-detox",
     },
     {
-      src: "https://i.postimg.cc/V6mwSw80/turmeric-tablet.jpg",
+      src: "src/assets/img/products/curcumin.jpg",
       label: "Turmeric Tablet",
       link: "/category/collagen-supplement",
     },

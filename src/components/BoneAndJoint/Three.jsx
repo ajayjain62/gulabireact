@@ -82,12 +82,12 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "https://i.postimg.cc/fyRXBr6q/MSM-Tablet.jpg",
-      label: "MSM Tablet",
+      src: "src/assets/img/products/plant based glucosamine.jpg",
+      label: "Glucosamine Tablet",
       link: "/category/anti-anemic",
     },
     {
-      src: "https://i.postimg.cc/vB3xgvcr/joint-support.jpg",
+      src: "src/assets/img/products/joint support.jpg",
       label: "Joint Support",
       link: "/category/anti-diabetic",
     },
@@ -97,7 +97,7 @@ const ThreeJsCarousel = () => {
       link: "/category/antioxidants",
     },
     {
-      src: "https://i.postimg.cc/W3BmbnK5/4-cb98ac15-e491-46f5-95e6-1b0907.jpg",
+      src: "src/assets/img/products/teen age.jpg",
       label: "CalciBoost Kids",
       link: "/category/body-detox",
     },
@@ -107,12 +107,12 @@ const ThreeJsCarousel = () => {
       link: "/category/collagen-supplement",
     },
     {
-      src: "https://i.postimg.cc/gJzFtV4B/6-a5a0384b-2d27-4e0d-b9b4-71153d.jpg",
+      src: "src/assets/img/products/fitbone-d3.jpg",
       label: "Vitamin D3 Kids",
       link: "/category/dandruff",
     },
     {
-      src: "https://i.postimg.cc/mrqpC7JH/8-010e76c5-771f-47ef-9346-bde370.jpg",
+      src: "src/assets/img/products/fit bone d3.jpg",
       label: "Multivitamins Kids",
       link: "/category/extracts",
     },

@@ -87,7 +87,7 @@ const ThreeJsCarousel = () => {
       link: "/category/collagen-supplement",
     },
     {
-      src: "https://i.postimg.cc/3wkNtDJh/39-1.jpg",
+      src: "src/assets/img/products/collagen (2).jpg",
       label: "Marine Collagen",
       link: "/category/collagen-supplement",
     },
@@ -97,20 +97,20 @@ const ThreeJsCarousel = () => {
       link: "/category/collagen-supplement",
     },
     {
-      src: "https://i.postimg.cc/5tBTdstS/84.jpg",
+      src: "src/assets/img/products/plant based collagen.jpg",
       label: "Collagen Skin Support",
       link: "/category/collagen-supplement",
     },
     {
-      src: "https://i.postimg.cc/2SMBvfn2/collagen-protein-powder.jpg",
+      src: "src/assets/img/products/collagen.jpg",
       label: "Vital Glow",
       link: "/category/collagen-supplement",
     },
-    {
-      src: "https://i.postimg.cc/TYydb5Qv/marine-Collagen.jpg",
-      label: "Marine Collagen",
-      link: "/category/dandruff",
-    },
+    // {
+    //   src: "https://i.postimg.cc/TYydb5Qv/marine-Collagen.jpg",
+    //   label: "Marine Collagen",
+    //   link: "/category/dandruff",
+    // },
   ];
 
   const handlePrev = () => {

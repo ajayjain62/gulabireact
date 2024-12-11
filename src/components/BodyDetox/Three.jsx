@@ -82,12 +82,12 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "https://i.postimg.cc/63GSc1fL/r-alpha.jpg",
+      src: "src/assets/img/products/r-alpha.jpg",
       label: "R-Alpha Tablets",
       link: "/category/body-detox",
     },
     {
-      src: "https://i.postimg.cc/PxwXDyL0/Rhodiola-Rosea.jpg",
+      src: "src/assets/img/products/rhodiola.jpg",
       label: "Rhodiola Rosea",
       link: "/category/body-detox",
     },
@@ -117,7 +117,7 @@ const ThreeJsCarousel = () => {
       link: "/category/body-detox",
     },
     {
-      src: "https://i.postimg.cc/25dT5RGt/noni-juice-tablets.jpg",
+      src: "src/assets/img/products/noni.jpg",
       label: "Noni Juice Tablets",
       link: "/category/body-detox",
     },
@@ -127,7 +127,7 @@ const ThreeJsCarousel = () => {
       link: "/category/body-detox",
     },
     {
-      src: "https://i.postimg.cc/sX4VKXcJ/Liver-detox.jpg",
+      src: "src/assets/img/products/liver detox.jpg",
       label: "Liver Detox Tablets",
       link: "/category/body-detox",
     },
@@ -137,7 +137,7 @@ const ThreeJsCarousel = () => {
       link: "/category/body-detox",
     },
     {
-      src: "https://i.postimg.cc/V6mwSw80/turmeric-tablet.jpg",
+      src: "src/assets/img/products/curcumin.jpg",
       label: "Turmeric Tablets",
       link: "/category/body-detox",
     },

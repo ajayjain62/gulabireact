@@ -87,7 +87,7 @@ const ThreeJsCarousel = () => {
       link: "/category/anti-anemic",
     },
     {
-      src: "https://i.postimg.cc/Jz8csYFH/women-teenager.jpg",
+      src: "src/assets/img/products/iron.jpg",
       label: "Iron Tablets",
       link: "/category/anti-anemic",
     },

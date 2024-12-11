@@ -82,8 +82,8 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=165 165w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=360 360w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=533 533w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358 713w",
-      label: "Glutathione",
+      src: "src/assets/img/products/joint support.jpg",
+      label: "Joint Support",
       link: "/category/anti-anemic",
     },
     {

@@ -82,12 +82,12 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "https://i.postimg.cc/63GSc1fL/r-alpha.jpg",
+      src: "src/assets/img/products/r-alpha.jpg",
       label: "R-Alpha Tablets",
       link: "/category/antioxidants",
     },
     {
-      src: "https://i.postimg.cc/PxwXDyL0/Rhodiola-Rosea.jpg",
+      src: "src/assets/img/products/rhodiola.jpg",
       label: "Rhodiola Roses",
       link: "/category/antioxidants",
     },
@@ -97,7 +97,7 @@ const ThreeJsCarousel = () => {
       link: "/category/antioxidants",
     },
     {
-      src: "https://i.postimg.cc/9fYJJ56h/26-3.jpg",
+      src: "src/assets/img/products/well-c (2).jpg",
       label: "Vital C",
       link: "/category/antioxidants",
     },
@@ -137,7 +137,7 @@ const ThreeJsCarousel = () => {
       link: "/category/antioxidants",
     },
     {
-      src: "https://i.postimg.cc/Fzd8dDD8/well-c.jpg",
+      src: "src/assets/img/products/well-c (3).jpg",
       label: "Kids Tablet",
       link: "/category/antioxidants",
     },
@@ -147,7 +147,7 @@ const ThreeJsCarousel = () => {
       link: "/category/antioxidants",
     },
     {
-      src: "https://i.postimg.cc/sX4VKXcJ/Liver-detox.jpg",
+      src: "src/assets/img/products/liver detox.jpg",
       label: "Liver Detox",
       link: "/category/antioxidants",
     },

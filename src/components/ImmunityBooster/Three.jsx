@@ -82,33 +82,33 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=165 165w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=360 360w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=533 533w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358 713w",
-      label: "Glutathione",
+      src: "src/assets/img/products/curcumin.jpg",
+      label: "Turmeric",
       link: "/category/anti-anemic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=165 165w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=360 360w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=533 533w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866 712w",
-      label: "Marine Collagen",
+      src: "src/assets/img/products/noni.jpg",
+      label: "Noni Tablets",
       link: "/category/anti-diabetic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=165 165w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=360 360w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=533 533w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055 713w",
-      label: "Collagen Supplement",
+      src: "src/assets/img/products/well-c (2).jpg",
+      label: "Well C",
       link: "/category/antioxidants",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=165 165w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=360 360w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=533 533w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593 713w",
-      label: "R-Alpha Lipoic Acid",
+      src: "src/assets/img/products/well-c (3).jpg",
+      label: "Well C",
       link: "/category/body-detox",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=165 165w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=360 360w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=533 533w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667 713w",
-      label: "Plant Based Biotin",
+      src: "src/assets/img/products/well-c kids.jpg",
+      label: "Well C",
       link: "/category/collagen-supplement",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=165 165w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=360 360w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=533 533w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007 713w",
-      label: "Collagen Powder",
+      src: "src/assets/img/products/well-c.jpg",
+      label: "Well c",
       link: "/category/dandruff",
     },
     {

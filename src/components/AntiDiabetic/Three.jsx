@@ -82,7 +82,7 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "https://i.postimg.cc/PxwXDyL0/Rhodiola-Rosea.jpg",
+      src: "src/assets/img/products/rhodiola.jpg",
       label: "Rhodiola Rosea",
       link: "/category/anti-diabetic",
     },
@@ -107,7 +107,7 @@ const ThreeJsCarousel = () => {
       link: "/category/anti-diabetic",
     },
     {
-      src: "https://i.postimg.cc/6381M1t5/combogia-tablets.jpg",
+      src: "src/assets/img/products/garcinia.jpg",
       label: "Combogia Tablets",
       link: "/category/anti-diabetic",
     },

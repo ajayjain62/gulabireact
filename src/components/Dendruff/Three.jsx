@@ -82,17 +82,17 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "https://i.postimg.cc/pd5DrJ1h/Biotin-Hair-Growth.jpg",
-      label: "Hair Growth Tablet",
+      src: "src/assets/img/products/plant based biotin.jpg",
+      label: "Hair Health Tablet",
       link: "/category/anti-anemic",
     },
     {
-      src: "https://i.postimg.cc/2SMBvfn2/collagen-protein-powder.jpg",
+      src: "src/assets/img/products/collagen.jpg",
       label: "Marine Collagen",
       link: "/category/anti-diabetic",
     },
     {
-      src: "https://i.postimg.cc/XJG3Tpq0/hair-growth-vitamin-A.jpg",
+      src: "src/assets/img/products/biotin.jpg",
       label: "hair growth Vitamin A",
       link: "/category/antioxidants",
     },
@@ -117,7 +117,7 @@ const ThreeJsCarousel = () => {
           ref={splideRef}
           options={{
             type: "loop",
-            perPage: 5,
+            perPage: 3,
             focus: "center",
             gap: "30px",
             breakpoints: {
