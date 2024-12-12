@@ -51,7 +51,7 @@ const Five = () => {
           </p>
           <div className="five-product-image-container">
             <img
-              src="src/3dmockups/glutathione.jpg"
+              src="src/assets/img/3dmockups/14.png"
               alt="Product"
               className="five-product-image"
             />
@@ -252,7 +252,7 @@ const Five = () => {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="https://i.postimg.cc/XN9cKLXT/goa-nutrition.png"
+              src="src/assets/img/3dmockups/14.png"
               alt="Smart Watch"
               className="five-watch-img"
             />

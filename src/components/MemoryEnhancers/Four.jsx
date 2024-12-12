@@ -55,7 +55,7 @@ export default function Component() {
               }}
             >
               <img
-                src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
+                src="src/assets/img/3dmockups/3.png"
                 style={{
                   boxSizing: "border-box",
                   border: "0px",
