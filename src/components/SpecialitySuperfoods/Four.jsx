@@ -137,7 +137,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Flawless Skin Support
+                    What Are Superfoods?
                   </h4>
                   <p
                     style={{
@@ -147,7 +147,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Achieve your skin goals with our Glutathione blend. Featuring Alpha Lipoic Acid, Hyaluronic Acid, and Biotin, this supplement supports skin health with advanced fermentation and distillation processes.{" "}
+                    Superfoods are nutrient-dense foods packed with vitamins, minerals, and antioxidants, offering exceptional health benefits. They boost immunity, enhance energy, and support overall well-being when included in a balanced diet.{" "}
                   </p>
                 </div>
               </div>
@@ -214,7 +214,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Radiant Complexion Booster
+                    Superfoods for Boosting Immunity
                   </h4>
                   <p
                     style={{
@@ -224,7 +224,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   Brighten your skin and reduce hyperpigmentation. Our vegan formula enhances collagen production and protects against oxidative stress, promoting a luminous glow.{" "}
+                   Superfoods like turmeric, elderberries, garlic, and citrus fruits are rich in antioxidants, vitamins, and minerals, strengthening the immune system and helping the body combat infections naturally.{" "}
                   </p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Detox and Revitalize
+                    The Science Behind Superfoods
 
                   </h4>
                   <p
@@ -302,7 +302,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Packed with Grapeseed and Pomegranate Peel Extracts, this supplement eliminates toxins, boosts immunity, and combats free radicals for total body rejuvenation.{" "}
+                    Superfoods are nutrient-dense foods packed with vitamins, minerals, and antioxidants. Their unique compounds help combat inflammation, boost immunity, and support overall health, making them essential for optimal well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Optimal Absorption Formula
+                    Superfoods for Weight Management
 
                   </h4>
                   <p
@@ -392,7 +392,8 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Our Acetylated Glutathione ensures superior absorption, providing powerful cleansing benefits and improving skin elasticity for a youthful appearance.{" "}
+                    
+                    Superfoods for weight management are nutrient-dense foods that help control cravings, boost metabolism, and promote satiety. Examples include chia seeds, green tea, avocados, and leafy greens.{" "}
                   </p>
                 </div>
               </div>
@@ -459,7 +460,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Tailored for Your Needs
+                    The Role of Superfoods in Disease Prevention
                   </h4>
                   <p
                     style={{
@@ -469,7 +470,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                    Designed to repair damaged skin cells, fight signs of aging, and support immune health, this comprehensive formula helps you achieve vibrant, healthy skin.{" "}
+                    Superfoods play a vital role in disease prevention by providing essential nutrients, antioxidants, and anti-inflammatory compounds that boost immunity, reduce chronic disease risks, and promote overall health and well-being.{" "}
                   </p>
                 </div>
               </div>
@@ -536,7 +537,7 @@ export default function Component() {
                       color: "rgb(55, 64, 72)",
                     }}
                   >
-                    Maximum Effectiveness
+                    Recipes Featuring Speciality Superfoods
 
                   </h4>
                   <p
@@ -547,7 +548,7 @@ export default function Component() {
                       color: "rgb(130, 137, 143)",
                     }}
                   >
-                   The enteric-coated, acid-resistant tablets ensure better stability and absorption, delivering all the essential nutrients your body needs for optimal skin health.{" "}
+                   Discover delicious and easy recipes featuring speciality superfoods! From nutrient-packed smoothies to hearty bowls, these dishes are designed to boost your health and satisfy your taste buds.{" "}
                   </p>
                 </div>
               </div>
