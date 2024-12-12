@@ -116,7 +116,7 @@ export default function Component() {
               variants={fadeInUpVariants}
             >
               <img
-                src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
+                src="src/3dmockups/glutathione.jpg"
                 style={{
                   boxSizing: "border-box",
                   border: "0px",

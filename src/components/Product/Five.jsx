@@ -51,7 +51,7 @@ const Five = () => {
           </p>
           <div className="five-product-image-container">
             <img
-              src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
+              src="src/3dmockups/glutathione.jpg"
               alt="Product"
               className="five-product-image"
             />

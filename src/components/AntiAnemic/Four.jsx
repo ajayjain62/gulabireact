@@ -55,7 +55,7 @@ export default function Component() {
               }}
             >
               <img
-                src="src/assets/img/products/iron.jpg"
+                src="src/3dmockups/glutathione.jpg"
                 style={{
                   boxSizing: "border-box",
                   border: "0px",

@@ -46,7 +46,7 @@ const Five = () => {
           </p>
           <div className="five-product-image-container">
             <img
-              src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
+              src="src/3dmockups/joint support.jpg"
               alt="Product"
               className="five-product-image"
             />

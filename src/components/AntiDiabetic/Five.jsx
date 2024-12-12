@@ -37,12 +37,9 @@ const Five = () => {
       {/* Product Section */}
       <div className="five-product-section">
         <div className="five-container">
-          <h2 className="five-title">Introducing Glutathione Skin Health</h2>
+          <h2 className="five-title">Introducing Natural Solutions for Diabetes Management</h2>
           <p className="five-description">
-            A powerful blend of Glutathione, Alpha Lipoic Acid, Hyaluronic Acid,
-            and Biotin designed to support radiant skin. This product helps
-            reduce skin pigmentation, supports overall skin health, and boosts
-            antioxidant levels for a glowing complexion.{" "}
+           Managing diabetes effectively involves a holistic approach, combining lifestyle changes, balanced nutrition, and innovative anti-diabetic solutions to help stabilize blood sugar levels and promote overall health.{" "}
           </p>
           <div className="five-product-image-container">
             <img
@@ -109,8 +106,7 @@ const Five = () => {
       <div className="five-how-it-works">
         <h2 className="five-title">HOW IT WORKS</h2>
         <p className="five-description">
-          Everybody loves glowing, healthy skin. Here’s how our Flawless
-          Collagen Support works! It’s simple and effective.
+          Anti-diabetic solutions work by regulating blood sugar levels, enhancing insulin sensitivity, and supporting pancreatic health.
         </p>
         <div className="five-steps">
           <div className="five-step">
@@ -119,12 +115,9 @@ const Five = () => {
               alt="Connect Device"
               className="five-step-icon"
             />
-            <h3 className="five-step-title">Boost & Absorb</h3>
+            <h3 className="five-step-title">Effective Glucose Control</h3>
             <p className="five-step-description">
-              From reducing hyperpigmentation to boosting collagen production,
-              our formula supports overall skin health, delays signs of aging,
-              and enhances your natural glow. Feel confident in your skin every
-              day.
+            It involves maintaining balanced blood sugar levels through healthy eating, regular exercise, stress management, and proper use of medications or supplements.
             </p>
           </div>
           <div className="five-step">
@@ -133,12 +126,9 @@ const Five = () => {
               alt="Configure It"
               className="five-step-icon"
             />
-            <h3 className="five-step-title">Achieve Radiant Skin</h3>
+            <h3 className="five-step-title">Beating Diabetes Naturally</h3>
             <p className="five-step-description">
-              From reducing hyperpigmentation to boosting collagen production,
-              our formula supports overall skin health, delays signs of aging,
-              and enhances your natural glow. Feel confident in your skin every
-              day.
+            Beating diabetes naturally focuses on holistic approaches like a balanced diet, regular exercise, stress management, and natural supplements to regulate blood sugar levels and improve overall health sustainably.
             </p>
           </div>
           <div className="five-step">
@@ -147,13 +137,9 @@ const Five = () => {
               alt="Done"
               className="five-step-icon"
             />
-            <h3 className="five-step-title">Connect to Radiance</h3>
+            <h3 className="five-step-title">Living Diabetes-Free Life</h3>
             <p className="five-step-description">
-              Our natural dietary supplement features a powerful blend of
-              antioxidants and vitamins, including Glutathione, Alpha Lipoic
-              Acid, Vitamin E, Hyaluronic Acid, and more. These ingredients work
-              together to fight dark spots, under-eye circles, and uneven skin
-              tones.
+            Living a diabetes-free life starts with proactive care, including balanced nutrition, regular exercise, and stress management. 
             </p>
           </div>
         </div>
