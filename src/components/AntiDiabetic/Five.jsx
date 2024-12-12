@@ -43,7 +43,7 @@ const Five = () => {
           </p>
           <div className="five-product-image-container">
             <img
-              src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
+              src="src/assets/img/3dmockups/7.png"
               alt="Product"
               className="five-product-image"
             />
@@ -162,7 +162,7 @@ const Five = () => {
           </div>
           <div className="five-watch-image">
             <img
-              src="https://i.postimg.cc/XN9cKLXT/goa-nutrition.png"
+              src="src/assets/img/3dmockups/7.png"
               alt="Smart Watch"
               className="five-watch-img"
             />

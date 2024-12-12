@@ -72,7 +72,7 @@ export default function Component() {
             left: "0px",
             right: "0px",
             top: "0px",
-            zIndex: 1,
+            // zIndex: 1,
             fontFamily: "Lato, sans-serif",
           }}
         />

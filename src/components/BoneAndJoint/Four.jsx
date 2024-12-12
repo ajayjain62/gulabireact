@@ -55,7 +55,7 @@ export default function Component() {
               }}
             >
               <img
-                src="src/3dmockups/joint support.jpg"
+                src="src/assets/img/3dmockups/joint support.png"
                 style={{
                   boxSizing: "border-box",
                   border: "0px",
