@@ -82,74 +82,59 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=165 165w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=360 360w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=533 533w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358 713w",
-      label: "Glutathione",
+      src: "src/assets/img/products/horny.jpg",
+      label: "Horny Goat Maca Root",
       link: "/category/anti-anemic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=165 165w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=360 360w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=533 533w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866 712w",
-      label: "Marine Collagen",
+      src: "src/assets/img/products/safed musli.jpg",
+      label: "Safed Musali",
       link: "/category/anti-diabetic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=165 165w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=360 360w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=533 533w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055 713w",
-      label: "Collagen Supplement",
+      src: "src/assets/img/products/stamina.jpg",
+      label: "Stamina Booster",
       link: "/category/antioxidants",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=165 165w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=360 360w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=533 533w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593 713w",
-      label: "R-Alpha Lipoic Acid",
+      src: "src/assets/img/products/tribulus.jpg",
+      label: "Tribulus",
       link: "/category/body-detox",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=165 165w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=360 360w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=533 533w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667 713w",
-      label: "Plant Based Biotin",
+      src: "src/assets/img/products/triple ginseng.jpg",
+      label: "Triple Ginseng",
       link: "/category/collagen-supplement",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=165 165w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=360 360w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=533 533w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007 713w",
-      label: "Collagen Powder",
+      src: "src/assets/img/products/macuna.jpg",
+      label: "Macuna Puriens",
       link: "/category/dandruff",
     },
     {
-      src: "https://goanutritions.com/cdn/shop/products/262db3f25b79dba3e32542808633871c.jpg?v=1676114362&width=1946",
-      label: "Skin Hydration",
+      src: "src/assets/img/products/testosterone.jpg",
+      label: "Testosterone Booster",
       link: "/category/extracts",
     },
     {
-      src: "https://goanutritions.com/cdn/shop/products/RESVERATROL4.jpg?v=1675923964&width=1946",
-      label: "Resveratrol Supplement",
+      src: "src/assets/img/products/L-ARGININE4.jpg",
+      label: "L-Arganine",
       link: "/category/eye-health",
     },
     {
-      src: "https://goanutritions.com/cdn/shop/products/0a5b88b59753b3db1af5d7e248062ec6.jpg?v=1676114400&width=1946",
-      label: "NAC Supplement",
+      src: "src/assets/img/products/Coenzyme Q10.jpg",
+      label: "Coenzyme Q10",
       link: "/category/female-vitality",
     },
     {
-      src: "https://goanutritions.com/cdn/shop/products/M.V.WOMEN4.jpg?v=1675923814&width=1946",
-      label: "Multivitamins",
+      src: "src/assets/img/products/ASHWAGANDHA4.jpg",
+      label: "Ashwagandha Shilajit",
       link: "/category/hairfall-control",
     },
     {
-      src: "https://goanutritions.com/cdn/shop/products/20395c42bb877591cdd49ab5a02d9265.jpg?v=1676114405&width=1946",
-      label: "Grape Seed Extract",
+      src: "src/assets/img/products/N-ACITYLCYSTEINE7.jpg",
+      label: "N-Acityl",
       link: "/category/height-enhancer",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/a0684901e9f4303e60e4796da488e1c2.jpg?v=1676114377&width=1946",
-      label: "Glutathione Tablets",
-      link: "/category/immunity-booster",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/8af93504edf5effff2a51eb62663785b.jpg?v=1676114390&width=1946",
-      label: "Skin Whitening",
-      link: "/category/joint-care",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/N-ACITYLCYSTEINE7.jpg?v=1675923841&width=1946",
-      label: "NAC Supplement",
-      link: "/category/male-vitality",
     },
   ];
 

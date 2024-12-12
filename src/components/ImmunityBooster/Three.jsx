@@ -111,46 +111,6 @@ const ThreeJsCarousel = () => {
       label: "Well c",
       link: "/category/dandruff",
     },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/262db3f25b79dba3e32542808633871c.jpg?v=1676114362&width=1946",
-      label: "Skin Hydration",
-      link: "/category/extracts",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/RESVERATROL4.jpg?v=1675923964&width=1946",
-      label: "Resveratrol Supplement",
-      link: "/category/eye-health",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/0a5b88b59753b3db1af5d7e248062ec6.jpg?v=1676114400&width=1946",
-      label: "NAC Supplement",
-      link: "/category/female-vitality",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/M.V.WOMEN4.jpg?v=1675923814&width=1946",
-      label: "Multivitamins",
-      link: "/category/hairfall-control",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/20395c42bb877591cdd49ab5a02d9265.jpg?v=1676114405&width=1946",
-      label: "Grape Seed Extract",
-      link: "/category/height-enhancer",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/a0684901e9f4303e60e4796da488e1c2.jpg?v=1676114377&width=1946",
-      label: "Glutathione Tablets",
-      link: "/category/immunity-booster",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/8af93504edf5effff2a51eb62663785b.jpg?v=1676114390&width=1946",
-      label: "Skin Whitening",
-      link: "/category/joint-care",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/N-ACITYLCYSTEINE7.jpg?v=1675923841&width=1946",
-      label: "NAC Supplement",
-      link: "/category/male-vitality",
-    },
   ];
 
   const handlePrev = () => {

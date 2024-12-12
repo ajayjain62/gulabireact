@@ -82,74 +82,9 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-      src: "//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=165 165w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=360 360w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358&width=533 533w,//goanutritions.com/cdn/shop/files/81.jpg?v=1732014358 713w",
-      label: "Glutathione",
+      src: "src/assets/img/products/r-alpha.jpg",
+      label: "R-Alpha",
       link: "/category/anti-anemic",
-    },
-    {
-      src: "//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=165 165w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=360 360w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=533 533w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866 712w",
-      label: "Marine Collagen",
-      link: "/category/anti-diabetic",
-    },
-    {
-      src: "//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=165 165w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=360 360w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=533 533w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055 713w",
-      label: "Collagen Supplement",
-      link: "/category/antioxidants",
-    },
-    {
-      src: "//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=165 165w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=360 360w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=533 533w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593 713w",
-      label: "R-Alpha Lipoic Acid",
-      link: "/category/body-detox",
-    },
-    {
-      src: "//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=165 165w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=360 360w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667&width=533 533w,//goanutritions.com/cdn/shop/files/34.jpg?v=1732163667 713w",
-      label: "Plant Based Biotin",
-      link: "/category/collagen-supplement",
-    },
-    {
-      src: "//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=165 165w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=360 360w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007&width=533 533w,//goanutritions.com/cdn/shop/files/27.jpg?v=1732014007 713w",
-      label: "Collagen Powder",
-      link: "/category/dandruff",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/262db3f25b79dba3e32542808633871c.jpg?v=1676114362&width=1946",
-      label: "Skin Hydration",
-      link: "/category/extracts",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/RESVERATROL4.jpg?v=1675923964&width=1946",
-      label: "Resveratrol Supplement",
-      link: "/category/eye-health",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/0a5b88b59753b3db1af5d7e248062ec6.jpg?v=1676114400&width=1946",
-      label: "NAC Supplement",
-      link: "/category/female-vitality",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/M.V.WOMEN4.jpg?v=1675923814&width=1946",
-      label: "Multivitamins",
-      link: "/category/hairfall-control",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/20395c42bb877591cdd49ab5a02d9265.jpg?v=1676114405&width=1946",
-      label: "Grape Seed Extract",
-      link: "/category/height-enhancer",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/a0684901e9f4303e60e4796da488e1c2.jpg?v=1676114377&width=1946",
-      label: "Glutathione Tablets",
-      link: "/category/immunity-booster",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/8af93504edf5effff2a51eb62663785b.jpg?v=1676114390&width=1946",
-      label: "Skin Whitening",
-      link: "/category/joint-care",
-    },
-    {
-      src: "https://goanutritions.com/cdn/shop/products/N-ACITYLCYSTEINE7.jpg?v=1675923841&width=1946",
-      label: "NAC Supplement",
-      link: "/category/male-vitality",
     },
   ];
 
@@ -165,18 +100,18 @@ const ThreeJsCarousel = () => {
     <div className="threejs-carousel">
       <div ref={sceneRef} className="threejs-background"></div>
       <div className="carousel-container">
-        <button className="carousel-button prev" onClick={handlePrev}>
+        {/* <button className="carousel-button prev" onClick={handlePrev}>
           &#8249;
-        </button>
+        </button> */}
         <Splide
           ref={splideRef}
           options={{
             type: "loop",
-            perPage: 5,
+            perPage: 1,
             focus: "center",
             gap: "30px",
             breakpoints: {
-              1200: { perPage: 4, gap: "20px" },
+              1200: { perPage: 1, gap: "20px" },
               768: { perPage: 3, gap: "15px" },
               480: { perPage: 2, gap: "10px" },
             },
@@ -200,9 +135,9 @@ const ThreeJsCarousel = () => {
             </SplideSlide>
           ))}
         </Splide>
-        <button className="carousel-button next" onClick={handleNext}>
+        {/* <button className="carousel-button next" onClick={handleNext}>
           &#8250;
-        </button>
+        </button> */}
       </div>
     </div>
   );
