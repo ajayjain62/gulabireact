@@ -43,7 +43,7 @@ const Five = () => {
           </p>
           <div className="five-product-image-container">
             <img
-              src="src/assets/img/products/teen age.jpg"
+              src="src/assets/img/products/iron.jpg"
               alt="Product"
               className="five-product-image"
             />
@@ -59,7 +59,7 @@ const Five = () => {
               <>
                 <div className="five-line line-1 active"></div>
                 <div className="five-hotspot-content content-1 active">
-                Powerful Antioxidant Support
+                Improved Mental Clarity
 
                 </div>
               </>
@@ -76,7 +76,7 @@ const Five = () => {
               <>
                 <div className="five-line line-2 active"></div>
                 <div className="five-hotspot-content content-2 active">
-                Advanced Skin Hydration
+                Increased Energy and Vitality
 
                 </div>
               </>
@@ -93,7 +93,7 @@ const Five = () => {
               <>
                 <div className="five-line line-3 active"></div>
                 <div className="five-hotspot-content content-3 active">
-                Comprehensive Wellness
+                Enhanced Immune Function
 
                 </div>
               </>
@@ -106,8 +106,7 @@ const Five = () => {
       <div className="five-how-it-works">
         <h2 className="five-title">HOW IT WORKS</h2>
         <p className="five-description">
-          Everybody loves glowing, healthy skin. Here’s how our Flawless
-          Collagen Support works! It’s simple and effective.
+        Anti-anemic solutions work by addressing the root causes of anemia, which typically involve a deficiency in iron, vitamins, or minerals necessary for red blood cell production.
         </p>
         <div className="five-steps">
           <div className="five-step">
@@ -116,12 +115,9 @@ const Five = () => {
               alt="Connect Device"
               className="five-step-icon"
             />
-            <h3 className="five-step-title">Boost & Absorb</h3>
+            <h3 className="five-step-title">Boosting Iron Levels</h3>
             <p className="five-step-description">
-              From reducing hyperpigmentation to boosting collagen production,
-              our formula supports overall skin health, delays signs of aging,
-              and enhances your natural glow. Feel confident in your skin every
-              day.
+            Iron is essential for producing hemoglobin, the protein in red blood cells responsible for transporting oxygen throughout the body.
             </p>
           </div>
           <div className="five-step">
@@ -130,27 +126,20 @@ const Five = () => {
               alt="Configure It"
               className="five-step-icon"
             />
-            <h3 className="five-step-title">Achieve Radiant Skin</h3>
+            <h3 className="five-step-title">Restoring Blood Health</h3>
             <p className="five-step-description">
-              From reducing hyperpigmentation to boosting collagen production,
-              our formula supports overall skin health, delays signs of aging,
-              and enhances your natural glow. Feel confident in your skin every
-              day.
+            Restoring blood health involves replenishing essential nutrients and improving circulation to ensure the body’s blood cells function optimally.
             </p>
           </div>
           <div className="five-step">
             <img
-              src="https://demo.web3canvas.com/themeforest/proland/images/trophy.png"
+              src="src/assets/img/products/DeWatermark.ai_1733991973576 (1).png"
               alt="Done"
               className="five-step-icon"
             />
-            <h3 className="five-step-title">Connect to Radiance</h3>
+            <h3 className="five-step-title">Cure Anemia with Nutrition</h3>
             <p className="five-step-description">
-              Our natural dietary supplement features a powerful blend of
-              antioxidants and vitamins, including Glutathione, Alpha Lipoic
-              Acid, Vitamin E, Hyaluronic Acid, and more. These ingredients work
-              together to fight dark spots, under-eye circles, and uneven skin
-              tones.
+            Anemia, often caused by iron, vitamin B12, or folate deficiencies, can be effectively managed through proper nutrition.
             </p>
           </div>
         </div>
@@ -173,7 +162,7 @@ const Five = () => {
           </div>
           <div className="five-watch-image">
             <img
-              src="src/assets/img/products/teen age.jpg"
+              src="src/assets/img/products/iron.jpg"
               alt="Smart Watch"
               className="five-watch-img"
             />

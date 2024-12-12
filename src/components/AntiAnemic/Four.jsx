@@ -55,7 +55,7 @@ export default function Component() {
               }}
             >
               <img
-                src="src/assets/img/products/teen age.jpg"
+                src="src/assets/img/products/iron.jpg"
                 style={{
                   boxSizing: "border-box",
                   border: "0px",
