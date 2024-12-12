@@ -9,15 +9,15 @@ export default function Component() {
           border: "0px solid rgb(229, 231, 235)",
           boxSizing: "border-box",
           position: "relative",
-          backgroundImage:
-            "linear-gradient(129deg, rgb(54, 54, 120) 7.77%, rgb(15, 15, 65) 88.92%), linear-gradient(90deg, rgb(239, 239, 239), rgb(137, 137, 137))",
+          // backgroundImage:
+          //   "linear-gradient(129deg, rgb(54, 54, 120) 7.77%, rgb(15, 15, 65) 88.92%), linear-gradient(90deg, rgb(239, 239, 239), rgb(137, 137, 137))",
           letterSpacing: "0.02em",
           fontFamily: "Lato, sans-serif",
         }}
       >
         <img
           className="w-full object-cover"
-          src="https://i.postimg.cc/4xccTbLW/anti-anemic-1.jpg"
+          src="src/assets/img/banner/Untitled (1403 x 466 px).jpg"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
