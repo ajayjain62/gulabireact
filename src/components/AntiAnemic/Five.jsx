@@ -111,7 +111,7 @@ const Five = () => {
         <div className="five-steps">
           <div className="five-step">
             <img
-              src="https://demo.web3canvas.com/themeforest/proland/images/desktop.png"
+              src="src\assets\img\products\healthy-diet-concept-mockup-foods-260nw-2084991664 (1).png"
               alt="Connect Device"
               className="five-step-icon"
             />
@@ -122,7 +122,7 @@ const Five = () => {
           </div>
           <div className="five-step">
             <img
-              src="https://demo.web3canvas.com/themeforest/proland/images/toggles.png"
+              src="src\assets\img\products\DeWatermark.ai_1733997121060 (1).png"
               alt="Configure It"
               className="five-step-icon"
             />
