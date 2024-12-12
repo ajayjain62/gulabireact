@@ -82,23 +82,28 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
+<<<<<<< Updated upstream
       src: "src/assets/img/products/joint support.jpg",
       label: "Joint Support",
+=======
+      src: "src/assets/img/banner/LONGTEENAGERBOYS7.webp",
+      label: "GNL Height Increase Medicine for boys",
+>>>>>>> Stashed changes
       link: "/category/anti-anemic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=165 165w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=360 360w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866&width=533 533w,//goanutritions.com/cdn/shop/files/39.jpg?v=1732014866 712w",
-      label: "Marine Collagen",
+      src: "src/assets/img/banner/WOMENHEIGHT7.webp",
+      label: "GNL Height Increase Medicine For Women",
       link: "/category/anti-diabetic",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=165 165w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=360 360w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055&width=533 533w,//goanutritions.com/cdn/shop/files/84.jpg?v=1732014055 713w",
-      label: "Collagen Supplement",
+      src: "src/assets/img/banner/e6002d39baaa8f762c4369235246b140.webp",
+      label: "GNL Height Increase Medicine For Men",
       link: "/category/antioxidants",
     },
     {
-      src: "//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=165 165w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=360 360w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593&width=533 533w,//goanutritions.com/cdn/shop/files/82.jpg?v=1732013593 713w",
-      label: "R-Alpha Lipoic Acid",
+      src: "src/assets/img/banner/32b4958727b2483c4392efe92e829af5.webp",
+      label: "GNL Height Increase Medicine For Girls",
       link: "/category/body-detox",
     },
     {
