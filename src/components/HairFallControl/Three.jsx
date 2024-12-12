@@ -82,7 +82,6 @@ const ThreeJsCarousel = () => {
 
   const categories = [
     {
-<<<<<<< Updated upstream
       src: "src/assets/img/products/plant based biotin.jpg",
       label: "Plant Based Biotin",
       link: "/category/anti-anemic",
@@ -107,8 +106,7 @@ const ThreeJsCarousel = () => {
       label: "Collagen 1&3",
       link: "/category/collagen-supplement",
     },
-    
-=======
+    {
       src: "src/assets/img/banner/28faeb242195ed758bb9d697c2cadfcb.webp",
       label: "GNL Glutathione Tablets",
       link: "/category/anti-anemic",
@@ -178,7 +176,7 @@ const ThreeJsCarousel = () => {
       label: "NAC Supplement",
       link: "/category/male-vitality",
     },
->>>>>>> Stashed changes
+
   ];
 
   const handlePrev = () => {

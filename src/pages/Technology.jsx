@@ -142,9 +142,6 @@ function Technology() {
 
   return (
     <>
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="style.css" />
       <title>Gravity Coding</title>
       <div id="main">
         <nav>
@@ -162,77 +159,77 @@ function Technology() {
             <div className="rotate-div">
               <div id="row-div-1" className="row-div">
                 <div className="img-div">
-                  <img src="./Assets/Images/1.jpg" alt="" />
+                  <img src="src/assets/img/Technology/9D62JjLITDmIdGABaTDVkg.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/2.jpg" alt="" />
+                  <img src="src/assets/img/Technology/RlmHaw4dTbSPoUXMBSpltw.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/3.jpg" alt="" />
+                  <img src="src/assets/img/Technology/ZQoQ_5RHSLOSaOJkl9kZDA.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/4.jpg" alt="" />
+                  <img src="src/assets/img/Technology/RlmHaw4dTbSPoUXMBSpltw.jpg" alt="" />
                 </div>
               </div>
               <div id="row-div-2" className="row-div">
                 <div className="img-div">
-                  <img src="./Assets/Images/5.jpg" alt="" />
+                  <img src="src/assets/img/Technology/9D62JjLITDmIdGABaTDVkg.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/7.jpg" alt="" />
+                  <img src="src/assets/img/Technology/RlmHaw4dTbSPoUXMBSpltw.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/8.jpg" alt="" />
+                  <img src="src/assets/img/Technology/ZQoQ_5RHSLOSaOJkl9kZDA.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/9.jpg" alt="" />
+                  <img src="src/assets/img/Technology/RlmHaw4dTbSPoUXMBSpltw.jpg" alt="" />
                 </div>
               </div>
               <div id="row-div-3" className="row-div">
                 <div className="img-div">
-                  <img src="./Assets/Images/10.jpg" alt="" />
+                  <img src="src/assets/img/Technology/RlmHaw4dTbSPoUXMBSpltw.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/6.jpg" alt="" />
+                  <img src="src/assets/img/Technology/ZQoQ_5RHSLOSaOJkl9kZDA.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/11.jpg" alt="" />
+                  <img src="src/assets/img/Technology/RlmHaw4dTbSPoUXMBSpltw.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/12.jpg" alt="" />
+                  <img src="src/assets/img/Technology/9D62JjLITDmIdGABaTDVkg.jpg" alt="" />
                 </div>
               </div>
               <div id="row-div-4" className="row-div">
                 <div className="img-div">
-                  <img src="./Assets/Images/1.jpg" alt="" />
+                  <img src="src/assets/img/Technology/9D62JjLITDmIdGABaTDVkg.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/2.jpg" alt="" />
+                  <img src="src/assets/img/Technology/RlmHaw4dTbSPoUXMBSpltw.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/3.jpg" alt="" />
+                  <img src="src\assets\img\Technology\hBq5iB6aSjqVLxp0LsZo2w.webp" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/4.jpg" alt="" />
+                  <img src="src\assets\img\Technology\hOwxaa7ETDqWce4v6tt15Q.webp" alt="" />
                 </div>
               </div>
               <div id="row-div-5" className="row-div">
                 <div className="img-div">
-                  <img src="./Assets/Images/5.jpg" alt="" />
+                  <img src="src\assets\img\Technology\hOwxaa7ETDqWce4v6tt15Q.webp" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/7.jpg" alt="" />
+                  <img src="src\assets\img\Technology\hBq5iB6aSjqVLxp0LsZo2w.webp" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/8.jpg" alt="" />
+                  <img src="src\assets\img\Technology\RlmHaw4dTbSPoUXMBSpltw.jpg" alt="" />
                 </div>
                 <div className="img-div">
-                  <img src="./Assets/Images/9.jpg" alt="" />
+                  <img src="src\assets\img\Technology\ZQoQ_5RHSLOSaOJkl9kZDA.jpg" alt="" />
                 </div>
               </div>
             </div>
             <div className="overlay-div">
-              <h1>Brandbeet</h1>
+              <h1>Layaring and Coating</h1>
               <div className="scroll-down">
                 <h3>SCROLL DOWN</h3>
                 <div className="scroll-p">
