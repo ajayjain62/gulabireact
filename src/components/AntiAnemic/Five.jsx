@@ -37,16 +37,13 @@ const Five = () => {
       {/* Product Section */}
       <div className="five-product-section">
         <div className="five-container">
-          <h2 className="five-title">Introducing Glutathione Skin Health</h2>
+          <h2 className="five-title">Introducing Natural Solutions for Combatting Anemia</h2>
           <p className="five-description">
-            A powerful blend of Glutathione, Alpha Lipoic Acid, Hyaluronic Acid,
-            and Biotin designed to support radiant skin. This product helps
-            reduce skin pigmentation, supports overall skin health, and boosts
-            antioxidant levels for a glowing complexion.{" "}
+            Introducing natural solutions for combating anemia, focusing on nutrient-rich foods and supplements that boost iron levels, improve red blood cell production, and support overall energy and vitality.{" "}
           </p>
           <div className="five-product-image-container">
             <img
-              src="https://i.postimg.cc/3wd7WJRS/glutathione.png"
+              src="src/assets/img/products/teen age.jpg"
               alt="Product"
               className="five-product-image"
             />
@@ -163,20 +160,20 @@ const Five = () => {
       <div className="five-watch-section">
         <div className="five-watch-container">
           <div className="five-watch-content">
-            <h2 className="five-title">GLUTATHIONE</h2>
+            <h2 className="five-title">Anti-Anemic</h2>
             <p className="five-description">
-            Experience the ultimate in skin health with our advanced formula. Packed with powerful ingredients, it supports your journey toward radiant, youthful skin.
+            Anemia, a condition marked by a deficiency in red blood cells or hemoglobin, can lead to fatigue, weakness, and other health issues. Anti-anemic solutions focus on restoring healthy blood cell production, often through dietary adjustments, supplements, and lifestyle changes.
             </p>
             <ul className="five-watch-features">
-              <li>✅ Supports All Skin Types</li>
-              <li>✅ Powerful Antioxidant Protection</li>
-              <li>✅ Boosts Collagen & Skin Elasticity</li>
-              <li>✅ Improves Absorption & Effectiveness</li>
+              <li>✅ Increased Energy Levels</li>
+              <li>✅ Improved Immune Function</li>
+              <li>✅ Enhanced Cognitive Function</li>
+              <li>✅ Better Skin Health</li>
             </ul>
           </div>
           <div className="five-watch-image">
             <img
-              src="https://i.postimg.cc/XN9cKLXT/goa-nutrition.png"
+              src="src/assets/img/products/teen age.jpg"
               alt="Smart Watch"
               className="five-watch-img"
             />
