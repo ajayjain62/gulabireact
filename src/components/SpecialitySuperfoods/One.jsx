@@ -17,7 +17,7 @@ export default function Component() {
       >
         <img
           className="w-full object-cover"
-          src="src\assets\img\product\specility superfoods.jpg"
+          src="src/assets/img/product/specility superfoods.jpg"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
@@ -72,7 +72,7 @@ export default function Component() {
             left: "0px",
             right: "0px",
             top: "0px",
-            zIndex: 1,
+            // zIndex: 1,
             fontFamily: "Lato, sans-serif",
           }}
         />

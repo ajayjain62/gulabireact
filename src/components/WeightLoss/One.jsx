@@ -17,7 +17,7 @@ export default function Component() {
       >
         <img
           className="w-full object-cover"
-          src="src\assets\img\banner\Skin Glow Brighten Up, Light Up (5).jpg"
+          src="src/assets/img/banner/Skin Glow Brighten Up, Light Up (5).jpg"
           style={{
             border: "0px solid rgb(229, 231, 235)",
             boxSizing: "border-box",
@@ -297,8 +297,8 @@ export default function Component() {
             right: "0px",
             top: "0px",
             zIndex: 1,
-            backgroundImage:
-              "linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 41.02%, transparent 90.94%)",
+            // backgroundImage:
+              // "linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 41.02%, transparent 90.94%)",
             letterSpacing: "0.02em",
             fontFamily: "Lato, sans-serif",
           }}
